@@ -1,8 +1,19 @@
-concrete SimpleEng of Simple = open StringOper in {
+concrete SimpleEng of Simple = open StringOper, ParadigmsEng, SyntaxEng, ResEng in {
 	lincat
-	  Noun = {s : Number => Str} ;
-	  IPronoun =  {s : Number => Str } ;
+	  Question = SS ;
+	  Subject = IP ;
+	  Predicate = VP ;
+	  Name = N ;
+	  Object = N ;
+	  
 	lin
-	  Person = {s = table { Sg => "person" ; Pl => "persons" } } ;
-	  Which noun = foo "which" noun ;
+	  Question_Q subject predicate = ss (subject.s ! NPAcc).s ;
+	  Which_Sg name = mkIP which_IDet name;
+	  Which_Pl name = mkIP whichPl_IDet name ;
+
+	  Developer = mkN "developer" ;
+
+--	  Know object = mkVP (mkV2 (mkV "know")) (mkNP object);
+
+	  Java = mkN "java" ;
 }
