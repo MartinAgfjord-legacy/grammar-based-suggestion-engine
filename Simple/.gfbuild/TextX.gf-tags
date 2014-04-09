@@ -1,0 +1,21 @@
+AdA	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+AdN	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+AdV	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+Adv	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+Ant	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+CAdv	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+IAdv	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+Interj	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+PConj	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+Phr	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+Pol	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+SC	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+TEmpty	lin	/home/eidel/lib/GF-master/lib/src/common/TextX.gf:6	
+TExclMark	lin	/home/eidel/lib/GF-master/lib/src/common/TextX.gf:9	
+TFullStop	lin	/home/eidel/lib/GF-master/lib/src/common/TextX.gf:7	
+TQuestMark	lin	/home/eidel/lib/GF-master/lib/src/common/TextX.gf:8	
+Temp	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+Tense	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+Text	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+Utt	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+Voc	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags

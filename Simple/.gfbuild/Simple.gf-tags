@@ -1,0 +1,22 @@
+Customer_N	fun	/home/eidel/workspace/Simple/Simple.gf:26	Name
+Developer_N	fun	/home/eidel/workspace/Simple/Simple.gf:24	Name
+Direct_Q	fun	/home/eidel/workspace/Simple/Simple.gf:16	Subject -> Predicate -> Question
+Indirect_Q	fun	/home/eidel/workspace/Simple/Simple.gf:17	Name -> Predicate -> Question
+Java_O	fun	/home/eidel/workspace/Simple/Simple.gf:32	Object
+Know_P	fun	/home/eidel/workspace/Simple/Simple.gf:40	Object -> Predicate
+MkPerson	fun	/home/eidel/workspace/Simple/Simple.gf:29	String -> Person
+Name	cat	/home/eidel/workspace/Simple/Simple.gf:9	
+Object	cat	/home/eidel/workspace/Simple/Simple.gf:8	
+Person	cat	/home/eidel/workspace/Simple/Simple.gf:12	
+Person_N	fun	/home/eidel/workspace/Simple/Simple.gf:25	Name
+Predicate	cat	/home/eidel/workspace/Simple/Simple.gf:7	
+Project_N	fun	/home/eidel/workspace/Simple/Simple.gf:27	Resource
+Question	cat	/home/eidel/workspace/Simple/Simple.gf:5	
+Resource	cat	/home/eidel/workspace/Simple/Simple.gf:10	
+Solr_O	fun	/home/eidel/workspace/Simple/Simple.gf:33	Object
+Subject	cat	/home/eidel/workspace/Simple/Simple.gf:6	
+Use_P	fun	/home/eidel/workspace/Simple/Simple.gf:41	Object -> Predicate
+Which_Pl	fun	/home/eidel/workspace/Simple/Simple.gf:21	Name -> Subject
+Which_Sg	fun	/home/eidel/workspace/Simple/Simple.gf:20	Name -> Subject
+WorkIn_P	fun	/home/eidel/workspace/Simple/Simple.gf:43	Person -> Predicate
+WorkWith_P	fun	/home/eidel/workspace/Simple/Simple.gf:42	Person -> Predicate

@@ -1,0 +1,375 @@
+A	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:100	
+A	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:121	
+A	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:143	
+A2	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:101	
+A2	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:122	
+A2	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:144	
+AAdj	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+AAdv	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+AForm	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+AP	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:51	
+AP	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:51	
+AP	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:51	
+AdA	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+AdN	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+AdV	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+Adv	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+AgP1	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+AgP2	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+AgP3Pl	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+AgP3Sg	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+Agr	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+Ant	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+Anter	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Anteriority	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Aux	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+BIND	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Predef.gf-tags
+Bool	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+CAPIT	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+CAdv	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+CN	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:55	
+CN	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:55	
+CN	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:55	
+CNeg	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+CPolarity	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+CPos	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+Card	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:76	
+Card	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:76	
+Card	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:76	
+CardOrd	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+Case	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+Cl	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:20	
+Cl	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:20	
+Cl	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:20	
+ClSlash	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:21-24	
+ClSlash	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:110	
+ClSlash	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:130	
+Clause	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+Comp	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:47	
+Comp	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:47	
+Comp	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:47	
+Compar	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Cond	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Conj	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:86	
+Conj	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:86	
+Conj	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:135	
+DForm	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+DTail	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Degree	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Det	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:72	
+Det	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:72	
+Det	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:72	
+Digits	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:82	
+Digits	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:82	
+Digits	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:82	
+E0	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+E1	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+E2	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+ENumber	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+Emore	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+False	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+Fem	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+Fut	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Gen	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+Gender	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+IAdv	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+IComp	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:31	
+IComp	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:31	
+IComp	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:31	
+IDet	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:32	
+IDet	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:32	
+IDet	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:32	
+IP	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:30	
+IP	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:30	
+IP	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:30	
+IQuant	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:33	
+IQuant	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:33	
+IQuant	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:33	
+Imp	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:25	
+Imp	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:25	
+Imp	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:25	
+ImpF	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+ImpForm	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Interj	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+Masc	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+N	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:103	
+N	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:124	
+N	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:146	
+N2	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:104	
+N2	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:125	
+N2	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:147	
+N3	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:105	
+N3	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:126	
+N3	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:148	
+NCard	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+NCase	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+NOrd	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+NP	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:56	
+NP	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:56	
+NP	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:56	
+NPAcc	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+NPCase	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+NPNomPoss	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+Neg	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Neutr	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+Nom	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+Num	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:75	
+Num	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:75	
+Num	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:75	
+Number	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Numeral	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:81	
+Numeral	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:81	
+Numeral	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:81	
+ODir	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+OQuest	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+Ord	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:74	
+Ord	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:74	
+Ord	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:74	
+Order	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+P1	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+P2	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+P3	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+PARA	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+PConj	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+PN	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:106	
+PN	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:106	
+PN	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:106	
+Past	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Person	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Phr	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+Pl	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Pol	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:9	
+Pol	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:9	
+Pol	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:9	
+Polarity	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Pos	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Posit	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Predet	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:73	
+Predet	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:73	
+Predet	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:73	
+Prep	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:90	
+Prep	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:90	
+Prep	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:90	
+Pres	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Pron	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:71	
+Pron	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:71	
+Pron	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:71	
+QCl	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:29	
+QCl	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:29	
+QCl	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:29	
+QDir	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+QForm	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+QIndir	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+QS	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:14	
+QS	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:14	
+QS	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:14	
+Quant	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:77	
+Quant	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:77	
+Quant	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:77	
+RAg	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+RAgr	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+RC	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+RCase	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+RCl	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:37-40	
+RCl	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:37-40	
+RCl	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:37-40	
+RNoAg	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+RP	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:41	
+RP	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:41	
+RP	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:41	
+RPrep	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+RS	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:15	
+RS	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:15	
+RS	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:15	
+S	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:13	
+S	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:13	
+S	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:13	
+SC	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+SD2	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+SOFT_BIND	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Predef.gf-tags
+SP1	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+SS	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+SS1	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+SSlash	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:16	
+SSlash	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:109	
+SSlash	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:129	
+Sg	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Simul	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+SlashVP	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+Subj	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:89	
+Subj	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:89	
+Subj	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:89	
+Superl	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+T1	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+T2	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+T3	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Temp	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+Tense	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+Tense	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Text	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+True	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+Utt	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+V	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:94	
+V	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:115	
+V	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:137	
+V2	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:95	
+V2	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:116	
+V2	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:138	
+V2A	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:95	
+V2A	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:116	
+V2A	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:138	
+V2Q	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:95	
+V2Q	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:116	
+V2Q	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:138	
+V2S	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:95	
+V2S	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:116	
+V2S	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:138	
+V2V	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:98	
+V2V	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:119	
+V2V	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:141	
+V3	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:96	
+V3	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:117	
+V3	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:139	
+VA	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:94	
+VA	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:115	
+VA	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:137	
+VForm	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+VInf	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+VP	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+VP	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:45	
+VP	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:112	
+VP	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:132	
+VPPart	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+VPSlash	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:46	
+VPSlash	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:113	
+VPSlash	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:133	
+VPast	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+VPres	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+VPresPart	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+VQ	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:94	
+VQ	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:115	
+VQ	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:137	
+VS	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:94	
+VS	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:115	
+VS	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:137	
+VV	lincat	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:97	
+VV	lindef	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:118	
+VV	linref	/home/eidel/lib/GF-master/lib/src/english/CatEng.gf:140	
+VVAux	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+VVF	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+VVForm	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+VVInf	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+VVPastNeg	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+VVPresNeg	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+VVPresPart	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+VVType	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+Verb	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+VerbForms	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+Voc	indir	CommonX		/home/eidel/workspace/Simple/.gfbuild/CommonX.gf-tags
+agrP3	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+agrVerb	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+agrgP3	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+andB	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+artDef	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+artIndef	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+auxBe	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+bothWays	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+cBind	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+capitalize	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+cc2	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+cc3	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+conjAgr	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+conjNumber	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+conjPerson	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+conjThat	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+constStr	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+constTable	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+contrNeg	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+does	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+doesnt	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+eNext	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+embedInCommas	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+embedSS	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+endComma	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+finalComma	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+fromAgr	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+frontComma	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+genitiveS	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+glue	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+glueOpt	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+have	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+haveContr	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+havent	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+haventContr	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+id	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+ifTok	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+if_then_Str	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+if_then_else	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+infVP	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+infixSS	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+init	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+insertAdV	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+insertAdVAgr	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+insertExtra	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+insertExtrac	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+insertObj	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+insertObjPartLast	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+insertObjPre	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+insertObjc	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+isNil	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+last	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+mkAdjective	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+mkCard	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+mkClause	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+mkIP	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+mkNP	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+mkNoun	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+mkNum	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+mkQuestion	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+mkVerb	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+noglueOpt	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+nonExist	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Predef.gf-tags
+notB	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+npGen	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+npNom	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+npcase2case	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+numImp	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+oDir	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+onlyIf	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+optStr	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+orB	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+paren	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+parenss	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+pbool2bool	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+polCases	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+posneg	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+postfixSS	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+preOrPost	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+predAux	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+predV	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+predVV	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+predVc	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+prefixSS	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+presVerb	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+reflPron	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+regCardOrd	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+regGenitiveS	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+regNP	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+regNum	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+regOrd	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+sd2	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+sp1	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+ss	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+ss1	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+ss2	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+ss3	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+strOpt	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+teen	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+ten	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+toAgr	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+toLowerFirst	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+toUpperFirst	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+unit	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+vf	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+vff	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags
+vfn	indir	ResEng		/home/eidel/workspace/Simple/.gfbuild/ResEng.gf-tags

@@ -1,0 +1,33 @@
+Customer_N	lin	/home/eidel/workspace/Simple/SimpleSQL.gf:20	
+Developer_N	lin	/home/eidel/workspace/Simple/SimpleSQL.gf:18	
+Direct_Q	lin	/home/eidel/workspace/Simple/SimpleSQL.gf:15	
+Indirect_Q	lin	/home/eidel/workspace/Simple/SimpleSQL.gf:14	
+Java_O	lin	/home/eidel/workspace/Simple/SimpleSQL.gf:34	
+Know_P	lin	/home/eidel/workspace/Simple/SimpleSQL.gf:26	
+MkPerson	lin	/home/eidel/workspace/Simple/SimpleSQL.gf:31	
+Name	lincat	/home/eidel/workspace/Simple/SimpleSQL.gf:8	
+Number	indir	StringOper		/home/eidel/workspace/Simple/.gfbuild/StringOper.gf-tags
+Object	lincat	/home/eidel/workspace/Simple/SimpleSQL.gf:9	
+Person	lincat	/home/eidel/workspace/Simple/SimpleSQL.gf	
+Person_N	lin	/home/eidel/workspace/Simple/SimpleSQL.gf:17	
+Pl	indir	StringOper		/home/eidel/workspace/Simple/.gfbuild/StringOper.gf-tags
+Predicate	lincat	/home/eidel/workspace/Simple/SimpleSQL.gf:6	
+Project_N	lin	/home/eidel/workspace/Simple/SimpleSQL.gf:19	
+Question	lincat	/home/eidel/workspace/Simple/SimpleSQL.gf:4	
+Resource	lincat	/home/eidel/workspace/Simple/SimpleSQL.gf:10	
+SS	indir	StringOper		/home/eidel/workspace/Simple/.gfbuild/StringOper.gf-tags
+Sg	indir	StringOper		/home/eidel/workspace/Simple/.gfbuild/StringOper.gf-tags
+Solr_O	lin	/home/eidel/workspace/Simple/SimpleSQL.gf:35	
+Subject	lincat	/home/eidel/workspace/Simple/SimpleSQL.gf:5	
+Use_P	lin	/home/eidel/workspace/Simple/SimpleSQL.gf:27	
+Which_Pl	lin	/home/eidel/workspace/Simple/SimpleSQL.gf:23	
+Which_Sg	lin	/home/eidel/workspace/Simple/SimpleSQL.gf:22	
+WorkIn_P	lin	/home/eidel/workspace/Simple/SimpleSQL.gf:29	
+WorkWith_P	lin	/home/eidel/workspace/Simple/SimpleSQL.gf:28	
+cc	indir	StringOper		/home/eidel/workspace/Simple/.gfbuild/StringOper.gf-tags
+infix	indir	StringOper		/home/eidel/workspace/Simple/.gfbuild/StringOper.gf-tags
+postfix	indir	StringOper		/home/eidel/workspace/Simple/.gfbuild/StringOper.gf-tags
+prefix	indir	StringOper		/home/eidel/workspace/Simple/.gfbuild/StringOper.gf-tags
+select	oper-def	/home/eidel/workspace/Simple/SimpleSQL.gf:38-39	
+select	oper-type	/home/eidel/workspace/Simple/SimpleSQL.gf:38-39	{s : Str} -> {o : Str; p : Str} -> {s : Str}
+ss	indir	StringOper		/home/eidel/workspace/Simple/.gfbuild/StringOper.gf-tags

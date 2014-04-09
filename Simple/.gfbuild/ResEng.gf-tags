@@ -1,0 +1,273 @@
+AAdj	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:83	Degree -> Case -> AForm
+AAdv	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:83	AForm
+AForm	param	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:83	
+AgP1	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:40	Number -> Agr
+AgP2	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:40	Number -> Agr
+AgP3Pl	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:40	Agr
+AgP3Sg	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:40	Gender -> Agr
+Agr	param	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:40	
+Anter	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Anteriority	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Aux	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:498-503	
+Aux	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:498-503	Type
+BIND	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Predef.gf-tags
+Bool	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+CAPIT	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+CNeg	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:220	Bool -> CPolarity
+CPolarity	param	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:218-220	
+CPos	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:219-220	CPolarity
+CardOrd	param	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:92	
+Case	param	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:22	
+Clause	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:545-547	
+Clause	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:545-547	Type
+Compar	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Cond	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+DForm	param	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:93	
+DTail	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Degree	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+E0	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+E1	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+E2	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+ENumber	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+Emore	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+False	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+Fem	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:43	Gender
+Fut	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Gen	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:22	Case
+Gender	param	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:43	
+ImpF	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+ImpForm	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Masc	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:43	Gender
+NCard	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:92	CardOrd
+NCase	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:26	Case -> NPCase
+NOrd	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:92	CardOrd
+NPAcc	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:26	NPCase
+NPCase	param	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:26	
+NPNomPoss	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:26	NPCase
+Neg	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Neutr	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:43	Gender
+Nom	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:22	Case
+Number	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+ODir	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:71	Bool -> Order
+OQuest	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:71	Order
+Order	param	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:71	
+P1	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+P2	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+P3	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+PARA	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+Past	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Person	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Pl	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Polarity	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Pos	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Posit	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Pres	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+QDir	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+QForm	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+QIndir	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+RAg	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:87	Agr -> RAgr
+RAgr	param	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:87	
+RC	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:88	Gender -> NPCase -> RCase
+RCase	param	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:88	
+RNoAg	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:87	RAgr
+RPrep	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:88	Gender -> RCase
+SD2	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+SOFT_BIND	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Predef.gf-tags
+SP1	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+SS	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+SS1	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+Sg	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Simul	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+SlashVP	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:245	
+SlashVP	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:245	Type
+Superl	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+T1	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+T2	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+T3	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+Tense	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+True	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+VForm	param	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:51-57	
+VInf	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:52-53	VForm
+VP	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:232-242	
+VP	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:232-242	Type
+VPPart	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:54-55	VForm
+VPast	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:56-57	VForm
+VPres	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:53-54	VForm
+VPresPart	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:55-56	VForm
+VVAux	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:79	VVType
+VVF	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:62-63	VForm -> VVForm
+VVForm	param	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:61-65	
+VVInf	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:79	VVType
+VVPastNeg	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:64-65	VVForm
+VVPresNeg	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:63-64	VVForm
+VVPresPart	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:79	VVType
+VVType	param	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:79	
+Verb	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:211-215	
+Verb	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:211-215	Type
+VerbForms	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:228-230	
+VerbForms	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:228-230	Type
+agrP3	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:115	
+agrP3	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:115	Number -> Agr
+agrVerb	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:484-488	
+agrVerb	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:484-488	Str -> Str -> Agr -> Str
+agrgP3	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:117	
+agrgP3	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:117	Number -> Gender -> Agr
+andB	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+artDef	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:207	
+artDef	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:207	Str
+artIndef	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:199-205	
+artIndef	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:199-205	Str
+auxBe	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:505-523	
+auxBe	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:505-523	{contr : Polarity => Agr => Str; inf : Str; past : Polarity => Agr => Str; ppart : Str; pres : Polarity => Agr => Str; prpart : Str}
+bothWays	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+cBind	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:250	
+cBind	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:250	Str -> Str
+capitalize	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+cc2	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+cc3	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+conjAgr	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:119-124	
+conjAgr	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:119-124	Agr -> Agr -> Agr
+conjNumber	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+conjPerson	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+conjThat	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:530	
+conjThat	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:530	Str
+constStr	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+constTable	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+contrNeg	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:223-226	
+contrNeg	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:223-226	Bool -> Polarity -> CPolarity
+does	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:492	
+does	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:492	Agr -> Str
+doesnt	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:493	
+doesnt	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:493	Agr -> Str
+eNext	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+embedInCommas	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+embedSS	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+endComma	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+finalComma	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:604	
+finalComma	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:604	Str
+fromAgr	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:108-113	
+fromAgr	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:108-113	Agr -> {g : Gender; n : Number; p : Person}
+frontComma	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:605	
+frontComma	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:605	Str
+genitiveS	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:189-193	
+genitiveS	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:189-193	Str -> Str
+glue	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+glueOpt	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+have	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:490	
+have	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:490	Agr -> Str
+haveContr	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:495	
+haveContr	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:495	Agr -> Str
+havent	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:491	
+havent	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:491	Agr -> Str
+haventContr	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:496	
+haventContr	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:496	Agr -> Str
+id	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+ifTok	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+if_then_Str	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+if_then_else	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+infVP	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:468-482	
+infVP	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:468-482	VVType -> {s : Tense => Anteriority => CPolarity => Order => Agr => {adv : Str; aux : Str; fin : Str; inf : Str}; ad : Agr => Str; ext : Str; inf : Str; isSimple : Bool; p : Str; prp : Str; ptp : Str; s2 : Agr => Str} -> Anteriority -> CPolarity -> Agr -> Str
+infixSS	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+init	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+insertAdV	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:416	
+insertAdV	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:416	Str -> {s : Tense => Anteriority => CPolarity => Order => Agr => {adv : Str; aux : Str; fin : Str; inf : Str}; ad : Agr => Str; ext : Str; inf : Str; isSimple : Bool; p : Str; prp : Str; ptp : Str; s2 : Agr => Str} -> {s : Tense => Anteriority => CPolarity => Order => Agr => {adv : Str; aux : Str; fin : Str; inf : Str}; ad : Agr => Str; ext : Str; inf : Str; isSimple : Bool; p : Str; prp : Str; ptp : Str; s2 : Agr => Str}
+insertAdVAgr	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:418-428	
+insertAdVAgr	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:418-428	(Agr => Str) -> {s : Tense => Anteriority => CPolarity => Order => Agr => {adv : Str; aux : Str; fin : Str; inf : Str}; ad : Agr => Str; ext : Str; inf : Str; isSimple : Bool; p : Str; prp : Str; ptp : Str; s2 : Agr => Str} -> {s : Tense => Anteriority => CPolarity => Order => Agr => {adv : Str; aux : Str; fin : Str; inf : Str}; ad : Agr => Str; ext : Str; inf : Str; isSimple : Bool; p : Str; prp : Str; ptp : Str; s2 : Agr => Str}
+insertExtra	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:430-440	
+insertExtra	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:430-440	Str -> {s : Tense => Anteriority => CPolarity => Order => Agr => {adv : Str; aux : Str; fin : Str; inf : Str}; ad : Agr => Str; ext : Str; inf : Str; isSimple : Bool; p : Str; prp : Str; ptp : Str; s2 : Agr => Str} -> {s : Tense => Anteriority => CPolarity => Order => Agr => {adv : Str; aux : Str; fin : Str; inf : Str}; ad : Agr => Str; ext : Str; inf : Str; isSimple : Bool; p : Str; prp : Str; ptp : Str; s2 : Agr => Str}
+insertExtrac	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:398-399	
+insertExtrac	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:398-399	Str -> {s : Tense => Anteriority => CPolarity => Order => Agr => {adv : Str; aux : Str; fin : Str; inf : Str}; ad : Agr => Str; c2 : Str; ext : Str; gapInMiddle : Bool; inf : Str; isSimple : Bool; p : Str; prp : Str; ptp : Str; s2 : Agr => Str} -> {s : Tense => Anteriority => CPolarity => Order => Agr => {adv : Str; aux : Str; fin : Str; inf : Str}; ad : Agr => Str; c2 : Str; ext : Str; gapInMiddle : Bool; inf : Str; isSimple : Bool; p : Str; prp : Str; ptp : Str; s2 : Agr => Str}
+insertObj	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:372-382	
+insertObj	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:372-382	(Agr => Str) -> {s : Tense => Anteriority => CPolarity => Order => Agr => {adv : Str; aux : Str; fin : Str; inf : Str}; ad : Agr => Str; ext : Str; inf : Str; isSimple : Bool; p : Str; prp : Str; ptp : Str; s2 : Agr => Str} -> {s : Tense => Anteriority => CPolarity => Order => Agr => {adv : Str; aux : Str; fin : Str; inf : Str}; ad : Agr => Str; ext : Str; inf : Str; isSimple : Bool; p : Str; prp : Str; ptp : Str; s2 : Agr => Str}
+insertObjPartLast	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:402-412	
+insertObjPartLast	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:402-412	(Agr => Str) -> {s : Tense => Anteriority => CPolarity => Order => Agr => {adv : Str; aux : Str; fin : Str; inf : Str}; ad : Agr => Str; ext : Str; inf : Str; isSimple : Bool; p : Str; prp : Str; ptp : Str; s2 : Agr => Str} -> {s : Tense => Anteriority => CPolarity => Order => Agr => {adv : Str; aux : Str; fin : Str; inf : Str}; ad : Agr => Str; ext : Str; inf : Str; isSimple : Bool; p : Str; prp : Str; ptp : Str; s2 : Agr => Str}
+insertObjPre	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:384-394	
+insertObjPre	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:384-394	(Agr => Str) -> {s : Tense => Anteriority => CPolarity => Order => Agr => {adv : Str; aux : Str; fin : Str; inf : Str}; ad : Agr => Str; ext : Str; inf : Str; isSimple : Bool; p : Str; prp : Str; ptp : Str; s2 : Agr => Str} -> {s : Tense => Anteriority => CPolarity => Order => Agr => {adv : Str; aux : Str; fin : Str; inf : Str}; ad : Agr => Str; ext : Str; inf : Str; isSimple : Bool; p : Str; prp : Str; ptp : Str; s2 : Agr => Str}
+insertObjc	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:396-397	
+insertObjc	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:396-397	(Agr => Str) -> {s : Tense => Anteriority => CPolarity => Order => Agr => {adv : Str; aux : Str; fin : Str; inf : Str}; ad : Agr => Str; c2 : Str; ext : Str; gapInMiddle : Bool; inf : Str; isSimple : Bool; p : Str; prp : Str; ptp : Str; s2 : Agr => Str} -> {s : Tense => Anteriority => CPolarity => Order => Agr => {adv : Str; aux : Str; fin : Str; inf : Str}; ad : Agr => Str; c2 : Str; ext : Str; gapInMiddle : Bool; inf : Str; isSimple : Bool; p : Str; prp : Str; ptp : Str; s2 : Agr => Str}
+isNil	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+last	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+mkAdjective	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:144-152	
+mkAdjective	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:144-152	Str -> Str -> Str -> Str -> {s : AForm => Str; lock_A : {}}
+mkCard	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:581-582	
+mkCard	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:581-582	CardOrd -> Str -> Case => Str
+mkClause	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:549-560	
+mkClause	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:549-560	Str -> Agr -> {s : Tense => Anteriority => CPolarity => Order => Agr => {adv : Str; aux : Str; fin : Str; inf : Str}; ad : Agr => Str; ext : Str; inf : Str; isSimple : Bool; p : Str; prp : Str; ptp : Str; s2 : Agr => Str} -> {s : Tense => Anteriority => CPolarity => Order => Str}
+mkIP	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:167-171	
+mkIP	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:167-171	(i : Str) -> (me : Str) -> (my : Str) -> Number -> {s : NPCase => Str; n : Number}
+mkNP	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:173-181	
+mkNP	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:173-181	(i : Str) -> (me : Str) -> (my : Str) -> Number -> Person -> Gender -> {s : NPCase => Str; a : Agr}
+mkNoun	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:130-142	
+mkNoun	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:130-142	Str -> Str -> Str -> Str -> {s : Number => Case => Str}
+mkNum	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:565-572	
+mkNum	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:565-572	Str -> Str -> Str -> Str -> {s : DForm => CardOrd => Case => Str}
+mkQuestion	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:590-602	
+mkQuestion	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:590-602	{s : Str} -> {s : Tense => Anteriority => CPolarity => Order => Str} -> {s : Tense => Anteriority => CPolarity => QForm => Str}
+mkVerb	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:154-165	
+mkVerb	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:154-165	Str -> Str -> Str -> Str -> Str -> {s : VForm => Str; isRefl : Bool; p : Str}
+noglueOpt	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+nonExist	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Predef.gf-tags
+notB	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+npGen	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:32	
+npGen	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:32	NPCase
+npNom	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:31	
+npNom	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:31	NPCase
+npcase2case	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:34	
+npcase2case	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:34	NPCase -> Case
+numImp	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+oDir	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:74	
+oDir	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:74	Order
+onlyIf	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+optStr	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+orB	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+paren	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+parenss	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+pbool2bool	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+polCases	indir	ParamX		/home/eidel/workspace/Simple/.gfbuild/ParamX.gf-tags
+posneg	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:525-528	
+posneg	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:525-528	Polarity -> Str -> Str
+postfixSS	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+preOrPost	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+predAux	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:301-358	
+predAux	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:301-358	{contr : Polarity => Agr => Str; inf : Str; past : Polarity => Agr => Str; ppart : Str; pres : Polarity => Agr => Str; prpart : Str} -> {s : Tense => Anteriority => CPolarity => Order => Agr => {adv : Str; aux : Str; fin : Str; inf : Str}; ad : Agr => Str; ext : Str; inf : Str; isSimple : Bool; p : Str; prp : Str; ptp : Str; s2 : Agr => Str}
+predV	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:252-299	
+predV	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:252-299	{s : VForm => Str; isRefl : Bool; p : Str} -> {s : Tense => Anteriority => CPolarity => Order => Agr => {adv : Str; aux : Str; fin : Str; inf : Str}; ad : Agr => Str; ext : Str; inf : Str; isSimple : Bool; p : Str; prp : Str; ptp : Str; s2 : Agr => Str}
+predVV	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:444-463	
+predVV	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:444-463	{s : VVForm => Str; p : Str; typ : VVType} -> {s : Tense => Anteriority => CPolarity => Order => Agr => {adv : Str; aux : Str; fin : Str; inf : Str}; ad : Agr => Str; ext : Str; inf : Str; isSimple : Bool; p : Str; prp : Str; ptp : Str; s2 : Agr => Str}
+predVc	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:247-248	
+predVc	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:247-248	{s : VForm => Str; c2 : Str; isRefl : Bool; p : Str} -> {s : Tense => Anteriority => CPolarity => Order => Agr => {adv : Str; aux : Str; fin : Str; inf : Str}; ad : Agr => Str; c2 : Str; ext : Str; gapInMiddle : Bool; inf : Str; isSimple : Bool; p : Str; prp : Str; ptp : Str; s2 : Agr => Str}
+prefixSS	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+presVerb	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:465-466	
+presVerb	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:465-466	{s : VForm => Str} -> Agr -> Str
+reflPron	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:532-541	
+reflPron	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:532-541	Agr => Str
+regCardOrd	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:577-579	
+regCardOrd	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:577-579	Str -> {s : CardOrd => Case => Str}
+regGenitiveS	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:186-187	
+regGenitiveS	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:186-187	Str -> Case => Str
+regNP	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:183-184	
+regNP	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:183-184	Str -> Number -> {s : NPCase => Str; a : Agr}
+regNum	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:574-575	
+regNum	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:574-575	Str -> {s : DForm => CardOrd => Case => Str}
+regOrd	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:584-588	
+regOrd	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:584-588	Str -> Str
+sd2	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+sp1	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+ss	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+ss1	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+ss2	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+ss3	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+strOpt	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+teen	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:93	DForm
+ten	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:93	DForm
+toAgr	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:98-106	
+toAgr	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:98-106	Number -> Person -> Gender -> Agr
+toLowerFirst	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+toUpperFirst	indir	Prelude		/home/eidel/workspace/Simple/.gfbuild/Prelude.gf-tags
+unit	param-value	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:93	DForm
+vf	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:363	
+vf	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:363	Str -> Str -> {adv : Str; aux : Str; fin : Str; inf : Str}
+vff	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:360-361	
+vff	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:360-361	Str -> Str -> {adv : Str; aux : Str; fin : Str; inf : Str}
+vfn	oper-def	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:365-370	
+vfn	oper-type	/home/eidel/lib/GF-master/lib/src/english/ResEng.gf:365-370	Bool -> Str -> Str -> Str -> {adv : Str; aux : Str; fin : Str; inf : Str}
