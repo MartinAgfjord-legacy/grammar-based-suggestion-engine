@@ -1,4 +1,4 @@
-abstract Simple = {
+abstract Simple = Symbol ** {
 	flags startcat = Question ;
 
 	cat
@@ -26,7 +26,7 @@ abstract Simple = {
 	  Customer_N : Name ;
 	  Project_N : Resource ; 
 	  
-	  MkPerson : String -> Person ;
+	  MkPerson : Symb -> Person ;
 
 	  -- Resources / objects
 	  Java_O : Object ;

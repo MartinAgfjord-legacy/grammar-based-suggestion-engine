@@ -1,4 +1,4 @@
-concrete SimpleSQL of Simple = open StringOper in {
+concrete SimpleSQL of Simple = SymbolEng ** open StringOper in {
 	
 	lincat
 	  Question = SS ;

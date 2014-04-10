@@ -1,4 +1,4 @@
-concrete SimpleEng of Simple = open StringOper, ParadigmsEng, SyntaxEng, SymbolEng in {
+concrete SimpleEng of Simple = SymbolEng ** open StringOper, ParadigmsEng, SyntaxEng, SymbolEng in {
 	lincat
 	  Question = Utt ;
 	  Subject = IP ;
@@ -31,7 +31,7 @@ concrete SimpleEng of Simple = open StringOper, ParadigmsEng, SyntaxEng, SymbolE
 	  Person_N = mkN "person" ;
 	  Project_N = mkN "project" ;
 	  Customer_N = mkN "customer" ;
-
+	  
       MkPerson s = SymbPN (MkSymb s);
       
 	  -- Predicates

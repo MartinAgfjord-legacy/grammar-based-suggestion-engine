@@ -1,4 +1,4 @@
-concrete SimpleSolr of Simple = open StringOper in {
+concrete SimpleSolr of Simple = SymbolEng ** open StringOper in {
 	
 	lincat
 	  Question = SS ;
