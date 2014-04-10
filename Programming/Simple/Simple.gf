@@ -1,53 +1,44 @@
 abstract Simple = Symbol ** {
+	
 	flags startcat = Question ;
 
 	cat
 	  Question ;      -- A question e.g. "which developers knows java"
-	  Subject ;       -- A subject, usually one or more persons e.g. "which developers"
-	  Predicate ;     -- Linking a name with an object e.g. "knows java"
-	  Object ;        -- The object which a predicate refers to e.g. "java"
-	  Name ;          -- Name of a subject e.g. "developers"
+	  Relation ;      -- A relation of a subject and an object. e.g. { "persons" ; "know" ; java" }
+	  Object ;        -- An object that a person can have a relation to, e.g. "solr"
+	  Skill ;         -- A skill that a person can have e.g "java"
 	  Resource ;      -- E.g. "projects"
-	  
-	  Person ;
+	  Location ;      -- E.g. "Gothenburg"
+	  Internal ;	  -- E.g. "persons"
+	  External ;      -- E.g. "customers"
 	  
 	fun
 	  -- Questions
-	  Direct_Q : Subject -> Predicate -> Question ; -- "which persons know java"
-	  Indirect_Q : Name -> Predicate -> Question ;  -- "persons that/which knows java"
+	  DirectSg_Q : Relation -> Question ; -- "which person knows java"
+	  DirectPl_Q : Relation -> Question ; -- "which persons know java"
+	  IndirectSg_Q : Relation -> Question ;  -- "person that/which knows java"
+      IndirectPl_Q : Relation -> Question ;  -- "persons that/which know java"
 
-	  -- Direct subjects / names
-	  Which_Sg : Name -> Subject ;
-	  Which_Pl : Name -> Subject ;
-	-- all people that have worked with <person>
-	  -- Indirect subjects / names
-	  Developer_N : Name ;
-	  Person_N : Name ;
-	  Customer_N : Name ;
-	  Project_N : Resource ; 
+	  -- Subjects
+	  Person_N : Internal ;
+	  Project_N : Resource ;
+	  Customer_N : External ;
+	  	  
+	  -- Unknown names
+	  MkSkill : Symb -> Skill ;
+	  MkObject : Symb -> Object ;
+	  MkLocation : Symb -> Location ;
 	  
-	  MkPerson : Symb -> Person ;
-
-	  -- Resources / objects
-	  Java_O : Object ;
-	  Solr_O : Object ;
+	  -- Conjunction
+	  And_S : Skill -> Skill -> Skill ;
+	  Or_S : Skill -> Skill -> Skill ;
 	  
-	  -- Predicates
-	--  Name_P : NamePredicate -> Predicate ;
-	--  Res_P  : ResPredicate -> Predicate ;
-
-	  -- Sub-predicates
-	  Know_P : Object -> Predicate ;
-	  Use_P  : Object -> Predicate ;
-	  WorkWith_P  : Person -> Predicate ;
-	  WorkIn_P  : Person -> Predicate ;
+	  -- Relations
+	  Know_R : Internal -> Skill -> Relation ;
+	  -- How to have a supercat of Internal and Resource?
+	  UseExt_R  : External-> Object -> Relation ;
+	  UseRes_R  : Resource-> Object -> Relation ;
+	  WorkWith_R  : Internal-> Object -> Relation ;
+	  WorkIn_R  : Internal -> Location -> Relation ;
 
 }
-
-	  -- Deprecated
- 	  --ListPredicate ; -- Two or more predicates e.g. "knows java and have experience in solr"
-	  --NamePredicate ; -- Links a name to an object e.g. "knows java"
-	  --ResPredicate ;  -- Links a resource to an object "uses our generic ui"
-	  --And : Predicate -> Predicate -> ListPredicate ;
-	  --Or : Predicate -> Predicate -> ListPredicate ;
-	  --Conj_Q    : Name -> ListPredicate -> Question ; -- persons which knows java and have experience in solr" (for now only two predicates)	  	  
