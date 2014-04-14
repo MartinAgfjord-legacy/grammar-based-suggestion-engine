@@ -11,7 +11,7 @@ abstract Simple = Symbol ** {
 	  Location ;      -- E.g. "Gothenburg"
 	  Internal ;	  -- E.g. "persons"
 	  External ;      -- E.g. "customers"
-	  
+
 	fun
 	  -- Questions
 	  DirectSg_Q : Relation -> Question ; -- "which person knows java"
@@ -29,7 +29,7 @@ abstract Simple = Symbol ** {
 	  MkObject : Symb -> Object ;
 	  MkLocation : Symb -> Location ;
 	  
-	  -- Conjunction
+	  -- Conjunctions
 	  And_S : Skill -> Skill -> Skill ;
 	  Or_S : Skill -> Skill -> Skill ;
 	  

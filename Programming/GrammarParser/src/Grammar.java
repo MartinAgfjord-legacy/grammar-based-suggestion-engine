@@ -6,6 +6,7 @@ import java.util.Map;
 import org.grammaticalframework.pgf.Concr;
 import org.grammaticalframework.pgf.Expr;
 import org.grammaticalframework.pgf.ExprProb;
+import org.grammaticalframework.pgf.NercLiteralCallback;
 import org.grammaticalframework.pgf.PGF;
 import org.grammaticalframework.pgf.PGFError;
 import org.grammaticalframework.pgf.ParseError;
@@ -26,10 +27,13 @@ public class Grammar {
 		}
 		concreteLangs = new HashMap<String, Concr>();
 		concreteLangs.put("eng", gr.getLanguages().get("SimpleEng"));
-		concreteLangs.put("sql", gr.getLanguages().get("SimpleSQL"));
+		concreteLangs.put("solr", gr.getLanguages().get("SimpleSolr"));
+//		System.out.println(concreteLangs.get("eng").);
+		concreteLangs.get("eng").addLiteral("Symb", new NercLiteralCallback());
 	}
 	
 	public Iterable<ExprProb> parse(String lang, String question) throws ParseError {
+
 		Concr fromLang = concreteLangs.get(lang);
 		return fromLang.parse(gr.getStartCat(), question);
 	}
