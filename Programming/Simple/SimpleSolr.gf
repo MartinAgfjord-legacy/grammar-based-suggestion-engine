@@ -1,18 +1,32 @@
 concrete SimpleSolr of Simple = SymbolEng ** open StringOper in {
 	
 	lincat
-	  Question = SS ;
+	  Sentence, Question = SS;
 	  Relation = { subj : Str ; pred : Str ; obj : Str } ;
 	  Internal, External, Resource = SS ;
 	  Object, Skill, Location = SS ;
 
 	lin
+	
+	  SentenceDot_S question = question ;
+	  SentenceQMark_S question = question ;
 	  -- Questions
 	  -- Redundant functions, all the same
-	  IndirectSg_Q rel = select rel.subj rel.pred rel.obj ;
-	  IndirectPl_Q rel = select rel.subj rel.pred rel.obj ;
-	  DirectSg_Q rel = select rel.subj rel.pred rel.obj ;
-	  DirectPl_Q rel = select rel.subj rel.pred rel.obj ;
+	  -- Implicit present
+	  ImplicitSgPres_Q rel = select rel.subj rel.pred rel.obj ;
+	  ImplicitPlPres_Q rel = select rel.subj rel.pred rel.obj ;
+	  
+	  -- Implicit past
+	  ImplicitSgPast_Q rel = select rel.subj rel.pred rel.obj ;
+	  ImplicitPlPast_Q rel = select rel.subj rel.pred rel.obj ;
+	  
+	  -- Explicit present
+	  ExplicitSgPres_Q rel = select rel.subj rel.pred rel.obj ;
+	  ExplicitPlPres_Q rel = select rel.subj rel.pred rel.obj ;
+	  
+	  -- Explicit past
+	  ExplicitSgPast_Q rel = select rel.subj rel.pred rel.obj ;
+	  ExplicitPlPast_Q rel = select rel.subj rel.pred rel.obj ;
 	  
 	  -- Subjects
 	  Person_N = ss "object_type : person" ;
