@@ -4,33 +4,24 @@ import java.util.List;
 
 public class Result {
 
-	Query query;
-	String ast;
-	List<Query> result;
+	String err;
+	List<Linearlization> ls;
 
-	public Query getQuery() {
-		return query;
+	public String getErr() {
+		return err;
 	}
 
-	public void setQuery(Query query) {
-		this.query= query;
+	public void setErr(String err) {
+		this.err = err;
 	}
 
-
-	public String getAst() {
-		return ast;
+	public List<Linearlization> getLs() {
+		return ls;
 	}
 
-	public void setAst(String ast) {
-		this.ast = ast;
+	public void setLs(List<Linearlization> ls) {
+		this.ls = ls;
 	}
-
-	public List<Query> getResult() {
-		return result;
-	}
-
-	public void setResult(List<Query> result) {
-		this.result = result;
-	}
+	
 
 }

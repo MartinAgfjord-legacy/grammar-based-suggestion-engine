@@ -7,6 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.agfjord.domain.Linearlization;
 import org.agfjord.domain.Query;
 import org.agfjord.domain.Result;
 import org.grammaticalframework.pgf.Concr;
@@ -17,10 +18,9 @@ import org.grammaticalframework.pgf.PGFError;
 import org.grammaticalframework.pgf.ParseError;
 
 public class Parser {
-	
-	private PGF gr;	
-	private Map<String, Concr> concreteLangs;
-	
+
+	private PGF gr;
+
 	public Parser() {
 		File pgf = new File("/tmp/Simple.pgf");
 		try {
@@ -30,25 +30,31 @@ public class Parser {
 		} catch (PGFError e) {
 			e.printStackTrace();
 		}
-		concreteLangs = new HashMap<String, Concr>();
-		concreteLangs.put("eng", gr.getLanguages().get("SimpleEng"));
-		concreteLangs.get("eng").addLiteral("Symb", new NercLiteralCallback());
-		concreteLangs.put("solr", gr.getLanguages().get("SimpleSolr"));
+		gr.getLanguages().get("SimpleEng").addLiteral("Symb", new NercLiteralCallback());
 	}
 
-	public Result parse(String question, String from, String to) throws ParseError{
-		Concr fromLang = concreteLangs.get(from);
-		Concr toLang = concreteLangs.get(to);
-		Iterable<ExprProb> exprProbs = fromLang.parse(gr.getStartCat(), question);
+	public List<Linearlization> parse(String question, String parseLang) throws ParseError {
+		Iterable<ExprProb> exprProbs;
 		Result result = new Result();
-		result.setQuery(new Query(question, from));
-		List<Query> qs = new ArrayList<Query>();
-		for(ExprProb exprProb : exprProbs) {
-			qs.add(new Query(toLang.linearize(exprProb.getExpr()), to));
-		}
-		result.setResult(qs);
+		Map<String,List<Query>> astQuery = new HashMap<String,List<Query>>();
+		exprProbs = gr.getLanguages().get(parseLang).parse(gr.getStartCat(), question);
 		
-		return result;
+		for(String key : gr.getLanguages().keySet()){
+			Concr lang = gr.getLanguages().get(key);
+			for(ExprProb exprProb : exprProbs) {
+				List<Query> qs = astQuery.get(exprProb.getExpr().toString());
+				if(qs == null){
+					qs = new ArrayList<Query>();
+					astQuery.put(exprProb.getExpr().toString(), qs);
+				}
+				qs.add(new Query(lang.linearize(exprProb.getExpr()), lang.getName()));	
+			}
+		}
+		List<Linearlization> ls = new ArrayList<Linearlization>();
+		for(String key : astQuery.keySet()){
+			ls.add(new Linearlization(key, astQuery.get(key)));
+		}
+		return ls;
 	}
-	
+
 }

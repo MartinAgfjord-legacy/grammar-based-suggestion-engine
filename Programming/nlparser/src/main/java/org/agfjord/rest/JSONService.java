@@ -26,10 +26,15 @@ public class JSONService {
 	@Path("/parse")
 	@Produces("application/javascript")
 	public JSONWithPadding foo(@QueryParam("q") String question, @QueryParam("from") 
-					  String from, @QueryParam("to") String to, @QueryParam("callback") String callback) throws ParseError {
+					  String from, @QueryParam("to") String to, @QueryParam("callback") String callback) {
 		Parser p = new Parser();
 		Gson gson = new Gson();
-		String json =gson.toJson(p.parse(question, from, to));
+		String json = null;
+		try{
+			json = gson.toJson(p.parse(question, "SimpleEng"));
+		}catch(ParseError e){
+			json = "{ \"err\" : \"" + e.getToken() + "\" }";
+		}
 		return new JSONWithPadding(json,callback);
 	}
 }

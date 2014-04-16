@@ -51,10 +51,13 @@
 		<plugins>
 			<!-- Maven tomcat plugin -->
 			<plugin>
+<!--				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat6-maven-plugin</artifactId> -->
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>tomcat-maven-plugin</artifactId>
 				<configuration>
 					<url>http://127.0.0.1:8080/manager/text</url>
+					<!-- <url>http://makasd.se:50000/manager/text</url> -->
 					<server>localTomcatServer</server>
 					<path>/nlparser</path>
 				</configuration>
