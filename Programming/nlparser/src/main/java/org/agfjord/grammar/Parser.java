@@ -7,15 +7,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.agfjord.domain.Linearlization;
+import org.agfjord.domain.AbstractSyntaxTree;
 import org.agfjord.domain.Query;
-import org.agfjord.domain.Result;
 import org.grammaticalframework.pgf.Concr;
 import org.grammaticalframework.pgf.ExprProb;
 import org.grammaticalframework.pgf.NercLiteralCallback;
 import org.grammaticalframework.pgf.PGF;
 import org.grammaticalframework.pgf.PGFError;
 import org.grammaticalframework.pgf.ParseError;
+import org.grammaticalframework.pgf.TokenProb;
 
 public class Parser {
 
@@ -33,12 +33,11 @@ public class Parser {
 		gr.getLanguages().get("SimpleEng").addLiteral("Symb", new NercLiteralCallback());
 	}
 
-	public List<Linearlization> parse(String question, String parseLang) throws ParseError {
+	public List<AbstractSyntaxTree> parse(String question, String parseLang) throws ParseError {
 		Iterable<ExprProb> exprProbs;
-		Result result = new Result();
 		Map<String,List<Query>> astQuery = new HashMap<String,List<Query>>();
 		exprProbs = gr.getLanguages().get(parseLang).parse(gr.getStartCat(), question);
-		
+
 		for(String key : gr.getLanguages().keySet()){
 			Concr lang = gr.getLanguages().get(key);
 			for(ExprProb exprProb : exprProbs) {
@@ -50,11 +49,21 @@ public class Parser {
 				qs.add(new Query(lang.linearize(exprProb.getExpr()), lang.getName()));	
 			}
 		}
-		List<Linearlization> ls = new ArrayList<Linearlization>();
+		List<AbstractSyntaxTree> asts = new ArrayList<AbstractSyntaxTree>();
 		for(String key : astQuery.keySet()){
-			ls.add(new Linearlization(key, astQuery.get(key)));
+			asts.add(new AbstractSyntaxTree(key, astQuery.get(key)));
 		}
-		return ls;
+		return asts;
+	}
+	
+	public List<String> completeQuery(String question, String parseLang) throws ParseError {
+		Concr lang = gr.getLanguages().get(parseLang);
+			List<String> tokens = new ArrayList<String>();
+			for (TokenProb tp : lang.complete(gr.getStartCat(), question, "")) {
+//				System.out.println("["+tp.getProb()+"] "+tp.getToken());
+				tokens.add(tp.getToken());
+			}
+			return tokens;
 	}
 
 }

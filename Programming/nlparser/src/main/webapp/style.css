@@ -21,6 +21,8 @@ body { padding: 25px ; }
 
 .input-large[class=input-large] {
     width: 700px;
+
+  display: block;
 }
 
 .error {
@@ -31,6 +33,7 @@ body { padding: 25px ; }
   font-weight: bold;
 }
 
-.btn-group {
-  display: block;
+.btn-group.group {
+  padding-bottom: 4px;
+  margin-left: 0px;
 }

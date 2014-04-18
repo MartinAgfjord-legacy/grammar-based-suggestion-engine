@@ -13,9 +13,7 @@ public class NercLiteralCallback implements LiteralCallback {
 			i++;
 
 			while (offset < sentence.length() &&
-			       !Character.isWhitespace(sentence.charAt(offset))
-			       //&& sentence.charAt(offset) != '.'
-					) {
+			       !Character.isWhitespace(sentence.charAt(offset))) {
 				sbuilder.append(sentence.charAt(offset));
 				offset++;
 			}

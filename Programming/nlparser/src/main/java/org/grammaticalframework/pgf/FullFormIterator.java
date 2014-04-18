@@ -27,13 +27,13 @@ class FullFormIterator implements Iterator<FullFormEntry> {
 		}
 	}
 
-//	@Override
+	@Override
 	public boolean hasNext() {
 		fetch();
 		return (entry != null);
 	}
 
-//	@Override
+	@Override
 	public FullFormEntry next() {
 		fetch();
 		fetched = false;
@@ -43,7 +43,7 @@ class FullFormIterator implements Iterator<FullFormEntry> {
 		return entry;
 	}
 
-//	@Override
+	@Override
 	public void remove() {
 		throw new UnsupportedOperationException();
 	}

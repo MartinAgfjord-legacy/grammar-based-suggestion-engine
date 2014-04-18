@@ -4,6 +4,7 @@ public class Query {
 
 	String query;
 	String language;
+	String result;
 	
 	public Query(String query, String language) {
 		this.query = query;
@@ -25,4 +26,13 @@ public class Query {
 	public void setLanguage(String language) {
 		this.language = language;
 	}
+
+	public String getResult() {
+		return result;
+	}
+
+	public void setResult(String result) {
+		this.result = result;
+	}
+	
 }
