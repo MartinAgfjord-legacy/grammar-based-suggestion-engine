@@ -34,20 +34,26 @@ concrete SimpleSolr of Simple = SymbolEng ** open StringOper in {
 	  Project_N = ss "projects" ;
 
 	  -- Unknown names
-	  MkSkill s = s ;
-	  MkObject s = s ;
-	  MkLocation s = s ;
+	  MkSkill s = ss ("*" ++ s.s  ++ "*") ;
+	  MkObject s = ss ("*" ++ s.s ++ "*") ;
+	  MkLocation s = ss ("*" ++ s.s  ++ "*") ;
 	  
 	  -- Conjunctions
 	  And_S s1 s2 = ss ("(" ++ s1.s ++ " AND" ++ s2.s ++ ")");
 	  Or_S s1 s2 = ss ("(" ++ s1.s ++ " OR " ++ s2.s ++ ")");
 	  
+  	  And_O s1 s2 = ss ("(" ++ s1.s ++ " AND" ++ s2.s ++ ")");
+	  Or_O s1 s2 = ss ("(" ++ s1.s ++ " OR " ++ s2.s ++ ")");
+	  
+  	  And_L s1 s2 = ss ("(" ++ s1.s ++ " AND" ++ s2.s ++ ")");
+	  Or_L s1 s2 = ss ("(" ++ s1.s ++ " OR " ++ s2.s ++ ")");
+	  
  	  -- Relations
-	  Know_R name skill = mkR name "know" skill ;
+	  Know_R name skill = mkR name "expertise" skill ;
 	  -- Two redundant functions below
   	  UseExt_R res obj = mkR res "use" obj;
   	  UseRes_R res obj = mkR res "use" obj;
-  	  WorkWith_R name obj = mkR name "work" obj ;
+  	  WorkWith_R name obj = mkR name "expertise" obj ;
   	  WorkIn_R name loc = mkR name "location" loc ;
 	  
 	  oper

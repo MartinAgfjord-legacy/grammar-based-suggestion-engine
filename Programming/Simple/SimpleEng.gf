@@ -16,6 +16,7 @@ concrete SimpleEng of Simple = SymbolEng ** open StringOper, ParadigmsEng, Synta
  	  -- How to use 'that' instead of which/who?	  
 	  -- Implicit present
 	  ImplicitSgPres_Q rel = mkUtt (mkCN rel.subj (mkRS' simultaneousAnt rel.vp)) ;
+--	  ImplicitSgPres_Q rel = mkUtt (mkCN rel.subj mkQS (mkQCl (mkCl (mk))))
 	  ImplicitPlPres_Q rel = mkUtt (mkNP aPl_Det (mkCN rel.subj (mkRS' simultaneousAnt rel.vp))) ;
 	  -- Implicit past
   	  ImplicitSgPast_Q rel = mkUtt (mkCN rel.subj (mkRS' anteriorAnt rel.vp)) ;
