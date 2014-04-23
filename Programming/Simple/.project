@@ -36,11 +36,6 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>.gfbuild/Cat.gf</name>
-			<type>1</type>
-			<location>/home/eidel/lib/GF-master/lib/src/abstract/Cat.gf</location>
-		</link>
-		<link>
 			<name>.gfbuild/CatEng.gf</name>
 			<type>1</type>
 			<location>/home/eidel/lib/GF-master/lib/src/english/CatEng.gf</location>
@@ -54,11 +49,6 @@
 			<name>.gfbuild/CombinatorsEng.gf</name>
 			<type>1</type>
 			<location>/home/eidel/lib/GF-master/lib/src/api/CombinatorsEng.gf</location>
-		</link>
-		<link>
-			<name>.gfbuild/Common.gf</name>
-			<type>1</type>
-			<location>/home/eidel/lib/GF-master/lib/src/abstract/Common.gf</location>
 		</link>
 		<link>
 			<name>.gfbuild/CommonX.gf</name>
@@ -76,19 +66,9 @@
 			<location>/home/eidel/lib/GF-master/lib/src/english/ParadigmsEng.gf</location>
 		</link>
 		<link>
-			<name>.gfbuild/PredefAbs.gf</name>
-			<type>1</type>
-			<location>/home/eidel/lib/GF-master/lib/src/prelude/PredefAbs.gf</location>
-		</link>
-		<link>
 			<name>.gfbuild/StructuralEng.gf</name>
 			<type>1</type>
 			<location>/home/eidel/lib/GF-master/lib/src/english/StructuralEng.gf</location>
-		</link>
-		<link>
-			<name>.gfbuild/Symbol.gf</name>
-			<type>1</type>
-			<location>/home/eidel/lib/GF-master/lib/src/abstract/Symbol.gf</location>
 		</link>
 		<link>
 			<name>.gfbuild/SymbolEng.gf</name>
