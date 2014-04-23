@@ -71,42 +71,41 @@ name "ch:Introduction"
 
 \end_inset
 
-Foo
+
 \end_layout
 
 \begin_layout Section
-String search
+Motivation for this thesis
 \end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset label
 LatexCommand label
-name "sec:String search"
+name "sec:Motivation"
 
 \end_inset
 
-One of the most common search techniques is to search by matching a string
- with documents.
-\end_layout
-
-\begin_layout Section
-Semantic search
+The most common communication between humans and computers is through carefully
+ designed user interfaces which are constructed to be able to create machine
+ readable instructions.
+ Such interfaces often require either physical or graphical interaction.
+ In the recent years, we've seen an increasing number of applications that
+ are using an alternative method of instructing computers, by interpreting
+ instructions formulated in a human language, i.e.
+ translating a natural language into machine readable instructions.
+ Such applications facilitate the communication between humans and computers,
+ if computers can understand natural languages, one can just speak to them
+ and tell them what to do.
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset label
-LatexCommand label
-name "sec:Semantic search"
-
-\end_inset
-
-Semantic search is an approach to improve relevant results by analyzing
- the contextual meaning of the words in the question.
- 
-\end_layout
-
-\begin_layout Subsection
-Grammatical framework
+The big question is, how can a computer understand natural languages? One
+ well-known approach is based on machine learning, where the computer learn
+ human languages by analyzing a lot of data.
+ The other approach (which we will focus on in this thesis) is based on
+ the theory of grammars in order to understand natural languages.
+ The idea is to define a set of structured rules in order to create words
+ and combine them to construct clauses and phrases.
 \end_layout
 
 \begin_layout Section
@@ -114,10 +113,58 @@ Problem description
 \end_layout
 
 \begin_layout Standard
-We want to be able to retreive the contextrual meaning of questions expressed
- in a natural language in order to be able to express the question in a
- query-language.
+When searching for information ..
+\end_layout
+
+\begin_layout Section
+Grammatical framework
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:GF"
+
+\end_inset
+
+Grammatical framework (GF) is a functional programming language for creating
+ grammars for natural languages.
+ GF features a strong type system, separate abstract and concrete syntax
+ rules and reusable libraries to facilitate design of grammars.
+ For a reader with a background within compilers, one can easily see that
+ GF is very much based on the theory of programming languages.
+ In the same sense as in compiler theory, GF adopts the use of abstract
+ and concrete syntax.
  
+\end_layout
+
+\begin_layout Standard
+Abstract syntax is a tree representation which includes the semantically
+ important information of a language, but leaves out details who are language
+ specific and do not contribute to the semantics of the language.
+ The concrete syntax represents a natural language.
+ It describes how an abstract syntax tree is represented as a string in
+ the natural language.
+ 
+\end_layout
+
+\begin_layout Standard
+With both abstract and concrete syntaxes, GF is able to create a parser
+ and a generator for all given concrete languages.
+ The parser translates strings into abstract syntax and the generator transaltes
+ abstract syntax tree's into string representations for the specified concrete
+ syntax.
+\end_layout
+
+\begin_layout Standard
+This makes GF an excellent tool for multilingual translation.
+ A string can be parsed into abstract syntax and this tree can then be 
+\emph on
+linearized
+\emph default
+ into any concrete syntax by using the generator for the language.
+ The distinction of abstract and concrete syntax also makes it easy to extend
+ the grammar with more concrete languages.
 \end_layout
 
 \end_body
