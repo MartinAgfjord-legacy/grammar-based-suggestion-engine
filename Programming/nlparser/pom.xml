@@ -4,13 +4,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.agfjord</groupId>
-	<artifactId>nlpars</artifactId>
+	<artifactId>nlparser</artifactId>
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>nlpars</name>
+	<name>nlparser</name>
 
 	<build>
-		<finalName>nlpars</finalName>
+		<finalName>nlparser</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
