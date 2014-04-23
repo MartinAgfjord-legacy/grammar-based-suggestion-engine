@@ -2,8 +2,11 @@
 <head>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="URI.js"></script>
+<script src="jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
 <script src="script.js"></script>
+
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="jquery-ui-1.10.4.custom/css/smoothness/jquery-ui-1.10.4.custom.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 <body>
 <h2>Natural language parser</h2>
@@ -25,7 +28,7 @@
     <button type="button" class="btn btn-warning question">which customers use Our Generic Gui ?</button>
 </div>
 <div class="btn-group group">
-    <button type="button" class="btn btn-success question">which person knows Sharepoint and JavaScript ?</button>
+    <button type="button" class="btn btn-success question">which person knows Python and JavaScript ?</button>
 </div>
 <div class="btn-group group">
     <button type="button" class="btn btn-success question">persons who have worked in Gothenburg or Stockholm and Malmo .</button>

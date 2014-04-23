@@ -30,13 +30,10 @@ public class SolrConnector {
 		return docs;
 	}
 
-	public String queryDebug(String query) throws SolrServerException, IOException {
-		//		SolrQuery solrQuery = new SolrQuery(query);
-		//		QueryResponse queryResp = server.query(solrQuery);
-		//		SolrDocumentList docs = queryResp.getResults();
-		//		return solrQuery.toString();
-
+	public String queryDebug(String query) throws SolrServerException, IOException {		
 		query = query.replace(" ", "+").replace("+*", "*").replace("*+", "*");
+		query = query.replace("AND", "+AND+");
+		query = query.replace("OR", "+OR+");
 		return getFile(url + "/" + query);
 	}
 	

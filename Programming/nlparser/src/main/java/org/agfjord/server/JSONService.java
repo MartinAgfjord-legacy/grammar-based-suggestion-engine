@@ -50,15 +50,15 @@ public class JSONService {
 		}catch(ParseError e){
 			json = "{ \"err\" : \"" + e.getToken() + "\" }";
 		}
-		return callback + "(" + new Gson().toJson(asts) + ")" ;	
+		return callback + "(" + json + ")" ;	
 	}
 	
 	@GET
 	@Path("/solr/{query}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public String solrQuery(@Context HttpServletRequest httpRequest) {
+	public String solrQuery(@Context HttpServletRequest httpRequest) throws SolrServerException, IOException {
 		httpRequest.getRequestURL();
-		return "select" + "?" + httpRequest.getQueryString();
+		return solrConnector.queryDebug("select" + "?" + httpRequest.getQueryString());
 	}
 
 	
@@ -69,6 +69,6 @@ public class JSONService {
 			@QueryParam("callback") String callback) throws SolrServerException, IOException, ParseError {
 		Parser p = new Parser();
 		Gson gson = new Gson();
-		return  gson.toJson(p.completeQuery(question, "SimpleEng"));
+		return  callback + "(" + gson.toJson(p.completeQuery(question, "SimpleEng")) + ")";
 	}
 }
