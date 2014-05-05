@@ -39,7 +39,7 @@ public class JSONService {
 	@GET
 	@Path("/parse")
 	@Produces(MediaType.APPLICATION_JSON)
-	public String parseQuestion(@QueryParam("q") String question, @QueryParam("callback") String callback) throws IOException {
+	public String parseQuestion(@QueryParam("q") String question, @QueryParam("callback") String callback) throws IOException, SolrServerException {
 		Parser p = new Parser();
 		Gson gson = new Gson();
 		String json = null;
@@ -70,5 +70,15 @@ public class JSONService {
 		Parser p = new Parser();
 		Gson gson = new Gson();
 		return  callback + "(" + gson.toJson(p.completeQuery(question, "SimpleEng")) + ")";
+	}
+	
+	@GET
+	@Path("/completeSentence")
+	@Produces(MediaType.APPLICATION_JSON)
+	public String completeSentence(@QueryParam("q") String question, 
+			@QueryParam("callback") String callback) throws SolrServerException, IOException, ParseError {
+		Parser p = new Parser();
+		Gson gson = new Gson();
+		return  callback + "(" + gson.toJson(p.completeSentence(question, "SimpleEng")) + ")";
 	}
 }
