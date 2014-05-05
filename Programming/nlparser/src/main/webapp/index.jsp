@@ -12,6 +12,7 @@
 <h2>Natural language parser</h2>
 <input id="input" type="text" class="input-large" placeholder="Type your question.."></input>
 
+<!--
 <div class="btn-group group">
   <button type="button" class="btn btn-success question">which persons know Java ?</button>
 </div>
@@ -33,7 +34,10 @@
 <div class="btn-group group">
     <button type="button" class="btn btn-success question">persons who have worked in Gothenburg or Stockholm and Malmo .</button>
 </div>
-
+<div class="btn-group group">
+    <button type="button" class="btn btn-success question">which projects are using Solr ?</button>
+</div>
+-->
 <pre id="baz"></pre>
 <a href="grammar/Simple.gf.txt">Simple.gf</a>
 <a href="grammar/SimpleEng.gf.txt">SimpleEng.gf</a>

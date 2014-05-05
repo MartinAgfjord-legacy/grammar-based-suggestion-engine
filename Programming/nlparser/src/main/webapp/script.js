@@ -55,12 +55,11 @@ function initWordCompletion(){
           var succFun = function(data) {
             response( $.map( data, function(item) {
               return {
-                label: item.word,
-                partial: item.partial
+                 label: item.linearizations[0]
               }
             }));
           };
-          ajaxRequest('complete', $('#input').val(), succFun, function(){});
+          ajaxRequest('completeSentence', $('#input').val(), succFun, function(){});
         },
         // Always search for completions
         search: function(){
@@ -79,23 +78,8 @@ function initWordCompletion(){
          */
         select: function( event, ui ) {
             console.log(ui);
-            if(ui.item.partial){
-                var lastIndex = this.value.lastIndexOf(' ');
-                var partialQuery = this.value.substring(0, lastIndex);
-                this.value = partialQuery;
-                if(partialQuery != ''){
-                    this.value += ' ';
-                }
-                this.value += ui.item.value;
-            }else {
-                if(this.value.length != 0 && this.value[this.value.length-1] != ' '){
-                    //Add whitespace before the completion word
-                    this.value += ' ';
-                }
-                this.value += ui.item.value;
-            }
+                this.value = ui.item.value;
             // Always append whitespace after a completion word
-            this.value += ' ';
             return false;
         },
       });
