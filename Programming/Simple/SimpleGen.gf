@@ -1,4 +1,4 @@
-abstract Simple = Symbol ** {
+abstract SimpleGen = Symbol ** {
 	
 	flags startcat = Question ;
 
@@ -19,8 +19,8 @@ abstract Simple = Symbol ** {
 	  --SentenceDot_S : Question -> Text_ ;
 	  -- Questions
 	  -- Explicit present
-	  --ExplicitSgPres_Q : Relation -> Question ; -- "which person works in Gothenburg"
-	  --ExplicitPlPres_Q : Relation -> Question ; -- "which persons work in Gothenburg"
+	  -- ExplicitSgPres_Q : Relation -> Question ; -- "which person works in Gothenburg"
+	  -- ExplicitPlPres_Q : Relation -> Question ; -- "which persons work in Gothenburg"
 	  -- Explicit past
   	  --ExplicitSgPast_Q : Relation -> Question ; -- "which person has worked in Gothenburg"
 	  --ExplicitPlPast_Q : Relation -> Question ; -- "which persons have worked in Gothenburg"
@@ -35,18 +35,18 @@ abstract Simple = Symbol ** {
 	  --General_Q : Relation -> Question ;
 
 	  -- Subjects
---	  People_N : Internal ;
+	  --People_N : Internal ;
 	  Person_N : Internal ;
 	  Project_N : Resource ;
 	  Customer_N : External ;
 	  	  
 	  -- Unknown names
---	  MkSkill : String -> Skill ;
---	  MkObject : String -> Object ;
---	  MkLocation : String -> Location ;
-	  MkSkill : Symb -> Skill ;
-	  MkObject : Symb -> Object ;
-	  MkLocation : Symb -> Location ;
+	  MkSkill : String -> Skill ;
+	  MkObject : String -> Object ;
+	  MkLocation : String -> Location ;
+--	  MkSkill : Symb -> Skill ;
+--	  MkObject : Symb -> Object ;
+--	  MkLocation : Symb -> Location ;
 --	  MkSkill : Skill ;
 --	  MkObject : Object ;
 --	  MkLocation : Location ;

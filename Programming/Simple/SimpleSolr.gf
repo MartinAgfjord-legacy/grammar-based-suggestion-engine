@@ -27,6 +27,9 @@ concrete SimpleSolr of Simple = SymbolEng ** open StringOper in {
 	  -- Explicit past
 	  ExplicitSgPast_Q rel = select rel.subj rel.pred rel.obj ;
 	  ExplicitPlPast_Q rel = select rel.subj rel.pred rel.obj ;
+
+	  QuestionPres_Q rel = select rel.subj rel.pred rel.obj ;
+	  QuestionPast_Q rel = select rel.subj rel.pred rel.obj ;
 	  
 	  -- Subjects
 	  Person_N = ss "object_type : person" ;
