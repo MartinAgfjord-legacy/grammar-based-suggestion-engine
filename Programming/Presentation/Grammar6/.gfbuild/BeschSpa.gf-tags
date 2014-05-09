@@ -1,0 +1,382 @@
+AA	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+AAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+AF	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+AForm	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Adj	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Ag	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Agr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Anter	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Anteriority	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+Bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+CAPIT	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+CAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+CNone	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+CPron	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+CRefl	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+CardOrd	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Compar	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Cond	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Cond	param-value	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6496-6497	Number -> Person -> VPers
+Conjunct	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+DDir	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+DInv	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+DTail	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Degree	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Direct	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+E0	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+E1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+E2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ENumber	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+Emore	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+False	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+Fem	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Fut	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Fut	param-value	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6495-6496	Mode -> Number -> Person -> VPers
+Gender	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Ger	param-value	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6484-6485	VImpers
+ImpF	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+ImpForm	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Imper	param-value	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6497-6498	Number -> Person -> VPers
+Impf	param-value	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6492-6493	Mode -> Number -> Person -> VPers
+ImpfSub2	param-value	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6493-6494	Number -> Person -> VPers
+Ind	param-value	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6488	Mode
+Indic	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Infn	param-value	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6483-6484	VImpers
+Masc	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Mode	param	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6488	
+Mood	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+NCard	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+NOrd	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Neg	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Noun	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+NumPersI	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Number	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+P1	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+P2	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+P3	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+PARA	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+PAg	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+PAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+PGen	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+PNoAg	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+PNoGen	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Part	param-value	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6485-6486	VImpers
+Pass	param-value	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6498-6499	Number -> Gender -> VPers
+Past	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Person	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Pl	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+PlP1	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+PlP2	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Polarity	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Pos	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Posit	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Pres	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Pres	param-value	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6491-6492	Mode -> Number -> Person -> VPers
+Pret	param-value	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6494-6495	Number -> Person -> VPers
+PronGen	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+QDir	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+QForm	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+QIndir	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+RAg	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+RAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+RCond	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+RFut	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+RNeg	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+RNoAg	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+RPasse	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+RPast	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+RPolarity	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+RPos	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+RPres	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+RTense	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+SD2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+SOFT_BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+SP1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+SS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+SS1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+Sg	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+SgP2	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Simul	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Sub	param-value	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6488	Mode
+Superl	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+T1	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+T2	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+T3	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+TMood	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Tense	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+True	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+VCondit	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VF	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VFB	param	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6501-6504	
+VFin	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VFut	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VGer	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VI	param-value	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6502-6503	VImpers -> VFB
+VImper	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VImperf	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VImpers	param	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6482-6486	
+VInfin	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VPAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VPAgrClit	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VPAgrSubj	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VPB	param-value	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6503-6504	VPers -> VFB
+VPFinite	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VPForm	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VPGerund	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VPImperat	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VPInfinit	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VPart	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VPasse	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VPers	param	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6490-6499	
+VPres	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Verbum	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:8	
+Verbum	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:8	Type
+aagr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+aagrForms	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+abolir_8	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:595-666	
+abolir_8	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:595-666	Str -> {s : VFB => Str}
+actuar_9	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:667-738	
+actuar_9	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:667-738	Str -> {s : VFB => Str}
+adquirir_10	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:739-810	
+adquirir_10	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:739-810	Str -> {s : VFB => Str}
+aform2gender	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+aform2number	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+agrP3	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+ahincar_11	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:811-882	
+ahincar_11	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:811-882	Str -> {s : VFB => Str}
+airar_12	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:883-954	
+airar_12	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:883-954	Str -> {s : VFB => Str}
+amar_87	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6298-6369	
+amar_87	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6298-6369	Str -> {s : VFB => Str}
+andB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+andar_13	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:955-1026	
+andar_13	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:955-1026	Str -> {s : VFB => Str}
+appVPAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+asir_14	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1027-1098	
+asir_14	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1027-1098	Str -> {s : VFB => Str}
+aullar_15	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1099-1170	
+aullar_15	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1099-1170	Str -> {s : VFB => Str}
+avergonzar_16	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1171-1242	
+avergonzar_16	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1171-1242	Str -> {s : VFB => Str}
+averiguar_17	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1243-1314	
+averiguar_17	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1243-1314	Str -> {s : VFB => Str}
+bindIf	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+bothWays	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+bruñir_18	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1315-1386	
+bruñir_18	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1315-1386	Str -> {s : VFB => Str}
+caber_19	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1387-1458	
+caber_19	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1387-1458	Str -> {s : VFB => Str}
+caer_20	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1459-1530	
+caer_20	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1459-1530	Str -> {s : VFB => Str}
+capitalize	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+cazar_21	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1531-1602	
+cazar_21	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1531-1602	Str -> {s : VFB => Str}
+cc2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+cc3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+cocer_22	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1603-1674	
+cocer_22	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1603-1674	Str -> {s : VFB => Str}
+coger_23	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1675-1746	
+coger_23	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1675-1746	Str -> {s : VFB => Str}
+colgar_24	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1747-1818	
+colgar_24	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1747-1818	Str -> {s : VFB => Str}
+complAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+conjAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+conjGender	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+conjNumber	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+conjPerson	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+conocer_25	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1819-1890	
+conocer_25	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1819-1890	Str -> {s : VFB => Str}
+constStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+constTable	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+contar_38b	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2907-2978	
+contar_38b	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2907-2978	Str -> {s : VFB => Str}
+cortar_5	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:377-448	
+cortar_5	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:377-448	Str -> {s : VFB => Str}
+creer_26	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1891-1962	
+creer_26	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1891-1962	Str -> {s : VFB => Str}
+dar_27	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1963-2034	
+dar_27	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:1963-2034	Str -> {s : VFB => Str}
+deber_6	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:451-522	
+deber_6	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:451-522	Str -> {s : VFB => Str}
+decir_28	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2035-2106	
+decir_28	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2035-2106	Str -> {s : VFB => Str}
+defender_29	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2107-2181	
+defender_29	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2107-2181	Str -> {s : VFB => Str}
+delinquir_30	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2182-2253	
+delinquir_30	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2182-2253	Str -> {s : VFB => Str}
+desosar_31	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2254-2325	
+desosar_31	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2254-2325	Str -> {s : VFB => Str}
+dirigir_32	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2326-2397	
+dirigir_32	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2326-2397	Str -> {s : VFB => Str}
+discernir_33	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2398-2469	
+discernir_33	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2398-2469	Str -> {s : VFB => Str}
+distinguir_34	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2470-2541	
+distinguir_34	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2470-2541	Str -> {s : VFB => Str}
+dormir_35	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2542-2613	
+dormir_35	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2542-2613	Str -> {s : VFB => Str}
+eNext	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+elegir_36	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2686-2758	
+elegir_36	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2686-2758	Str -> {s : VFB => Str}
+embedInCommas	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+embedSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+empezar_37	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2760-2831	
+empezar_37	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2760-2831	Str -> {s : VFB => Str}
+encontrar_38	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2832-2906	
+encontrar_38	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2832-2906	Str -> {s : VFB => Str}
+endComma	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+enraizar_39	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2979-3050	
+enraizar_39	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2979-3050	Str -> {s : VFB => Str}
+erguir_40	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3051-3122	
+erguir_40	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3051-3122	Str -> {s : VFB => Str}
+errar_41	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3123-3194	
+errar_41	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3123-3194	Str -> {s : VFB => Str}
+estar_2	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:85-156	
+estar_2	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:85-156	Str -> {s : VFB => Str}
+forzar_42	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3195-3266	
+forzar_42	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3195-3266	Str -> {s : VFB => Str}
+genForms	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+glue	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+glueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+guiar_43	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3267-3338	
+guiar_43	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3267-3338	Str -> {s : VFB => Str}
+haber_3	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:158-229	
+haber_3	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:158-229	Str -> {s : VFB => Str}
+hacer_44	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3339-3410	
+hacer_44	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3339-3410	Str -> {s : VFB => Str}
+hay_3	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:231-302	
+hay_3	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:231-302	Str -> {s : VFB => Str}
+id	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ifTok	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+if_then_Str	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+if_then_else	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+infixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+influir_45	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3411-3482	
+influir_45	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3411-3482	Str -> {s : VFB => Str}
+init	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ir_46	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3483-3554	
+ir_46	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3483-3554	Str -> {s : VFB => Str}
+isNil	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+jugar_47	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3555-3626	
+jugar_47	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3555-3626	Str -> {s : VFB => Str}
+last	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+llover_89	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6370-6441	
+llover_89	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6370-6441	Str -> {s : VFB => Str}
+lucir_48	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3627-3698	
+lucir_48	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3627-3698	Str -> {s : VFB => Str}
+mecer_49	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3699-3770	
+mecer_49	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3699-3770	Str -> {s : VFB => Str}
+mkOrd	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+morder_50b	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3843-3914	
+morder_50b	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3843-3914	Str -> {s : VFB => Str}
+morir_35b	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2614-2685	
+morir_35b	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:2614-2685	Str -> {s : VFB => Str}
+mover_50	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3771-3842	
+mover_50	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3771-3842	Str -> {s : VFB => Str}
+noglueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+nonExist	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+notB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+numImp	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+oir_51	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3916-3987	
+oir_51	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3916-3987	Str -> {s : VFB => Str}
+oler_52	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3989-4060	
+oler_52	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:3989-4060	Str -> {s : VFB => Str}
+onlyIf	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+optStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+orB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+pagar_53	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4061-4132	
+pagar_53	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4061-4132	Str -> {s : VFB => Str}
+parecer_54	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4133-4204	
+parecer_54	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4133-4204	Str -> {s : VFB => Str}
+paren	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+parenss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+pbool2bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+pedir_55	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4205-4276	
+pedir_55	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4205-4276	Str -> {s : VFB => Str}
+pensar_56	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4277-4348	
+pensar_56	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4277-4348	Str -> {s : VFB => Str}
+placer_57	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4349-4424	
+placer_57	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4349-4424	Str -> {s : VFB => Str}
+poder_58	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4426-4497	
+poder_58	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4426-4497	Str -> {s : VFB => Str}
+polCases	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+poner_60	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4498-4569	
+poner_60	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4498-4569	Str -> {s : VFB => Str}
+postfixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+preOrPost	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+predecir_61	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4570-4641	
+predecir_61	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4570-4641	Str -> {s : VFB => Str}
+prefixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+presInd	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+producir_62	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4642-4713	
+producir_62	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4642-4713	Str -> {s : VFB => Str}
+prohibir_63	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4714-4785	
+prohibir_63	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4714-4785	Str -> {s : VFB => Str}
+prongen2gender	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+querer_64	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4786-4857	
+querer_64	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4786-4857	Str -> {s : VFB => Str}
+raer_65	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4858-4929	
+raer_65	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4858-4929	Str -> {s : VFB => Str}
+regAlternV	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6507-6582	
+regAlternV	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6507-6582	Str -> Str -> {s : VFB => Str}
+regAlternVEr	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6584-6659	
+regAlternVEr	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6584-6659	Str -> Str -> {s : VFB => Str}
+regar_66	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4930-5001	
+regar_66	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:4930-5001	Str -> {s : VFB => Str}
+reunir_69	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5074-5145	
+reunir_69	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5074-5145	Str -> {s : VFB => Str}
+reñir_68	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5002-5073	
+reñir_68	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5002-5073	Str -> {s : VFB => Str}
+roer_70	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5146-5217	
+roer_70	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5146-5217	Str -> {s : VFB => Str}
+saber_71	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5218-5289	
+saber_71	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5218-5289	Str -> {s : VFB => Str}
+sacar_72	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5290-5361	
+sacar_72	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5290-5361	Str -> {s : VFB => Str}
+salir_73	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5362-5433	
+salir_73	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5362-5433	Str -> {s : VFB => Str}
+satisfacer_74	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5434-5505	
+satisfacer_74	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5434-5505	Str -> {s : VFB => Str}
+sd2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+sentir_76	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5506-5577	
+sentir_76	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5506-5577	Str -> {s : VFB => Str}
+ser_1	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:12-83	
+ser_1	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:12-83	Str -> {s : VFB => Str}
+soler_77	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5578-5649	
+soler_77	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5578-5649	Str -> {s : VFB => Str}
+sp1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ss1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ss2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ss3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+strOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+tañer_78	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5650-5721	
+tañer_78	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5650-5721	Str -> {s : VFB => Str}
+tener_4	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:304-375	
+tener_4	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:304-375	Str -> {s : VFB => Str}
+toLowerFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+toUpperFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+traer_79	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5722-5793	
+traer_79	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5722-5793	Str -> {s : VFB => Str}
+trocar_80	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5794-5865	
+trocar_80	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5794-5865	Str -> {s : VFB => Str}
+vImper	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+valer_81	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5866-5937	
+valer_81	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5866-5937	Str -> {s : VFB => Str}
+venir_82	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5938-6009	
+venir_82	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:5938-6009	Str -> {s : VFB => Str}
+ver_83	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6010-6081	
+ver_83	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6010-6081	Str -> {s : VFB => Str}
+verbAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+verbBesch	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6446-6476	
+verbBesch	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6446-6476	{s : VFB => Str} -> {s : VF => Str}
+vf2numpers	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+vivir_7	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:523-594	
+vivir_7	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:523-594	Str -> {s : VFB => Str}
+volver_84	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6082-6153	
+volver_84	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6082-6153	Str -> {s : VFB => Str}
+vpAgrNone	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+yacer_85	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6154-6225	
+yacer_85	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6154-6225	Str -> {s : VFB => Str}
+zurcir_86	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6226-6297	
+zurcir_86	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/BeschSpa.gf:6226-6297	Str -> {s : VFB => Str}

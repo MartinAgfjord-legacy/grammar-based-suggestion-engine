@@ -1,0 +1,8 @@
+Object	cat	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/QuestionGrammar.gf:9	
+People	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/QuestionGrammar.gf:12	Subject
+Question	cat	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/QuestionGrammar.gf:6	
+Question_Q	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/QuestionGrammar.gf:11	Subject -> Relation -> Object -> Question
+Relation	cat	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/QuestionGrammar.gf:8	
+SKF	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/QuestionGrammar.gf:14	Object
+Subject	cat	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/QuestionGrammar.gf:7	
+Work	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/QuestionGrammar.gf:13	Relation

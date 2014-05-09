@@ -1,0 +1,12 @@
+Expertise	cat	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/Questions.gf:9	
+Gothenburg	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/Questions.gf:16	Location
+Java	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/Questions.gf:18	Expertise
+Know	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/Questions.gf:14	Expertise -> Relation
+Location	cat	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/Questions.gf:8	
+Object	cat	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/Questions.gf:7	
+Person	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/Questions.gf:15	Object
+Question	cat	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/Questions.gf:6	
+Question_Q	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/Questions.gf:12	Object -> Relation -> Question
+Relation	cat	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/Questions.gf:10	
+Stockholm	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/Questions.gf:17	Location
+Work	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/Questions.gf:13	Location -> Relation

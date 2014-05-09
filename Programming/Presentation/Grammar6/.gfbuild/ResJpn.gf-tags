@@ -1,0 +1,223 @@
+Abil	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:13	ModSense
+Adj	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:37-38	
+Adj	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:37-38	Type
+Adj2	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:39-40	
+Adj2	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:39-40	Type
+Adverb	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:41	
+Adverb	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:41	Type
+And	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:19	ConjType
+Anim	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:8	Animateness
+Animateness	param	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:8	
+Anter	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:16	Anteriority
+Anteriority	param	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:16	
+BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+Bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Both	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:19	ConjType
+CAPIT	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Con	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:9	Mood
+ConjType	param	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:19	
+Conjunction	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:56	
+Conjunction	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:56	Type
+DTail	param	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:18	
+Determiner	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:43-44	
+Determiner	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:43-44	Type
+E0	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+E1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+E2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ENumber	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Emore	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+EndNotZero	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:17	NumeralType
+EndZero	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:17	NumeralType
+False	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Ga	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:15	Particle
+Gr1	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:12	VerbGroup
+Gr2	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:12	VerbGroup
+If	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:20	SubjType
+ImpPolite	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:22	UttType
+Imper	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:22	UttType
+Inanim	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:8	Animateness
+Ind	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:9	Mood
+Kuru	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:12	VerbGroup
+Me	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:14	Speaker
+ModSense	param	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:13	
+Mood	param	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:9	
+NP	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:26-27	
+NP	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:26-27	Type
+Neg	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:11	Polarity
+NoImp	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:22	UttType
+Noun	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:34-35	
+Noun	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:34-35	Type
+Num	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:45-46	
+Num	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:45-46	Type
+Number	param	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:6	
+NumeralType	param	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:17	
+Oblig	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:13	ModSense
+Or	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:19	ConjType
+OtherSubj	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:20	SubjType
+PARA	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Particle	param	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:15	
+Pl	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:6	Number
+Plain	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:7	Style
+Please	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:21	VocType
+Polarity	param	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:11	
+Pos	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:11	Polarity
+Preposition	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:47	
+Preposition	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:47	Type
+Pronoun	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:42	
+Pronoun	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:42	Type
+PropNoun	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:36	
+PropNoun	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:36	Type
+Resp	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:7	Style
+SD2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SOFT_BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+SP1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SS1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Sg	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:6	Number
+Simul	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:16	Anteriority
+SingleDigit	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:17	NumeralType
+SomeoneElse	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:14	Speaker
+Speaker	param	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:14	
+Style	param	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:7	
+SubjType	param	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:20	
+Subjunction	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:57	
+Subjunction	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:57	Type
+Suru	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:12	VerbGroup
+T1	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:18	DTail
+T2	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:18	DTail
+T3	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:18	DTail
+TFut	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:10	TTense
+TPast	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:10	TTense
+TPres	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:10	TTense
+TTense	param	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:10	
+That	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:20	SubjType
+True	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+UttType	param	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:22	
+VP	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:28-32	
+VP	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:28-32	Type
+VV	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:54-55	
+VV	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:54-55	Type
+Verb	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:48-49	
+Verb	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:48-49	Type
+Verb2	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:50-51	
+Verb2	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:50-51	Type
+Verb3	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:52-53	
+Verb3	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:52-53	Type
+VerbGroup	param	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:12	
+VerbalA	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:151-164	
+VerbalA	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:151-164	Str -> Str -> {adv : Polarity => Str; attr : Str; ba : Polarity => Str; dropNaEnging : Str; pred : Style => TTense => Polarity => Str; te : Polarity => Str}
+VocAbs	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:21	VocType
+VocPres	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:21	VocType
+VocType	param	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:21	
+Wa	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:15	Particle
+Wish	param-value	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:13	ModSense
+andB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+bothWays	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+capitalize	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+cc2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+cc3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+constStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+constTable	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+eNext	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+embedInCommas	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+embedSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+endComma	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+glue	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+glueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+i_mkAdj	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:91-131	
+i_mkAdj	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:91-131	Str -> {adv : Polarity => Str; attr : Str; ba : Polarity => Str; dropNaEnging : Str; pred : Style => TTense => Polarity => Str; te : Polarity => Str}
+id	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ifTok	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+if_then_Str	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+if_then_else	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+infixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+init	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+isNil	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+last	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+mkAdv	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:581-584	
+mkAdv	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:581-584	Str -> {s : Style => Str; prepositive : Bool}
+mkBaForm	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:662-673	
+mkBaForm	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:662-673	Str -> VerbGroup -> Str
+mkCan	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:466-478	
+mkCan	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:466-478	{s : Speaker => Style => TTense => Polarity => Str; a_stem : Speaker => Str; ba : Speaker => Polarity => Str; i_stem : Speaker => Str; sense : ModSense; te : Speaker => Polarity => Str}
+mkConj	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:595-599	
+mkConj	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:595-599	Str -> ConjType -> {s : Str; null : Str; type : ConjType}
+mkCopula	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:338-369	
+mkCopula	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:338-369	{s : Style => TTense => Polarity => Str; te : Polarity => Str; ba : Polarity => Str}
+mkDet	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:545-554	
+mkDet	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:545-554	Str -> Str -> Number -> {inclCard : Bool; n : Number; no : Bool; num : Str; postpositive : Str; quant : Style => Str; sp : Style => Str; tenPlus : Bool}
+mkExistV	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:371-428	
+mkExistV	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:371-428	{a_stem : Speaker => Animateness => Style => Str; ba : Speaker => Animateness => Style => Polarity => Str; i_stem : Speaker => Animateness => Style => Str; needSubject : Bool; obj : Style => Str; prep : Str; prepositive : Style => Str; te : Speaker => Animateness => Style => Polarity => Str; verb : Speaker => Animateness => Style => TTense => Polarity => Str}
+mkFirst	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:675-685	
+mkFirst	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:675-685	{adv : Polarity => Str; attr : Str; ba : Polarity => Str; dropNaEnging : Str; pred : Style => TTense => Polarity => Str; te : Polarity => Str}
+mkGive	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:489-508	
+mkGive	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:489-508	{s : Speaker => Style => TTense => Polarity => Str; a_stem : Speaker => Str; ba : Speaker => Polarity => Str; i_stem : Speaker => Str; prep1 : Str; prep2 : Str; te : Speaker => Polarity => Str}
+mkGo	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:510-529	
+mkGo	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:510-529	{s : Style => TTense => Polarity => Str; a_stem : Str; ba : Polarity => Str; i_stem : Str; needSubject : Bool; te : Polarity => Str}
+mkMust	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:480-487	
+mkMust	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:480-487	{s : Speaker => Style => TTense => Polarity => Str; a_stem : Speaker => Str; ba : Speaker => Polarity => Str; i_stem : Speaker => Str; sense : ModSense; te : Speaker => Polarity => Str}
+mkNP	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:586-593	
+mkNP	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:586-593	Str -> Bool -> Bool -> Animateness -> {s : Style => Str; anim : Animateness; changePolar : Bool; meaning : Speaker; needPart : Bool; prepositive : Style => Str}
+mkNoun	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:59-75	
+mkNoun	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:59-75	Str -> Str -> Str -> Str -> Animateness -> Str -> Bool -> Bool -> {s : Number => Style => Str; anim : Animateness; counter : Str; counterReplace : Bool; counterTsu : Bool}
+mkNum	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:531-537	
+mkNum	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:531-537	Str -> Number -> {s : Str; inclCard : Bool; n : Number; postpositive : Str; tenPlus : Bool}
+mkPrep	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:601-604	
+mkPrep	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:601-604	Str -> {s : Str; null : Str}
+mkRain	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:687-700	
+mkRain	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:687-700	{s : Style => TTense => Polarity => Str; a_stem : Str; ba : Polarity => Str; i_stem : Str; needSubject : Bool; te : Polarity => Str}
+mkSubj	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:606-609	
+mkSubj	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:606-609	Str -> SubjType -> {s : Str; type : SubjType}
+mkVerb	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:166-209	
+mkVerb	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:166-209	Str -> VerbGroup -> {s : Style => TTense => Polarity => Str; a_stem : Str; ba : Polarity => Str; i_stem : Str; needSubject : Bool; te : Polarity => Str}
+mkVerb2	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:211-325	
+mkVerb2	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:211-325	Str -> Str -> VerbGroup -> {s : Style => TTense => Polarity => Str; a_stem : Str; ba : Polarity => Str; i_stem : Str; pass : Style => TTense => Polarity => Str; pass_a_stem : Str; pass_ba : Polarity => Str; pass_i_stem : Str; pass_te : Polarity => Str; prep : Str; te : Polarity => Str}
+mkVerb3	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:327-336	
+mkVerb3	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:327-336	Str -> Str -> Str -> VerbGroup -> {s : Speaker => Style => TTense => Polarity => Str; a_stem : Speaker => Str; ba : Speaker => Polarity => Str; i_stem : Speaker => Str; prep1 : Str; prep2 : Str; te : Speaker => Polarity => Str}
+mkWant	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:430-464	
+mkWant	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:430-464	{s : Speaker => Style => TTense => Polarity => Str; a_stem : Speaker => Str; ba : Speaker => Polarity => Str; i_stem : Speaker => Str; sense : ModSense; te : Speaker => Polarity => Str}
+mk_a_stem	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:611-626	
+mk_a_stem	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:611-626	Str -> VerbGroup -> Str
+mk_i_stem	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:628-643	
+mk_i_stem	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:628-643	Str -> VerbGroup -> Str
+mk_plain_past	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:645-660	
+mk_plain_past	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:645-660	Str -> VerbGroup -> Str
+na_mkAdj	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:133-149	
+na_mkAdj	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:133-149	Str -> {adv : Polarity => Str; attr : Str; ba : Polarity => Str; dropNaEnging : Str; pred : Style => TTense => Polarity => Str; te : Polarity => Str}
+noglueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+nonExist	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+notB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+numberNoun	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:83-84	
+numberNoun	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:83-84	Str -> Animateness -> Str -> Bool -> Str -> Bool -> {s : Number => Style => Str; anim : Animateness; counter : Str; counterReplace : Bool; counterTsu : Bool}
+onlyIf	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+optStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+orB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+paren	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+parenss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+pbool2bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+personPN	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:573-579	
+personPN	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:573-579	Str -> Str -> {s : Style => Str; anim : Animateness}
+postfixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+preOrPost	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+prefixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+regAdj	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:86-89	
+regAdj	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:86-89	Str -> {adv : Polarity => Str; attr : Str; ba : Polarity => Str; dropNaEnging : Str; pred : Style => TTense => Polarity => Str; te : Polarity => Str}
+regNoun	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:77-78	
+regNoun	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:77-78	Str -> Animateness -> Str -> Bool -> Bool -> {s : Number => Style => Str; anim : Animateness; counter : Str; counterReplace : Bool; counterTsu : Bool}
+regPN	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:565-571	
+regPN	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:565-571	Str -> {s : Style => Str; anim : Animateness}
+regPron	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:539-543	
+regPron	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:539-543	Str -> Bool -> Animateness -> {s : Style => Str; Pron1Sg : Bool; anim : Animateness}
+sd2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+sp1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+strOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+styleNoun	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:80-81	
+styleNoun	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:80-81	Str -> Str -> Animateness -> Str -> Bool -> Bool -> {s : Number => Style => Str; anim : Animateness; counter : Str; counterReplace : Bool; counterTsu : Bool}
+stylePron	oper-def	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:556-563	
+stylePron	oper-type	/home/eidel/lib/GF-master/lib/src/japanese/ResJpn.gf:556-563	Str -> Str -> Bool -> Animateness -> {s : Style => Str; Pron1Sg : Bool; anim : Animateness}
+toLowerFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+toUpperFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags

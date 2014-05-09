@@ -1,0 +1,3 @@
+Expr	cat	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Arithmetics/Arithmetics.gf:6	
+Number	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Arithmetics/Arithmetics.gf:9	String -> Expr
+Plus	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Arithmetics/Arithmetics.gf:8	Expr -> Expr -> Expr

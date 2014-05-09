@@ -1,0 +1,363 @@
+A	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:96	
+A2	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:98	
+ACompar	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+AF	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+AForm	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+AFormGrad	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+AFormPos	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+AFormSup	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+AP	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:61	
+APosit	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+ASuperl	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Act	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+AdA	indir	CommonX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+AdN	indir	CommonX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+AdV	indir	CommonX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+Adjective	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Adv	indir	CommonX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+Agr	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Ant	indir	CommonX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+Anter	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Anter	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Anteriority	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Anteriority	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+Bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+CAPIT	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+CAdv	indir	CommonX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+CN	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:70	
+Card	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:76	
+CardOrd	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+Case	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Cl	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:18	
+ClSlash	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:19-23	
+ClSlash	linref	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:117	
+Clause	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Comp	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:56	
+Compar	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Compar	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Complement	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Cond	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Cond	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Conj	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:86	
+Conj	linref	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:128	
+DDef	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+DIndef	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+DTail	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+DTail	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Def	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Degree	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Degree	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Det	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:72	
+DetSpecies	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Digits	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:82	
+E0	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+E1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+E2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ENumber	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+Emore	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+False	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+Fut	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Fut	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+GPl	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+GSg	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Gen	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+GenNum	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Gender	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+IAdv	indir	CommonX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+IComp	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:30	
+IDet	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:31	
+IP	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:29	
+IQuant	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:32	
+Imp	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:24	
+ImpF	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+ImpF	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+ImpForm	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+ImpForm	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Indef	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Interj	indir	CommonX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+Inv	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Main	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+N	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:100	
+N2	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:102	
+N3	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:103	
+NCard	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+NGender	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+NOrd	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+NP	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:71	
+NPAcc	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+NPForm	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+NPNom	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+NPPoss	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Neg	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Neg	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Neutr	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Nom	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Noun	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+Num	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:75	
+Number	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Number	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Numeral	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:81	
+Ord	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:77	
+Order	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+P1	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+P1	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+P2	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+P2	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+P3	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+P3	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+PARA	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+PAg	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+PConj	indir	CommonX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+PN	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:104	
+PNoAg	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Pass	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Past	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Past	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Person	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Person	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Phr	indir	CommonX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+Pl	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Pl	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Pol	indir	CommonX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+Polarity	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Polarity	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Pos	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Pos	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Posit	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Posit	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Predet	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:74	
+PredetAgr	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Prep	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:88	
+Pres	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Pres	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Pron	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:71	
+QCl	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:28	
+QDir	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+QDir	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+QForm	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+QForm	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+QIndir	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+QIndir	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+QS	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:12	
+Quant	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:73	
+RAg	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+RAgr	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+RCase	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+RCl	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:36	
+RGen	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+RNoAg	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+RNom	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+RP	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:37	
+RPrep	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+RS	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:13	
+S	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:11	
+SC	indir	CommonX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+SCond	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+SD2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+SFut	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+SFutKommer	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+SOFT_BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+SP1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+SPast	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+SPres	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+SS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+SS1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+SSlash	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:14	
+SSlash	linref	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:116	
+STense	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Sg	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Sg	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Simul	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Simul	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Species	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Strong	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Sub	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Subj	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:87	
+SupStrong	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+SupWeak	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Superl	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Superl	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+T1	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+T1	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+T2	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+T2	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+T3	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+T3	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Temp	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:109	
+Tense	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Tense	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Tense	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:110	
+Text	indir	CommonX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+True	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+Utr	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Utt	indir	CommonX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+V	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:92	
+V	linref	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:122	
+V2	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:93	
+V2	linref	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:123	
+V2A	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:93	
+V2A	linref	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:123	
+V2Q	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:93	
+V2Q	linref	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:123	
+V2S	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:93	
+V2S	linref	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:123	
+V2V	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:94	
+V2V	linref	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:126	
+V3	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:94	
+V3	linref	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:124	
+VA	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:92	
+VA	linref	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:122	
+VAct	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+VF	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+VFin	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+VForm	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+VI	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+VImper	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+VInf	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+VInfin	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+VP	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+VP	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:41-51	
+VP	linref	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:119	
+VPFinite	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+VPForm	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+VPIForm	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+VPIInf	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+VPISup	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+VPImperat	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+VPInfinit	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+VPSlash	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:52-55	
+VPSlash	linref	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:120	
+VPass	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+VPres	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+VPret	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+VPtPres	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+VPtPret	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+VQ	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:92	
+VQ	linref	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:122	
+VRefl	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+VS	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:92	
+VS	linref	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:122	
+VSupin	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+VType	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+VV	lincat	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:93	
+VV	linref	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:125	
+Verb	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+Voc	indir	CommonX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+Voice	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+Weak	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+accusative	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+agrAdj	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+agrAdjNP	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+agrP3	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+agrUSgP3	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:113	
+agrUSgP3	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CatScand.gf:113	Agr
+andB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+artDef	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+artIndef	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+auxCond	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+auxFut	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+auxFutKommer	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+auxFutPart	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+av_Prep	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+bothWays	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+capitalize	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+caseNP	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+cc2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+cc3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+comma	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+compMore	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+conjAgr	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+conjAnd	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+conjGender	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+conjNumber	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+conjNumber	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+conjPerson	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+conjPerson	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+conjThan	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+conjThat	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+constStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+constTable	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+detDef	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+detForms	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+detIndefPl	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+eNext	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+embedInCommas	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+embedSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+endComma	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+genderForms	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+gennum	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+gennumAgr	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+gennumForms	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+glue	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+glueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+hasAuxBe	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+hur_IAdv	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+id	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ifTok	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+if_then_Str	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+if_then_else	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+infMark	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+infVP	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+infVPPlus	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+infixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+init	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+insertAdV	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+insertAdVAgr	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+insertAdv	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+insertExt	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+insertObj	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+insertObjPost	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+isNil	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+last	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+mkAdjPos	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+mkAdjective	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+mkCase	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+mkClause	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+mkComplement	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+mkNP	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+mkVerb9	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+mkVoice	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+negation	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+neutrum	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+ngen2gen	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+noglueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+nominative	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+nonExist	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+notB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+nounForms	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+numImp	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+numImp	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+onlyIf	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+optStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+orB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+paren	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+parenss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+passiveVP	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+pbool2bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+polCases	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+polCases	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+postfixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+preOrPost	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+predV	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+prefixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+pronSuch	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+reflPron	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+regNP	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+relPron	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+sd2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+sp1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+specDet	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+ss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ss1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ss2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ss3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+strOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+subjIf	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+toLowerFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+toUpperFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+utrum	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+vFin	indir	CommonScand		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonScand.gf-tags
+verbBe	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+verbBecome	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags
+verbHave	indir	ResScand	RS	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResScand.gf-tags

@@ -1,0 +1,416 @@
+AA	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+AAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+AF	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+AForm	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Adj	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Ag	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Agr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Anter	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Anteriority	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+Bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+CAPIT	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+CAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+CNone	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+CPron	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+CRefl	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+CardOrd	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Compar	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Cond	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Cond	param-value	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6525-6526	Number -> Person -> VForm
+Cong	param-value	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6524-6525	Tempo -> Number -> Person -> VForm
+Conjunct	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+DDir	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+DInv	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+DTail	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Degree	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Direct	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+E0	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+E1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+E2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ENumber	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Emore	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+False	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Fem	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Fut	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Fut	param-value	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6523-6524	Number -> Person -> VForm
+Gender	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Ger	param-value	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6527-6528	VForm
+ImpF	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+ImpForm	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Imper	param-value	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6526-6527	NumPersI -> VForm
+Imperf	param-value	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6512-6513	Tempo
+Indi	param-value	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6521-6522	Tempo -> Number -> Person -> VForm
+Indic	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Inf	param-value	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6519-6520	VForm
+InfClit	param-value	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6520-6521	VForm
+Masc	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Mood	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+NCard	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+NOrd	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Neg	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Noun	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+NumPersI	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Number	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+P1	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+P2	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+P3	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+PARA	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+PAg	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+PAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+PGen	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+PNoAg	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+PNoGen	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Part	param-value	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6528-6529	TempoP -> Gender -> Number -> VForm
+Pass	param-value	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6522-6523	Number -> Person -> VForm
+PassP	param-value	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6516-6517	TempoP
+Past	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Person	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Pl	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+PlP1	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+PlP2	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Polarity	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Pos	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Posit	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Pres	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Pres	param-value	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6511-6512	Tempo
+PresP	param-value	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6515-6516	TempoP
+PronGen	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+QDir	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+QForm	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+QIndir	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+RAg	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+RAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+RCond	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+RFut	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+RNeg	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+RNoAg	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+RPasse	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+RPast	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+RPolarity	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+RPos	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+RPres	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+RTense	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+SD2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SOFT_BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+SP1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SS1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Sg	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+SgP2	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Simul	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Superl	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+T1	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+T2	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+T3	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+TMood	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Tempo	param	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6510-6513	
+TempoP	param	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6514-6517	
+Tense	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+True	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+VCondit	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VF	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VFin	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VForm	param	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6518-6529	
+VFut	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VGer	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VImper	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VImperf	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VInfin	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VPAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VPAgrClit	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VPAgrSubj	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VPFinite	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VPForm	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VPGerund	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VPImperat	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VPInfinit	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VPart	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VPasse	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VPres	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Verbo	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:7	
+Verbo	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:7	Type
+aagr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+aagrForms	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+accendere_21	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1127-1187	
+accendere_21	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1127-1187	Str -> {s : VForm => Str}
+affiggere_22	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1189-1249	
+affiggere_22	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1189-1249	Str -> {s : VForm => Str}
+aform2gender	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+aform2number	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+agitare_17	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:879-939	
+agitare_17	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:879-939	Str -> {s : VForm => Str}
+agrP3	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+amare_6	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:135-195	
+amare_6	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:135-195	Str -> {s : VForm => Str}
+andB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+andare_14	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:631-691	
+andare_14	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:631-691	Str -> {s : VForm => Str}
+appVPAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+aprire_102	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6154-6214	
+aprire_102	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6154-6214	Str -> {s : VForm => Str}
+ardere_23	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1251-1311	
+ardere_23	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1251-1311	Str -> {s : VForm => Str}
+assistere_24	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1313-1373	
+assistere_24	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1313-1373	Str -> {s : VForm => Str}
+assolvere_25	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1375-1435	
+assolvere_25	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1375-1435	Str -> {s : VForm => Str}
+assumere_26	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1437-1497	
+assumere_26	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1437-1497	Str -> {s : VForm => Str}
+avere_2	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:73-133	
+avere_2	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:73-133	Str -> {s : VForm => Str}
+bere_27	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1499-1559	
+bere_27	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1499-1559	Str -> {s : VForm => Str}
+bindIf	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+bothWays	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+cadere_28	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1561-1621	
+cadere_28	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1561-1621	Str -> {s : VForm => Str}
+capitalize	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+cc2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+cc3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+cercare_7	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:197-257	
+cercare_7	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:197-257	Str -> {s : VForm => Str}
+chiedere_29	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1623-1683	
+chiedere_29	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1623-1683	Str -> {s : VForm => Str}
+chiudere_30	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1685-1745	
+chiudere_30	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1685-1745	Str -> {s : VForm => Str}
+cingere_31	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1747-1807	
+cingere_31	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1747-1807	Str -> {s : VForm => Str}
+cogliere_32	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1809-1869	
+cogliere_32	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1809-1869	Str -> {s : VForm => Str}
+cominciare_9	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:321-381	
+cominciare_9	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:321-381	Str -> {s : VForm => Str}
+compiere_33	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1871-1931	
+compiere_33	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1871-1931	Str -> {s : VForm => Str}
+compire_33b	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1933-1993	
+compire_33b	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1933-1993	Str -> {s : VForm => Str}
+complAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+comprimere_34	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1995-2055	
+comprimere_34	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1995-2055	Str -> {s : VForm => Str}
+concedere_35	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2057-2117	
+concedere_35	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2057-2117	Str -> {s : VForm => Str}
+condurre_36	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2119-2179	
+condurre_36	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2119-2179	Str -> {s : VForm => Str}
+conjAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+conjGender	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+conjNumber	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+conjPerson	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+conoscere_37	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2181-2241	
+conoscere_37	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2181-2241	Str -> {s : VForm => Str}
+constStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+constTable	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+correre_38	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2243-2303	
+correre_38	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2243-2303	Str -> {s : VForm => Str}
+crescere_39	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2305-2365	
+crescere_39	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2305-2365	Str -> {s : VForm => Str}
+cucire_103	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6217-6277	
+cucire_103	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6217-6277	Str -> {s : VForm => Str}
+cuocere_40	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2367-2427	
+cuocere_40	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2367-2427	Str -> {s : VForm => Str}
+dare_15	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:755-815	
+dare_15	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:755-815	Str -> {s : VForm => Str}
+dire_41	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2429-2489	
+dire_41	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2429-2489	Str -> {s : VForm => Str}
+dirigere_42	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2491-2551	
+dirigere_42	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2491-2551	Str -> {s : VForm => Str}
+discutere_43	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2553-2613	
+discutere_43	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2553-2613	Str -> {s : VForm => Str}
+distinguere_44	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2615-2675	
+distinguere_44	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2615-2675	Str -> {s : VForm => Str}
+distruggere_45	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2677-2737	
+distruggere_45	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2677-2737	Str -> {s : VForm => Str}
+dolere_46	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2739-2799	
+dolere_46	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2739-2799	Str -> {s : VForm => Str}
+dormire_99b	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6028-6088	
+dormire_99b	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6028-6088	Str -> {s : VForm => Str}
+dovere_47	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2801-2861	
+dovere_47	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2801-2861	Str -> {s : VForm => Str}
+eNext	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+embedInCommas	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+embedSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+emergere_28	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2863-2923	
+emergere_28	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2863-2923	Str -> {s : VForm => Str}
+endComma	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+espandere_49	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2925-2985	
+espandere_49	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2925-2985	Str -> {s : VForm => Str}
+espellere_50	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2987-3047	
+espellere_50	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:2987-3047	Str -> {s : VForm => Str}
+esplodere_51	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3049-3109	
+esplodere_51	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3049-3109	Str -> {s : VForm => Str}
+essere_1	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:11-71	
+essere_1	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:11-71	Str -> {s : VForm => Str}
+fare_52	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3111-3171	
+fare_52	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3111-3171	Str -> {s : VForm => Str}
+finire_100	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6090-6150	
+finire_100	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6090-6150	Str -> {s : VForm => Str}
+flettere_53	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3173-3233	
+flettere_53	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3173-3233	Str -> {s : VForm => Str}
+fondere_54	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3235-3295	
+fondere_54	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3235-3295	Str -> {s : VForm => Str}
+fuggire_104	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6279-6339	
+fuggire_104	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6279-6339	Str -> {s : VForm => Str}
+genForms	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+giocare_13	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:569-629	
+giocare_13	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:569-629	Str -> {s : VForm => Str}
+giungere_55	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3297-3357	
+giungere_55	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3297-3357	Str -> {s : VForm => Str}
+glue	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+glueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+id	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ifTok	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+if_then_Str	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+if_then_else	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+immaginare_18	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:941-1001	
+immaginare_18	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:941-1001	Str -> {s : VForm => Str}
+infixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+init	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+inviare_11	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:445-505	
+inviare_11	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:445-505	Str -> {s : VForm => Str}
+isNil	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+last	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+legare_8	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:259-319	
+legare_8	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:259-319	Str -> {s : VForm => Str}
+leggere_56	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3359-3419	
+leggere_56	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3359-3419	Str -> {s : VForm => Str}
+mangiare_10	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:383-443	
+mangiare_10	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:383-443	Str -> {s : VForm => Str}
+mettere_57	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3421-3481	
+mettere_57	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3421-3481	Str -> {s : VForm => Str}
+mkOrd	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+mkVerbo	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6533-6600	
+mkVerbo	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6532	(x1 : Str) -> Str -> Str -> Str -> Str -> Str -> Str -> Str -> Str -> Str -> (x11 : Str) -> {s : VForm => Str}
+modificare_19	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1003-1063	
+modificare_19	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1003-1063	Str -> {s : VForm => Str}
+morire_105	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6341-6403	
+morire_105	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6341-6403	Str -> {s : VForm => Str}
+muovere_58	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3483-3543	
+muovere_58	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3483-3543	Str -> {s : VForm => Str}
+nascere_59	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3545-3605	
+nascere_59	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3545-3605	Str -> {s : VForm => Str}
+noglueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+nonExist	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+notB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+numImp	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+nuocere_60	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3607-3667	
+nuocere_60	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3607-3667	Str -> {s : VForm => Str}
+onlyIf	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+optStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+orB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+paren	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+parenss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+parere_61	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3669-3729	
+parere_61	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3669-3729	Str -> {s : VForm => Str}
+pbool2bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+perdere_62	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3731-3791	
+perdere_62	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3731-3791	Str -> {s : VForm => Str}
+persuadere_63	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3793-3853	
+persuadere_63	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3793-3853	Str -> {s : VForm => Str}
+piacere_64	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3855-3915	
+piacere_64	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3855-3915	Str -> {s : VForm => Str}
+piangere_65	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3917-3977	
+piangere_65	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3917-3977	Str -> {s : VForm => Str}
+piovere_66	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3979-4039	
+piovere_66	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:3979-4039	Str -> {s : VForm => Str}
+polCases	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+porgere_67	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4041-4101	
+porgere_67	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4041-4101	Str -> {s : VForm => Str}
+porre_68	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4103-4163	
+porre_68	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4103-4163	Str -> {s : VForm => Str}
+postfixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+potere_69	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4165-4225	
+potere_69	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4165-4225	Str -> {s : VForm => Str}
+preOrPost	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+prefixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+prendere_70	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4227-4287	
+prendere_70	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4227-4287	Str -> {s : VForm => Str}
+presInd	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+prongen2gender	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+radere_71	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4289-4349	
+radere_71	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4289-4349	Str -> {s : VForm => Str}
+redigere_72	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4351-4411	
+redigere_72	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4351-4411	Str -> {s : VForm => Str}
+redimere_73	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4413-4473	
+redimere_73	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4413-4473	Str -> {s : VForm => Str}
+riandare_14b	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:693-753	
+riandare_14b	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:693-753	Str -> {s : VForm => Str}
+ridere_74	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4475-4535	
+ridere_74	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4475-4535	Str -> {s : VForm => Str}
+rimanere_75	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4537-4597	
+rimanere_75	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4537-4597	Str -> {s : VForm => Str}
+rispondere_76	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4599-4659	
+rispondere_76	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4599-4659	Str -> {s : VForm => Str}
+rompere_77	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4661-4721	
+rompere_77	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4661-4721	Str -> {s : VForm => Str}
+salire_106	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6405-6410	
+salire_106	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6405-6410	Str -> {s : VForm => Str}
+sapere_78	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4723-4783	
+sapere_78	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4723-4783	Str -> {s : VForm => Str}
+scegliere_79	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4785-4845	
+scegliere_79	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4785-4845	Str -> {s : VForm => Str}
+scendere_80	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4847-4907	
+scendere_80	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4847-4907	Str -> {s : VForm => Str}
+scindere_81	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4909-4969	
+scindere_81	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4909-4969	Str -> {s : VForm => Str}
+scrivere_82	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4971-5031	
+scrivere_82	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:4971-5031	Str -> {s : VForm => Str}
+scuotere_83	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5033-5093	
+scuotere_83	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5033-5093	Str -> {s : VForm => Str}
+sd2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+sedere_84	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5095-5155	
+sedere_84	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5095-5155	Str -> {s : VForm => Str}
+seguire_107	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6412-6417	
+seguire_107	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6412-6417	Str -> {s : VForm => Str}
+sentire_99	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5966-6026	
+sentire_99	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5966-6026	Str -> {s : VForm => Str}
+sp1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+spargere_85	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5157-5217	
+spargere_85	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5157-5217	Str -> {s : VForm => Str}
+spegnere_86	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5219-5279	
+spegnere_86	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5219-5279	Str -> {s : VForm => Str}
+ss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+stare_16	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:817-877	
+stare_16	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:817-877	Str -> {s : VForm => Str}
+strOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+stringere_87	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5281-5341	
+stringere_87	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5281-5341	Str -> {s : VForm => Str}
+studiare_12	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:507-567	
+studiare_12	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:507-567	Str -> {s : VForm => Str}
+svellere_88	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5343-5403	
+svellere_88	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5343-5403	Str -> {s : VForm => Str}
+temere_20	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1065-1125	
+temere_20	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:1065-1125	Str -> {s : VForm => Str}
+tenere_89	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5405-5465	
+tenere_89	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5405-5465	Str -> {s : VForm => Str}
+toLowerFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+toUpperFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+torcere_90	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5467-5527	
+torcere_90	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5467-5527	Str -> {s : VForm => Str}
+trarre_91	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5529-5589	
+trarre_91	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5529-5589	Str -> {s : VForm => Str}
+udire_108	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6419-6423	
+udire_108	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6419-6423	Str -> {s : VForm => Str}
+uscire_109	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6425-6429	
+uscire_109	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6425-6429	Str -> {s : VForm => Str}
+vImper	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+valere_92	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5591-5651	
+valere_92	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5591-5651	Str -> {s : VForm => Str}
+vedere_93	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5653-5713	
+vedere_93	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5653-5713	Str -> {s : VForm => Str}
+venire_110	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6431-6491	
+venire_110	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6431-6491	Str -> {s : VForm => Str}
+verbAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+verbBesch	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6493-6507	
+verbBesch	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:6493-6507	{s : VForm => Str} -> {s : VF => Str}
+vf2numpers	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+vincere_94	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5715-5775	
+vincere_94	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5715-5775	Str -> {s : VForm => Str}
+vivere_95	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5777-5837	
+vivere_95	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5777-5837	Str -> {s : VForm => Str}
+volere_96	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5839-5899	
+volere_96	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5839-5899	Str -> {s : VForm => Str}
+volgere_97	oper-def	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5901-5961	
+volgere_97	oper-type	/home/eidel/lib/GF-master/lib/src/italian/BeschIta.gf:5901-5961	Str -> {s : VForm => Str}
+vpAgrNone	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags

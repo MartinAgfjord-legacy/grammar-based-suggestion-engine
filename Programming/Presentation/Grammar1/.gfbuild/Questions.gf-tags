@@ -1,0 +1,7 @@
+Gothenburg	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar1/Questions.gf:12	Property
+ObjectType	cat	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar1/Questions.gf:7	
+Person	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar1/Questions.gf:11	ObjectType
+Property	cat	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar1/Questions.gf:8	
+Question	cat	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar1/Questions.gf:6	
+Stockholm	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar1/Questions.gf:13	Property
+Work	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar1/Questions.gf:10	ObjectType -> Property -> Question

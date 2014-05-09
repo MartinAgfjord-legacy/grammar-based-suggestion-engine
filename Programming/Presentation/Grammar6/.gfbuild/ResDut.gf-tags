@@ -1,0 +1,287 @@
+AAttr	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:71	AForm
+AForm	param	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:71	
+AGen	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:71	AForm
+APred	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:71	AForm
+Adjective	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:74	
+Adjective	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:74	Type
+Adjf	param	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:377	
+Agr	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:438	
+Agr	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:438	Type
+Anter	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Anteriority	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+Bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+CAPIT	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+CardOrd	param	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:433	
+Case	param	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:15	
+Clause	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:548-550	
+Clause	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:548-550	Type
+Compar	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Cond	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+DForm	param	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:434	
+DTail	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+DTeen	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:434	DForm
+DTen	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:434	DForm
+DUnit	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:434	DForm
+Degree	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+E0	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+E1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+E2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ENumber	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Emore	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+False	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Fut	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Gen	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:15	Case
+Gender	param	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:16	
+ImpF	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+ImpForm	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Inv	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:400	Order
+Main	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:400	Order
+NCard	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:433	Gender -> Case -> CardOrd
+NF	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:18	Number -> Case -> NForm
+NForm	param	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:18	
+NOrd	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:433	AForm -> CardOrd
+NPAcc	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:20	NPCase
+NPCase	param	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:20	
+NPNom	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:20	NPCase
+Neg	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Neutr	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:16	Gender
+Nom	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:15	Case
+Noun	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:23	
+Noun	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:23	Type
+Number	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Order	param	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:400	
+P1	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+P2	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+P3	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+PARA	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Past	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Person	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Pl	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Polarity	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Pos	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Posit	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Preposition	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:396	
+Preposition	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:396	Type
+Pres	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Pronoun	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:357-361	
+Pronoun	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:357-361	Type
+QDir	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+QForm	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+QIndir	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+RAg	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:428	Number -> Person -> RAgr
+RAgr	param	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:428	
+RNoAg	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:428	RAgr
+SD2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SOFT_BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+SP1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SS1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Sg	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Simul	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Strong	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:377	Adjf
+Sub	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:400	Order
+Superl	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+T1	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+T2	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+T3	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Tense	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+True	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Utr	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:16	Gender
+VAct	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:383	VType
+VAux	param	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:381	
+VForm	param	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:105-117	
+VHebben	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:381	VAux
+VImp2	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:113-114	VForm
+VImp3	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:114-115	VForm
+VImpPl	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:115-116	VForm
+VInf	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:106-107	VForm
+VP	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:454-463	
+VP	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:454-463	Type
+VPart	param	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:119	
+VPart_aan	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:119	VPart
+VPart_af	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:119	VPart
+VPart_be	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:119	VPart
+VPastPl	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:112-113	VForm
+VPastSg	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:111-112	VForm
+VPerf	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:116-117	VForm
+VPresPl	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:110-111	VForm
+VPresSg1	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:107-108	VForm
+VPresSg2	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:108-109	VForm
+VPresSg3	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:109-110	VForm
+VRefl	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:383	VType
+VType	param	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:383	
+VVerb	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:380	
+VVerb	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:380	Type
+VZijn	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:381	VAux
+Verb	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:122	
+Verb	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:122	Type
+Weak	param-value	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:377	Adjf
+add_s	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:65-68	
+add_s	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:65-68	Str -> Str
+add_vowel_regVerb	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:257-263	
+add_vowel_regVerb	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:257-263	Str -> {s : VForm => Str}
+agrAdj	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:448-452	
+agrAdj	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:448-452	Gender -> Adjf -> NForm -> AForm
+agrP3	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:441	
+agrP3	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:441	Number -> {g : Gender; n : Number; p : Person}
+agrgP3	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:443-444	
+agrgP3	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:443-444	Gender -> Number -> {g : Gender; n : Number; p : Person}
+andB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+appPrep	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:397	
+appPrep	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:397	Str -> (NPCase => Str) -> Str
+auxVV	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:665	
+auxVV	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:665	{s : VForm => Str; aux : VAux; prefix : Str; vtype : VType} -> {s : VForm => Str; aux : VAux; isAux : Bool; prefix : Str; vtype : VType}
+auxVerb	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:595-598	
+auxVerb	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:595-598	VAux -> {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}
+bothWays	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+capitalize	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+cc2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+cc3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+conjAgr	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:625-629	
+conjAgr	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:625-629	{g : Gender; n : Number; p : Person} -> {g : Gender; n : Number; p : Person} -> {g : Gender; n : Number; p : Person}
+conjNumber	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+conjPerson	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+conjThan	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:623	
+conjThan	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:623	Str
+conjThat	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:621	
+conjThat	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:621	Str
+constStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+constTable	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+d_end_regVerb	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:250-254	
+d_end_regVerb	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:250-254	Str -> {s : VForm => Str}
+d_regVerb	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:227-232	
+d_regVerb	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:227-232	Str -> Str -> {s : VForm => Str}
+dupCons	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:63	
+dupCons	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:63	pattern Str
+eNext	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+embedInCommas	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+embedSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+endComma	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+endCons	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:56-61	
+endCons	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:56-61	Str -> Str
+glue	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+glueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+heavyNP	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:667-669	
+heavyNP	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:667-669	{s : NPCase => Str; a : {g : Gender; n : Number; p : Person}} -> {s : NPCase => Str; a : {g : Gender; n : Number; p : Person}; isPron : Bool}
+hebben_V	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:297-314	
+hebben_V	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:297-314	{s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}
+het_Pron	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:371	
+het_Pron	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:371	{a : {g : Gender; n : Number; p : Person}; stressed : {acc : Str; nom : Str; poss : Str}; substposs : Str; unstressed : {acc : Str; nom : Str; poss : Str}}
+id	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ifTok	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+if_then_Str	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+if_then_else	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+infPart	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:633	
+infPart	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:633	Bool -> Str
+infVP	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:600-606	
+infVP	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:600-606	Bool -> {s : {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}; a1 : Polarity => Str; a2 : Str; ext : Str; inf : {p1 : Str; p2 : Bool}; isAux : Bool; n0 : {g : Gender; n : Number; p : Person} => Str; n2 : {g : Gender; n : Number; p : Person} => Str} -> {p1 : {g : Gender; n : Number; p : Person} => Str; p2 : Str; p3 : Str}
+infixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+init	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+insertAdV	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:502-511	
+insertAdV	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:502-511	Str -> {s : {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}; a1 : Polarity => Str; a2 : Str; ext : Str; inf : {p1 : Str; p2 : Bool}; isAux : Bool; n0 : {g : Gender; n : Number; p : Person} => Str; n2 : {g : Gender; n : Number; p : Person} => Str} -> {s : {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}; a1 : Polarity => Str; a2 : Str; ext : Str; inf : {p1 : Str; p2 : Bool}; isAux : Bool; n0 : {g : Gender; n : Number; p : Person} => Str; n2 : {g : Gender; n : Number; p : Person} => Str}
+insertAdv	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:513-522	
+insertAdv	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:513-522	Str -> {s : {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}; a1 : Polarity => Str; a2 : Str; ext : Str; inf : {p1 : Str; p2 : Bool}; isAux : Bool; n0 : {g : Gender; n : Number; p : Person} => Str; n2 : {g : Gender; n : Number; p : Person} => Str} -> {s : {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}; a1 : Polarity => Str; a2 : Str; ext : Str; inf : {p1 : Str; p2 : Bool}; isAux : Bool; n0 : {g : Gender; n : Number; p : Person} => Str; n2 : {g : Gender; n : Number; p : Person} => Str}
+insertExtrapos	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:524-533	
+insertExtrapos	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:524-533	Str -> {s : {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}; a1 : Polarity => Str; a2 : Str; ext : Str; inf : {p1 : Str; p2 : Bool}; isAux : Bool; n0 : {g : Gender; n : Number; p : Person} => Str; n2 : {g : Gender; n : Number; p : Person} => Str} -> {s : {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}; a1 : Polarity => Str; a2 : Str; ext : Str; inf : {p1 : Str; p2 : Bool}; isAux : Bool; n0 : {g : Gender; n : Number; p : Person} => Str; n2 : {g : Gender; n : Number; p : Person} => Str}
+insertInf	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:535-544	
+insertInf	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:535-544	Str -> {s : {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}; a1 : Polarity => Str; a2 : Str; ext : Str; inf : {p1 : Str; p2 : Bool}; isAux : Bool; n0 : {g : Gender; n : Number; p : Person} => Str; n2 : {g : Gender; n : Number; p : Person} => Str} -> {s : {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}; a1 : Polarity => Str; a2 : Str; ext : Str; inf : {p1 : Str; p2 : Bool}; isAux : Bool; n0 : {g : Gender; n : Number; p : Person} => Str; n2 : {g : Gender; n : Number; p : Person} => Str}
+insertObj	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:489	
+insertObj	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:489	({g : Gender; n : Number; p : Person} => Str) -> {s : {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}; a1 : Polarity => Str; a2 : Str; ext : Str; inf : {p1 : Str; p2 : Bool}; isAux : Bool; n0 : {g : Gender; n : Number; p : Person} => Str; n2 : {g : Gender; n : Number; p : Person} => Str} -> {s : {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}; a1 : Polarity => Str; a2 : Str; ext : Str; inf : {p1 : Str; p2 : Bool}; isAux : Bool; n0 : {g : Gender; n : Number; p : Person} => Str; n2 : {g : Gender; n : Number; p : Person} => Str}
+insertObjNP	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:491-500	
+insertObjNP	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:491-500	Bool -> ({g : Gender; n : Number; p : Person} => Str) -> {s : {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}; a1 : Polarity => Str; a2 : Str; ext : Str; inf : {p1 : Str; p2 : Bool}; isAux : Bool; n0 : {g : Gender; n : Number; p : Person} => Str; n2 : {g : Gender; n : Number; p : Person} => Str} -> {s : {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}; a1 : Polarity => Str; a2 : Str; ext : Str; inf : {p1 : Str; p2 : Bool}; isAux : Bool; n0 : {g : Gender; n : Number; p : Person} => Str; n2 : {g : Gender; n : Number; p : Person} => Str}
+irregVerb	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:138-141	
+irregVerb	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:138-141	(breken : Str) -> (brak : Str) -> (gebroken : Str) -> {s : VForm => Str}
+irregVerb2	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:143-146	
+irregVerb2	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:143-146	(breken : Str) -> (brak : Str) -> (braken : Str) -> (gebroken : Str) -> {s : VForm => Str}
+isNil	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+kunnen_V	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:335-352	
+kunnen_V	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:335-352	{s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}
+last	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+mkAdjective	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:76-82	
+mkAdjective	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:76-82	Str -> Str -> Str -> Str -> Str -> {s : Degree => AForm => Str}
+mkClause	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:552-593	
+mkClause	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:552-593	Str -> {g : Gender; n : Number; p : Person} -> {s : {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}; a1 : Polarity => Str; a2 : Str; ext : Str; inf : {p1 : Str; p2 : Bool}; isAux : Bool; n0 : {g : Gender; n : Number; p : Person} => Str; n2 : {g : Gender; n : Number; p : Person} => Str} -> {s : Tense => Anteriority => Polarity => Order => Str}
+mkDet	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:635-641	
+mkDet	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:635-641	Str -> Str -> Number -> {s : Gender => Str; a : Adjf; n : Number; sp : Gender => Str}
+mkNP	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:659-663	
+mkNP	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:659-663	Str -> Gender -> Number -> {s : NPCase => Str; a : {g : Gender; n : Number; p : Person}; isPron : Bool}
+mkNoun	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:25-33	
+mkNoun	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:25-33	Str -> Str -> Gender -> {s : NForm => Str; g : Gender}
+mkPredet	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:654-657	
+mkPredet	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:654-657	Str -> Str -> {s : Number => Gender => Str}
+mkPronoun	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:363-369	
+mkPronoun	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:363-369	(x1 : Str) -> Str -> Str -> Str -> Str -> (x6 : Str) -> (x7 : Str) -> Gender -> Number -> Person -> {a : {g : Gender; n : Number; p : Person}; stressed : {acc : Str; nom : Str; poss : Str}; substposs : Str; unstressed : {acc : Str; nom : Str; poss : Str}}
+mkQuant	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:643-652	
+mkQuant	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:643-652	Str -> Str -> {s : Bool => Number => Gender => Str; a : Adjf; sp : Number => Gender => Str}
+mkStem	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:186-216	
+mkStem	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:186-216	Str -> Str
+mkVerb	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:124-134	
+mkVerb	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:124-134	Str -> Str -> Str -> Str -> Str -> Str -> Str -> {s : VForm => Str}
+negation	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:482-485	
+negation	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:482-485	Polarity => Str
+noglueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+nonExist	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+notB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+numImp	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+onlyIf	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+optStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+orB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+paren	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+parenss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+pbool2bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+polCases	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+postfixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+preOrPost	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+predV	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:465	
+predV	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:465	{s : VForm => Str; aux : VAux; prefix : Str; vtype : VType} -> {s : {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}; a1 : Polarity => Str; a2 : Str; ext : Str; inf : {p1 : Str; p2 : Bool}; isAux : Bool; n0 : {g : Gender; n : Number; p : Person} => Str; n2 : {g : Gender; n : Number; p : Person} => Str}
+predVGen	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:468-480	
+predVGen	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:468-480	Bool -> {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType} -> {s : {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}; a1 : Polarity => Str; a2 : Str; ext : Str; inf : {p1 : Str; p2 : Bool}; isAux : Bool; n0 : {g : Gender; n : Number; p : Person} => Str; n2 : {g : Gender; n : Number; p : Person} => Str}
+prefixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+prefixV	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:150-163	
+prefixV	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:150-163	Str -> {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType} -> {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}
+reflPron	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:612-619	
+reflPron	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:612-619	{g : Gender; n : Number; p : Person} => Str
+regAdjective	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:83-102	
+regAdjective	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:83-102	Str -> {s : Degree => AForm => Str}
+regNoun	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:35-47	
+regNoun	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:35-47	Str -> {s : NForm => Str; g : Gender}
+regNounG	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:49-52	
+regNounG	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:49-52	Str -> Gender -> {s : NForm => Str; g : Gender}
+regVerb	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:136	
+regVerb	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:136	Str -> {s : VForm => Str}
+sd2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+shortVoc	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:54	
+shortVoc	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:54	Str -> Str -> Str
+smartVerb	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:166-178	
+smartVerb	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:166-178	Str -> Str -> {s : VForm => Str}
+sp1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+strOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+t_end_regVerb	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:243-247	
+t_end_regVerb	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:243-247	Str -> {s : VForm => Str}
+t_regVerb	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:235-240	
+t_regVerb	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:235-240	Str -> Str -> {s : VForm => Str}
+toLowerFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+toUpperFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+useInfVP	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:608-610	
+useInfVP	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:608-610	Bool -> {s : {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}; a1 : Polarity => Str; a2 : Str; ext : Str; inf : {p1 : Str; p2 : Bool}; isAux : Bool; n0 : {g : Gender; n : Number; p : Person} => Str; n2 : {g : Gender; n : Number; p : Person} => Str} -> Str
+v2vv	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:388	
+v2vv	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:388	{s : VForm => Str} -> {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}
+v2vvAux	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:386-387	
+v2vvAux	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:386-387	{s : VForm => Str} -> VAux -> {s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}
+vForm	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:403-423	
+vForm	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:403-423	Tense -> Gender -> Number -> Person -> Order -> VForm
+v_regVerb	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:272-276	
+v_regVerb	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:272-276	Str -> {s : VForm => Str}
+worden_V	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:354-355	
+worden_V	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:354-355	{s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}
+z_regVerb	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:266-269	
+z_regVerb	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:266-269	Str -> {s : VForm => Str}
+zijn_V	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:278-295	
+zijn_V	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:278-295	{s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}
+zullen_V	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:316-333	
+zullen_V	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/ResDut.gf:316-333	{s : VForm => Str; aux : VAux; prefix : Str; vtype : VType}

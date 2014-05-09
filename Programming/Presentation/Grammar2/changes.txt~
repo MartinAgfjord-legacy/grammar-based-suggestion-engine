@@ -1,0 +1,1 @@
+Now uses a general function to handle questions and separates the relations into their own functions. In addition, the verb "work" can only be concatenated with locations. Also added the verb "know" which works with expertises.

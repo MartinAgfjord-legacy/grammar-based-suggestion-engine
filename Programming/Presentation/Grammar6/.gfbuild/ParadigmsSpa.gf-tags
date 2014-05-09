@@ -1,0 +1,652 @@
+A	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+A2	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+A2S	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:445	
+A2S	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:299	Type
+A2V	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:445	
+A2V	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:299	Type
+AA	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+AAgr	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+AF	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+AForm	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+AP	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+AS	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:444	
+AS	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:299	Type
+AV	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:444	
+AV	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:299	Type
+Acc	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+AdA	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+AdN	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+AdV	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+Adj	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Adv	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+Ag	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Agr	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Ant	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+Anter	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Anteriority	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Aton	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+BIND	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+Bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+CAPIT	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+CAdv	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+CAgr	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+CN	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+CNone	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+CPrep	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+CPron	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+CRefl	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Card	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+CardOrd	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Case	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+Cl	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+ClSlash	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+Clit3	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+Comp	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+Compar	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Compl	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+Cond	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+Cond	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Conj	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+Conjunct	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+DDir	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+DInv	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+DTail	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Degree	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Det	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+Digits	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+Direct	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+E0	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+E1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+E2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ENumber	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+Emore	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+Error	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+False	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+Fem	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Fut	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+Fut	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Gender	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Gender	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:308	
+Gender	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:42	Type
+Ger	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+IAdv	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+IComp	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+IDet	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+IP	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+IQuant	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+Imp	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+ImpF	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+ImpForm	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Imper	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+Impf	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+ImpfSub2	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+Ind	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+Indic	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Infn	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+Int	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+Interj	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+Ints	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+Masc	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Mode	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+Mood	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+N	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+N2	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+N3	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+NCard	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+NOrd	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+NP	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+NPForm	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+Neg	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Nom	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+Noun	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+NounPhrase	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+Num	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+NumPersI	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Number	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Number	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:309	
+Number	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:49	Type
+Numeral	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+Ord	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+P1	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+P2	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+P3	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+PARA	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+PAg	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+PAgr	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+PBool	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+PConj	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+PFalse	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+PGen	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+PN	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+PNoAg	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+PNoGen	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+PTrue	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+P_a	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+P_de	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+Part	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+Pass	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+Past	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Person	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Phr	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+Pl	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+PlP1	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+PlP2	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Pol	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+Polarity	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Pos	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Posit	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Poss	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+Predet	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+Prep	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+Prepos	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+Pres	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+Pres	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Pret	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+Pron	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+PronGen	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Pronoun	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+QCl	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+QDir	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+QForm	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+QIndir	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+QS	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+Quant	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+RAg	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+RAgr	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+RCl	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+RCond	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+RFut	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+RNeg	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+RNoAg	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+RP	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+RPasse	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+RPast	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+RPolarity	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+RPos	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+RPres	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+RS	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+RTense	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+S	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+SC	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+SD2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+SOFT_BIND	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+SOFT_BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+SP1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+SS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+SS1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+SSlash	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+Sg	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+SgP2	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Simul	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Sub	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+Subj	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+Superl	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+T1	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+T2	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+T3	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+TMood	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+Temp	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+Tense	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+Tense	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Text	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+Ton	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+True	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+Utt	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+V	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+V0	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:443	
+V0	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:298	Type
+V2	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+V2A	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+V2Q	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+V2S	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+V2V	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+V3	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+VA	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+VCondit	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VF	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VFB	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+VFin	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VFut	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VGer	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VHabere	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+VI	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+VImper	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VImperf	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VImpers	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+VInfin	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VP	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+VP	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+VPAgr	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VPAgrClit	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VPAgrSubj	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VPB	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+VPFinite	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VPForm	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VPGerund	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VPImperat	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VPInfinit	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VPSlash	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+VPart	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VPasse	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VPers	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+VPres	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+VQ	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+VRefl	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+VS	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+VType	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+VV	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CatSpa.gf-tags
+Verb	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+Verbum	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+Voc	indir	CatSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonX.gf-tags
+aN2	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:329	
+aN2	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:110	{s : Number => Str; g : Gender; lock_N : {}} -> {s : Number => Str; c2 : {s : Str; c : Case; isDir : Bool}; g : Gender; lock_N2 : {}}
+aVV	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:452	
+aVV	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:268	{s : VF => Str; lock_V : {}; vtyp : VType} -> {s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; lock_VV : {}; vtyp : VType}
+aagr	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+aagrForms	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+abolir_8	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+accusative	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+accusative	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:315	
+accusative	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:59	{s : Str; c : Case; isDir : Bool; lock_Prep : {}}
+actuar_9	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+addClit3	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+adjBlu	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/MorphoSpa.gf-tags
+adjEs	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/MorphoSpa.gf-tags
+adjEspanol	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/MorphoSpa.gf-tags
+adjSolo	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/MorphoSpa.gf-tags
+adjUtil	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/MorphoSpa.gf-tags
+adjVn	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/MorphoSpa.gf-tags
+adquirir_10	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+aform2gender	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+aform2number	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+agrP3	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+ahincar_11	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+airar_12	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+amar_87	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+andB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+andar_13	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+appCompl	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+appVPAgr	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+argPron	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+artDef	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+artIndef	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+asir_14	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+aullar_15	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+auxPassive	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+auxVerb	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+avergonzar_16	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+averiguar_17	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+bindIf	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+bothWays	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+bruñir_18	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+caber_19	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+caer_20	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+capitalize	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+case2npform	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+cazar_21	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+cc2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+cc3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+clitInf	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+cocer_22	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+coger_23	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+colgar_24	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+compADeg	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:356-359	
+compADeg	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:500	{s : Degree => AForm => Str; isPre : Bool; lock_A : {}} -> {s : Degree => AForm => Str; isPre : Bool; lock_A : {}}
+compN	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:323	
+compN	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:97	{s : Number => Str; g : Gender; lock_N : {}} -> Str -> {s : Number => Str; g : Gender; lock_N : {}}
+complAcc	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+complAgr	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+complDat	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+complGen	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+conjAgr	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+conjGender	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+conjNumber	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+conjPerson	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+conjThan	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+conjThat	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+conjunctCase	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+conocer_25	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+constStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+constTable	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+contar_38b	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+copula	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+cortar_5	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+creer_26	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+dar_27	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+dative	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+dative	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:317	
+dative	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:61	{s : Str; c : Case; isDir : Bool; lock_Prep : {}}
+deN2	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:328	
+deN2	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:109	{s : Number => Str; g : Gender; lock_N : {}} -> {s : Number => Str; c2 : {s : Str; c : Case; isDir : Bool}; g : Gender; lock_N2 : {}}
+deVV	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:451	
+deVV	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:267	{s : VF => Str; lock_V : {}; vtyp : VType} -> {s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; lock_VV : {}; vtyp : VType}
+deber_6	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+decir_28	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+defender_29	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+delinquir_30	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+desosar_31	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+dirV2	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:409	
+dirV2	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:525	{s : VF => Str; lock_V : {}; vtyp : VType} -> {s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; lock_V2 : {}; vtyp : VType}
+dirV3	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:416	
+dirV3	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:255	{s : VF => Str; lock_V : {}; vtyp : VType} -> {s : Str; c : Case; isDir : Bool; lock_Prep : {}} -> {s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; c3 : {s : Str; c : Case; isDir : Bool}; lock_V3 : {}; vtyp : VType}
+dirdirV3	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:417	
+dirdirV3	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:256	{s : VF => Str; lock_V : {}; vtyp : VType} -> {s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; c3 : {s : Str; c : Case; isDir : Bool}; lock_V3 : {}; vtyp : VType}
+dirigir_32	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+discernir_33	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+distinguir_34	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+dormir_35	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+dp	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+drop	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+eNext	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+elegir_36	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+embedInCommas	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+embedSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+empezar_37	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+encontrar_38	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+endComma	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+enraizar_39	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+eqInt	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+eqStr	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+eqVal	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+erguir_40	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+errar_41	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+error	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+estar_2	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+femN	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:324	
+femN	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:474	{s : Number => Str; g : Gender; lock_N : {}} -> {s : Number => Str; g : Gender; lock_N : {}}
+feminine	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:311	
+feminine	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:45	Gender
+forzar_42	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+genForms	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+genitive	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+genitive	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:316	
+genitive	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:60	{s : Str; c : Case; isDir : Bool; lock_Prep : {}}
+glue	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+glueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+guiar_43	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+haber_3	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+haber_V	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+hacer_44	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+hay_3	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+heavyNP	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+heavyNPpol	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+id	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ifTok	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+if_then_Str	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+if_then_else	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+imperClit	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+infForm	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+infVP	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+infixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+influir_45	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+init	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+insertAdV	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+insertAdv	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+insertAgr	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+insertClit3	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+insertComplement	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+insertExtrapos	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+insertObject	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+insertRefl	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+invertedClause	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+ir_46	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+isNil	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+isUpper	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+isVRefl	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+jugar_47	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+last	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+length	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+lessInt	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+llover_89	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+lucir_48	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+makeNP	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:340	
+makeNP	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:487	Str -> Gender -> Number -> {s : Case => {c1 : Str; c2 : Str; comp : Str; ton : Str}; a : {g : Gender; n : Number; p : Person}; hasClit : Bool; isNeg : Bool; isPol : Bool; lock_NP : {}}
+mapStr	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+mascN	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:325	
+mascN	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:473	{s : Number => Str; g : Gender; lock_N : {}} -> {s : Number => Str; g : Gender; lock_N : {}}
+masculine	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:310	
+masculine	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:44	Gender
+mecer_49	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+mk2A	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:345-346	
+mk2A	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:497	(espanol : Str) -> (espanola : Str) -> {s : Degree => AForm => Str; isPre : Bool; lock_A : {}}
+mk2N	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:321	
+mk2N	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:472	(baston : Str) -> (bastones : Str) -> Gender -> {s : Number => Str; g : Gender; lock_N : {}}
+mk2PN	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:332	
+mk2PN	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:481	Str -> Gender -> {s : Str; g : Gender; lock_PN : {}}
+mk2V2	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:408	
+mk2V2	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:524	{s : VF => Str; lock_V : {}; vtyp : VType} -> {s : Str; c : Case; isDir : Bool; lock_Prep : {}} -> {s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; lock_V2 : {}; vtyp : VType}
+mk5A	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:342-343	
+mk5A	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:496	(solo : Str) -> (sola : Str) -> (solos : Str) -> (solas : Str) -> (solamente : Str) -> {s : Degree => AForm => Str; isPre : Bool; lock_A : {}}
+mkA	overload-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:489-494	
+mkA	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:489-494	(bueno : {s : Degree => AForm => Str; isPre : Bool; lock_A : {}}) -> (mejor : {s : Degree => AForm => Str; isPre : Bool; lock_A : {}}) -> {s : Degree => AForm => Str; isPre : Bool; lock_A : {}}
+mkA	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:489-494	(espanol : Str) -> (espanola : Str) -> {s : Degree => AForm => Str; isPre : Bool; lock_A : {}}
+mkA	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:489-494	(solo : Str) -> (sola : Str) -> (solos : Str) -> (solas : Str) -> (solamente : Str) -> {s : Degree => AForm => Str; isPre : Bool; lock_A : {}}
+mkA	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:489-494	(util : Str) -> {s : Degree => AForm => Str; isPre : Bool; lock_A : {}}
+mkA2	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:351	
+mkA2	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:173	{s : Degree => AForm => Str; isPre : Bool; lock_A : {}} -> {s : Str; c : Case; isDir : Bool; lock_Prep : {}} -> {s : Degree => AForm => Str; c2 : {s : Str; c : Case; isDir : Bool}; lock_A2 : {}}
+mkA2S	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:460	
+mkA2S	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:289	{s : Degree => AForm => Str; isPre : Bool; lock_A : {}} -> {s : Str; c : Case; isDir : Bool; lock_Prep : {}} -> {s : Degree => AForm => Str; c2 : {s : Str; c : Case; isDir : Bool}; lock_A2 : {}}
+mkA2V	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:462	
+mkA2V	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:291	{s : Degree => AForm => Str; isPre : Bool; lock_A : {}} -> {s : Str; c : Case; isDir : Bool; lock_Prep : {}} -> {s : Str; c : Case; isDir : Bool; lock_Prep : {}} -> {s : Degree => AForm => Str; c2 : {s : Str; c : Case; isDir : Bool}; lock_A2 : {}}
+mkADeg	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:353-355	
+mkADeg	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:499	{s : Degree => AForm => Str; isPre : Bool; lock_A : {}} -> {s : Degree => AForm => Str; isPre : Bool; lock_A : {}} -> {s : Degree => AForm => Str; isPre : Bool; lock_A : {}}
+mkAS	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:459	
+mkAS	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:288	{s : Degree => AForm => Str; isPre : Bool; lock_A : {}} -> {s : Degree => AForm => Str; isPre : Bool; lock_A : {}}
+mkAV	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:461	
+mkAV	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:290	{s : Degree => AForm => Str; isPre : Bool; lock_A : {}} -> {s : Str; c : Case; isDir : Bool; lock_Prep : {}} -> {s : Degree => AForm => Str; isPre : Bool; lock_A : {}}
+mkAdA	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:364	
+mkAdA	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:189	Str -> {s : Str; lock_AdA : {}}
+mkAdN	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:365	
+mkAdN	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:191	Str -> {s : Str; lock_AdN : {}}
+mkAdV	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:363	
+mkAdV	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:185	Str -> {s : Str; lock_AdV : {}}
+mkAdj	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/MorphoSpa.gf-tags
+mkAdjReg	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/MorphoSpa.gf-tags
+mkAdv	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:362	
+mkAdv	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:181	Str -> {s : Str; lock_Adv : {}}
+mkClause	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+mkClausePol	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+mkDeterminer	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/MorphoSpa.gf-tags
+mkIDet	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/MorphoSpa.gf-tags
+mkImperative	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+mkN	overload-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:466-470	
+mkN	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:466-470	(baston : Str) -> (bastones : Str) -> Gender -> {s : Number => Str; g : Gender; lock_N : {}}
+mkN	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:466-470	(luz : Str) -> {s : Number => Str; g : Gender; lock_N : {}}
+mkN	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:466-470	(s : Str) -> (g : Gender) -> {s : Number => Str; g : Gender; lock_N : {}}
+mkN2	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:327	
+mkN2	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:104	{s : Number => Str; g : Gender; lock_N : {}} -> {s : Str; c : Case; isDir : Bool; lock_Prep : {}} -> {s : Number => Str; c2 : {s : Str; c : Case; isDir : Bool}; g : Gender; lock_N2 : {}}
+mkN3	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:330	
+mkN3	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:114	{s : Number => Str; g : Gender; lock_N : {}} -> {s : Str; c : Case; isDir : Bool; lock_Prep : {}} -> {s : Str; c : Case; isDir : Bool; lock_Prep : {}} -> {s : Number => Str; c2 : {s : Str; c : Case; isDir : Bool}; c3 : {s : Str; c : Case; isDir : Bool}; g : Gender; lock_N3 : {}}
+mkNomReg	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/MorphoSpa.gf-tags
+mkNoun	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/MorphoSpa.gf-tags
+mkNounIrreg	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/MorphoSpa.gf-tags
+mkOrd	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+mkOrdinal	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/MorphoSpa.gf-tags
+mkPN	overload-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:477-480	
+mkPN	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:477-480	(Anna : Str) -> {s : Str; g : Gender; lock_PN : {}}
+mkPN	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:477-480	(Pilar : Str) -> Gender -> {s : Str; g : Gender; lock_PN : {}}
+mkPrep	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:318	
+mkPrep	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:63	Str -> {s : Str; c : Case; isDir : Bool; lock_Prep : {}}
+mkPronoun	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/MorphoSpa.gf-tags
+mkQuantifier	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/MorphoSpa.gf-tags
+mkV	overload-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:505-514	
+mkV	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:505-514	(mostrar : Str) -> (muestro : Str) -> {s : VF => Str; lock_V : {}; vtyp : VType}
+mkV	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:505-514	(s : Str) -> {s : VF => Str; lock_V : {}; vtyp : VType}
+mkV	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:505-514	(v : {s : VF => Str; lock_V : {}; vtyp : VType}) -> Str -> {s : VF => Str; lock_V : {}; vtyp : VType}
+mkV	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:505-514	{s : VFB => Str} -> {s : VF => Str; lock_V : {}; vtyp : VType}
+mkV0	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:447	
+mkV0	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:263	{s : VF => Str; lock_V : {}; vtyp : VType} -> {s : VF => Str; lock_V : {}; vtyp : VType}
+mkV2	overload-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:519-523	
+mkV2	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:519-523	(s : Str) -> {s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; lock_V2 : {}; vtyp : VType}
+mkV2	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:519-523	{s : VF => Str; lock_V : {}; vtyp : VType} -> {s : Str; c : Case; isDir : Bool; lock_Prep : {}} -> {s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; lock_V2 : {}; vtyp : VType}
+mkV2	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:519-523	{s : VF => Str; lock_V : {}; vtyp : VType} -> {s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; lock_V2 : {}; vtyp : VType}
+mkV2A	overload-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:437-440	
+mkV2A	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:437-440	(v : {s : VF => Str; lock_V : {}; vtyp : VType}) -> (p : {s : Str; c : Case; isDir : Bool; lock_Prep : {}}) -> (q : {s : Str; c : Case; isDir : Bool; lock_Prep : {}}) -> {s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; c3 : {s : Str; c : Case; isDir : Bool}; lock_V2A : {}; vtyp : VType}
+mkV2A	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:437-440	(v : {s : VF => Str; lock_V : {}; vtyp : VType}) -> {s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; c3 : {s : Str; c : Case; isDir : Bool}; lock_V2A : {}; vtyp : VType}
+mkV2Q	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:457	
+mkV2Q	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:273	{s : VF => Str; lock_V : {}; vtyp : VType} -> {s : Str; c : Case; isDir : Bool; lock_Prep : {}} -> {s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; lock_V2Q : {}; vtyp : VType}
+mkV2S	overload-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:428-431	
+mkV2S	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:428-431	(v : {s : VF => Str; lock_V : {}; vtyp : VType}) -> (p : {s : Str; c : Case; isDir : Bool; lock_Prep : {}}) -> {s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; lock_V2S : {}; vtyp : VType}
+mkV2S	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:428-431	(v : {s : VF => Str; lock_V : {}; vtyp : VType}) -> {s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; lock_V2S : {}; vtyp : VType}
+mkV2V	overload-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:432-435	
+mkV2V	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:432-435	(v : {s : VF => Str; lock_V : {}; vtyp : VType}) -> (p : {s : Str; c : Case; isDir : Bool; lock_Prep : {}}) -> (q : {s : Str; c : Case; isDir : Bool; lock_Prep : {}}) -> {s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; c3 : {s : Str; c : Case; isDir : Bool}; lock_V2V : {}; vtyp : VType}
+mkV2V	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:432-435	(v : {s : VF => Str; lock_V : {}; vtyp : VType}) -> {s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; c3 : {s : Str; c : Case; isDir : Bool}; lock_V2V : {}; vtyp : VType}
+mkV3	overload-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:422-426	
+mkV3	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:422-426	{s : VF => Str; lock_V : {}; vtyp : VType} -> {s : Str; c : Case; isDir : Bool; lock_Prep : {}} -> {s : Str; c : Case; isDir : Bool; lock_Prep : {}} -> {s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; c3 : {s : Str; c : Case; isDir : Bool}; lock_V3 : {}; vtyp : VType}
+mkV3	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:422-426	{s : VF => Str; lock_V : {}; vtyp : VType} -> {s : Str; c : Case; isDir : Bool; lock_Prep : {}} -> {s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; c3 : {s : Str; c : Case; isDir : Bool}; lock_V3 : {}; vtyp : VType}
+mkV3	overload-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:422-426	{s : VF => Str; lock_V : {}; vtyp : VType} -> {s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; c3 : {s : Str; c : Case; isDir : Bool}; lock_V3 : {}; vtyp : VType}
+mkVA	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:454	
+mkVA	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:270	{s : VF => Str; lock_V : {}; vtyp : VType} -> {s : VF => Str; lock_VA : {}; vtyp : VType}
+mkVPSlash	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+mkVQ	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:456	
+mkVQ	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:272	{s : VF => Str; lock_V : {}; vtyp : VType} -> {s : VF => Str; lock_VQ : {}; vtyp : VType}
+mkVS	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:448	
+mkVS	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:264	{s : VF => Str; lock_V : {}; vtyp : VType} -> {s : VF => Str; lock_VS : {}; m : RPolarity => Mood; vtyp : VType}
+mkVV	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:450	
+mkVV	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:266	{s : VF => Str; lock_V : {}; vtyp : VType} -> {s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; lock_VV : {}; vtyp : VType}
+mmkV2	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:420	
+mmkV2	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:419	{s : VF => Str; lock_V : {}; vtyp : VType} -> {s : Str; c : Case; isDir : Bool; lock_Prep : {}} -> {s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; lock_V2 : {}; vtyp : VType}
+mmkV3	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:415	
+mmkV3	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:414	{s : VF => Str; lock_V : {}; vtyp : VType} -> {s : Str; c : Case; isDir : Bool; lock_Prep : {}} -> {s : Str; c : Case; isDir : Bool; lock_Prep : {}} -> {s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; c3 : {s : Str; c : Case; isDir : Bool}; lock_V3 : {}; vtyp : VType}
+morder_50b	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+morir_35b	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+mover_50	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+negation	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+noglueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+nomPilar	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/MorphoSpa.gf-tags
+nomTram	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/MorphoSpa.gf-tags
+nomVino	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/MorphoSpa.gf-tags
+nominative	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+nonExist	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+nonExist	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+notB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+npform2case	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+numForms	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/MorphoSpa.gf-tags
+numImp	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+occur	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+occurs	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+oir_51	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+oler_52	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+onlyIf	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+optStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+orB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+pagar_53	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+parecer_54	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+paren	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+parenss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+partAgr	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+partQIndir	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+partitive	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+pbool2bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+pedir_55	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+pensar_56	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+placer_57	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+plural	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:313	
+plural	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:52	Number
+plus	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+pn2np	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+pn2npNeg	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+pn2npPol	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+poder_58	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+polCases	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+polNegDirSubj	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+poner_60	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+possCase	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+postfixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+preOrPost	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+predV	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+predecir_61	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+prefA	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:349	
+prefA	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:502	{s : Degree => AForm => Str; isPre : Bool; lock_A : {}} -> {s : Degree => AForm => Str; isPre : Bool; lock_A : {}}
+prefixA	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:503	
+prefixA	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:166	{s : Degree => AForm => Str; isPre : Bool; lock_A : {}} -> {s : Degree => AForm => Str; isPre : Bool; lock_A : {}}
+prefixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+prepCase	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+presInd	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+producir_62	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+prohibir_63	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+pronArg	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+pronForms	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/MorphoSpa.gf-tags
+pronSuch	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+prongen2gender	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+quelPron	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+querer_64	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+raer_65	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+read	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+reflPron	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+reflV	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:386	
+reflV	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:220	{s : VF => Str; lock_V : {}; vtyp : VType} -> {s : VF => Str; lock_V : {}; vtyp : VType}
+reflVerboV	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:390	
+reflVerboV	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:390	{s : VFB => Str} -> {s : VF => Str; lock_V : {}; vtyp : VType}
+regA	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:348	
+regA	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:498	Str -> {s : Degree => AForm => Str; isPre : Bool; lock_A : {}}
+regADeg	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:360	
+regADeg	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:501	Str -> {s : Degree => AForm => Str; isPre : Bool; lock_A : {}}
+regAltV	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:401-404	
+regAltV	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:516	(mostrar : Str) -> (muestro : Str) -> {s : VF => Str; lock_V : {}; vtyp : VType}
+regAlternV	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+regAlternVEr	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+regN	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:322	
+regN	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:471	Str -> {s : Number => Str; g : Gender; lock_N : {}}
+regPN	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:333-338	
+regPN	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:482	Str -> {s : Str; g : Gender; lock_PN : {}}
+regV	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:368-384	
+regV	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:515	Str -> {s : VF => Str; lock_V : {}; vtyp : VType}
+regar_66	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+relPron	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+reunir_69	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+reñir_68	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+roer_70	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+saber_71	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+sacar_72	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+salir_73	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+satisfacer_74	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+sd2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+sentir_76	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+ser_1	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+show	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+singular	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:312	
+singular	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:51	Number
+soler_77	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+sp1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+special_ppV	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:392-399	
+special_ppV	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:225	{s : VF => Str; lock_V : {}; vtyp : VType} -> Str -> {s : VF => Str; lock_V : {}; vtyp : VType}
+ss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ss1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ss2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ss3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+strOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+stressedCase	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ResSpa.gf-tags
+subjIf	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+subjPron	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+take	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+tañer_78	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+tener_4	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+tk	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+toLower	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+toLowerFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+toStr	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+toUpper	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+toUpperFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+traer_79	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+trocar_80	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+v2V	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:410	
+v2V	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:243	{s : VF => Str; c2 : {s : Str; c : Case; isDir : Bool}; lock_V2 : {}; vtyp : VType} -> {s : VF => Str; lock_V : {}; vtyp : VType}
+vImper	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+vRefl	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+valer_81	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+venir_82	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+ver_83	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+verbAgr	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+verbBesch	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+verbBeschH	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+verboV	oper-def	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:388	
+verboV	oper-type	/home/eidel/lib/GF-master/lib/src/spanish/ParadigmsSpa.gf:517	{s : VFB => Str} -> {s : VF => Str; lock_V : {}; vtyp : VType}
+vf2numpers	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+vivir_7	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+volver_84	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+vpAgrClit	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/DiffSpa.gf-tags
+vpAgrNone	indir	MorphoSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/CommonRomance.gf-tags
+yacer_85	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags
+zurcir_86	indir	BeschSpa		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/BeschSpa.gf-tags

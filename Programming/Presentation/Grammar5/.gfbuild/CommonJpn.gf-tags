@@ -1,0 +1,222 @@
+Abil	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+AdA	lincat	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:7	
+AdA	lindef	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:7	
+AdA	linref	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:7	
+AdN	lincat	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:19	
+AdN	lindef	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:19	
+AdN	linref	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:19	
+AdV	lincat	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:7	
+AdV	lindef	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:7	
+AdV	linref	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:7	
+Adj	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Adj2	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Adv	lincat	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:17	
+Adv	lindef	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:17	
+Adv	linref	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:17	
+Adverb	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+And	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Anim	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Animateness	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Ant	lincat	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:28	
+Ant	lindef	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:28	
+Ant	linref	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:28	
+Anter	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Anteriority	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+Bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Both	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+CAPIT	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+CAdv	lincat	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:23	
+CAdv	lindef	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:23	
+CAdv	linref	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:23	
+Con	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+ConjType	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Conjunction	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+DTail	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Determiner	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+E0	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+E1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+E2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ENumber	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Emore	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+EndNotZero	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+EndZero	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+False	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Ga	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Gr1	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Gr2	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+IAdv	lincat	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:21	
+IAdv	lindef	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:21	
+IAdv	linref	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:21	
+If	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+ImpPolite	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Imper	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Inanim	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Ind	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Interj	lincat	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:7	
+Interj	lindef	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:7	
+Interj	linref	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:7	
+Kuru	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Me	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+ModSense	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Mood	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+NP	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Neg	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+NoImp	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Noun	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Num	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Number	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+NumeralType	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Oblig	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Or	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+OtherSubj	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+PARA	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+PConj	lincat	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:7	
+PConj	lindef	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:7	
+PConj	linref	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:7	
+Particle	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Phr	lincat	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:9	
+Phr	lindef	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:9	
+Phr	linref	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:9	
+Pl	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Plain	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Please	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Pol	lincat	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:27	
+Pol	lindef	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:27	
+Pol	linref	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:27	
+Polarity	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Pos	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Preposition	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Pronoun	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+PropNoun	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Resp	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+SC	lincat	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:15	
+SC	lindef	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:15	
+SC	linref	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:15	
+SD2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SOFT_BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+SP1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SS1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Sg	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Simul	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+SingleDigit	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+SomeoneElse	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Speaker	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Style	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+SubjType	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Subjunction	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Suru	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+T1	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+T2	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+T3	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+TFut	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+TPast	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+TPres	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+TTense	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Temp	lincat	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:25	
+Temp	lindef	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:25	
+Temp	linref	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:25	
+Tense	lincat	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:26	
+Tense	lindef	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:26	
+Tense	linref	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:26	
+Text	lincat	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:9	
+Text	lindef	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:9	
+Text	linref	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:9	
+That	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+True	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Utt	lincat	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:11	
+Utt	lindef	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:11	
+Utt	linref	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:11	
+UttType	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+VP	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+VV	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Verb	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Verb2	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Verb3	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+VerbGroup	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+VerbalA	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Voc	lincat	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:13	
+Voc	lindef	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:13	
+Voc	linref	/home/eidel/lib/GF-master/lib/src/japanese/CommonJpn.gf:13	
+VocAbs	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+VocPres	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+VocType	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Wa	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+Wish	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+andB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+bothWays	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+capitalize	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+cc2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+cc3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+constStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+constTable	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+eNext	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+embedInCommas	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+embedSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+endComma	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+glue	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+glueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+i_mkAdj	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+id	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ifTok	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+if_then_Str	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+if_then_else	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+infixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+init	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+isNil	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+last	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+mkAdv	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mkBaForm	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mkCan	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mkConj	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mkCopula	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mkDet	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mkExistV	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mkFirst	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mkGive	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mkGo	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mkMust	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mkNP	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mkNoun	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mkNum	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mkPrep	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mkRain	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mkSubj	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mkVerb	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mkVerb2	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mkVerb3	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mkWant	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mk_a_stem	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mk_i_stem	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+mk_plain_past	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+na_mkAdj	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+noglueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+nonExist	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+notB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+numberNoun	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+onlyIf	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+optStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+orB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+paren	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+parenss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+pbool2bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+personPN	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+postfixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+preOrPost	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+prefixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+regAdj	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+regNoun	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+regPN	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+regPron	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+sd2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+sp1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+strOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+styleNoun	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+stylePron	indir	ResJpn		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResJpn.gf-tags
+toLowerFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+toUpperFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags

@@ -1,0 +1,11 @@
+Object	cat	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/Bar.gf:10	
+People	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/Bar.gf:14	Subject
+Question	cat	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/Bar.gf:6	
+Question_QPast	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/Bar.gf:13	Subject -> RelationPast -> Object -> Question
+Question_QPres	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/Bar.gf:12	Subject -> RelationPres -> Object -> Question
+RelationPast	cat	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/Bar.gf:9	
+RelationPres	cat	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/Bar.gf:8	
+SKF	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/Bar.gf:17	Object
+Subject	cat	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/Bar.gf:7	
+WorkPast	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/Bar.gf:16	RelationPast
+WorkPres	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/Bar.gf:15	RelationPres

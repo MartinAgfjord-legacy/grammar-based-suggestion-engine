@@ -1,0 +1,159 @@
+A	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+A2	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+AP	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+AdA	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+AdN	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+AdV	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+Adv	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+AdvComp	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:62	Comp -> Adv -> Comp
+AdvFoc	cat	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:14	
+AdvFocVP	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:28	AdvFoc -> VP -> VP
+Ant	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+BaseVPI	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+BaseVPS	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+CAdv	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+CN	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Card	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Cl	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+ClSlash	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Comp	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+CompBareCN	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+CompIQuant	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+CompPronAD	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:35	PronAD -> Comp
+CompPronAQ	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:34	PronAQ -> Comp
+ComplBareVS	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+ComplVAPronAD	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:37	VA -> PronAD -> VP
+ComplVAPronAQ	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:36	VA -> PronAQ -> VP
+ComplVPIVV	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+CompoundAdjN	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:42	A -> N -> N
+CompoundGenN	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:41	N -> N -> N
+CompoundNomN	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:40	N -> N -> N
+Conj	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+ConjVPI	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+ConjVPS	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+ConsVPI	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+ConsVPS	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+Det	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+DetNP_utr	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:26	Det -> NP
+DetPronAD	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:32	PronAD -> Det
+Digits	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+EmbedPresPart	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+EmptyRelSlash	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+ExistsNP	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+Foc	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+FocAP	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:24	Comp -> NP -> Foc
+FocAdV	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+FocAdv	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+FocNeg	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+FocObj	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+FocVP	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+FocVV	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+FrontExtPredVP	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+GenIP	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+GenNP	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+GenRP	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+IAdv	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+IAdvAdv	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+IComp	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+ICompAP	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+IDet	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+IP	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+IQuant	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Imp	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Interj	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+InvFrontExtPredVP	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+ListVPI	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+ListVPS	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+MkVPI	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+MkVPS	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+N	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+N2	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+N3	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+NP	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+NominalizeVPSlashNP	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+Num	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Numeral	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Ord	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+PConj	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+PN	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+PPartAP	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:59	V2 -> AP
+PartVP	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+PassAgentVPSlash	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+PassV2	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:55	V2 -> VP
+PassV2Be	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:56	V2 -> VP
+PassVPSlash	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+Phr	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+Pol	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+PredVPS	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+Predet	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+PredetAdvF	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:29	AdvFoc -> Predet
+Prep	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+PrepCN	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+ProDrop	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+Pron	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+PronAD	cat	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:8	
+PronAQ	cat	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:10	
+PurposeVP	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+QCl	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+QS	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Quant	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+QuantPronAQ	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:33	PronAQ -> Quant
+RCl	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+RP	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+RS	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+ReflCN	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:47	Num -> CN -> ReflNP
+ReflNP	cat	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:7	
+ReflSlash	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:48	VPSlash -> ReflNP -> VP
+RelSlashVS	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:22	Temp -> Pol -> VS -> NP -> RelVSCl
+RelVS	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:21	S -> RelVSCl -> S
+RelVSCl	cat	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:17	
+S	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+SC	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+SSlash	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+SlashBareV2S	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+StrandQuestSlash	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+StrandRelSlash	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+Subj	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+SupCl	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:51	NP -> VP -> Pol -> S
+TFutKommer	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ExtraScandAbs.gf-tags
+Temp	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+Tense	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+Text	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+UseFoc	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+Utt	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+V	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+V2	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+V2A	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+V2Q	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+V2S	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+V2V	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+V3	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+VA	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+VP	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+VPI	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+VPS	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Extra.gf-tags
+VPSlash	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+VQ	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+VS	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+VV	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Voc	indir	ExtraScandAbs		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+aatskilliga_Det	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:83	Det
+baada_Det	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:78	Det
+baegge_Det	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:77	Det
+bara_AdvFoc	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:67	AdvFoc
+dylika_Det	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:81	Det
+ena_Det	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:76	Det
+fler_PronAD	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:70	PronAD
+hela_Predet	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:71	Predet
+it8utr_Pron	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:44	Pron
+noll_Det	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:86	Det
+oovriga_Det	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:82	Det
+sadana_PronAQ	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:69	PronAQ
+samma_Predet	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:73	Predet
+samtliga_Det	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:84	Det
+sjaelva_Quant	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:72	Quant
+somliga_Det	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:80	Det
+this8denna_Quant	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:45	Quant
+varannan_Det	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:79	Det
+vardera_Det	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:75	Det
+varenda_Det	fun	/home/eidel/lib/GF-master/lib/src/swedish/ExtraSweAbs.gf:74	Det

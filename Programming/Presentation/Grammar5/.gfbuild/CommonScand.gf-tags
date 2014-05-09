@@ -1,0 +1,243 @@
+ACompar	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:38-39	AFormGrad
+AF	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:34	AFormGrad -> Case -> AForm
+AForm	param	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:34	
+AFormGrad	param	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:36-39	
+AFormPos	param	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:43	
+AFormSup	param	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:44	
+APosit	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:37-38	AFormPos -> AFormGrad
+ASuperl	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:39	AFormSup -> AFormGrad
+Act	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:14	Voice
+Adjective	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:174	
+Adjective	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:174	Type
+Agr	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:92	
+Agr	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:92	PType
+Anter	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Anteriority	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+Bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+CAPIT	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Case	param	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:13	
+Clause	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:362-364	
+Clause	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:362-364	Type
+Compar	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Complement	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:90	
+Complement	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:90	Type
+Cond	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+DDef	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:24	Species -> DetSpecies
+DIndef	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:24	DetSpecies
+DTail	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Def	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:12	Species
+Degree	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+DetSpecies	param	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:24	
+E0	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+E1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+E2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ENumber	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Emore	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+False	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Fut	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+GPl	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:30	GenNum
+GSg	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:30	Gender -> GenNum
+Gen	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:13	Case
+GenNum	param	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:30	
+Gender	param	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:32	
+ImpF	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+ImpForm	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Indef	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:12	Species
+Inv	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:18	Order
+Main	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:18	Order
+NPAcc	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:70	NPForm
+NPForm	param	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:70	
+NPNom	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:70	NPForm
+NPPoss	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:70	GenNum -> Case -> NPForm
+Neg	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Neutr	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:32	Gender
+Nom	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:13	Case
+Number	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Order	param	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:18	
+P1	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+P2	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+P3	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+PARA	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+PAg	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:76	Number -> PredetAgr
+PNoAg	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:76	PredetAgr
+Pass	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:14	Voice
+Past	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Person	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Pl	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Polarity	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Pos	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Posit	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+PredetAgr	param	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:76	
+Pres	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+QDir	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+QForm	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+QIndir	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+RAg	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:74	Gender -> Number -> Person -> RAgr
+RAgr	param	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:74	
+RCase	param	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:72	
+RGen	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:72	RCase
+RNoAg	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:74	RAgr
+RNom	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:72	RCase
+RPrep	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:72	Bool -> RCase
+SCond	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:83-84	STense
+SD2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SFut	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:81-82	STense
+SFutKommer	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:82-83	STense
+SOFT_BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+SP1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SPast	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:80-81	STense
+SPres	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:79-80	STense
+SS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SS1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+STense	param	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:78-84	
+Sg	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Simul	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Species	param	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:12	
+Strong	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:43	GenNum -> AFormPos
+Sub	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:18	Order
+SupStrong	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:44	AFormSup
+SupWeak	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:44	AFormSup
+Superl	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+T1	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+T2	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+T3	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Tense	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+True	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Utr	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:32	Gender
+VAct	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:68	VType
+VF	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:47-48	VFin -> VForm
+VFin	param	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:50-54	
+VForm	param	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:46-48	
+VI	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:48	VInf -> VForm
+VImper	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:53-54	Voice -> VFin
+VInf	param	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:56-61	
+VInfin	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:57-58	Voice -> VInf
+VP	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:272-283	
+VP	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:272-283	Type
+VPFinite	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:64-65	STense -> Anteriority -> VPForm
+VPForm	param	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:63-66	
+VPImperat	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:65-66	VPForm
+VPInfinit	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:66	Anteriority -> VPForm
+VPass	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:68	VType
+VPres	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:51-52	Voice -> VFin
+VPret	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:52-53	Voice -> VFin
+VPtPres	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:60-61	Number -> Species -> Case -> VInf
+VPtPret	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:59-60	AFormPos -> Case -> VInf
+VRefl	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:68	VType
+VSupin	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:58-59	Voice -> VInf
+VType	param	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:68	
+Voice	param	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:14	
+Weak	param-value	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:43	Number -> AFormPos
+accusative	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:95	
+accusative	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:95	NPForm
+agrAdj	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:120-125	
+agrAdj	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:120-125	GenNum -> DetSpecies -> AFormPos
+agrAdjNP	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:117-118	
+agrAdjNP	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:117-118	{g : Gender; n : Number; p : Person} -> DetSpecies -> AFormPos
+andB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+artDef	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:239	
+artDef	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:239	GenNum -> Str
+bothWays	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+capitalize	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+caseNP	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:97-100	
+caseNP	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:97-100	NPForm -> Case
+cc2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+cc3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+conjAgr	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:151-155	
+conjAgr	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:151-155	{g : Gender; n : Number; p : Person} -> {g : Gender; n : Number; p : Person} -> {g : Gender; n : Number; p : Person}
+conjGender	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:146-149	
+conjGender	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:146-149	Gender -> Gender -> Gender
+conjNumber	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+conjPerson	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+constStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+constTable	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+detForms	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:262-263	
+detForms	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:262-263	(x1 : Str) -> (x2 : Str) -> (x3 : Str) -> Gender => Number => Str
+eNext	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+embedInCommas	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+embedSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+endComma	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+gennum	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:127-131	
+gennum	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:127-131	Gender -> Number -> GenNum
+gennumAgr	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:133	
+gennumAgr	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:133	{g : Gender; n : Number; p : Person} -> GenNum
+gennumForms	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:255-260	
+gennumForms	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:255-260	(x1 : Str) -> (x2 : Str) -> (x3 : Str) -> GenNum => Str
+glue	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+glueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+id	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ifTok	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+if_then_Str	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+if_then_else	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+infVP	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:354	
+infVP	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:354	{s : Voice => VPForm => {fin : Str; inf : Str}; a1 : Polarity => {g : Gender; n : Number; p : Person} => Str; a2 : Str; ea2 : Bool; eext : Bool; en2 : Bool; ext : Str; n2 : {g : Gender; n : Number; p : Person} => Str} -> {g : Gender; n : Number; p : Person} -> Str
+infVPPlus	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:356-357	
+infVPPlus	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:356-357	{s : Voice => VPForm => {fin : Str; inf : Str}; a1 : Polarity => {g : Gender; n : Number; p : Person} => Str; a2 : Str; ea2 : Bool; eext : Bool; en2 : Bool; ext : Str; n2 : {g : Gender; n : Number; p : Person} => Str} -> {g : Gender; n : Number; p : Person} -> Anteriority -> Polarity -> Str
+infixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+init	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+insertAdV	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:330	
+insertAdV	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:330	Str -> {s : Voice => VPForm => {fin : Str; inf : Str}; a1 : Polarity => {g : Gender; n : Number; p : Person} => Str; a2 : Str; ea2 : Bool; eext : Bool; en2 : Bool; ext : Str; n2 : {g : Gender; n : Number; p : Person} => Str} -> {s : Voice => VPForm => {fin : Str; inf : Str}; a1 : Polarity => {g : Gender; n : Number; p : Person} => Str; a2 : Str; ea2 : Bool; eext : Bool; en2 : Bool; ext : Str; n2 : {g : Gender; n : Number; p : Person} => Str}
+insertAdVAgr	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:332-341	
+insertAdVAgr	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:332-341	({g : Gender; n : Number; p : Person} => Str) -> {s : Voice => VPForm => {fin : Str; inf : Str}; a1 : Polarity => {g : Gender; n : Number; p : Person} => Str; a2 : Str; ea2 : Bool; eext : Bool; en2 : Bool; ext : Str; n2 : {g : Gender; n : Number; p : Person} => Str} -> {s : Voice => VPForm => {fin : Str; inf : Str}; a1 : Polarity => {g : Gender; n : Number; p : Person} => Str; a2 : Str; ea2 : Bool; eext : Bool; en2 : Bool; ext : Str; n2 : {g : Gender; n : Number; p : Person} => Str}
+insertAdv	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:308-317	
+insertAdv	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:308-317	Str -> {s : Voice => VPForm => {fin : Str; inf : Str}; a1 : Polarity => {g : Gender; n : Number; p : Person} => Str; a2 : Str; ea2 : Bool; eext : Bool; en2 : Bool; ext : Str; n2 : {g : Gender; n : Number; p : Person} => Str} -> {s : Voice => VPForm => {fin : Str; inf : Str}; a1 : Polarity => {g : Gender; n : Number; p : Person} => Str; a2 : Str; ea2 : Bool; eext : Bool; en2 : Bool; ext : Str; n2 : {g : Gender; n : Number; p : Person} => Str}
+insertExt	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:319-328	
+insertExt	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:319-328	Str -> {s : Voice => VPForm => {fin : Str; inf : Str}; a1 : Polarity => {g : Gender; n : Number; p : Person} => Str; a2 : Str; ea2 : Bool; eext : Bool; en2 : Bool; ext : Str; n2 : {g : Gender; n : Number; p : Person} => Str} -> {s : Voice => VPForm => {fin : Str; inf : Str}; a1 : Polarity => {g : Gender; n : Number; p : Person} => Str; a2 : Str; ea2 : Bool; eext : Bool; en2 : Bool; ext : Str; n2 : {g : Gender; n : Number; p : Person} => Str}
+insertObj	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:286-295	
+insertObj	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:286-295	({g : Gender; n : Number; p : Person} => Str) -> {s : Voice => VPForm => {fin : Str; inf : Str}; a1 : Polarity => {g : Gender; n : Number; p : Person} => Str; a2 : Str; ea2 : Bool; eext : Bool; en2 : Bool; ext : Str; n2 : {g : Gender; n : Number; p : Person} => Str} -> {s : Voice => VPForm => {fin : Str; inf : Str}; a1 : Polarity => {g : Gender; n : Number; p : Person} => Str; a2 : Str; ea2 : Bool; eext : Bool; en2 : Bool; ext : Str; n2 : {g : Gender; n : Number; p : Person} => Str}
+insertObjPost	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:297-306	
+insertObjPost	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:297-306	({g : Gender; n : Number; p : Person} => Str) -> {s : Voice => VPForm => {fin : Str; inf : Str}; a1 : Polarity => {g : Gender; n : Number; p : Person} => Str; a2 : Str; ea2 : Bool; eext : Bool; en2 : Bool; ext : Str; n2 : {g : Gender; n : Number; p : Person} => Str} -> {s : Voice => VPForm => {fin : Str; inf : Str}; a1 : Polarity => {g : Gender; n : Number; p : Person} => Str; a2 : Str; ea2 : Bool; eext : Bool; en2 : Bool; ext : Str; n2 : {g : Gender; n : Number; p : Person} => Str}
+isNil	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+last	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+mkAdjPos	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:216-226	
+mkAdjPos	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:216-226	AFormPos -> (s1 : Str) -> Str -> Str -> (s4 : Str) -> Str
+mkAdjective	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:176-184	
+mkAdjective	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:176-184	(x1 : Str) -> Str -> Str -> Str -> Str -> Str -> (x7 : Str) -> {s : AForm => Str}
+mkCase	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:208-214	
+mkCase	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:208-214	Case -> Str -> Str
+mkClause	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:366-378	
+mkClause	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:366-378	Str -> {g : Gender; n : Number; p : Person} -> {s : Voice => VPForm => {fin : Str; inf : Str}; a1 : Polarity => {g : Gender; n : Number; p : Person} => Str; a2 : Str; ea2 : Bool; eext : Bool; en2 : Bool; ext : Str; n2 : {g : Gender; n : Number; p : Person} => Str} -> {s : STense => Anteriority => Polarity => Order => Str}
+mkComplement	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:107-113	
+mkComplement	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:107-113	Str -> {s : Str; hasPrep : Bool}
+mkNP	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:241-253	
+mkNP	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:241-253	(x1 : Str) -> Str -> Str -> Str -> (x5 : Str) -> Gender -> Number -> Person -> {s : NPForm => Str; a : {g : Gender; n : Number; p : Person}}
+mkVerb9	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:186-204	
+mkVerb9	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:186-204	(x1 : Str) -> Str -> Str -> Str -> Str -> Str -> Str -> Str -> (x9 : Str) -> {s : VForm => Str; vtype : VType}
+mkVoice	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:228-234	
+mkVoice	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:228-234	Voice -> Str -> Str
+noglueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+nominative	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:94	
+nominative	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:94	NPForm
+nonExist	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+notB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+nounForms	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:166-172	
+nounForms	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:166-172	(x1 : Str) -> Str -> Str -> (x4 : Str) -> Number => Species => Case => Str
+numImp	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+onlyIf	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+optStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+orB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+paren	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+parenss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+passiveVP	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:343-352	
+passiveVP	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:343-352	{s : Voice => VPForm => {fin : Str; inf : Str}; a1 : Polarity => {g : Gender; n : Number; p : Person} => Str; a2 : Str; ea2 : Bool; eext : Bool; en2 : Bool; ext : Str; n2 : {g : Gender; n : Number; p : Person} => Str} -> {s : Voice => VPForm => {fin : Str; inf : Str}; a1 : Polarity => {g : Gender; n : Number; p : Person} => Str; a2 : Str; ea2 : Bool; eext : Bool; en2 : Bool; ext : Str; n2 : {g : Gender; n : Number; p : Person} => Str}
+pbool2bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+polCases	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+postfixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+preOrPost	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+prefixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+regNP	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:265-267	
+regNP	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:265-267	Str -> Str -> Gender -> Number -> {s : NPForm => Str; a : {g : Gender; n : Number; p : Person}}
+sd2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+sp1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+specDet	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:102-105	
+specDet	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:102-105	DetSpecies -> Species
+ss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+strOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+toLowerFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+toUpperFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+vFin	oper-def	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:137-142	
+vFin	oper-type	/home/eidel/lib/GF-master/lib/src/scandinavian/CommonScand.gf:137-142	STense -> Voice -> VForm

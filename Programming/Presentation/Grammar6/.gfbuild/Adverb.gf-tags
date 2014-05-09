@@ -1,0 +1,74 @@
+A	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+A2	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+AP	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+AdA	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+AdAdv	fun	/home/eidel/lib/GF-master/lib/src/abstract/Adverb.gf:21	AdA -> Adv -> Adv
+AdN	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+AdV	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+AdnCAdv	fun	/home/eidel/lib/GF-master/lib/src/abstract/Adverb.gf:33	CAdv -> AdN
+Adv	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+Ant	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+CAdv	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+CN	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Card	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Cl	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+ClSlash	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Comp	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+ComparAdvAdj	fun	/home/eidel/lib/GF-master/lib/src/abstract/Adverb.gf:16	CAdv -> A -> NP -> Adv
+ComparAdvAdjS	fun	/home/eidel/lib/GF-master/lib/src/abstract/Adverb.gf:17	CAdv -> A -> S -> Adv
+Conj	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Det	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Digits	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+IAdv	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+IComp	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+IDet	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+IP	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+IQuant	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Imp	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Interj	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+N	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+N2	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+N3	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+NP	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Num	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Numeral	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Ord	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+PConj	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+PN	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Phr	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+Pol	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+PositAdAAdj	fun	/home/eidel/lib/GF-master/lib/src/abstract/Adverb.gf:25	A -> AdA
+PositAdvAdj	fun	/home/eidel/lib/GF-master/lib/src/abstract/Adverb.gf:10	A -> Adv
+Predet	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Prep	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+PrepNP	fun	/home/eidel/lib/GF-master/lib/src/abstract/Adverb.gf:11	Prep -> NP -> Adv
+Pron	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+QCl	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+QS	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Quant	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+RCl	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+RP	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+RS	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+S	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+SC	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+SSlash	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Subj	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+SubjS	fun	/home/eidel/lib/GF-master/lib/src/abstract/Adverb.gf:29	Subj -> S -> Adv
+Temp	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+Tense	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+Text	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+Utt	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags
+V	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+V2	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+V2A	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+V2Q	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+V2S	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+V2V	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+V3	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+VA	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+VP	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+VPSlash	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+VQ	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+VS	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+VV	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Cat.gf-tags
+Voc	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Common.gf-tags

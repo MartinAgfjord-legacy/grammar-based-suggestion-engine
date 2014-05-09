@@ -1,0 +1,6 @@
+Java	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar.gf:12	Property
+Knows	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar.gf:10	ObjectType -> Property -> Question
+ObjectType	cat	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar.gf:7	
+Person	fun	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar.gf:11	ObjectType
+Property	cat	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar.gf:8	
+Question	cat	/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar.gf:6	

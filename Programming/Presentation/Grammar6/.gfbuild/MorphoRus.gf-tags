@@ -1,0 +1,426 @@
+AF	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+AFShort	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Acc	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Act	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+AdjForm	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+AdjPhrase	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+AdjStress	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+AdjType	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Adjective	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+AdvF	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+AfterPrep	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Animacy	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Animate	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Anter	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Anteriority	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Aspect	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+Bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+CAPIT	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Case	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+ClCondit	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+ClForm	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+ClImper	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+ClIndic	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+ClInfinit	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Clause	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+CommNoun	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Compar	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Complement	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Cond	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Conjugation	param	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1064	
+DForm	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+DTail	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Dat	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Degree	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+DirQ	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Dolzhen	param-value	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1064	Conjugation
+E0	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+E1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+E2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ENumber	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Emore	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+EndStress	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+False	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Fem	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+First	param-value	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1064	Conjugation
+FirstE	param-value	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1064	Conjugation
+Foreign	param-value	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1064	Conjugation
+Fut	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Future	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+GPl	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+GSg	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Gen	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+GenNum	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Gender	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+ImpF	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+ImpForm	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Imperfective	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Inanimate	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+IndirQ	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Inst	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+IsPostfixAdj	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Masc	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Mixed	param-value	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1064	Conjugation
+NF	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+NForm	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Neg	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Neut	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+No	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Nom	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+NonPoss	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+NounPhrase	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Number	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+P1	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+P2	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+P3	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+PARA	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+PF	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+PGen	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+PNoGen	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+PRF	param-value	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1160	GenNum -> Person -> PresentVF
+PSF	param-value	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1236	GenNum -> PastVF
+Pass	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Past	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+PastRus	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+PastVF	param	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1236	
+PastVerb	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1237	
+PastVerb	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1237	Type
+Perfective	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Person	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Pl	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Place	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Polarity	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Pos	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Posit	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Poss	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Possessive	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+PrepKind	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+PrepOther	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+PrepVNa	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Prepos	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Pres	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Present	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+PresentVF	param	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1160	
+PresentVerb	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1161	
+PresentVerb	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1161	Type
+PronForm	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+PronGen	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Pronoun	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+ProperName	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1357	
+ProperName	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1357	Type
+QDir	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+QForm	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+QIndir	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Qual	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+QuestForm	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Refl	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Rel	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+RusTense	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+SD2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SOFT_BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+SP1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SS1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Second	param-value	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1064	Conjugation
+SecondA	param-value	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1064	Conjugation
+Sg	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Simul	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Size	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+SlashNounPhrase	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+StemStress	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+SubstFormDecl	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:581	
+SubstFormDecl	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:581	Type
+Superl	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+T1	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+T2	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+T3	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Tense	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+True	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+VFORM	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+VFuture	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+VIMP	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+VIND	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+VINF	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+VPast	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+VPresent	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+VSUB	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+VTense	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Verb	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+VerbConj	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+VerbForm	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+VerbPhrase	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Verbum	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Voice	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+Yes	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+aRegHard	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:731-783	
+aRegHard	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:731-783	AdjStress -> AdjType -> Str -> {s : AdjForm => Str}
+aRegSoft	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:785-827	
+aRegSoft	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:785-827	AdjType -> Str -> {s : AdjForm => Str}
+add_sya	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1293-1300	
+add_sya	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1293-1300	Voice -> Str -> Str
+andB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+animAF	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+attr	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+bolshinstvoSgDet	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:714	
+bolshinstvoSgDet	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:714	{s : AdjForm => Str}
+bothWays	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+capitalize	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+caseAF	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+cc2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+cc3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+conjNumber	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+conjPerson	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+constStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+constTable	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+det2NounPhrase	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+eEnd_Decl	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:678-694	
+eEnd_Decl	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:678-694	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+eNext	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+embedInCommas	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+embedSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+endComma	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+etotDet	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:907-940	
+etotDet	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:907-940	{s : AdjForm => Str}
+extAdjFromSubst	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:833-834	
+extAdjFromSubst	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:833-834	{s : NForm => Str; anim : Animacy; g : Gender} -> {s : AdjForm => Str}
+extCase	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+genAF	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+genGNum	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+gennum	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+getActVerbForm	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+getPassVerbForm	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+getTense	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+getVTense	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+getVoice	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+gg	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+glue	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+glueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+hasConj	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1066-1085	
+hasConj	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1066-1085	{s : VerbForm => Str; asp : Aspect} -> Conjugation
+hund	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+iAfter	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:327-332	
+iAfter	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:327-332	Str -> Str
+id	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+idetDozhd	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1156	
+idetDozhd	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1156	{s : VerbForm => Str; asp : Aspect} -> {s : VerbForm => Str; asp : Aspect}
+ifTok	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+if_then_Str	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+if_then_else	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+indep	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+infixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+init	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+irregPl_StemInAnimateDecl	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:619-635	
+irregPl_StemInAnimateDecl	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:619-635	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+isNil	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+kazhdujDet	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:702	
+kazhdujDet	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:702	{s : AdjForm => Str}
+kg_oEnd_SgDecl	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:637-647	
+kg_oEnd_SgDecl	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:637-647	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+kotorujDet	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:708	
+kotorujDet	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:708	{s : AdjForm => Str}
+last	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+mille	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+mkAdjPhrase	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+mkNP	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+mkPronForm	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+mkProperNameFem	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1374-1381	
+mkProperNameFem	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1374-1381	Str -> Animacy -> {s : Case => Str; anim : Animacy; g : Gender}
+mkProperNameMasc	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1362-1372	
+mkProperNameMasc	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1362-1372	Str -> Animacy -> {s : Case => Str; anim : Animacy; g : Gender}
+mkProperNamePl	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1384-1392	
+mkProperNamePl	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1384-1392	Str -> Animacy -> {s : Case => Str; anim : Animacy; g : Gender}
+mkVerbImperfective	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1306-1330	
+mkVerbImperfective	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1306-1330	Str -> Str -> (PresentVF => Str) -> (PastVF => Str) -> {s : VerbForm => Str; asp : Aspect}
+mkVerbPerfective	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1332-1353	
+mkVerbPerfective	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1332-1353	Str -> Str -> (PresentVF => Str) -> (PastVF => Str) -> {s : VerbForm => Str; asp : Aspect}
+mnogoSgDet	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:715	
+mnogoSgDet	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:715	{s : AdjForm => Str}
+nAdj	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:561-565	
+nAdj	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:561-565	{s : AdjForm => Str} -> Gender -> {s : NForm => Str; anim : Animacy; g : Gender}
+nAnimate	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:568-578	
+nAnimate	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:568-578	{s : NForm => Str; anim : Animacy; g : Gender} -> {s : NForm => Str; anim : Animacy; g : Gender}
+nDecl10Hard	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:543-545	
+nDecl10Hard	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:543-545	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+nDecl10Soft	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:548-550	
+nDecl10Soft	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:548-550	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+nDecl6Fem	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:475-480	
+nDecl6Fem	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:475-480	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+nDecl6Masc	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:458-464	
+nDecl6Masc	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:458-464	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+nDecl6Neut	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:467-472	
+nDecl6Neut	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:467-472	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+nDecl7Fem	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:499-504	
+nDecl7Fem	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:499-504	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+nDecl7Masc	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:483-488	
+nDecl7Masc	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:483-488	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+nDecl7Neut	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:491-496	
+nDecl7Neut	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:491-496	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+nDecl8	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:508-523	
+nDecl8	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:508-523	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+nDecl9	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:526-540	
+nDecl9	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:526-540	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+nRegHardFem	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:388-404	
+nRegHardFem	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:388-404	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+nRegHardMasc	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:345-361	
+nRegHardMasc	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:345-361	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+nRegHardNeut	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:367-382	
+nRegHardNeut	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:367-382	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+nRegSoftFem	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:441-455	
+nRegSoftFem	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:441-455	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+nRegSoftMasc	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:407-421	
+nRegSoftMasc	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:407-421	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+nRegSoftNeut	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:424-438	
+nRegSoftNeut	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:424-438	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+nSplitSgPl	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:552-558	
+nSplitSgPl	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:552-558	{s : NForm => Str; anim : Animacy; g : Gender} -> {s : NForm => Str; anim : Animacy; g : Gender} -> {s : NForm => Str; anim : Animacy; g : Gender}
+nekotorujDet	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:709	
+nekotorujDet	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:709	{s : AdjForm => Str}
+nemnogoSgDet	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:716	
+nemnogoSgDet	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:716	{s : AdjForm => Str}
+noglueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+nom	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+nompl	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+nonExist	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+notB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+nullEndAnimateDeclBrat	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:601-617	
+nullEndAnimateDeclBrat	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:601-617	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+nullEndInAnimateDeclStul	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:583-599	
+nullEndInAnimateDeclStul	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:583-599	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+numAF	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+numGenNum	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+numImp	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+oAfter	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:334-339	
+oAfter	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:334-339	Str -> Str
+oEnd_PlDecl	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:649-659	
+oEnd_PlDecl	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:649-659	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+oEnd_SgDecl	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:661-671	
+oEnd_SgDecl	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:661-671	Str -> {s : NForm => Str; anim : Animacy; g : Gender}
+odinDet	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:872-905	
+odinDet	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:872-905	{s : AdjForm => Str}
+onlyIf	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+optStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+orB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+paren	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+parenss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+pastConj	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1238-1244	
+pastConj	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1238-1244	Str -> PastVF => Str
+pastConjDolzhen	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1246-1252	
+pastConjDolzhen	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1246-1252	Str -> PastVF => Str
+pbool2bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+pgNum	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+pgen2gen	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+plg	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+polCases	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+postfixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+preOrPost	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+predVerbPhrase	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+prefixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+presentConj1	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1214-1222	
+presentConj1	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1214-1222	Str -> Str -> PresentVF => Str
+presentConj1E	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1204-1212	
+presentConj1E	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1204-1212	Str -> Str -> PresentVF => Str
+presentConj1Moch	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1224-1232	
+presentConj1Moch	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1224-1232	Str -> Str -> Str -> PresentVF => Str
+presentConj2	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1184-1192	
+presentConj2	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1184-1192	Str -> Str -> PresentVF => Str
+presentConj2a	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1194-1202	
+presentConj2a	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1194-1202	Str -> Str -> PresentVF => Str
+presentConjDolzhen	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1163-1169	
+presentConjDolzhen	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1163-1169	Str -> Str -> PresentVF => Str
+presentConjForeign	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1255-1263	
+presentConjForeign	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1255-1263	Str -> Str -> PresentVF => Str
+presentConjMixed	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1172-1181	
+presentConjMixed	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1172-1181	Str -> Str -> PresentVF => Str
+pron2NounPhraseNum	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+pronChto	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:174-187	
+pronChto	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:174-187	{s : PronForm => Str; g : PronGen; n : Number; p : Person; pron : Bool}
+pronChtoTo	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:199	
+pronChtoTo	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:199	{s : PronForm => Str; g : PronGen; n : Number; p : Person; pron : Bool}
+pronEti	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:201-215	
+pronEti	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:201-215	{s : PronForm => Str; g : PronGen; n : Number; p : Person; pron : Bool}
+pronKto	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:159-172	
+pronKto	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:159-172	{s : PronForm => Str; g : PronGen; n : Number; p : Person; pron : Bool}
+pronKtoTo	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:197	
+pronKtoTo	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:197	{s : PronForm => Str; g : PronGen; n : Number; p : Person; pron : Bool}
+pronMu	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:144	
+pronMu	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:144	Gender -> {s : PronForm => Str; g : PronGen; n : Number; p : Person; pron : Bool}
+pronMuVu	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:109-142	
+pronMuVu	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:109-142	Str -> Str -> Person -> Gender -> {s : PronForm => Str; g : PronGen; n : Number; p : Person; pron : Bool}
+pronNAfterPrep	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:70-77	
+pronNAfterPrep	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:70-77	{s : PronForm => Str; g : PronGen; n : Number; p : Person; pron : Bool} -> {s : PronForm => Str; g : PronGen; n : Number; p : Person; pron : Bool}
+pronOn	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:79-89	
+pronOn	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:79-89	{s : PronForm => Str; g : PronGen; n : Number; p : Person; pron : Bool}
+pronOna	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:91-99	
+pronOna	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:91-99	{s : PronForm => Str; g : PronGen; n : Number; p : Person; pron : Bool}
+pronOni	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:148-157	
+pronOni	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:148-157	{s : PronForm => Str; g : PronGen; n : Number; p : Person; pron : Bool}
+pronOno	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:101-107	
+pronOno	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:101-107	{s : PronForm => Str; g : PronGen; n : Number; p : Person; pron : Bool}
+pronTe	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:217-231	
+pronTe	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:217-231	{s : PronForm => Str; g : PronGen; n : Number; p : Person; pron : Bool}
+pronTu	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:28-35	
+pronTu	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:28-35	Gender -> {s : PronForm => Str; g : PronGen; n : Number; p : Person; pron : Bool}
+pronVseInanimate	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:265-278	
+pronVseInanimate	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:265-278	{s : PronForm => Str; g : PronGen; n : Number; p : Person; pron : Bool}
+pronVu	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:146	
+pronVu	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:146	Gender -> {s : PronForm => Str; g : PronGen; n : Number; p : Person; pron : Bool}
+pronYa	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:19-26	
+pronYa	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:19-26	Gender -> {s : PronForm => Str; g : PronGen; n : Number; p : Person; pron : Bool}
+pronYaTu	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:38-68	
+pronYaTu	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:38-68	{s : Case => Str} -> Str -> Person -> Gender -> {s : PronForm => Str; g : PronGen; n : Number; p : Person; pron : Bool}
+pron_add_to	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:189-195	
+pron_add_to	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:189-195	{s : PronForm => Str; g : PronGen; n : Number; p : Person; pron : Bool} -> {s : PronForm => Str; g : PronGen; n : Number; p : Person; pron : Bool}
+sam	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+samuj	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:703	
+samuj	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:703	{s : AdjForm => Str}
+sd2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+sebya	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+sgg	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+skolkoSgDet	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:717	
+skolkoSgDet	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:717	{s : AdjForm => Str}
+sp1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+stemHasEnding	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1102-1106	
+stemHasEnding	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1102-1106	Str -> Str
+strOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+takoj	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:710	
+takoj	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:710	{s : AdjForm => Str}
+teen	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+ten	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+toLowerFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+toUpperFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+totDet	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:837-870	
+totDet	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:837-870	{s : AdjForm => Str}
+unit	indir	ResRus		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResRus.gf-tags
+uy_j_EndDecl	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:977-1010	
+uy_j_EndDecl	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:977-1010	Str -> {s : AdjForm => Str}
+verbByut	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1130	
+verbByut	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1130	{s : VerbForm => Str; asp : Aspect}
+verbDecl	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1269-1282	
+verbDecl	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1269-1282	Aspect -> Conjugation -> Str -> Str -> Str -> Str -> Str -> {s : VerbForm => Str; asp : Aspect}
+verbDeclMoch	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1286-1291	
+verbDeclMoch	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1286-1291	Aspect -> Conjugation -> Str -> Str -> Str -> Str -> Str -> Str -> {s : VerbForm => Str; asp : Aspect}
+verbDolzhen	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1147	
+verbDolzhen	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1147	{s : VerbForm => Str; asp : Aspect}
+verbHasEnding	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1094-1100	
+verbHasEnding	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1094-1100	{s : VerbForm => Str; asp : Aspect} -> Str
+verbIdti	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1109	
+verbIdti	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1109	{s : VerbForm => Str; asp : Aspect}
+verbKhotet	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1143	
+verbKhotet	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1143	{s : VerbForm => Str; asp : Aspect}
+verbMoch	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1132	
+verbMoch	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1132	{s : VerbForm => Str; asp : Aspect}
+verbOrganisuet	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1153	
+verbOrganisuet	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1153	{s : VerbForm => Str; asp : Aspect}
+verbStem	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1087-1092	
+verbStem	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1087-1092	{s : VerbForm => Str; asp : Aspect} -> Str
+verbSuchestvovat	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1113	
+verbSuchestvovat	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:1113	{s : VerbForm => Str; asp : Aspect}
+vesDet	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:942-975	
+vesDet	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:942-975	{s : AdjForm => Str}
+vseDetPl	oper-def	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:832	
+vseDetPl	oper-type	/home/eidel/lib/GF-master/lib/src/russian/MorphoRus.gf:832	{s : AdjForm => Str}

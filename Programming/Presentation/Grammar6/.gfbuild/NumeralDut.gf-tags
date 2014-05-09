@@ -1,0 +1,290 @@
+AAttr	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+AForm	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+AGen	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+APred	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+Adjective	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+Adjf	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+Agr	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+Anter	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Anteriority	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+Bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+CAPIT	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+CardOrd	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+Case	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+Clause	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+Compar	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Cond	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+DForm	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+DTail	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+DTeen	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+DTen	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+DUnit	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+D_0	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:64	
+D_1	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:65	
+D_2	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:66	
+D_3	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:67	
+D_4	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:68	
+D_5	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:69	
+D_6	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:70	
+D_7	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:71	
+D_8	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:72	
+D_9	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:73	
+Degree	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Dig	lincat	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:54	
+Dig	lindef	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:54	
+Dig	linref	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:54	
+Digit	lincat	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:7	
+Digit	lindef	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:7	
+Digit	linref	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:7	
+Digits	indir	CatDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CatDut.gf-tags
+E0	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+E1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+E2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ENumber	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Emore	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+False	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Fut	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Gen	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+Gender	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+IDig	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:57	
+IIDig	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:59-62	
+ImpF	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+ImpForm	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Inv	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+LinDigit	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:89	
+LinDigit	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:89	Type
+Main	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+NCard	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+NF	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+NForm	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+NOrd	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+NPAcc	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+NPCase	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+NPNom	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+Neg	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Neutr	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+Nom	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+Noun	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+Number	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Numeral	indir	CatDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CatDut.gf-tags
+Order	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+P1	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+P2	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+P3	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+PARA	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Past	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Person	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Pl	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Polarity	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Pos	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Posit	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Preposition	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+Pres	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Pronoun	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+QDir	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+QForm	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+QIndir	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+RAg	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+RAgr	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+RNoAg	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+SD2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SOFT_BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+SP1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SS1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Sg	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Simul	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Strong	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+Sub	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+Sub10	lincat	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:8	
+Sub10	lindef	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:8	
+Sub10	linref	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:8	
+Sub100	lincat	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:9-10	
+Sub100	lindef	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:9-10	
+Sub100	linref	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:9-10	
+Sub1000	lincat	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:9-10	
+Sub1000	lindef	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:9-10	
+Sub1000	linref	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:9-10	
+Sub1000000	lincat	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:9-10	
+Sub1000000	lindef	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:9-10	
+Sub1000000	linref	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:9-10	
+Superl	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+T1	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+T2	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+T3	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+TDigit	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:84-87	
+TDigit	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:84-87	Type
+Tense	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+True	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Utr	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VAct	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VAux	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VForm	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VHebben	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VImp2	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VImp3	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VImpPl	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VInf	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VP	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VPart	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VPart_aan	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VPart_af	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VPart_be	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VPastPl	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VPastSg	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VPerf	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VPresPl	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VPresSg1	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VPresSg2	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VPresSg3	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VRefl	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VType	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VVerb	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+VZijn	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+Verb	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+Weak	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+addAttr	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:109-110	
+addAttr	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:109-110	{s : CardOrd => Str; n : Number} -> {s : CardOrd => Str; attr : Str; n : Number}
+add_s	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+add_vowel_regVerb	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+agrAdj	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+agrP3	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+agrgP3	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+andB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+appPrep	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+auxVV	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+auxVerb	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+bothWays	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+capitalize	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+cardOrd	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:91-96	
+cardOrd	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:91-96	Str -> Str -> CardOrd => Str
+cc2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+cc3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+conjAgr	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+conjNumber	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+conjPerson	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+conjThan	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+conjThat	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+constStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+constTable	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+d_end_regVerb	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+d_regVerb	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+dupCons	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+eNext	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+embedInCommas	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+embedSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+endComma	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+endCons	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+glue	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+glueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+heavyNP	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+hebben_V	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+het_Pron	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+id	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ifTok	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+if_then_Str	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+if_then_else	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+infPart	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+infVP	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+infixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+init	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+insertAdV	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+insertAdv	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+insertExtrapos	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+insertInf	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+insertObj	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+insertObjNP	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+invNum	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:107	
+invNum	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:107	CardOrd
+irregVerb	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+irregVerb2	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+isNil	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+kunnen_V	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+last	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+mk2Dig	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:76	
+mk2Dig	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:76	Str -> Str -> {s : CardOrd => Str; n : Number}
+mk3Dig	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:79-82	
+mk3Dig	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:79-82	Str -> Str -> Number -> {s : CardOrd => Str; n : Number}
+mkAdjective	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+mkClause	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+mkDet	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+mkDig	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:77	
+mkDig	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:77	Str -> {s : CardOrd => Str; n : Number}
+mkDigit	oper-def	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:98-106	
+mkDigit	oper-type	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:98-106	(x1 : Str) -> Str -> Str -> (x4 : Str) -> {s : DForm => CardOrd => Str; en : Str}
+mkNP	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+mkNoun	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+mkPredet	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+mkPronoun	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+mkQuant	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+mkStem	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+mkVerb	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+n2	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:15	
+n3	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:16	
+n4	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:17	
+n5	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:18	
+n6	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:19	
+n7	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:20	
+n8	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:21	
+n9	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:22	
+negation	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+noglueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+nonExist	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+notB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+num	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:13	
+numImp	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+onlyIf	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+optStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+orB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+paren	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+parenss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+pbool2bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+polCases	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+postfixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+pot0	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:33	
+pot01	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:24-32	
+pot0as1	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:37	
+pot1	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:38	
+pot110	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:34	
+pot111	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:35	
+pot1as2	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:41	
+pot1plus	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:39-40	
+pot1to19	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:36	
+pot2	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:42-43	
+pot2as3	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:46	
+pot2plus	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:44-45	
+pot3	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:47-48	
+pot3plus	lin	/home/eidel/lib/GF-master/lib/src/dutch/NumeralDut.gf:49-50	
+preOrPost	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+predV	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+predVGen	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+prefixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+prefixV	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+reflPron	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+regAdjective	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+regNoun	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+regNounG	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+regVerb	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+sd2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+shortVoc	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+smartVerb	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+sp1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+strOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+t_end_regVerb	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+t_regVerb	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+toLowerFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+toUpperFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+useInfVP	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+v2vv	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+v2vvAux	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+vForm	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+v_regVerb	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+worden_V	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+z_regVerb	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+zijn_V	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags
+zullen_V	indir	ResDut		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResDut.gf-tags

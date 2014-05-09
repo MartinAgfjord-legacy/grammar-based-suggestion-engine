@@ -1,0 +1,97 @@
+Anter	param-value	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:12-13	Anteriority
+Anteriority	param	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:10-13	
+BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+Bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+CAPIT	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+Compar	param-value	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:8	Degree
+Cond	param-value	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:18-19	Tense
+DTail	param	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:62	
+Degree	param	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:8	
+E0	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+E1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+E2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ENumber	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+Emore	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+False	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+Fut	param-value	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:17-18	Tense
+ImpF	param-value	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:29	Number -> Bool -> ImpForm
+ImpForm	param	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:29	
+Neg	param-value	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:23	Polarity
+Number	param	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:6	
+P1	param-value	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:7	Person
+P2	param-value	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:7	Person
+P3	param-value	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:7	Person
+PARA	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+Past	param-value	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:16-17	Tense
+Person	param	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:7	
+Pl	param-value	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:6	Number
+Polarity	param	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:23	
+Pos	param-value	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:23	Polarity
+Posit	param-value	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:8	Degree
+Pres	param-value	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:15-16	Tense
+QDir	param-value	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:25	QForm
+QForm	param	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:25	
+QIndir	param-value	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:25	QForm
+SD2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+SOFT_BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+SP1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+SS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+SS1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+Sg	param-value	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:6	Number
+Simul	param-value	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:11-12	Anteriority
+Superl	param-value	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:8	Degree
+T1	param-value	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:62	DTail
+T2	param-value	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:62	DTail
+T3	param-value	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:62	DTail
+Tense	param	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:14-19	
+True	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+andB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+bothWays	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+capitalize	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+cc2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+cc3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+conjNumber	oper-def	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:37-41	
+conjNumber	oper-type	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:37-41	Number -> Number -> Number
+conjPerson	oper-def	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:46-47	
+conjPerson	oper-type	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:46-47	Person -> Person -> Person
+constStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+constTable	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+eNext	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+embedInCommas	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+embedSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+endComma	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+glue	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+glueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+id	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ifTok	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+if_then_Str	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+if_then_else	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+infixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+init	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+isNil	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+last	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+noglueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+nonExist	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+notB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+numImp	oper-def	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:32-35	
+numImp	oper-type	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:32-35	ImpForm -> Number
+onlyIf	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+optStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+orB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+paren	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+parenss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+pbool2bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+polCases	oper-def	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:51-56	
+polCases	oper-type	/home/eidel/lib/GF-master/lib/src/common/ParamX.gf:51-56	{s : Str} -> {s : Str} -> {s : Polarity => Str}
+postfixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+preOrPost	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+prefixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+sd2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+sp1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ss1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ss2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ss3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+strOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+toLowerFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+toUpperFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags

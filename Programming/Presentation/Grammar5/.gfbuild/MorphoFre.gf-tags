@@ -1,0 +1,438 @@
+AA	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+AAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+AF	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+AForm	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Acc	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+Adj	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+AffixPasse	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:395	
+AffixPasse	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:395	Type
+Affixe	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:322	
+Affixe	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:322	Type
+Ag	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Agr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Anter	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Anteriority	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Aton	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+BIND	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+Bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+CAPIT	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+CAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+CNom	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:40	
+CNom	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:40	Type
+CNone	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+CPrep	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+CPron	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+CRefl	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+CardOrd	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Case	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+Clit3	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+Compar	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Compl	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+Cond	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Condi	param-value	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:228-229	Number -> Person -> VForm
+Conjunct	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+DDir	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+DInv	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+DTail	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Degree	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Direct	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+E0	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+E1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+E2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ENumber	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Emore	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Error	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+False	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Fem	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Fut	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Futur	param-value	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:223	Temps
+Gender	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+ImpF	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+ImpForm	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Imparf	param-value	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:223	Temps
+Imper	param-value	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:230-231	NumPersI -> VForm
+Indi	param-value	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:227-228	Temps -> Number -> Person -> VForm
+Indic	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Inf	param-value	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:226-227	VForm
+Int	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+Ints	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+Masc	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Mood	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+NCard	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+NOrd	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+NPForm	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+Neg	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Nom	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+Noun	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+NounPhrase	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+NumPersI	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Number	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+P1	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+P2	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+P3	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+PARA	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+PAg	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+PAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+PBool	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+PFalse	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+PGen	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+PNoAg	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+PNoGen	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+PNul	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+PPasse	param-value	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:225	Gender -> Number -> TPart
+PPres	param-value	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:225	TPart
+PTrue	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+P_a	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+P_de	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+Part	param-value	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:231	TPart -> VForm
+Passe	param-value	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:223	Temps
+Past	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Person	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Pl	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+PlP1	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+PlP2	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Polarity	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Pos	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Posit	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Poss	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+Prepos	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+Pres	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Presn	param-value	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:223	Temps
+PronGen	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Pronoun	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+QDir	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+QForm	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+QIndir	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+RAg	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+RAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+RCond	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+RFut	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+RNeg	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+RNoAg	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+RPasse	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+RPast	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+RPolarity	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+RPos	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+RPres	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+RTense	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+SD2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SImparf	param-value	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:224	TSubj
+SOFT_BIND	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+SOFT_BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+SP1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SPres	param-value	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:224	TSubj
+SS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SS1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Sg	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+SgP2	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+Simul	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Subjo	param-value	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:229-230	TSubj -> Number -> Person -> VForm
+Superl	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+T1	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+T2	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+T3	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+TMood	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+TPart	param	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:225	
+TSubj	param	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:224	
+Temps	param	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:223	
+Tense	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Ton	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+True	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+VAux	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+VCondit	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VEsse	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+VF	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VFin	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VForm	param	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:226-231	
+VFut	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VGer	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VHabere	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+VImper	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VImperf	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VInfin	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VP	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+VPAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VPAgrClit	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VPAgrSubj	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VPFinite	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VPForm	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VPGerund	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VPImperat	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VPInfinit	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VPart	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VPasse	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VPres	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+VRefl	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+VTyp	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+VType	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+Verb	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+Verbe	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:250	
+Verbe	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:250	Type
+aagr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+aagrForms	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+accusative	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+addClit3	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+adjBanal	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:122-124	
+adjBanal	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:122-124	Str -> {s : AForm => Str}
+adjCher	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:135-137	
+adjCher	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:135-137	Str -> {s : AForm => Str}
+adjFrancais	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:132-133	
+adjFrancais	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:132-133	Str -> {s : AForm => Str}
+adjGrand	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:105-111	
+adjGrand	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:105-111	Str -> {s : AForm => Str}
+adjHeureux	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:118-120	
+adjHeureux	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:118-120	Str -> {s : AForm => Str}
+adjIndien	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:129-130	
+adjIndien	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:129-130	Str -> {s : AForm => Str}
+adjInvar	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:100-101	
+adjInvar	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:100-101	Str -> Gender => Number => Str
+adjJeune	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:126-127	
+adjJeune	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:126-127	Str -> {s : AForm => Str}
+adjJoli	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:115-116	
+adjJoli	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:115-116	Str -> {s : AForm => Str}
+adjReg	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:92-98	
+adjReg	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:92-98	Str -> Gender => Number => Str
+affixFutur	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:358-364	
+affixFutur	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:358-364	Number => Person => Str
+affixImparf	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:353-356	
+affixImparf	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:353-356	Number => Person => Str
+affixImper	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:411-415	
+affixImper	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:411-415	NumPersI => Str
+affixPasse	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:397-398	
+affixPasse	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:397-398	Str -> Str -> {ps : Number => Person => Str; si : Number => Person => Str}
+affixPasseA	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:400	
+affixPasseA	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:400	{ps : Number => Person => Str; si : Number => Person => Str}
+affixPasseAi	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:377-380	
+affixPasseAi	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:377-380	Number => Person => Str
+affixPasseI	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:402	
+affixPasseI	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:402	{ps : Number => Person => Str; si : Number => Person => Str}
+affixPasseNonExist	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:406-409	
+affixPasseNonExist	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:406-409	{ps : Number => Person => Str; si : Number => Person => Str}
+affixPasseS	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:382-385	
+affixPasseS	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:382-385	(i : Str) -> (î : Str) -> Number => Person => Str
+affixPasseU	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:404	
+affixPasseU	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:404	{ps : Number => Person => Str; si : Number => Person => Str}
+affixPlIons	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:346-349	
+affixPlIons	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:346-349	Person => Str
+affixPlMes	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:374-375	
+affixPlMes	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:374-375	Str -> Str -> Person => Str
+affixPlOns	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:340	
+affixPlOns	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:340	Person => Str
+affixSImparfSse	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:387-393	
+affixSImparfSse	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:387-393	(i : Str) -> (î : Str) -> Number => Person => Str
+affixSPres	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:366-372	
+affixSPres	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:366-372	Number => Person => Str
+affixSgAi	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:342	
+affixSgAi	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:342	Person => Str
+affixSgAis	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:344	
+affixSgAis	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:344	Person => Str
+affixSgE	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:332	
+affixSgE	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:332	Person => Str
+affixSgS	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:334	
+affixSgS	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:334	Person => Str
+affixSgSsansT	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:336	
+affixSgSsansT	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:336	Person => Str
+affixSgX	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:338	
+affixSgX	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:338	Person => Str
+aform2gender	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+aform2number	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+agrP3	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+andB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+appCompl	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+appVPAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+argPron	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+artDef	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+artIndef	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+auxPassive	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+auxVerb	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+avoir_V	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+bindHyphen	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+bindHyphensT	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+bindIf	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+bothWays	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+capitalize	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+case2npform	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+cc2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+cc3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+clitInf	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+complAcc	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+complAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+complDat	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+complGen	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+conjAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+conjGender	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+conjNumber	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+conjPerson	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+conjThan	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+conjThat	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+conjunctCase	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+constStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+constTable	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+copula	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+datClit	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+dative	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+dp	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+drop	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+eNext	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+elisDe	indir	PhonoFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/PhonoFre.gf-tags
+elisLa	indir	PhonoFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/PhonoFre.gf-tags
+elisLe	indir	PhonoFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/PhonoFre.gf-tags
+elisNe	indir	PhonoFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/PhonoFre.gf-tags
+elisPoss	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:187-191	
+elisPoss	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:187-191	Str -> Str
+elisQue	indir	PhonoFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/PhonoFre.gf-tags
+elisSi	indir	PhonoFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/PhonoFre.gf-tags
+elision	indir	PhonoFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/PhonoFre.gf-tags
+embedInCommas	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+embedSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+endComma	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+eqInt	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+eqStr	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+eqVal	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+error	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+estCeQue	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:208-213	
+estCeQue	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:208-213	Case -> Str
+formesPresAi	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:417-423	
+formesPresAi	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:417-423	(v : Str) -> (all : Str) -> Number => Person => Str
+genClit	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+genForms	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+genitive	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+getVTypT	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+glue	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+glueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+heavyNP	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+heavyNPpol	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+id	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ifTok	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+if_then_Str	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+if_then_else	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+imperClit	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+infForm	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+infVP	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+infixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+init	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+insertAdV	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+insertAdv	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+insertAgr	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+insertClit3	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+insertComplement	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+insertExtrapos	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+insertObject	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+insertRefl	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+invertedClause	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+isNil	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+isUpper	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+isVRefl	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+last	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+length	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+lesAffixes	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:324-328	
+lesAffixes	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:324-328	Str -> Str -> Str -> Person => Str
+lessInt	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+mapStr	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+mkAdj	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:82-88	
+mkAdj	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:82-88	Str -> Str -> Str -> Str -> {s : AForm => Str}
+mkAdjReg	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:139-156	
+mkAdjReg	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:139-156	Str -> {s : AForm => Str}
+mkCNom	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:42-43	
+mkCNom	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:42-43	(Number => Str) -> Gender -> {s : Number => Str; g : Gender}
+mkCNomCheval	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:54-56	
+mkCNomCheval	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:54-56	Str -> Gender -> {s : Number => Str; g : Gender}
+mkCNomInvar	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:58-59	
+mkCNomInvar	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:58-59	Str -> Gender -> {s : Number => Str; g : Gender}
+mkCNomIrreg	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:45-46	
+mkCNomIrreg	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:45-46	Str -> Str -> Gender -> {s : Number => Str; g : Gender}
+mkCNomNiveau	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:51-52	
+mkCNomNiveau	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:51-52	Str -> Gender -> {s : Number => Str; g : Gender}
+mkCNomReg	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:48-49	
+mkCNomReg	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:48-49	Str -> Gender -> {s : Number => Str; g : Gender}
+mkClause	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+mkClausePol	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+mkImperative	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+mkNomReg	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:61-74	
+mkNomReg	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:61-74	Str -> Gender -> {s : Number => Str; g : Gender}
+mkOrd	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+mkPronoun	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:164-185	
+mkPronoun	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:164-185	Str -> Str -> Str -> Str -> Str -> Str -> Str -> Gender -> Number -> Person -> {s : Case => {c1 : Str; c2 : Str; comp : Str; ton : Str}; a : {g : Gender; n : Number; p : Person}; hasClit : Bool; isPol : Bool; poss : Number => Gender => Str}
+mkVPSlash	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+mkVerb12	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:254-299	
+mkVerb12	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:254-299	(tenir : Str) -> (tiens : Str) -> (tient : Str) -> (tenons : Str) -> (tenez : Str) -> (tiennent : Str) -> (tienne : Str) -> (tenions : Str) -> (tiensI : Str) -> (tint : Str) -> (tiendra : Str) -> (tenu : Str) -> VForm => Str
+mkVerb7	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:301-315	
+mkVerb7	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:301-315	(tenir : Str) -> (tiens : Str) -> (tenons : Str) -> (tiennent : Str) -> (tint : Str) -> (tiendra : Str) -> (tenu : Str) -> VForm => Str
+negation	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+noglueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+nomReg	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:36	
+nomReg	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:36	Str -> Number => Str
+nominative	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+nonExist	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+nonExist	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+notB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+npform2case	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+numForms	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:31-32	
+numForms	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:31-32	Str -> Str -> Number => Str
+numImp	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+occur	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+occurs	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+onlyIf	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+optStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+orB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+paren	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+parenss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+partAgr	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+partQIndir	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+partitive	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+pbool2bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+plus	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+pn2np	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+pn2npNeg	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+pn2npPol	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+polCases	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+polNegDirSubj	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+possCase	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+postfixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+preOrPost	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+preVoyelleFront	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:23	
+preVoyelleFront	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:23	Str -> Str -> Str
+predV	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+prefixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+prepCase	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+presInd	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+pronArg	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+pronArgGen	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+pronForms	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:200-203	
+pronForms	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:200-203	Str -> Str -> Gender -> Number -> Str
+pronSuch	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+prongen2gender	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+quelPron	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+read	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+reflPron	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+relPron	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+sd2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+show	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+sp1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+strOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+stressedCase	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResFre.gf-tags
+subjIf	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+subjPron	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+take	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+tk	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+toLower	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+toLowerFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+toStr	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+toUpper	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+toUpperFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+vImper	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+vRefl	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+verbAgr	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+vf2numpers	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+voyelle	indir	PhonoFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/PhonoFre.gf-tags
+voyelleFront	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:22	
+voyelleFront	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:22	Strs
+vpAgrClit	indir	ResFre		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffFre.gf-tags
+vpAgrNone	indir	CommonRomance		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonRomance.gf-tags
+vvf	oper-def	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:236-248	
+vvf	oper-type	/home/eidel/lib/GF-master/lib/src/french/MorphoFre.gf:236-248	(VForm => Str) -> VF => Str

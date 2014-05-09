@@ -1,0 +1,360 @@
+ACompar	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+AF	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+AForm	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+AFormGrad	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+AFormPos	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+AFormSup	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+APosit	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+ASuperl	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Act	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Adjective	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Agr	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Anter	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Anteriority	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+Bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+CAPIT	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+CardOrd	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResSwe.gf-tags
+CardOrd	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResSwe.gf-tags
+Case	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Clause	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Compar	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Complement	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Cond	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+DDef	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+DForm	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/MorphoSwe.gf-tags
+DIndef	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+DTail	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+D_0	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:58	
+D_1	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:59	
+D_2	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:60	
+D_3	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:61	
+D_4	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:62	
+D_5	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:63	
+D_6	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:64	
+D_7	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:65	
+D_8	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:66	
+D_9	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:67	
+Def	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Degree	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+DetSpecies	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Dig	lincat	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:48	
+Dig	lindef	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:48	
+Dig	linref	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:48	
+Digit	lincat	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:5	
+Digit	lindef	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:5	
+Digit	linref	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:5	
+Digits	indir	CatSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CatSwe.gf-tags
+E0	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+E1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+E2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ENumber	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Emore	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+False	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Fut	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+GPl	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+GSg	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Gen	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+GenNum	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Gender	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+IDig	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:51	
+IIDig	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:53-56	
+ImpF	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+ImpForm	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Indef	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Inv	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+LinDigit	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/MorphoSwe.gf-tags
+Main	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+NCard	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResSwe.gf-tags
+NCard	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResSwe.gf-tags
+NGender	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+NGender	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+NOrd	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResSwe.gf-tags
+NOrd	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResSwe.gf-tags
+NPAcc	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+NPForm	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+NPNom	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+NPPoss	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Neg	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Neutr	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Nom	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Noun	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResSwe.gf-tags
+Noun	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResSwe.gf-tags
+Number	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Numeral	indir	CatSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CatSwe.gf-tags
+Order	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+P1	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+P2	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+P3	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+PARA	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+PAg	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+PNoAg	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Pass	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Past	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Person	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Pl	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Polarity	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Pos	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Posit	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+PredetAgr	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Pres	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+QDir	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+QForm	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+QIndir	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+RAg	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+RAgr	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+RCase	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+RGen	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+RNoAg	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+RNom	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+RPrep	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+SCond	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+SD2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SFut	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+SFutKommer	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+SOFT_BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+SP1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SPast	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+SPres	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+SS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+SS1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+STense	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Sg	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Simul	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+Species	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Strong	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Sub	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Sub10	lincat	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:6	
+Sub10	lindef	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:6	
+Sub10	linref	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:6	
+Sub100	lincat	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:7-8	
+Sub100	lindef	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:7-8	
+Sub100	linref	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:7-8	
+Sub1000	lincat	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:7-8	
+Sub1000	lindef	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:7-8	
+Sub1000	linref	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:7-8	
+Sub1000000	lincat	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:7-8	
+Sub1000000	lindef	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:7-8	
+Sub1000000	linref	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:7-8	
+SupStrong	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+SupWeak	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Superl	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+T1	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+T2	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+T3	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+TDigit	oper-def	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:78-81	
+TDigit	oper-type	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:78-81	Type
+Tense	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+True	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+Utr	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+VAct	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+VF	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+VFin	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+VForm	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+VI	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+VImper	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+VInf	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+VInfin	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+VP	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+VPFinite	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+VPForm	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+VPIForm	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResSwe.gf-tags
+VPIForm	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResSwe.gf-tags
+VPIInf	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResSwe.gf-tags
+VPIInf	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResSwe.gf-tags
+VPISup	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResSwe.gf-tags
+VPISup	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResSwe.gf-tags
+VPImperat	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+VPInfinit	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+VPass	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+VPres	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+VPret	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+VPtPres	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+VPtPret	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+VRefl	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+VSupin	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+VType	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Verb	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+Verb	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+Voice	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+Weak	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+accusative	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+agrAdj	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+agrAdjNP	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+agrP3	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResSwe.gf-tags
+agrP3	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResSwe.gf-tags
+andB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+artDef	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+artIndef	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+artIndef	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+auxCond	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+auxCond	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+auxFut	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+auxFut	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+auxFutKommer	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+auxFutKommer	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+auxFutPart	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+auxFutPart	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+av_Prep	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+av_Prep	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+bothWays	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+capitalize	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+cardOrd	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/MorphoSwe.gf-tags
+cardReg	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/MorphoSwe.gf-tags
+caseNP	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+cc2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+cc3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+comma	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResSwe.gf-tags
+comma	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResSwe.gf-tags
+compMore	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+compMore	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+conjAgr	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+conjAnd	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+conjAnd	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+conjGender	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+conjNumber	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+conjPerson	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+conjThan	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+conjThan	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+conjThat	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+conjThat	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+constStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+constTable	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+detDef	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+detDef	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+detForms	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+detIndefPl	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+detIndefPl	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+eNext	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+embedInCommas	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+embedSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+endComma	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ental	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/MorphoSwe.gf-tags
+genderForms	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+genderForms	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+gennum	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+gennumAgr	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+gennumForms	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+glue	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+glueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+hasAuxBe	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+hasAuxBe	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+hur_IAdv	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+hur_IAdv	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+id	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ifTok	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+if_then_Str	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+if_then_else	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+infMark	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+infMark	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+infVP	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+infVPPlus	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+infixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+init	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+insertAdV	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+insertAdVAgr	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+insertAdv	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+insertExt	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+insertObj	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+insertObjPost	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+invNum	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/MorphoSwe.gf-tags
+isNil	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+last	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+mk2Dig	oper-def	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:70	
+mk2Dig	oper-type	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:70	Str -> Str -> {s : CardOrd => Str; n : Number}
+mk3Dig	oper-def	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:73-76	
+mk3Dig	oper-type	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:73-76	Str -> Str -> Number -> {s : CardOrd => Str; n : Number}
+mkAdjPos	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+mkAdjective	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+mkCase	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+mkClause	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+mkComplement	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+mkDig	oper-def	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:71	
+mkDig	oper-type	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:71	Str -> {s : CardOrd => Str; n : Number}
+mkNP	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+mkTal	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/MorphoSwe.gf-tags
+mkVerb9	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+mkVoice	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+n2	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:13	
+n3	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:14	
+n4	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:15	
+n5	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:16	
+n6	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:17	
+n7	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:18	
+n8	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:19	
+n9	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:20	
+negation	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+negation	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+neutrum	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+neutrum	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+ngen2gen	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+ngen2gen	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+noPart	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+noPart	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+noglueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+nominative	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+nonExist	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Predef.gf-tags
+notB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+nounForms	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+num	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:11	
+numImp	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+numPl	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/MorphoSwe.gf-tags
+onlyIf	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+optStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+orB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+paren	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+parenss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+passiveVP	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+pbool2bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+polCases	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ParamX.gf-tags
+postfixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+pot0	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:29	
+pot01	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:22-28	
+pot0as1	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:33	
+pot1	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:34	
+pot110	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:30	
+pot111	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:31	
+pot1as2	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:36	
+pot1plus	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:35	
+pot1to19	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:32	
+pot2	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:37-38	
+pot2as3	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:41	
+pot2plus	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:39-40	
+pot3	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:42-43	
+pot3plus	lin	/home/eidel/lib/GF-master/lib/src/swedish/NumeralSwe.gf:44-45	
+preOrPost	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+predV	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResSwe.gf-tags
+predV	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/ResSwe.gf-tags
+prefixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+pronSuch	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+pronSuch	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+ptPretAll	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/MorphoSwe.gf-tags
+ptPretForms	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/MorphoSwe.gf-tags
+reflPron	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+reflPron	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+regNP	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+relPron	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+relPron	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+sd2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+sp1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+specDet	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+ss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ss3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+strOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+subjIf	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+subjIf	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+tiotal	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/MorphoSwe.gf-tags
+toLowerFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+toUpperFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/Prelude.gf-tags
+ton	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/MorphoSwe.gf-tags
+utrum	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+utrum	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+vFin	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/CommonScand.gf-tags
+verbBe	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+verbBe	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+verbBecome	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+verbBecome	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+verbHave	indir	MorphoSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags
+verbHave	indir	ResSwe		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar5/.gfbuild/DiffSwe.gf-tags

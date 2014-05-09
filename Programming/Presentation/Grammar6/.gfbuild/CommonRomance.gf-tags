@@ -1,0 +1,200 @@
+AA	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:33	AForm
+AAgr	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:119	
+AAgr	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:119	Type
+AF	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:33	Gender -> Number -> AForm
+AForm	param	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:33	
+Adj	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:211	
+Adj	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:211	Type
+Ag	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:130	
+Ag	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:130	Gender -> Number -> Person -> {g : Gender; n : Number; p : Person}
+Agr	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:121	
+Agr	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:121	Type
+Anter	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Anteriority	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+Bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+CAPIT	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+CAgr	param	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:176	
+CNone	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:176	CAgr
+CPron	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:176	Gender -> Number -> Person -> CAgr
+CRefl	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:176	CAgr
+CardOrd	param	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:41	
+Compar	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Cond	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Conjunct	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:23	Mood
+DDir	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:25	Direct
+DInv	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:25	Direct
+DTail	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Degree	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Direct	param	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:25	
+E0	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+E1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+E2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ENumber	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+Emore	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+False	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+Fem	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:21	Gender
+Fut	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Gender	param	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:21	
+ImpF	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+ImpForm	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Indic	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:23	Mood
+Masc	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:21	Gender
+Mood	param	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:23	
+NCard	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:41	Gender -> CardOrd
+NOrd	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:41	Gender -> Number -> CardOrd
+Neg	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Noun	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:209	
+Noun	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:209	Type
+NumPersI	param	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:100	
+Number	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+P1	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+P2	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+P3	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+PARA	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+PAg	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:172	Number -> PAgr
+PAgr	param	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:172	
+PGen	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:37	Gender -> PronGen
+PNoAg	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:172	PAgr
+PNoGen	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:37	PronGen
+Past	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Person	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Pl	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+PlP1	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:100	NumPersI
+PlP2	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:100	NumPersI
+Polarity	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Pos	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Posit	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Pres	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+PronGen	param	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:37	
+QDir	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+QForm	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+QIndir	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+RAg	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:171	{g : Gender; n : Number} -> RAgr
+RAgr	param	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:171	
+RCond	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:113-114	RTense
+RFut	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:112-113	RTense
+RNeg	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:236	Bool -> RPolarity
+RNoAg	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:171	RAgr
+RPasse	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:111-112	RTense
+RPast	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:110-111	RTense
+RPolarity	param	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:236	
+RPos	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:236	RPolarity
+RPres	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:109-110	RTense
+RTense	param	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:108-114	
+SD2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+SOFT_BIND	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+SP1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+SS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+SS1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+Sg	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+SgP2	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:100	NumPersI
+Simul	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+Superl	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+T1	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+T2	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+T3	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+TMood	param	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:92-98	
+Tense	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+True	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+VCondit	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:97-98	TMood
+VF	param	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:84-90	
+VFin	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:86-87	TMood -> Number -> Person -> VF
+VFut	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:96-97	TMood
+VGer	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:89-90	VF
+VImper	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:87-88	NumPersI -> VF
+VImperf	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:94-95	Mood -> TMood
+VInfin	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:85-86	Bool -> VF
+VPAgr	param	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:230-232	
+VPAgrClit	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:232	Gender -> Number -> VPAgr
+VPAgrSubj	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:231-232	VPAgr
+VPFinite	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:103-104	TMood -> Anteriority -> VPForm
+VPForm	param	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:102-106	
+VPGerund	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:105-106	VPForm
+VPImperat	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:104-105	VPForm
+VPInfinit	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:106	Anteriority -> Bool -> VPForm
+VPart	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:88-89	Gender -> Number -> VF
+VPasse	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:95-96	TMood
+VPres	param-value	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:93-94	Mood -> TMood
+aagr	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:180-181	
+aagr	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:180-181	Gender -> Number -> {g : Gender; n : Number}
+aagrForms	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:203-207	
+aagrForms	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:203-207	(x1 : Str) -> Str -> Str -> (x4 : Str) -> {g : Gender; n : Number} => Str
+aform2gender	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:52-55	
+aform2gender	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:52-55	AForm -> Gender
+aform2number	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:56-59	
+aform2number	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:56-59	AForm -> Number
+agrP3	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:182-183	
+agrP3	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:182-183	Gender -> Number -> {g : Gender; n : Number; p : Person}
+andB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+appVPAgr	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:213-217	
+appVPAgr	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:213-217	VPAgr -> {g : Gender; n : Number} -> {g : Gender; n : Number}
+bindIf	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:227	
+bindIf	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:227	Bool -> Str
+bothWays	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+capitalize	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+cc2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+cc3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+complAgr	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:123	
+complAgr	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:123	{g : Gender; n : Number; p : Person} -> {g : Gender; n : Number}
+conjAgr	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:127-128	
+conjAgr	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:127-128	{g : Gender; n : Number; p : Person} -> {g : Gender; n : Number; p : Person} -> {g : Gender; n : Number; p : Person}
+conjGender	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:61-65	
+conjGender	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:61-65	Gender -> Gender -> Gender
+conjNumber	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+conjPerson	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+constStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+constTable	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+eNext	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+embedInCommas	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+embedSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+endComma	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+genForms	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:197-201	
+genForms	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:197-201	Str -> Str -> Gender => Str
+glue	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+glueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+id	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ifTok	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+if_then_Str	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+if_then_else	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+infixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+init	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+isNil	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+last	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+mkOrd	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:223	
+mkOrd	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:222	{s : Degree => AForm => Str} -> {s : {g : Gender; n : Number} => Str}
+noglueOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+nonExist	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Predef.gf-tags
+notB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+numImp	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+onlyIf	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+optStr	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+orB	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+paren	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+parenss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+pbool2bool	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+polCases	indir	ParamX		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/ParamX.gf-tags
+postfixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+preOrPost	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+prefixSS	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+presInd	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:191	
+presInd	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:191	TMood
+prongen2gender	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:46-49	
+prongen2gender	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:46-49	PronGen -> Gender
+sd2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+sp1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ss	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ss1	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ss2	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+ss3	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+strOpt	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+toLowerFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+toUpperFirst	indir	Prelude		/home/eidel/Documents/School/Exjobb/Programming/Presentation/Grammar6/.gfbuild/Prelude.gf-tags
+vImper	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:134-139	
+vImper	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:134-139	Number -> Person -> VF
+verbAgr	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:125	
+verbAgr	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:125	{g : Gender; n : Number; p : Person} -> {g : Gender; n : Number; p : Person}
+vf2numpers	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:186-189	
+vf2numpers	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:186-189	VF -> {p1 : Number; p2 : Person}
+vpAgrNone	oper-def	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:219	
+vpAgrNone	oper-type	/home/eidel/lib/GF-master/lib/src/romance/CommonRomance.gf:219	VPAgr
