@@ -1,0 +1,86 @@
+AdA	lincat	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:11	
+AdA	lindef	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:11	
+AdA	linref	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:11	
+AdN	lincat	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:12	
+AdN	lindef	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:12	
+AdN	linref	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:12	
+AdV	lincat	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:10	
+AdV	lindef	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:10	
+AdV	linref	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:10	
+Adv	lincat	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:9	
+Adv	lindef	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:9	
+Adv	linref	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:9	
+Ant	lincat	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:20	
+Ant	lindef	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:20	
+Ant	linref	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:20	
+Anter	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+Anteriority	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+CAdv	lincat	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:14	
+CAdv	lindef	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:14	
+CAdv	linref	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:14	
+Compar	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+Cond	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+DTail	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+Degree	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+Fut	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+IAdv	lincat	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:13	
+IAdv	lindef	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:13	
+IAdv	linref	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:13	
+ImpF	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+ImpForm	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+Interj	lincat	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:16	
+Interj	lindef	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:16	
+Interj	linref	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:16	
+Neg	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+Number	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+P1	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+P2	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+P3	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+PConj	lincat	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:15	
+PConj	lindef	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:15	
+PConj	linref	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:15	
+Past	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+Person	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+Phr	lincat	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:5	
+Phr	lindef	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:5	
+Phr	linref	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:5	
+Pl	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+Pol	lincat	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:21	
+Pol	lindef	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:21	
+Pol	linref	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:21	
+Polarity	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+Pos	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+Posit	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+Pres	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+QDir	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+QForm	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+QIndir	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+SC	lincat	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:8	
+SC	lindef	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:8	
+SC	linref	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:8	
+Sg	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+Simul	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+Superl	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+T1	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+T2	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+T3	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+Temp	lincat	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:18	
+Temp	lindef	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:18	
+Temp	linref	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:18	
+Tense	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+Tense	lincat	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:19	
+Tense	lindef	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:19	
+Tense	linref	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:19	
+Text	lincat	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:4	
+Text	lindef	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:4	
+Text	linref	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:4	
+Utt	lincat	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:6	
+Utt	lindef	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:6	
+Utt	linref	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:6	
+Voc	lincat	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:7	
+Voc	lindef	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:7	
+Voc	linref	/home/eidel/lib/GF-master/lib/src/common/CommonX.gf:7	
+conjNumber	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+conjPerson	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+numImp	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags
+polCases	indir	ParamX	R	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/ParamX.gf-tags

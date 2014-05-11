@@ -1,0 +1,95 @@
+A	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+A2	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+AP	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+AdA	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+AdN	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+AdV	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+AdVVP	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:60	AdV -> VP -> VP
+AdVVPSlash	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:63	AdV -> VPSlash -> VPSlash
+Adv	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+AdvVP	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:58	VP -> Adv -> VP
+AdvVPSlash	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:62	VPSlash -> Adv -> VPSlash
+Ant	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+CAdv	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+CN	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Card	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Cl	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+ClSlash	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Comp	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+CompAP	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:76	AP -> Comp
+CompAdv	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:78	Adv -> Comp
+CompCN	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:79	CN -> Comp
+CompNP	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:77	NP -> Comp
+ComplSlash	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:29	VPSlash -> NP -> VP
+ComplVA	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:18	VA -> AP -> VP
+ComplVQ	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:17	VQ -> QS -> VP
+ComplVS	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:16	VS -> S -> VP
+ComplVV	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:15	VV -> VP -> VP
+Conj	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Det	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Digits	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+ExtAdvVP	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:59	VP -> Adv -> VP
+IAdv	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+IComp	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+IDet	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+IP	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+IQuant	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Imp	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Interj	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+N	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+N2	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+N3	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+NP	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Num	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Numeral	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Ord	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+PConj	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+PN	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+PassV2	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:52	V2 -> VP
+Phr	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+Pol	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+Predet	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Prep	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Pron	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+QCl	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+QS	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Quant	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+RCl	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+RP	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+RS	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+ReflVP	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:39	VPSlash -> VP
+S	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+SC	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+SSlash	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Slash2V3	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:21	V3 -> NP -> VPSlash
+Slash3V3	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:22	V3 -> NP -> VPSlash
+SlashV2A	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:27	V2A -> AP -> VPSlash
+SlashV2Q	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:26	V2Q -> QS -> VPSlash
+SlashV2S	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:25	V2S -> S -> VPSlash
+SlashV2V	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:24	V2V -> VP -> VPSlash
+SlashV2VNP	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:32	V2V -> NP -> VPSlash -> VPSlash
+SlashV2a	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:20	V2 -> VPSlash
+SlashVV	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:31	VV -> VPSlash -> VPSlash
+Subj	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Temp	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+Tense	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+Text	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+UseComp	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:40	Comp -> VP
+UseCopula	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:83	VP
+UseV	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:13	V -> VP
+Utt	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+V	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+V2	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+V2A	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+V2Q	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+V2S	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+V2V	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+V3	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+VA	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+VP	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+VPSlash	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+VPSlashPrep	fun	/home/eidel/lib/GF-master/lib/src/abstract/Verb.gf:65	VP -> Prep -> VPSlash
+VQ	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+VS	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+VV	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Voc	indir	Cat		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags

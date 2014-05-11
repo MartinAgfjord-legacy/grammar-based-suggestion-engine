@@ -1,0 +1,134 @@
+BIND	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+BIND	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+Bool	param	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:62	
+CAPIT	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:114	
+CAPIT	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:114	Str
+E0	param-value	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:135	ENumber
+E1	param-value	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:135	ENumber
+E2	param-value	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:135	ENumber
+ENumber	param	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:135	
+Emore	param-value	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:135	ENumber
+Error	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+False	param-value	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:62	Bool
+Int	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+Ints	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+PARA	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:113	
+PARA	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:113	Str
+PBool	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+PFalse	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+PTrue	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+SD2	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:30	
+SD2	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:30	Type
+SOFT_BIND	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+SOFT_BIND	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+SP1	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:22	
+SP1	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:22	Type -> Type
+SS	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:11	
+SS	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:11	Type
+SS1	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:19	
+SS1	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:19	PType -> Type
+True	param-value	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:62	Bool
+andB	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:71	
+andB	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:71	Bool -> Bool -> Bool
+bothWays	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:43	
+bothWays	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:43	Str -> Str -> Str
+capitalize	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:109	
+capitalize	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:109	Str -> Str
+cc2	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:16	
+cc2	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:16	{s : Str} -> {s : Str} -> {s : Str}
+cc3	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:17	
+cc3	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:17	{s : Str} -> {s : Str} -> {s : Str} -> {s : Str}
+constStr	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:26	
+constStr	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:26	(A : PType) -> Str -> A => Str
+constTable	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:25	
+constTable	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:25	(A : PType) -> (B : Type) -> B -> A => B
+dp	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+drop	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+eNext	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:138-139	
+eNext	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:138-139	ENumber -> ENumber
+embedInCommas	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:118	
+embedInCommas	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:118	Str -> Str
+embedSS	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:57	
+embedSS	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:57	Str -> Str -> {s : Str} -> {s : Str}
+endComma	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:119	
+endComma	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:119	Str
+eqInt	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+eqStr	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+eqVal	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+error	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+glue	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:103	
+glue	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:103	Str -> Str -> Str
+glueOpt	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:104	
+glueOpt	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:104	Str -> Str -> Str
+id	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:125	
+id	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:125	(A : Type) -> A -> A
+ifTok	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:95-96	
+ifTok	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:95-96	(A : Type) -> Str -> Str -> A -> A -> A
+if_then_Str	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:75	
+if_then_Str	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:75	Bool -> Str -> Str -> Str
+if_then_else	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:65-69	
+if_then_else	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:65-69	(A : Type) -> Bool -> A -> A -> A
+infixSS	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:54	
+infixSS	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:54	Str -> {s : Str} -> {s : Str} -> {s : Str}
+init	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:88	
+init	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:88	Str -> Str
+isNil	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:93	
+isNil	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:93	Str -> Bool
+isUpper	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+last	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:89	
+last	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:89	Str -> Str
+length	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+lessInt	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+mapStr	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+noglueOpt	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:105	
+noglueOpt	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:105	Str -> Str -> Str
+nonExist	indir	Predef		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+nonExist	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+notB	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:73	
+notB	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:73	Bool -> Bool
+occur	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+occurs	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+onlyIf	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:77-80	
+onlyIf	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:77-80	Bool -> Str -> Str
+optStr	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:38	
+optStr	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:38	Str -> Str
+orB	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:72	
+orB	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:72	Bool -> Bool -> Bool
+paren	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:129	
+paren	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:129	Str -> Str
+parenss	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:130	
+parenss	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:130	{s : Str} -> {s : Str}
+pbool2bool	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:84-86	
+pbool2bool	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:84-86	PBool -> Bool
+plus	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+postfixSS	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:56	
+postfixSS	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:56	Str -> {s : Str} -> {s : Str}
+preOrPost	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:47-48	
+preOrPost	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:47-48	Bool -> Str -> Str -> Str
+prefixSS	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:55	
+prefixSS	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:55	Str -> {s : Str} -> {s : Str}
+read	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+sd2	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:31	
+sd2	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:31	Str -> Str -> {s1 : Str; s2 : Str}
+show	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+sp1	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:23	
+sp1	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:23	(A : Type) -> Str -> A -> {s : Str; p : A}
+ss	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:12	
+ss	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:12	Str -> {s : Str}
+ss1	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:20	
+ss1	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:20	(A : PType) -> Str -> {s : A => Str}
+ss2	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:13	
+ss2	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:13	Str -> Str -> {s : Str}
+ss3	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:14	
+ss3	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:14	Str -> Str -> Str -> {s : Str}
+strOpt	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:39	
+strOpt	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:39	Str -> Str
+take	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+tk	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+toLower	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+toLowerFirst	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:148-151	
+toLowerFirst	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:148-151	Str -> Str
+toStr	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+toUpper	indir	Predef	Predef	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Predef.gf-tags
+toUpperFirst	oper-def	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:143-146	
+toUpperFirst	oper-type	/home/eidel/lib/GF-master/lib/src/prelude/Prelude.gf:143-146	Str -> Str

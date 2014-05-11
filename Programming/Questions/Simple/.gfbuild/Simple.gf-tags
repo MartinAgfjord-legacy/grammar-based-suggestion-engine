@@ -1,0 +1,112 @@
+A	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+A2	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+AP	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+AdA	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+AdN	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+AdV	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+Adv	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+And_L	fun	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:58	Location -> Location -> Location
+And_O	fun	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:61	Object -> Object -> Object
+And_S	fun	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:55	Skill -> Skill -> Skill
+Ant	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+BaseSymb	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Symbol.gf-tags
+CAdv	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+CN	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+CNIntNP	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Symbol.gf-tags
+CNNumNP	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Symbol.gf-tags
+CNSymbNP	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Symbol.gf-tags
+Card	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Cl	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+ClSlash	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Comp	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Conj	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+ConsSymb	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Symbol.gf-tags
+Customer_N	fun	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:41	External
+Det	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Digits	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+External	cat	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:14	
+Float	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/PredefAbs.gf-tags
+FloatPN	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Symbol.gf-tags
+IAdv	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+IComp	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+IDet	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+IP	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+IQuant	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Imp	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+ImplicitPlPres_Q	fun	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:29	Relation -> Question
+Int	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/PredefAbs.gf-tags
+IntPN	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Symbol.gf-tags
+Interj	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+Internal	cat	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:13	
+Know_R	fun	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:66	Internal -> Skill -> Relation
+ListSymb	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Symbol.gf-tags
+Location	cat	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:12	
+MkLocation	fun	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:49	Symb -> Location
+MkObject	fun	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:48	Symb -> Object
+MkSkill	fun	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:47	Symb -> Skill
+MkSymb	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Symbol.gf-tags
+N	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+N2	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+N3	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+NP	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Num	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+NumPN	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Symbol.gf-tags
+Numeral	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Object	cat	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:9	
+Or_L	fun	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:59	Location -> Location -> Location
+Or_O	fun	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:62	Object -> Object -> Object
+Or_S	fun	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:56	Skill -> Skill -> Skill
+Ord	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+PConj	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+PN	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Person_N	fun	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:39	Internal
+Phr	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+Pol	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+Predet	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Prep	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Project_N	fun	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:40	Resource
+Pron	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+QCl	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+QS	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Quant	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Question	cat	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:7	
+RCl	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+RP	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+RS	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Relation	cat	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:8	
+Resource	cat	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:11	
+S	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+SC	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+SSlash	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Sentence	cat	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:6	
+Skill	cat	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:10	
+String	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/PredefAbs.gf-tags
+Subj	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Symb	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Symbol.gf-tags
+SymbNum	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Symbol.gf-tags
+SymbOrd	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Symbol.gf-tags
+SymbPN	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Symbol.gf-tags
+SymbS	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Symbol.gf-tags
+Temp	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+Tense	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+Text	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+Text_	cat	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:15	
+UseExt_R	fun	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:68	External -> Object -> Relation
+UseRes_R	fun	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:69	Resource -> Object -> Relation
+Utt	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+V	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+V2	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+V2A	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+V2Q	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+V2S	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+V2V	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+V3	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+VA	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+VP	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+VPSlash	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+VQ	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+VS	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+VV	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Cat.gf-tags
+Voc	indir	Symbol		/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/.gfbuild/Common.gf-tags
+WorkIn_R	fun	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:71	Internal -> Location -> Relation
+WorkWith_R	fun	/home/eidel/Documents/School/Exjobb/Programming/Questions/Simple/Simple.gf:70	Internal -> Object -> Relation

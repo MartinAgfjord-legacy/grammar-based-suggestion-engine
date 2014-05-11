@@ -1,0 +1,5 @@
+# Build files #
+*.gfo
+*.pgf
+/bin
+/.gfbuild
