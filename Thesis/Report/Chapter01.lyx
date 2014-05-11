@@ -86,15 +86,15 @@ name "sec:Motivation"
 \end_inset
 
 The most common communication between humans and computers is through carefully
- designed user interfaces which are constructed to be able to create machine
+ designed user interfaces which are constructed in order to create machine
  readable instructions.
  Such interfaces often require either physical or graphical interaction.
  In the recent years, we've seen an increasing number of applications that
  are using an alternative method of instructing computers, by interpreting
  instructions formulated in a human language, i.e.
  translating a natural language into machine readable instructions.
- Such applications facilitate the communication between humans and computers,
- if computers can understand natural languages, one can just speak to them
+ Such applications facilitate the communication between humans and computers.
+ If computers can understand natural languages, one can just speak to them
  and tell them what to do.
 \end_layout
 
@@ -113,7 +113,24 @@ Problem description
 \end_layout
 
 \begin_layout Standard
-When searching for information ..
+The inspiration for this thesis came from Facebook's graph search, which
+ is a service that allows users to search for entities by asking the server
+ for information in a natural language.
+ The service uses specific keywords in order to extract the contextual meaning
+ of the question.
+ We want to examine how a similar service can be realized by using a 
+\emph on
+grammar
+\emph default
+.
+ A grammar is a set of structural rules which decide how words can can be
+ created and be combined into clauses and phrases.
+\end_layout
+
+\begin_layout Standard
+The use of grammars has a long history in the field of computer science
+ as they are extensively used to translate source code into machine readable
+ instructions.
 \end_layout
 
 \begin_layout Section
@@ -133,14 +150,14 @@ Grammatical framework (GF) is a functional programming language for creating
  rules and reusable libraries to facilitate design of grammars.
  For a reader with a background within compilers, one can easily see that
  GF is very much based on the theory of programming languages.
- In the same sense as in compiler theory, GF adopts the use of abstract
- and concrete syntax.
+ GF adopts the use of abstract and concrete syntax in the same sense as
+ in compiler theory.
  
 \end_layout
 
 \begin_layout Standard
 Abstract syntax is a tree representation which includes the semantically
- important information of a language, but leaves out details who are language
+ important information of a language, but leaves out details which are language
  specific and do not contribute to the semantics of the language.
  The concrete syntax represents a natural language.
  It describes how an abstract syntax tree is represented as a string in
