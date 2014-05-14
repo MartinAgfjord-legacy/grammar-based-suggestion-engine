@@ -82,7 +82,7 @@ public class Grammar {
 	public List<String> generateAbstractSyntaxTreesFromShell() throws IOException{
 		//Generate trees by using the GF-shell
 		List<String> commands = new ArrayList<String>();
-		commands.add("import Simple.gf");
+		commands.add("import " + prop.getProperty("abstract_grammar"));
 		commands.add("gt -depth=5");
 		List<String> asts = sendGfShellCommands(commands);
 		for(int i=0; i < asts.size(); i++){

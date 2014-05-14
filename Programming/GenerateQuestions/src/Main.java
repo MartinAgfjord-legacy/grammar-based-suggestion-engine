@@ -12,18 +12,18 @@ import org.grammaticalframework.pgf.ParseError;
 public class Main {
 	
 	public static void main(String[] args) throws ParseError, IOException, SolrServerException {
-		File simple = new File("/tmp/Simple.pgf");
-		Grammar grammar = new Grammar(simple);
+		File file = new File("/tmp/Questions.pgf");
+		Grammar grammar = new Grammar(file);
 		Solr solr = new Solr();
 		solr.deleteAll();
-//		solr.addNamesToSolr();
-//		List<String> asts = grammar.generateAbstractSyntaxTreesFromShell();
-//		List<List<String>> linearizations = grammar.generateLinearizations(asts);
-//		List<Question> questions = grammar.createQuestions(linearizations);
-//		solr.addQuestionsToSolr(questions);
+		solr.addNamesToSolr();
+		List<String> asts = grammar.generateAbstractSyntaxTreesFromShell();
+		List<List<String>> linearizations = grammar.generateLinearizations(asts);
+		List<Question> questions = grammar.createQuestions(linearizations);
+		solr.addQuestionsToSolr(questions);
 //		solr.addNamesToSolr("Skill", solr.fetchSkillsFromFindwise());
 //		solr.addNamesToSolr("Object", solr.fetchProjectNamesFromFindwise());
-		solr.addNamesToSolr("Location", solr.fetchLocationsFromFindwise());
+//		solr.addNamesToSolr("Location", solr.fetchLocationsFromFindwise());
 //		System.out.println("asdsa");
 	}
 }

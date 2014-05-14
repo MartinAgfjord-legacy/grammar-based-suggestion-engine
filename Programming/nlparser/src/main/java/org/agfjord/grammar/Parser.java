@@ -47,7 +47,7 @@ public class Parser {
 			Parser.class.getName());
 
 	public Parser() throws SolrServerException {
-		File pgf = new File("/tmp/Simple.pgf");
+		File pgf = new File("/tmp/Questions.pgf");
 		try {
 			gr = PGF.readPGF(pgf.getAbsolutePath());
 		} catch (FileNotFoundException e) {
@@ -55,7 +55,7 @@ public class Parser {
 		} catch (PGFError e) {
 			e.printStackTrace();
 		}
-		gr.getLanguages().get("SimpleEng").addLiteral("Symb", new NercLiteralCallback());
+		gr.getLanguages().get("QuestionsEng").addLiteral("Symb", new NercLiteralCallback());
 		initialize();
 	}
 

@@ -168,6 +168,7 @@ public class Solr {
 	public void addNamesToSolr() throws SolrServerException, IOException {
 		namesServer.add(createNameDocument("Skill", "Java", id++));
 		namesServer.add(createNameDocument("Skill", "C", id++));
+		namesServer.add(createNameDocument("Skill", "Python", id++));
 		namesServer.add(createNameDocument("Object", "Solr", id++));
 		namesServer.add(createNameDocument("Location", "Gothenburg", id++));
 		namesServer.add(createNameDocument("Location", "Stockholm", id++));

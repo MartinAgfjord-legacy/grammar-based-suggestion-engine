@@ -29,11 +29,6 @@ import com.google.gson.Gson;
 @Path("/")
 public class JSONService {
 	
-//    @Produces(MediaType.TEXT_PLAIN)
-//    public String getIt() {
-//        return "Got it!";
-//    }
-	
 	final SolrConnector solrConnector = new SolrConnector();
 
 	@GET
@@ -45,7 +40,7 @@ public class JSONService {
 		String json = null;
 		List<AbstractSyntaxTree> asts = null;
 		try{
-			asts = p.parse(question, "SimpleEng");
+			asts = p.parse(question, "QuestionsEng");
 			json = gson.toJson(asts);
 		}catch(ParseError e){
 			json = "{ \"err\" : \"" + e.getToken() + "\" }";
@@ -69,7 +64,7 @@ public class JSONService {
 			@QueryParam("callback") String callback) throws SolrServerException, IOException, ParseError {
 		Parser p = new Parser();
 		Gson gson = new Gson();
-		return  callback + "(" + gson.toJson(p.completeQuery(question, "SimpleEng")) + ")";
+		return  callback + "(" + gson.toJson(p.completeQuery(question, "QuestionsEng")) + ")";
 	}
 	
 	@GET
@@ -79,6 +74,6 @@ public class JSONService {
 			@QueryParam("callback") String callback) throws SolrServerException, IOException, ParseError {
 		Parser p = new Parser();
 		Gson gson = new Gson();
-		return  callback + "(" + gson.toJson(p.completeSentence(question, "SimpleEng")) + ")";
+		return  callback + "(" + gson.toJson(p.completeSentence(question, "QuestionsEng")) + ")";
 	}
 }
