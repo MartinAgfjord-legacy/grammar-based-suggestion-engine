@@ -146,6 +146,7 @@ function initExampleQuestions(){
 function parse(query){
     var successFun = function(response) {
             var html;
+            var fetchedResult = false;
             if(typeof response.err != 'undefined'){
                html = '<span class="error">An error occurred near the word </span>' + '<span class="error-word">' + response.err + '</span>';
             }
@@ -153,13 +154,32 @@ function parse(query){
                 /*
                  * For all linearizations where the language is 'SimpleSolr', link the query to the corresponding solr-query (also ' ' ===> '+').
                  */
+                var firstAst = true;
+                i = 0;
+                if($(response).size() > 1){
+                    $("#ambiguous_result").css('display','block');
+                } else{
+                    $("#ambiguous_result").css('display','none');
+                }
+                $("[id^=ast]").remove();
                 $(response).each(function(){
                     $(this.linearizations).each(function(){
                         var host = getHost();
-                        if(this.language == 'SimpleSolr'){
-                            this.query = '<a href="' + 'http://' + host + '/nlparser/api/solr/' + this.query.replace(/ /g,'+') + '">' + this.query + '</a>';
+                        if(this.language == 'QuestionsAmbig'){
+                            $("#ambiguous_result").append('<p id="' + 'ast' + i + '">' + this.query + '</p>');
+                        }
+                        if(this.language == 'QuestionsSolr'){
+                            solrQuery = this.query.replace(/ /g,'+');
+                            this.query = '<a href="' + 'http://' + host + '/nlparser/api/solr/' + solrQuery + '">' + this.query + '</a>';
+                            if(!fetchedResult){
+                                $("#ast" + i).css('font-weight','bold');
+                                $("#ast" + i).append(' (this was executed)')
+                                fetchResult(solrQuery);
+                                fetchedResult = true;
+                            }
                         }
                     });
+                    i++;
                 });
                 var str = JSON.stringify(response, undefined, 4);
                 //Replace e.g. "ast" : "Direct_Q (MkSymb \"Java\")" with 'ast' : 'Direct_Q (MkSymb "Java")'
@@ -168,12 +188,28 @@ function parse(query){
                 str = str.replace(/\\/g, '"');
                 html = syntaxHighlight(str);
             }
-            $('#baz').empty().append(html);
+            $('#grammar_result').empty().append(html);
         };
     var errFun = function(request, status, error) {
-            $('#baz').empty().append(status);
+            $('#grammar_result').empty().append(status);
     };
     ajaxRequest('parse', query, successFun, errFun);
+}
+
+function fetchResult(solrQuery){
+    var successFun = function(response){
+        var str = JSON.stringify(response, undefined, 4);
+        //Replace e.g. "ast" : "Direct_Q (MkSymb \"Java\")" with 'ast' : 'Direct_Q (MkSymb "Java")'
+        str = str.replace(/\\"/g, '\\');
+        str = str.replace(/\"/g, "'");
+        str = str.replace(/\\/g, '"');
+        html = syntaxHighlight(str);
+        console.log(html);
+        console.log(response);
+        $("#search_result").empty().append(html);
+    }
+    var errFun = function(request, status, error) {};
+    ajaxRequest2('solr' + '/' + solrQuery, successFun, errFun);
 }
 
 /*
@@ -200,6 +236,20 @@ function ajaxRequest(path, query, successFun, errFun){
         dataType: "jsonp",
         data: {
             q: query,
+            format: "jsonp"
+        },
+        success: successFun,
+        error: errFun
+    });
+}
+
+function ajaxRequest2(path, successFun, errFun){
+    var host = getHost();
+    $.ajax({
+        url: 'http://' + host + '/nlparser/api/' + path,
+        jsonp: "callback",
+        dataType: "jsonp",
+        data: {
             format: "jsonp"
         },
         success: successFun,

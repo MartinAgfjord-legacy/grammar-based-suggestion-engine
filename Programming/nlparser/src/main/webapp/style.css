@@ -37,3 +37,6 @@ body { padding: 25px ; }
   padding-bottom: 4px;
   margin-left: 0px;
 }
+#ambiguous_result {
+  display: none ;
+}

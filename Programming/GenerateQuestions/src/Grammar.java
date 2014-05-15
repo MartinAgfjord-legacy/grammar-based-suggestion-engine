@@ -8,10 +8,14 @@ import java.io.OutputStreamWriter;
 import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.Scanner;
+import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.agfjord.Question;
 import org.apache.solr.client.solrj.SolrServer;
@@ -52,7 +56,7 @@ public class Grammar {
 	/*
 	 * Create questions from generated linearizations
 	 */
-	public List<Question> createQuestions(List<List<String>> linearizations){
+	public List<Question> createQuestions(List<String> asts, List<List<String>> linearizations){
 		List<Question> questions = new ArrayList<Question>();
 		for(int i=0; i < linearizations.size(); i++){
 			Question question = new Question();
@@ -66,6 +70,7 @@ public class Grammar {
 				}
 				nameCounts.put(nameCat, count);
 			}
+			question.setAst(asts.get(i));
 			question.setNameCounts(nameCounts);
 			questions.add(question);
 		}
@@ -74,35 +79,64 @@ public class Grammar {
 
 	/*
 	 * Generates abstract syntax trees from the GF-shell
-	 * Each generated name gets the value "Foo", we change 
-	 * this into the correct type + index.
-	 * E.g. ImplicitPlPres_Q (Know_R Person_N (MkSkill (MkSymb "Foo"))) ==>
-	 *      ImplicitPlPres_Q (Know_R Person_N (MkSkill (MkSymb "Skill0")))
 	 */
 	public List<String> generateAbstractSyntaxTreesFromShell() throws IOException{
 		//Generate trees by using the GF-shell
 		List<String> commands = new ArrayList<String>();
 		commands.add("import " + prop.getProperty("abstract_grammar"));
-		commands.add("gt -depth=5");
+		commands.add("gt -depth=6");
 		List<String> asts = sendGfShellCommands(commands);
 		for(int i=0; i < asts.size(); i++){
-			for(int j=0; j < nameCats.length; j++){
-				Scanner sc = new Scanner(asts.get(i));
-				sc.useDelimiter((nameFuns[j]  + " \\(MkSymb \"Foo\"\\)"));
-				StringBuilder sb = new StringBuilder();
-				int id = 0;
-				while(sc.hasNext()){
-					sb.append(sc.next());
-					if(sc.hasNext()){
-						sb.append(nameFuns[j] + " (MkSymb \"" + nameCats[j] + id++ + "\")");
-					}
-				}
-				asts.set(i, sb.toString());
+			if(hasDuplicateRelations(asts.get(i))){
+				asts.set(i, processNameTypes(asts.get(i)));
+			}else{
+				// Remove from list and decrement index once
+				asts.remove(i--);
 			}
-			System.out.println(asts.get(i));
 		}
 		return asts;
 	}
+	/*
+	 * Modifies an abstract syntax tree. All names are by default named "Foo" by the gf-shell.
+	 * We change each name into its type + index.
+	 * E.g. Question_I Person_N (Know_R (MkSkill (MkSymb "Foo"))) ==>
+	 *      Question_I Person_N (Know_R (MkSkill (MkSymb "Skill0")))
+	 */
+	private String processNameTypes(String ast){
+		for(int j=0; j < nameCats.length; j++){
+			Scanner sc = new Scanner(ast);
+			sc.useDelimiter((nameFuns[j]  + " \\(MkSymb \"Foo\"\\)"));
+			StringBuilder sb = new StringBuilder();
+			int id = 0;
+			while(sc.hasNext()){
+				sb.append(sc.next());
+				if(sc.hasNext()){
+					sb.append(nameFuns[j] + " (MkSymb \"" + nameCats[j] + id++ + "\")");
+				}
+			}
+			ast = sb.toString();
+		}
+		return ast;
+	}
+	
+	/*
+	 * Determines if an abstract syntax tree has the same relation more than once
+	 * E.g. Question_I Person_N (And_I (Know_R (MkSkill (MkSymb "Skill0"))) (Know_R (MkSkill (MkSymb "Skill1"))))
+	 * contains Know_R two times. 
+	 */
+	private boolean hasDuplicateRelations(String ast){
+		Set<String> relations = new HashSet<String>();
+        Pattern regex = Pattern.compile("\\w+\\_R ");
+        Matcher m = regex.matcher(ast);
+        while(m.find()){
+        	if(relations.contains(m.group())){
+        		return false;
+        	}else {
+        		relations.add(m.group());
+        	}
+        } return true;
+	}
+	
 	/*
 	 * Generate linearizations from abstract syntax trees by using the GF-shell.
 	 * Each ast can yield more than one linearization, so we have a list of 

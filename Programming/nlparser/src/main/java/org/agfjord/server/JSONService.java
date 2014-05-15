@@ -52,8 +52,9 @@ public class JSONService {
 	@Path("/solr/{query}")
 	@Produces(MediaType.APPLICATION_JSON)
 	public String solrQuery(@Context HttpServletRequest httpRequest) throws SolrServerException, IOException {
+		String callback = httpRequest.getParameter("callback");
 		httpRequest.getRequestURL();
-		return solrConnector.queryDebug("select" + "?" + httpRequest.getQueryString());
+		return callback + "(" + solrConnector.queryDebug("select" + "?" + httpRequest.getQueryString()) + ")";
 	}
 
 	

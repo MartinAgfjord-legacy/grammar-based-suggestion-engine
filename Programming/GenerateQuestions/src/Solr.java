@@ -21,13 +21,16 @@ import org.apache.solr.common.SolrDocumentList;
 import org.apache.solr.common.SolrInputDocument;
 import org.grammaticalframework.pgf.ParseError;
 
+import com.googlecode.phonet4java.DaitchMokotoff;
+
 
 public class Solr {
 	private SolrServer treesServer = new HttpSolrServer("http://localhost:8983/solr/trees");
 	private SolrServer namesServer = new HttpSolrServer("http://localhost:8983/solr/names");
 	private SolrServer findwiseServer = new HttpSolrServer("http://clouddiscoverprod1.corp.findwise.net:8080/solr/main");
+	private DaitchMokotoff phonet = new DaitchMokotoff();
 	private int id = 0;
-	public void deleteAll() throws SolrServerException, IOException{
+	public void deleteAllNames() throws SolrServerException, IOException{
 		namesServer.deleteByQuery("*:*");
 		namesServer.commit();
 	}
@@ -154,6 +157,8 @@ public class Solr {
 			solrInputDoc.addField("id", id++);
 			solrInputDoc.addField("ast", question.getAst());
 			solrInputDoc.addField("linearizations", question.getLinearizations());
+			solrInputDoc.addField("length", question.getLinearizations().get(0).length());
+			
 			Map<String,Integer> nameCounts = question.getNameCounts();
 			for(String name : nameCounts.keySet()){
 				solrInputDoc.addField(name + "_i", nameCounts.get(name));
@@ -184,6 +189,13 @@ public class Solr {
 		Map<String,String> fieldsAndValues = new HashMap<String,String>();
 		fieldsAndValues.put("type", type);
 		fieldsAndValues.put("name", name);
+		fieldsAndValues.put("length", Integer.toString(name.length()));
+		StringBuilder namePhonetic = new StringBuilder();
+		for(String word : name.split("\\s+")){
+			namePhonetic.append(phonet.code(word) + " ");
+		} namePhonetic.deleteCharAt(namePhonetic.length()-1);
+		fieldsAndValues.put("phonetic", namePhonetic.toString());
+		
 		return createSolrDocument(fieldsAndValues, id);
 	}
 
@@ -194,6 +206,7 @@ public class Solr {
 		for(String key : fieldsAndValues.keySet()){
 			solrInputDoc.addField(key, fieldsAndValues.get(key));
 		}
+		System.out.println(solrInputDoc.toString());
 		return solrInputDoc;
 	}
 }

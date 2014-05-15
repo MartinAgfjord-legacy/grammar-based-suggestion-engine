@@ -38,9 +38,13 @@
     <button type="button" class="btn btn-success question">which projects are using Solr ?</button>
 </div>
 -->
-<pre id="baz"></pre>
-<a href="grammar/Simple.gf.txt">Simple.gf</a>
-<a href="grammar/SimpleEng.gf.txt">SimpleEng.gf</a>
-<a href="grammar/SimpleSolr.gf.txt">SimpleSolr.gf</a>
+<pre id="ambiguous_result">Ambiguous question, we found the following interpretations:</pre>
+<pre id="grammar_result"></pre>
+<pre id="search_result"></pre>
+<a href="grammar/Questions.gf.txt">Questions.gf</a>
+<a href="grammar/QuestionsI.gf.txt">QuestionsI.gf</a>
+<a href="grammar/QuestionsEng.gf.txt">QuestionsEng.gf</a>
+<a href="grammar/QuestionsSolr.gf.txt">QuestionsSolr.gf</a>
+<a href="grammar/QuestionsAmbig.gf.txt">QuestionsAmbig.gf</a>
 </body>
 </html>

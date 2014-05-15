@@ -15,15 +15,15 @@ public class Main {
 		File file = new File("/tmp/Questions.pgf");
 		Grammar grammar = new Grammar(file);
 		Solr solr = new Solr();
-		solr.deleteAll();
-		solr.addNamesToSolr();
-		List<String> asts = grammar.generateAbstractSyntaxTreesFromShell();
-		List<List<String>> linearizations = grammar.generateLinearizations(asts);
-		List<Question> questions = grammar.createQuestions(linearizations);
-		solr.addQuestionsToSolr(questions);
-//		solr.addNamesToSolr("Skill", solr.fetchSkillsFromFindwise());
-//		solr.addNamesToSolr("Object", solr.fetchProjectNamesFromFindwise());
-//		solr.addNamesToSolr("Location", solr.fetchLocationsFromFindwise());
+		solr.deleteAllNames();
+//		solr.addNamesToSolr();
+//		List<String> asts = grammar.generateAbstractSyntaxTreesFromShell();
+//		List<List<String>> linearizations = grammar.generateLinearizations(asts);
+//		List<Question> questions = grammar.createQuestions(asts,linearizations);
+//		solr.addQuestionsToSolr(questions);
+		solr.addNamesToSolr("Skill", solr.fetchSkillsFromFindwise());
+		solr.addNamesToSolr("Object", solr.fetchProjectNamesFromFindwise());
+		solr.addNamesToSolr("Location", solr.fetchLocationsFromFindwise());
 //		System.out.println("asdsa");
 	}
 }

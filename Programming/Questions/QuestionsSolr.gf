@@ -2,22 +2,33 @@ concrete QuestionsSolr of Questions = SymbolEng ** open StringOper in {
 	
 	lincat
 	  Question = SS;
-	  Relation = { subj : Str ; pred : Str ; obj : Str } ;
+	  InternalRelation, ExternalRelation, ResourceRelation = SS ;
 	  Internal, External, Resource = SS ;
 	  Object, Skill, Location = SS ;
 
 	lin
-	  Question_Q rel = select rel.subj rel.pred rel.obj ;
+	  Question_I internal relation = select internal relation ;
+	  Question_E external relation = select external relation;
+	  Question_R resource' relation = select resource' relation;
 	  
 	  -- Subjects
-	  Person_N = ss "object_type : person" ;
-	  Customer_N = ss "customers" ;
-	  Project_N = ss "projects" ;
+	  Person_N = ss "person" ;
+	  Customer_N = ss "customer" ;
+	  Project_N = ss "project" ;
 
 	  -- Unknown names
-	  MkSkill s = ss ("*" ++ s.s  ++ "*") ;
-	  MkObject s = ss ("*" ++ s.s ++ "*") ;
-	  MkLocation s = ss ("*" ++ s.s  ++ "*") ;
+	  MkSkill s = ss ("(" ++ s.s  ++ ")") ;
+	  MkObject s = ss ("(" ++ s.s ++ ")") ;
+	  MkLocation s = ss ("(" ++ s.s  ++ ")") ;
+	  
+	  And_I s1 s2 = ss ("(" ++ s1.s ++ "AND" ++ s2.s ++ ")");
+	  Or_I s1 s2 = ss ("(" ++ s1.s ++ " OR " ++ s2.s ++ ")");
+	  
+  	  And_E s1 s2 = ss ("(" ++ s1.s ++ "AND" ++ s2.s ++ ")");
+	  Or_E s1 s2 = ss ("(" ++ s1.s ++ " OR " ++ s2.s ++ ")");
+	  
+  	  And_R s1 s2 = ss ("(" ++ s1.s ++ "AND" ++ s2.s ++ ")");
+	  Or_R s1 s2 = ss ("(" ++ s1.s ++ " OR " ++ s2.s ++ ")");
 	  
 	  -- Conjunctions
 	  And_S s1 s2 = ss ("(" ++ s1.s ++ " AND" ++ s2.s ++ ")");
@@ -30,18 +41,18 @@ concrete QuestionsSolr of Questions = SymbolEng ** open StringOper in {
 	  Or_L s1 s2 = ss ("(" ++ s1.s ++ " OR " ++ s2.s ++ ")");
 	  
  	  -- Relations
-	  Know_R name skill = mkR name "expertise" skill ;
+	  Know_R skill = {s = "expertise" ++ ":" ++ skill.s} ;
 	  -- Two redundant functions below
-  	  UseExt_R res obj = mkR res "use" obj;
-  	  UseRes_R res obj = mkR res "use" obj;
-  	  WorkWith_R name obj = mkR name "expertise" obj ;
-  	  WorkIn_R name loc = mkR name "location" loc ;
+  	  UseExt_R obj = {s = "use" ++ ":" ++ obj.s};
+  	  UseExt_R obj = {s = "use" ++ ":" ++ obj.s};
+	  WorkWith_R obj = {s = "expertise" ++ ":" ++ obj.s} ;
+	  WorkIn_R loc = {s = "location" ++ ":" ++ loc.s} ;
 	  
 	  oper
 	    -- Make a relation
-	    mkR : SS -> Str -> SS -> { subj : Str ; pred : Str ; obj : Str } = \s,p,o ->
-	    			{ subj = s.s ; pred = p ; obj = o.s } ;
+	    mkR : Str -> SS -> { relation : Str ; obj : Str } = \r,o ->
+	    			{ relation = r ; obj = o.s } ;
 	    -- Select-function in solr
-	    select : Str -> Str -> Str -> SS = \subj,pred,obj -> 
-	           ss ("select?q=*:*&wt=json&fq=" ++ subj ++ " AND " ++ pred ++ ":" ++ obj) ;
+	    select : SS -> SS -> SS = \subj,relation -> 
+	           ss ("select?q=*:*&wt=json&fq=" ++ "object_type :" ++ subj.s ++ " AND " ++ relation.s) ;
 }

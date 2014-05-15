@@ -39,8 +39,8 @@ abstract Questions = Symbol ** {
    	  And_E : ExternalRelation -> ExternalRelation -> ExternalRelation ;
    	  Or_E : ExternalRelation -> ExternalRelation -> ExternalRelation ;
    	  
-   	  And_R : ResourceRelation -> ResourceRelation -> ResourceRelation ;
-	  Or_R : ResourceRelation -> ResourceRelation -> ResourceRelation ;
+   	  And_Re : ResourceRelation -> ResourceRelation -> ResourceRelation ;
+	  Or_Re : ResourceRelation -> ResourceRelation -> ResourceRelation ;
 	  
 	  And_S : Skill -> Skill -> Skill ;
 	  Or_S : Skill -> Skill -> Skill ;

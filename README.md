@@ -1,13 +1,15 @@
 # Master thesis 2014
 ## To do
-* Use phonetic algorithm to find which word(s) that matches a question
-* Filter names by using valid already existing sub query.
+* Graph database! Mock data
+* Filter names by using valid already existing sub query. Hard to do with current data structure
 * Would be nice to support parentheses in QuestionsEng
 * Samma namn föreslås flera gånger
 * För att välja mellan tvetydig fråga så säg att man väljer en och sedan:
 construct new concrete language to explain which abstract syntax tree to choose
 send sample of swedish letter with grammar
 
+## Unsure
+* Use phonetic algorithm to find which word(s) that matches a question. The idea is to store each name with its phonetic representation. When we want to find which words that are names in a question, we encode all words in the question into its phonetic representation and matches against names. We can then use indexOf(Str) to find where the name occurs. However, this method does not support partial word completion which is a major drawback, we do not want to wait until the user has typed the whole name.
 
 ## Old
 1. Suggest sentence fungerar inte ultimat, den föreslår samma namn flera gånger. Föreslå enbart ett namn en gång

@@ -35,8 +35,8 @@ incomplete concrete QuestionsI of Questions = open Syntax, Extra, LexQuestions i
 	  And_E rs1 rs2 = mkRS and_Conj rs1 rs2 ;
 	  Or_E rs1 rs2 = mkRS or_Conj rs1 rs2 ;
 	  
-	  And_R rs1 rs2 = mkRS and_Conj rs1 rs2 ;
-	  Or_R rs1 rs2 = mkRS or_Conj rs1 rs2 ;
+	  And_Re rs1 rs2 = mkRS and_Conj rs1 rs2 ;
+	  Or_Re rs1 rs2 = mkRS or_Conj rs1 rs2 ;
 
 	  
 	  And_S s1 s2 = mkNP and_Conj s1 s2 ;
@@ -49,6 +49,7 @@ incomplete concrete QuestionsI of Questions = open Syntax, Extra, LexQuestions i
 	  Or_O s1 s2 = mkNP or_Conj s1 s2 ;
       
 	  -- Relations
+	  IntRel_P intRel = {s = "(" ++ intRel.s ++ ")"} ;
 	  Know_R skill = mkRS (mkRCl which_RP (mkVP' know_V skill)) ;
 	  UseExt_R obj = mkRS (mkRCl which_RP (mkVP' use_V obj)) ;
 	  UseRes_R obj = mkRS (mkRCl which_RP (mkVP' use_V obj)) ;
