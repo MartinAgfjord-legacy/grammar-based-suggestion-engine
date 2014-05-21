@@ -28,9 +28,10 @@
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.neo4j</groupId>
-			<artifactId>neo4j-rest-graphdb</artifactId>
-			<version>1.9.3-SNAPSHOT</version>
+			<groupId>org.grammaticalframework</groupId>
+			<artifactId>pgf</artifactId>
+			<version>1.0</version>
+			<scope>compile</scope>
 		</dependency>
 		<!-- Solr connector -->
 		<dependency>
