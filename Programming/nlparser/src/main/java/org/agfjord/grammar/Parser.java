@@ -40,8 +40,6 @@ import org.grammaticalframework.pgf.PGFError;
 import org.grammaticalframework.pgf.ParseError;
 import org.grammaticalframework.pgf.TokenProb;
 
-import com.googlecode.phonet4java.Phonet;
-
 public class Parser {
 
 	private PGF gr;
