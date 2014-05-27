@@ -53,15 +53,16 @@ public class JSONService {
 	@GET
 	@Path("/parse")
 	@Produces(MediaType.APPLICATION_JSON)
-	public String parseQuestion(@QueryParam("q") String question, @QueryParam("callback") String callback) throws IOException, SolrServerException {
+	public String parseQuestion(@QueryParam("q") String question, @QueryParam("callback") String callback, @QueryParam ("lang") String language) throws IOException, SolrServerException {
 		Parser p = new Parser();
 		Gson gson = new Gson();
 		String json = null;
 		List<AbstractSyntaxTree> asts = null;
-		try{
-			asts = p.parse(question, "QuestionsEng");
+		try {
+			asts = p.parse(question, language);
 			json = gson.toJson(asts);
-		}catch(ParseError e){
+		} catch(ParseError e){
+			e.printStackTrace();
 			json = "{ \"err\" : \"" + e.getToken() + "\" }";
 		}
 		return callback + "(" + json + ")" ;	
@@ -91,10 +92,10 @@ public class JSONService {
 	@Path("/completeSentence")
 	@Produces(MediaType.APPLICATION_JSON)
 	public String completeSentence(@QueryParam("q") String question, 
-			@QueryParam("callback") String callback) throws SolrServerException, IOException, ParseError {
+			@QueryParam("callback") String callback, @QueryParam ("lang") String language) throws SolrServerException, IOException, ParseError {
 		Parser p = new Parser();
 		Gson gson = new Gson();
-		return  callback + "(" + gson.toJson(p.completeSentence(question, "QuestionsEng")) + ")";
+		return  callback + "(" + gson.toJson(p.completeSentence(question, language)) + ")";
 	}
 	
 	@POST

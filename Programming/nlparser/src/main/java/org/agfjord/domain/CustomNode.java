@@ -9,9 +9,7 @@ import org.neo4j.graphdb.Direction;
 import org.neo4j.graphdb.Node;
 
 public class CustomNode {
-	
-	
-	
+
 	long id;
 	Map<String,String> properties = new HashMap<String,String>();
 	List<Relationship> relationships = new ArrayList<Relationship>();

@@ -38,7 +38,6 @@ import org.grammaticalframework.pgf.NercLiteralCallback;
 import org.grammaticalframework.pgf.PGF;
 import org.grammaticalframework.pgf.PGFError;
 import org.grammaticalframework.pgf.ParseError;
-import org.grammaticalframework.pgf.TokenProb;
 
 public class Parser {
 
@@ -66,6 +65,7 @@ public class Parser {
 			e.printStackTrace();
 		}
 		gr.getLanguages().get("QuestionsEng").addLiteral("Symb", new NercLiteralCallback());
+		gr.getLanguages().get("QuestionsSwe").addLiteral("Symb", new NercLiteralCallback());
 	}
 
 	public String closestQuestion(String nlQuestion){
@@ -142,7 +142,6 @@ public class Parser {
 		SolrQuery treesQuery = new SolrQuery();
 		SolrQuery namesQuery = new SolrQuery();
 		namesQuery.addSort("score", ORDER.desc);
-		namesQuery.addSort("length", ORDER.asc);
 		treesQuery.setRows(5);
 		
 		String[] words = nlQuestion.split("\\s+");
@@ -162,7 +161,8 @@ public class Parser {
 			// Word is a name, we check if it exists in our name core in Solr
 			// If it exists, we fix any misspellings.
 			else {
-				namesQuery.setQuery(word + "*~0.7");
+				namesQuery.setQuery(word + "~0.7");
+				namesQuery.addSort("abs(sub(length," + word.length() + "))", ORDER.asc);
 				rsp = namesServer.query(namesQuery);
 				List<NameResult> nameResults = rsp.getBeans(NameResult.class);
 				// Assume a word can only be represented by one name in the index
@@ -222,6 +222,7 @@ public class Parser {
 		Map<String,List<NameResult>> names = parseQuestionIntoNameResults(nlQuestion);
 		nlQuestion = replaceNames(nlQuestion, names, "types");
 		treesQuery.setQuery(nlQuestion);
+		treesQuery.setFilterQueries("lang:" + parseLang);
 		String sorting = getSort(names);
 		treesQuery.addSort(SortClause.asc(sorting));
 		treesQuery.addSort(SortClause.desc("score"));
@@ -288,41 +289,41 @@ public class Parser {
 		return list;
 	}
 
-	public Set<CompletionWord> completeQuery(String question, String parseLang) throws ParseError {
-		Concr lang = gr.getLanguages().get(parseLang);
-		String toComplete = "";
-		String[] words = question.split("\\s+");
-		//If last char is not whitespace
-		if(question.length() > 0 && question.charAt(question.length()-1) != ' '){ 
-			//Split words on whitespace
-			StringBuilder partialQuestion = new StringBuilder();
-			for(int i=0; i < words.length-1; i++){
-				partialQuestion.append(words[i] + " ");
-			}
-			question = partialQuestion.toString();
-			toComplete = words[words.length-1];
-		}
-
-		Set<CompletionWord> tokens = new HashSet<CompletionWord>();
-		for (TokenProb tp : lang.complete(gr.getStartCat(), question, toComplete)) {
-			boolean partial = false;
-			if(!toComplete.equals("")){
-				partial = tp.getToken().contains(toComplete);
-				//Omit to suggest the word to complete
-				if(tp.getToken().equals(toComplete)){
-					continue ;
-				}
-			}
-			tokens.add(new CompletionWord(partial, tp.getToken()));
-		}
-		//If list only contains the last word or is empty
-		if(tokens.size() <= 1){
-			//Also predict next word
-			for (TokenProb tp : lang.complete(gr.getStartCat(), question + toComplete + " ", "")) {
-				tokens.add(new CompletionWord(false, tp.getToken()));
-			}
-		}
-		return tokens;
-	}
+//	public Set<CompletionWord> completeQuery(String question, String parseLang) throws ParseError {
+//		Concr lang = gr.getLanguages().get(parseLang);
+//		String toComplete = "";
+//		String[] words = question.split("\\s+");
+//		//If last char is not whitespace
+//		if(question.length() > 0 && question.charAt(question.length()-1) != ' '){ 
+//			//Split words on whitespace
+//			StringBuilder partialQuestion = new StringBuilder();
+//			for(int i=0; i < words.length-1; i++){
+//				partialQuestion.append(words[i] + " ");
+//			}
+//			question = partialQuestion.toString();
+//			toComplete = words[words.length-1];
+//		}
+//
+//		Set<CompletionWord> tokens = new HashSet<CompletionWord>();
+//		for (TokenProb tp : lang.complete(gr.getStartCat(), question, toComplete)) {
+//			boolean partial = false;
+//			if(!toComplete.equals("")){
+//				partial = tp.getToken().contains(toComplete);
+//				//Omit to suggest the word to complete
+//				if(tp.getToken().equals(toComplete)){
+//					continue ;
+//				}
+//			}
+//			tokens.add(new CompletionWord(partial, tp.getToken()));
+//		}
+//		//If list only contains the last word or is empty
+//		if(tokens.size() <= 1){
+//			//Also predict next word
+//			for (TokenProb tp : lang.complete(gr.getStartCat(), question + toComplete + " ", "")) {
+//				tokens.add(new CompletionWord(false, tp.getToken()));
+//			}
+//		}
+//		return tokens;
+//	}
 
 }
