@@ -13,22 +13,30 @@ public class Main {
 	
 	static File file = new File("/tmp/Questions.pgf");
 	static Grammar grammar = new Grammar(file);
-	static Solr solr = new Solr();
+	static DataImportSolr solr = new DataImportSolr();
 	static DataImportNeo4j dataImport = new DataImportNeo4j();
 	
 	public static void main(String[] args) throws ParseError, IOException, SolrServerException {
-		importDocumentsNeo4j();
-		importNamesSolr();
+//		importDocumentsNeo4j();
+//		importNamesSolr();
 		importQuestionsSolr();
+//		dataImport.shutdown();
+//		solr.importRelationsFromNeo4j();
 	}
 	
 	public static void importDocumentsNeo4j() throws IOException{
-		dataImport.importFromFile(new File("First_names.txt"), "Firstname", "name");
-		dataImport.importFromFile(new File("Last_names.txt"), "Lastname", "name");
-		dataImport.importFromFile(new File("Programming_languages.txt"), "Expertise", "name");
-		dataImport.importFromFile(new File("Non-profit_organizations.txt"), "Project", "name");
-		dataImport.importFromFile(new File("Locations.txt"), "Location", "name");
-		dataImport.createRelations(100);
+		dataImport.deleteDatabase();
+//		dataImport.importFromFile(new File("First_names.txt"), "Firstname", "name");
+//		dataImport.importFromFile(new File("Last_names.txt"), "Lastname", "name");
+//		dataImport.importFromFile(new File("Programming_languages.txt"), "Expertise", "name");
+//		dataImport.importFromFile(new File("Modules.txt"), "Module", "name");
+//		dataImport.importFromFile(new File("Locations.txt"), "Location", "name");
+//		dataImport.importFromFile(new File("Charity_organizations.txt"), "Organization", "name");
+		
+		
+		dataImport.createPersons(100);
+		dataImport.createPersonRelations();
+		dataImport.createOrganizationRelations();
 	}
 	
 	public static void importNamesSolr() throws SolrServerException, IOException{
@@ -36,15 +44,24 @@ public class Main {
 //		solr.addNamesToSolr("Object", solr.fetchProjectNamesFromFindwise());
 //		solr.addNamesToSolr("Location", solr.fetchLocationsFromFindwise());
 		solr.deleteAllNames();
-		solr.addNodesToSolr("Skill", dataImport.fetchAllLabelWithRelation("Expertise", "KNOWS"));
-		solr.addNodesToSolr("Location", dataImport.fetchAllLabelWithRelation("Location", "WORK_IN"));
-		solr.addNodesToSolr("Object", dataImport.fetchAllLabelWithRelation("Project", "MEMBER_OF"));
+		solr.importNames("Skill", dataImport.fetchAllLabelWithRelation("Expertise"));
+		solr.importNames("Location", dataImport.fetchAllLabelWithRelation("Location"));
+		solr.importNames("Organization", dataImport.fetchAllLabelWithRelation("Organization"));
+		solr.importNames("Module", dataImport.fetchAllLabelWithRelation("Module"));
 	}
 	
 	public static void importQuestionsSolr() throws IOException, SolrServerException, ParseError{
 		List<String> asts = grammar.generateAbstractSyntaxTreesFromShell();
-		List<List<String>> linearizations = grammar.generateLinearizations(asts);
-		List<Question> questions = grammar.createQuestions(asts,linearizations);
+		solr.deleteAllQuestions();
+		{
+		List<List<String>> linearizations = grammar.generateLinearizations(asts, "QuestionsEng.gf");
+		List<Question> questions = grammar.createQuestions(asts, linearizations, "QuestionsEng");
 		solr.addQuestionsToSolr(questions);
+		}
+		{
+		List<List<String>> linearizations = grammar.generateLinearizations(asts, "QuestionsSwe.gf");
+		List<Question> questions = grammar.createQuestions(asts, linearizations, "QuestionsSwe");
+		solr.addQuestionsToSolr(questions);
+		}
 	}
 }

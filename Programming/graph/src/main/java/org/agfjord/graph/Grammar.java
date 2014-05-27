@@ -34,8 +34,8 @@ import org.grammaticalframework.pgf.ParseError;
 public class Grammar {
 
 	private PGF gr;
-	final private String[] nameFuns = new String[]{ "MkSkill", "MkLocation", "MkObject" };
-	final private String[] nameCats = new String[]{ "Skill", "Location", "Object" };
+	final private String[] nameFuns = new String[]{ "MkSkill", "MkLocation", "MkOrganization", "MkModule" };
+	final private String[] nameCats = new String[]{ "Skill", "Location", "Organization", "Module" };
 	final private Properties prop = new Properties();
 
 	public Grammar(File pgf) {
@@ -56,7 +56,7 @@ public class Grammar {
 	/*
 	 * Create questions from generated linearizations
 	 */
-	public List<Question> createQuestions(List<String> asts, List<List<String>> linearizations){
+	public List<Question> createQuestions(List<String> asts, List<List<String>> linearizations, String lang){
 		List<Question> questions = new ArrayList<Question>();
 		for(int i=0; i < linearizations.size(); i++){
 			Question question = new Question();
@@ -72,6 +72,7 @@ public class Grammar {
 			}
 			question.setAst(asts.get(i));
 			question.setNameCounts(nameCounts);
+			question.setLang(lang);
 			questions.add(question);
 		}
 		return questions;
@@ -142,9 +143,9 @@ public class Grammar {
 	 * Each ast can yield more than one linearization, so we have a list of 
 	 * linearizations for each ast.
 	 */
-	public List<List<String>> generateLinearizations(List<String> asts) throws IOException{
+	public List<List<String>> generateLinearizations(List<String> asts, String concreteSyntax) throws IOException{
 		List<String> commands = new ArrayList<String>();
-		commands.add("import " + prop.getProperty("linearize_grammar").toString());
+		commands.add("import " + concreteSyntax);
 		for(String ast : asts){
 			commands.add("linearize -list " + ast);
 		}

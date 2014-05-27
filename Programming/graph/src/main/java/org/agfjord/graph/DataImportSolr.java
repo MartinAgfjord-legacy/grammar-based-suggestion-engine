@@ -20,23 +20,64 @@ import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrDocumentList;
 import org.apache.solr.common.SolrInputDocument;
 import org.grammaticalframework.pgf.ParseError;
+import org.neo4j.graphdb.Direction;
+import org.neo4j.graphdb.Node;
+import org.neo4j.graphdb.Relationship;
 
 
-public class Solr {
+public class DataImportSolr {
 	private SolrServer treesServer = new HttpSolrServer("http://localhost:8983/solr/trees");
 	private SolrServer namesServer = new HttpSolrServer("http://localhost:8983/solr/names");
+	private SolrServer relationsServer = new HttpSolrServer("http://localhost:8983/solr/relations");
 	private SolrServer findwiseServer = new HttpSolrServer("http://clouddiscoverprod1.corp.findwise.net:8080/solr/main");
 	private int id = 0;
+	private int questionsId = 0;
 	public void deleteAllNames() throws SolrServerException, IOException{
 		namesServer.deleteByQuery("*:*");
 		namesServer.commit();
 	}
+	
+	public void deleteAllRelations() throws SolrServerException, IOException{
+		relationsServer.deleteByQuery("*:*");
+		relationsServer.commit();
+	}
 
-	public void addNodesToSolr(String type, List<Map<String,Object>> nodes) throws SolrServerException, IOException {
+	public void importNames(String type, List<Map<String,Object>> nodes) throws SolrServerException, IOException {
 		for(Map<String,Object> node : nodes){
-			namesServer.add(createNameDocument(type, (String) node.get("name"), Long.toString((long)node.get("count")), id++));
-			namesServer.commit();			
+			namesServer.add(createNameDocument(type, (String) node.get("name"), Long.toString((long)node.get("count")), id++));		
 		}
+		namesServer.commit();
+	}
+	
+	void importRelationsFromNeo4j() throws SolrServerException, IOException{
+		this.deleteAllRelations();
+		DataImportNeo4j neo4j = new DataImportNeo4j();
+		int start = 0;
+		int end = 500;
+		List<Map<String,Object>> nodes = null;
+		do {
+			nodes = neo4j.allWithLabel("Person", start, end);
+			this.importRelations(nodes);
+			start += 500;
+			end += 500;
+		} while(!nodes.isEmpty());
+		start = 0;
+		end = 500;
+		do {
+			nodes = neo4j.allWithLabel("Organization", start, end);
+			this.importRelations(nodes);
+			start += 500;
+			end += 500;
+		} while(!nodes.isEmpty());
+
+	}
+	
+	public void importRelations(List<Map<String,Object>> nodes) throws SolrServerException, IOException{
+		for(Map<String,Object> node : nodes){
+			System.out.println(node.toString());
+			relationsServer.add(createSolrDocument(node, id++));
+		}
+		relationsServer.commit();
 	}
 
 	public Set<String> fetchSkillsFromFindwise() throws SolrServerException{
@@ -147,15 +188,13 @@ public class Solr {
 	 * Add linearizations to the Solr tree core
 	 */
 	public void addQuestionsToSolr(List<Question> questions) throws SolrServerException, IOException, ParseError{
-		treesServer.deleteByQuery("*:*");
-		int id = 0;
 		for(Question question : questions){
 			SolrInputDocument solrInputDoc = new SolrInputDocument();
-			solrInputDoc.addField("id", id++);
+			solrInputDoc.addField("id", questionsId++);
 			solrInputDoc.addField("ast", question.getAst());
 			solrInputDoc.addField("linearizations", question.getLinearizations());
 			solrInputDoc.addField("length", question.getLinearizations().get(0).length());
-			
+			solrInputDoc.addField("lang", question.getLang());
 			Map<String,Integer> nameCounts = question.getNameCounts();
 			for(String name : nameCounts.keySet()){
 				solrInputDoc.addField(name + "_i", nameCounts.get(name));
@@ -163,6 +202,10 @@ public class Solr {
 			treesServer.add(solrInputDoc);
 		}
 		treesServer.commit();
+	}
+	
+	public void deleteAllQuestions() throws SolrServerException, IOException{
+		treesServer.deleteByQuery("*:*");
 	}
 	/*
 	 * Add names to the Solr name core
@@ -183,17 +226,16 @@ public class Solr {
 	 * Private methods used by other methods in this class
 	 */
 	private SolrInputDocument createNameDocument(String type, String name, String count, int id){
-		Map<String,String> fieldsAndValues = new HashMap<String,String>();
+		Map<String,Object> fieldsAndValues = new HashMap<String,Object>();
 		fieldsAndValues.put("type", type);
 		fieldsAndValues.put("name", name);
 		fieldsAndValues.put("count", count);
 		fieldsAndValues.put("length", Integer.toString(name.length()));
-		
 		return createSolrDocument(fieldsAndValues, id);
 	}
 
 
-	private SolrInputDocument createSolrDocument(Map<String,String> fieldsAndValues, int id){
+	private SolrInputDocument createSolrDocument(Map<String,Object> fieldsAndValues, int id){
 		SolrInputDocument solrInputDoc = new SolrInputDocument();
 		solrInputDoc.addField("id", id);
 		for(String key : fieldsAndValues.keySet()){

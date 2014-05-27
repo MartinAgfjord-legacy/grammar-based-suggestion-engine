@@ -12,9 +12,10 @@ public class Question {
 	int id;
 	@Field("ast")
 	String ast;
-	String lang;
 	@Field("linearizations")
 	List<String> linearizations;
+	@Field("lang")
+	String lang;
 
 	Map<String,Integer> nameCounts;
 	
