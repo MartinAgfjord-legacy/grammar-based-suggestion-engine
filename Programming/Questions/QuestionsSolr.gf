@@ -12,14 +12,15 @@ concrete QuestionsSolr of Questions = SymbolEng ** open StringOper in {
 	  Question_R resource' relation = select resource' relation;
 	  
 	  -- Subjects
-	  Person_N = ss "person" ;
-	  Customer_N = ss "customer" ;
-	  Project_N = ss "project" ;
+	  Person_N = ss "Person" ;
+	  Customer_N = ss "Organization" ;
+	  Project_N = ss "Project" ;
 
 	  -- Unknown names
 	  MkSkill s = ss ("(" ++ s.s  ++ ")") ;
-	  MkObject s = ss ("(" ++ s.s ++ ")") ;
+	  MkOrganization s = ss ("(" ++ s.s ++ ")") ;
 	  MkLocation s = ss ("(" ++ s.s  ++ ")") ;
+	  MkModule s = ss ("(" ++ s.s  ++ ")") ;
 	  
 	  And_I s1 s2 = ss ("(" ++ s1.s ++ "AND" ++ s2.s ++ ")");
 	  Or_I s1 s2 = ss ("(" ++ s1.s ++ " OR " ++ s2.s ++ ")");
@@ -40,13 +41,16 @@ concrete QuestionsSolr of Questions = SymbolEng ** open StringOper in {
   	  And_L s1 s2 = ss ("(" ++ s1.s ++ " AND" ++ s2.s ++ ")");
 	  Or_L s1 s2 = ss ("(" ++ s1.s ++ " OR " ++ s2.s ++ ")");
 	  
+	  And_M s1 s2 = ss ("(" ++ s1.s ++ " AND" ++ s2.s ++ ")");
+	  Or_M s1 s2 = ss ("(" ++ s1.s ++ " OR " ++ s2.s ++ ")");
+	  
  	  -- Relations
-	  Know_R skill = {s = "expertise" ++ ":" ++ skill.s} ;
+	  Know_R skill = {s = "KNOWS" ++ ":" ++ skill.s} ;
 	  -- Two redundant functions below
-  	  UseExt_R obj = {s = "use" ++ ":" ++ obj.s};
-  	  UseExt_R obj = {s = "use" ++ ":" ++ obj.s};
-	  WorkWith_R obj = {s = "expertise" ++ ":" ++ obj.s} ;
-	  WorkIn_R loc = {s = "location" ++ ":" ++ loc.s} ;
+  	  UseExt_R obj = {s = "USES" ++ ":" ++ obj.s};
+  	  UseRes_R obj = {s = "USES" ++ ":" ++ obj.s};
+	  WorkWith_R obj = {s = "WORKS_WITH" ++ ":" ++ obj.s} ;
+	  WorkIn_R loc = {s = "WORKS_IN" ++ ":" ++ loc.s} ;
 	  
 	  oper
 	    -- Make a relation

@@ -4,7 +4,7 @@ incomplete concrete QuestionsI of Questions = open Syntax, Extra, LexQuestions i
 	  Question = Utt ;
 	  Relation = { subj : N ; rs: RS } ;
 	  Internal, External, Resource = N ;
-	  Object, Skill, Location = NP ;
+	  Organization, Skill, Location, Module = NP ;
 	  InternalRelation = RS ;
 	  ExternalRelation = RS ;
 	  ResourceRelation = RS ;
@@ -18,7 +18,8 @@ incomplete concrete QuestionsI of Questions = open Syntax, Extra, LexQuestions i
       
   	  -- Unknown names
 	  MkSkill s = mkNP (SymbPN (MkSymb s)) ;
-	  MkObject s = mkNP (SymbPN (MkSymb s)) ;
+	  MkOrganization s = mkNP (SymbPN (MkSymb s)) ;
+	  MkModule s = mkNP (SymbPN (MkSymb s)) ;
 	  MkLocation s = mkNP (SymbPN (MkSymb s)) ;
 --	  MkSkill =  mkNP (mkN "skill");
 --	  MkObject = mkNP (mkN "object") ;
@@ -47,6 +48,9 @@ incomplete concrete QuestionsI of Questions = open Syntax, Extra, LexQuestions i
 	  
 	  And_O s1 s2 = mkNP and_Conj s1 s2 ;
 	  Or_O s1 s2 = mkNP or_Conj s1 s2 ;
+	  
+	  And_M s1 s2 = mkNP and_Conj s1 s2 ;
+	  Or_M s1 s2 = mkNP or_Conj s1 s2 ;
       
 	  -- Relations
 	  IntRel_P intRel = {s = "(" ++ intRel.s ++ ")"} ;

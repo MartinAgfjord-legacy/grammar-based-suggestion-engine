@@ -5,8 +5,9 @@ abstract Questions = Symbol ** {
 	cat
 	  Question ;      -- A question e.g. "which developers know Java"
 	  Relation ;      -- A relation of a subject and an object. e.g. { "persons" ; "know" ; java" }
-	  Object ;        -- An object that a person can have a relation to, e.g. "Solr"
 	  Skill ;         -- A skill that a person can have e.g "Java"
+	  Organization ;  -- An organization e.g. "Greenpeace"
+	  Module ;        -- A (software) module e.g. "Grammatical Framework" or "Solr"
 	  InternalRelation ;
  	  ExternalRelation ;
   	  ResourceRelation ;
@@ -29,7 +30,8 @@ abstract Questions = Symbol ** {
 	  	  
 	  -- Unknown names
 	  MkSkill : Symb -> Skill ;
-	  MkObject : Symb -> Object ;
+	  MkOrganization : Symb -> Organization ;
+	  MkModule: Symb -> Module ;
 	  MkLocation : Symb -> Location ;
 	 
 	  -- Conjunctions
@@ -48,15 +50,18 @@ abstract Questions = Symbol ** {
 	  And_L : Location -> Location -> Location ;
 	  Or_L : Location -> Location -> Location ;
 	  
-	  And_O : Object -> Object -> Object ;
-	  Or_O : Object -> Object -> Object ;
+	  And_O : Organization -> Organization -> Organization ;
+	  Or_O : Organization -> Organization -> Organization ;
+	  
+  	  And_M : Module -> Module -> Module ;
+	  Or_M : Module -> Module -> Module ;
 	  
 	  -- Relations
 	  Know_R : Skill -> InternalRelation ;
 	  -- How to have a supercat of Internal and Resource?
-	  UseExt_R  : Object -> ExternalRelation ;
-	  UseRes_R  : Object -> ResourceRelation ;
-	  WorkWith_R  : Object -> InternalRelation ;
+	  UseExt_R  : Module -> ExternalRelation ;
+	  UseRes_R  : Module -> ResourceRelation ;
+	  WorkWith_R  : Organization -> InternalRelation ;
 	  WorkIn_R  : Location -> InternalRelation ;
 
 }
