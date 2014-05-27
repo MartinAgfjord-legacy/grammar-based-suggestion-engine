@@ -59,7 +59,7 @@ function initWordCompletion(){
               }
             }));
           };
-          ajaxRequest('completeSentence', $('#input').val(), succFun, function(){});
+          ajaxRequest('completeSentence', $('#input').val(), $('#language').val(), succFun, function(){});
         },
         // Always search for completions
         search: function(){
@@ -170,7 +170,9 @@ function parse(query){
                         }
                         if(this.language == 'QuestionsSolr'){
                             solrQuery = this.query.replace(/ /g,'+');
-                            this.query = '<a href="' + 'http://' + host + '/nlparser/api/solr/' + solrQuery + '">' + this.query + '</a>';
+//                              solrQuery = this.query;
+                            this.query = '<a href="' + 'http://localhost:8983/solr/relations/' + solrQuery + '">' + this.query + '</a>';
+//                            this.query = '<a href="' + 'http://' + host + '/nlparser/api/solr/' + solrQuery + '">' + this.query + '</a>';
                             if(!fetchedResult){
                                 $("#ast" + i).css('font-weight','bold');
                                 $("#ast" + i).append(' (this was executed)')
@@ -193,7 +195,7 @@ function parse(query){
     var errFun = function(request, status, error) {
             $('#grammar_result').empty().append(status);
     };
-    ajaxRequest('parse', query, successFun, errFun);
+    ajaxRequest('parse', query, $('#language').val(),  successFun, errFun);
 }
 
 function fetchResult(solrQuery){
@@ -228,7 +230,7 @@ function getHost(){
 /*
  * Helper function to make ajax requests
  */
-function ajaxRequest(path, query, successFun, errFun){
+function ajaxRequest(path, query, language, successFun, errFun){
     var host = getHost();
     $.ajax({
         url: 'http://' + host + '/nlparser/api/' + path,
@@ -236,6 +238,7 @@ function ajaxRequest(path, query, successFun, errFun){
         dataType: "jsonp",
         data: {
             q: query,
+            lang: language,
             format: "jsonp"
         },
         success: successFun,

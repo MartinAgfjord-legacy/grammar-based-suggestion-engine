@@ -1,5 +1,8 @@
+<%@ page contentType="text/html; charset=UTF-8" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
+<meta charset="utf-8"> 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="URI.js"></script>
 <script src="jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
@@ -11,7 +14,10 @@
 <body>
 <h2>Natural language parser</h2>
 <input id="input" type="text" class="input-large" placeholder="Type your question.."></input>
-
+<select id="language">
+  <option value="QuestionsEng">English</option>
+  <option value="QuestionsSwe">Swedish</option>
+</select>
 <!--
 <div class="btn-group group">
   <button type="button" class="btn btn-success question">which persons know Java ?</button>
@@ -44,7 +50,11 @@
 <a href="grammar/Questions.gf.txt">Questions.gf</a>
 <a href="grammar/QuestionsI.gf.txt">QuestionsI.gf</a>
 <a href="grammar/QuestionsEng.gf.txt">QuestionsEng.gf</a>
+<a href="grammar/QuestionsEng.gf.txt">QuestionsSwe.gf</a>
 <a href="grammar/QuestionsSolr.gf.txt">QuestionsSolr.gf</a>
 <a href="grammar/QuestionsAmbig.gf.txt">QuestionsAmbig.gf</a>
+<a href="grammar/LexQuestions.gf.txt">LexQuestions.gf</a>
+<a href="grammar/LexQuestionsEng.gf.txt">LexQuestionsEng.gf</a>
+<a href="grammar/LexQuestionsSwe.gf.txt">LexQuestionsSwe.gf</a>
 </body>
 </html>
