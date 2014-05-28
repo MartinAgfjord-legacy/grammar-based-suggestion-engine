@@ -314,6 +314,53 @@ beamerdefaultoverlayspecification{<+->}
 status open
 
 \begin_layout Plain Layout
+Expectations
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This project is not about...
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Building a 
+\emph on
+strong AI
+\emph default
+ (human like) application
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Its about
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Building an application for understanding a smaller area of languages
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Outline
 \end_layout
 
@@ -646,7 +693,7 @@ A grammar is a set of structured rules for strings
 \end_layout
 
 \begin_layout Itemize
-Grammars has been used by compilers for a long time
+Grammars have been used by compilers for a long time
 \end_layout
 
 \begin_layout Pause
@@ -724,7 +771,7 @@ syntax
 
 \end_deeper
 \begin_layout Itemize
-An abstract syntax is a tree which captures the semantic structure
+An abstract syntax is a tree which captures the meaning of a sentence
 \end_layout
 
 \begin_deeper
@@ -854,7 +901,7 @@ MATCH (n:Person) - [KNOWS] ->               -- Cypher
 \end_layout
 
 \begin_layout Itemize
-String representations of the abstract syntax
+They are all string representations of the same abstract syntax
 \end_layout
 
 \end_deeper
@@ -875,6 +922,63 @@ Live demo of a grammar
 
 \end_layout
 
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Grammatical framework (GF)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Given an abstract syntax and concrete syntaxes
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+GF can derive a 
+\emph on
+generator
+\emph default
+, a 
+\emph on
+parser 
+\emph default
+and 
+\emph on
+linearizers
+\end_layout
+
+\end_deeper
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+GF has a resource library which supports 36 natural languages
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+You leave it to the linguistic to design the language
+\end_layout
+
+\begin_layout Itemize
+You design your domain
+\end_layout
+
+\end_deeper
+\end_deeper
 \begin_layout Section
 Future work
 \end_layout
@@ -901,8 +1005,174 @@ Neo4j integration
 Create a concrete language for Cypher, Neo4j's query language
 \end_layout
 
-\begin_layout Example
+\begin_layout Pause
 
+\end_layout
+
+\begin_layout Standard
+Example: 'people who know Java and Python'
+\end_layout
+
+\begin_layout LyX-Code
+MATCH (n:Person) - [:KNOWS] -> 
+\end_layout
+
+\begin_layout LyX-Code
+         (:Expertise { name : 'Java' }), 
+\end_layout
+
+\begin_layout LyX-Code
+      (n) - [:KNOWS] -> 
+\end_layout
+
+\begin_layout LyX-Code
+         (:Expertise { name : 'Python' }) 
+\end_layout
+
+\begin_layout LyX-Code
+RETURN n;
+\end_layout
+
+\begin_layout LyX-Code
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Neo4j integration cont'd
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+How to express: 'people who know (Java and Python) or Haskell' ? 
+\end_layout
+
+\begin_layout LyX-Code
+MATCH (n:Person) - [:KNOWS] -> 
+\end_layout
+
+\begin_layout LyX-Code
+         (:Expertise { name : 'Java' }),
+\end_layout
+
+\begin_layout LyX-Code
+      (n) - [:KNOWS] -> 
+\end_layout
+
+\begin_layout LyX-Code
+         (:Expertise { name : 'Python' }) 
+\end_layout
+
+\begin_layout LyX-Code
+RETURN n 
+\end_layout
+
+\begin_layout LyX-Code
+UNION 
+\end_layout
+
+\begin_layout LyX-Code
+MATCH (n:Person) - [:KNOWS] ->
+\end_layout
+
+\begin_layout LyX-Code
+         (:Expertise { name : 'Haskell' }) 
+\end_layout
+
+\begin_layout LyX-Code
+RETURN n;
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Neo4j integration cont'd
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Express: 'people who know C and ((Java and Python) or Haskell)'?
+\end_layout
+
+\begin_layout Standard
+One possible solution:
+\end_layout
+
+\begin_layout LyX-Code
+MATCH (n:Person) - [:KNOWS] -> 
+\end_layout
+
+\begin_layout LyX-Code
+         (:Expertise { name : 'Java' }),
+\end_layout
+
+\begin_layout LyX-Code
+      (n) - [:KNOWS] -> 
+\end_layout
+
+\begin_layout LyX-Code
+         (:Expertise { name : 'Python'}),
+\end_layout
+
+\begin_layout LyX-Code
+      (n) - [:KNOWS] - > 
+\end_layout
+
+\begin_layout LyX-Code
+         (:Expertise { name : 'C' })
+\end_layout
+
+\begin_layout LyX-Code
+RETURN n 
+\end_layout
+
+\begin_layout LyX-Code
+UNION 
+\end_layout
+
+\begin_layout LyX-Code
+MATCH (n:Person) - [:KNOWS] ->
+\end_layout
+
+\begin_layout LyX-Code
+         (:Expertise { name : 'Haskell' }),
+\end_layout
+
+\begin_layout LyX-Code
+      (n) - [:KNOWS] -> 
+\end_layout
+
+\begin_layout LyX-Code
+         (:Expertise { name : 'C' })
+\end_layout
+
+\begin_layout LyX-Code
+RETURN n;
 \end_layout
 
 \end_deeper
