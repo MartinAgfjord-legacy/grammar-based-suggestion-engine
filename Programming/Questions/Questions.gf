@@ -17,6 +17,8 @@ abstract Questions = Symbol ** {
 	  External ;      -- E.g. "customers"
 	  Filter ;
 	  Conjunction ;
+	  -- Development categories below!
+	  Foo ;
 
 	fun
       --Question_Q : Relation -> Question ;  -- "persons that/which know java"
@@ -63,5 +65,9 @@ abstract Questions = Symbol ** {
 	  UseRes_R  : Module -> ResourceRelation ;
 	  WorkWith_R  : Organization -> InternalRelation ;
 	  WorkIn_R  : Location -> InternalRelation ;
+	  
+	  -- Development functions below!
+	  Question_D : Foo -> Question ;
+	  Foo_F : Internal -> Foo ;
 
 }
