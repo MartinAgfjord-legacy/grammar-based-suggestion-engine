@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass classicthesis
@@ -12,13 +12,13 @@
 \font_roman default
 \font_sans default
 \font_typewriter default
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -29,15 +29,24 @@
 \use_hyperref false
 \papersize default
 \use_geometry false
-\use_amsmath 1
-\use_esint 0
-\use_mhchem 1
-\use_mathdots 1
-\cite_engine natbib_numerical
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plainnat
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 0
 \index Index
 \shortcut idx
@@ -75,17 +84,42 @@ name "ch:Introduction"
 \end_layout
 
 \begin_layout Section
-Motivation for this thesis
+An alternative user interface
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset label
-LatexCommand label
-name "sec:Motivation"
+In this thesis we will investigate how we can create a user interface which
+ allows us to execute queries in a query language by expressing instructions
+ in natural language.
+ In other terms, we want to translate from a natural language into a query
+ language.
+ A query language is a computer language which is used to query a database
+ or index.
+ A natural language is a language that humans use to communicate with each
+ other.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+This is not good.
+ The thesis is not primarly about speech to instructions.
+ Needs to be rewritten.
+\end_layout
 
 \end_inset
 
-The most common communication between humans and computers is through carefully
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+A common communication method between humans and computers is through carefully
  designed user interfaces which are constructed in order to create machine
  readable instructions.
  Such interfaces often require either physical or graphical interaction.
@@ -98,7 +132,7 @@ The most common communication between humans and computers is through carefully
  and tell them what to do.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 The big question is, how can a computer understand natural languages? One
  well-known approach is based on machine learning, where the computer learn
  human languages by analyzing a lot of data.
@@ -106,6 +140,11 @@ The big question is, how can a computer understand natural languages? One
  the theory of grammars in order to understand natural languages.
  The idea is to define a set of structured rules in order to create words
  and combine them to construct clauses and phrases.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -146,6 +185,13 @@ name "sec:GF"
 
 Grammatical framework (GF) is a functional programming language for creating
  grammars for natural languages.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ranta:2011"
+
+\end_inset
+
  GF features a strong type system, separate abstract and concrete syntax
  rules and reusable libraries to facilitate design of grammars.
  For a reader with a background within compilers, one can easily see that
@@ -166,8 +212,8 @@ Abstract syntax is a tree representation which includes the semantically
 \end_layout
 
 \begin_layout Standard
-With both abstract and concrete syntaxes, GF is able to create a parser
- and a generator for all given concrete languages.
+With both abstract and concrete syntaxes, GF is able to create a parser,
+ for all given concrete languages.
  The parser translates strings into abstract syntax and the generator transaltes
  abstract syntax tree's into string representations for the specified concrete
  syntax.
@@ -175,11 +221,24 @@ With both abstract and concrete syntaxes, GF is able to create a parser
 
 \begin_layout Standard
 This makes GF an excellent tool for multilingual translation.
- A string can be parsed into abstract syntax and this tree can then be 
+\begin_inset Marginal
+status collapsed
+
+\begin_layout Plain Layout
+Multilingual translation means translating between many languages
+\end_layout
+
+\end_inset
+
+ A string can be 
+\emph on
+parsed
+\emph default
+ into abstract syntax and this tree can then be 
 \emph on
 linearized
 \emph default
- into any concrete syntax by using the generator for the language.
+ into any given concrete syntax by using the generator for the language.
  The distinction of abstract and concrete syntax also makes it easy to extend
  the grammar with more concrete languages.
 \end_layout
