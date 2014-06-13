@@ -328,6 +328,113 @@ A simple example
 \end_layout
 
 \begin_layout Standard
+The following section presents an example of how GF can be used to create
+ a grammar that can generate and translate the sentence 
+\emph on
+which people know Java? 
+\emph default
+into Apache Solr query language and vice verca.
+\begin_inset Marginal
+status collapsed
+
+\begin_layout Plain Layout
+Apache Solr is a search platform based on Apache Lucene.
+ We will explain more about Solr query language later in the thesis.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Abstract syntax
+\end_layout
+
+\begin_layout Standard
+To model the meaning of sentences, GF adopts the use of functions and 
+\emph on
+categories
+\emph default
+.
+ A category (
+\emph on
+cat
+\emph default
+) in GF is the same as a data type.
+ We start by listing the categories we need.
+ We then define how our data types can take on values.
+ This is achieved by using functions.
+ The functions in an abstract syntax are not implemented, we can therefore
+ only see the function declarations.
+ The purpose for this is to allow the concrete syntaxes to choose how to
+ represent the semantics.
+ Two concrete syntaxes can therefore implement the same semantics differently.
+\end_layout
+
+\begin_layout Standard
+We define a function 
+\noun on
+Java : object 
+\noun default
+which means that 
+\noun on
+Java
+\noun default
+ is a constant
+\begin_inset Marginal
+status collapsed
+
+\begin_layout Plain Layout
+A function without arguments is called a constant in functional programming
+ languages.
+\end_layout
+
+\end_inset
+
+ and returns a value of type 
+\noun on
+object
+\noun default
+.
+ 
+\noun on
+Know
+\noun default
+ takes one argument of the type 
+\noun on
+object
+\noun default
+ and returns a value of type 
+\noun on
+relation
+\noun default
+.
+\end_layout
+
+\begin_layout Standard
+A question can be created by obtaining a value of the type 
+\noun on
+question.
+
+\noun default
+ Only
+\noun on
+ MkQuestion
+\noun default
+ returns the desired type and it takes two arguments, one of type
+\noun on
+ subject
+\noun default
+ the other of type 
+\noun on
+relation
+\noun default
+.
+ Such data types can be created by using other functions in this grammar.
+\end_layout
+
+\begin_layout Standard
 \begin_inset listings
 lstparams "float"
 inline false
@@ -350,22 +457,22 @@ abstract Questions = {
 
 \begin_layout Plain Layout
 
-      Question ; -- A question
+     Question ; -- A question
 \end_layout
 
 \begin_layout Plain Layout
 
-      Subject ;  -- The subject of a question
+     Subject ;  -- The subject of a question
 \end_layout
 
 \begin_layout Plain Layout
 
-      Relation ; -- A verb phrase
+     Relation ; -- A verb phrase
 \end_layout
 
 \begin_layout Plain Layout
 
-      Object ;   -- an object
+     Object ;   -- an object
 \end_layout
 
 \begin_layout Plain Layout
@@ -380,22 +487,118 @@ abstract Questions = {
 
 \begin_layout Plain Layout
 
-      MkQuestion : Subject -> Relation -> Question ;
+     MkQuestion : Subject -> Relation -> Question ;
 \end_layout
 
 \begin_layout Plain Layout
 
-      People : Subject ;
+     People : Subject ;
 \end_layout
 
 \begin_layout Plain Layout
 
-      Know : Object -> Relation ;
+     Know : Object -> Relation ;
 \end_layout
 
 \begin_layout Plain Layout
 
-      Java : Object ; 
+     Java : Object ; 
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Abstract syntax
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Concrete syntax
+\end_layout
+
+\begin_layout Standard
+Some text about what we can do with the concrete syntaxes
+\end_layout
+
+\begin_layout Standard
+English concrete syntax
+\end_layout
+
+\begin_layout Standard
+Solr concrete syntax
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+lstparams "float"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+concrete QuestionsEng of Questions = {
+\end_layout
+
+\begin_layout Plain Layout
+
+    lincat
+\end_layout
+
+\begin_layout Plain Layout
+
+     Question = Str ;
+\end_layout
+
+\begin_layout Plain Layout
+
+     Subject = Str ;
+\end_layout
+
+\begin_layout Plain Layout
+
+     Relation = Str ;
+\end_layout
+
+\begin_layout Plain Layout
+
+     Object = Str ;
+\end_layout
+
+\begin_layout Plain Layout
+
+    lin
+\end_layout
+
+\begin_layout Plain Layout
+
+     MkQuestion subject relation = subject ++ "who" ++ relation ;
+\end_layout
+
+\begin_layout Plain Layout
+
+     People = "people" ;
+\end_layout
+
+\begin_layout Plain Layout
+
+     Know object = "know" ++ object ;
+\end_layout
+
+\begin_layout Plain Layout
+
+     Java = "Java" ;
 \end_layout
 
 \begin_layout Plain Layout
