@@ -1,0 +1,38 @@
+\BOOKMARK [1][-]{Dedication.1}{Dedication}{}% 1
+\BOOKMARK [1][-]{Abstract.1}{Abstract}{}% 2
+\BOOKMARK [1][-]{Zusammenfassung.1}{Zusammenfassung}{}% 3
+\BOOKMARK [1][-]{publications.1}{Publications}{}% 4
+\BOOKMARK [1][-]{acknowledgments.1}{Acknowledgments}{}% 5
+\BOOKMARK [1][-]{tableofcontents.1}{Contents}{}% 6
+\BOOKMARK [1][-]{lof.1}{List of Figures}{}% 7
+\BOOKMARK [1][-]{lot.1}{List of Tables}{}% 8
+\BOOKMARK [1][-]{lol.1}{Listings}{}% 9
+\BOOKMARK [1][-]{acronyms.1}{Acronyms}{}% 10
+\BOOKMARK [-1][]{part.1}{Some Kind of Manual}{}% 11
+\BOOKMARK [0][]{chapter.1}{1 Introduction}{part.1}% 12
+\BOOKMARK [1][-]{section.1.1}{1.1 An alternative user interface}{chapter.1}% 13
+\BOOKMARK [1][-]{section.1.2}{1.2 Problem description}{chapter.1}% 14
+\BOOKMARK [1][-]{section.1.3}{1.3 A proposed solution}{chapter.1}% 15
+\BOOKMARK [1][-]{section.1.4}{1.4 Grammatical Framework}{chapter.1}% 16
+\BOOKMARK [2][-]{subsection.1.4.1}{1.4.1 A simple example}{section.1.4}% 17
+\BOOKMARK [1][-]{section.1.5}{1.5 GF resource grammar library}{chapter.1}% 18
+\BOOKMARK [2][-]{subsection.1.5.1}{1.5.1 Example usage of RGL in a grammar}{section.1.5}% 19
+\BOOKMARK [2][-]{subsection.1.5.2}{1.5.2 Generalizing the concrete syntax}{section.1.5}% 20
+\BOOKMARK [-1][]{part.2}{The Showcase}{}% 21
+\BOOKMARK [0][]{chapter.2}{2 Examples}{part.2}% 22
+\BOOKMARK [1][-]{section.2.1}{2.1 A New Section}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Test for a Subsection}{section.2.1}% 24
+\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Autem Timeam}{section.2.1}% 25
+\BOOKMARK [1][-]{section.2.2}{2.2 Another Section in This Chapter}{chapter.2}% 26
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 Personas Initialmente}{section.2.2}% 27
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Linguistic Registrate}{section.2.2}% 28
+\BOOKMARK [0][]{chapter.3}{3 Math Test Chapter}{part.2}% 29
+\BOOKMARK [1][-]{section.3.1}{3.1 Some Formulas}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.2}{3.2 Various Mathematical Examples}{chapter.3}% 31
+\BOOKMARK [-1][]{part.3}{Appendix}{}% 32
+\BOOKMARK [0][]{appendix.A}{A Appendix Test}{part.3}% 33
+\BOOKMARK [1][-]{section.A.1}{A.1 Appendix Section Test}{appendix.A}% 34
+\BOOKMARK [1][-]{section.A.2}{A.2 Another Appendix Section Test}{appendix.A}% 35
+\BOOKMARK [0][]{dummy.7}{Bibliography}{part.3}% 36
+\BOOKMARK [0][]{colophon.0}{Colophon}{part.3}% 37
+\BOOKMARK [0][]{declaration.0}{Declaration}{part.3}% 38
