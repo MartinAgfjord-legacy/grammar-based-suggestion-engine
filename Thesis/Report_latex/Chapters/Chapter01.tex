@@ -4,8 +4,8 @@
 \section{An alternative user interface}
 In this thesis we will investigate how we can create a user interface which allows us to execute queries in a query language by expressing instructions in natural language. In other terms, we want to translate from a natural language into a query language. A query language is a computer language which is used to query a database or index. A natural language is a language that humans use to communicate with each other.
 
-\section{Problem description}
-How can one retrieve information from a computer by writing instructions in a natural language? The inspiration for this thesis came from Facebook graph search\footnote{https://www.facebook.com/about/graphsearch}, which is a service that allows users to search for entities by asking the server for information in a natural language.
+\section{Problem description\label{sec:problem-description}}
+How can one retrieve information from a computer by writing instructions in a natural language? The inspiration for this thesis came from Facebook graph search\footnote{\url{https://www.facebook.com/about/graphsearch}}, which is a service that allows users to search for entities by asking the server for information in a natural language.
 
 In this project, we have chosen examine how a similar service can be realized. We have limited the project to handle questions that can occur naturally in the intranet of a software development company. We assume that there exists an intranet which consists of a database with information about employees, customers and projects. A typical question to ask in this environment could be
 
@@ -64,16 +64,16 @@ abstract Questions = {
     Java : Object ; 
 }
 \end{code}
-\caption{Abstract syntax}
+\caption{Abstract syntax\label{fig:abstract-syntax}}
 \end{figure}
 
-We can now use this abstract syntax to create an abstract syntax tree as seen in figure 2.
+We can now use this abstract syntax to create an abstract syntax tree as seen in \autoref{fig:ast}
 
 \begin{figure}[h]
 \begin{plaintext}
 MkQuestion People (Know Java)
 \end{plaintext}
-\caption{Abstract syntax tree}
+\caption{Abstract syntax tree\label{fig:ast}}
 \end{figure}
 
 \subsubsection*{Concrete syntax}
@@ -82,7 +82,7 @@ We are now going to implement the function declarations we just defined in the a
 
 \subsubsection*{English concrete syntax}
 
-Figure 2 shows the implementation of the concrete syntax for English. Categories are linearized by the keyword \emph{lincat}. Here we assign all categories to be strings. The functions are linearized by using the keyword \emph{lin}. We linearize \texttt{Java} by returning the string \texttt{"Java"}, as it is a constant function. Analogously, \texttt{"people"} is returned by \texttt{People}. The function \texttt{Know} takes one parameter. This parameter is appended on the string \texttt{"know"}. Finally, \texttt{MkQuestion} takes two arguments, where \texttt{subject} is prepended and \texttt{relation} is appended on \texttt{"who"}. One can easily see how these functions can be used to construct the sentence \emph{people who know Java}. This sentence is different from the previously discussed question \emph{which people know Java?} The reason why we chose to model the former is because we find that it is more natural tell the computer what we want rather than ask it politely.
+\autoref{fig:english-concr} shows the implementation of the concrete syntax for English. Categories are linearized by the keyword \emph{lincat}. Here we assign all categories to be strings. The functions are linearized by using the keyword \emph{lin}. We linearize \texttt{Java} by returning the string \texttt{"Java"}, as it is a constant function. Analogously, \texttt{"people"} is returned by \texttt{People}. The function \texttt{Know} takes one parameter. This parameter is appended on the string \texttt{"know"}. Finally, \texttt{MkQuestion} takes two arguments, where \texttt{subject} is prepended and \texttt{relation} is appended on \texttt{"who"}. One can easily see how these functions can be used to construct the sentence \emph{people who know Java}. This sentence is different from the previously discussed question \emph{which people know Java?} The reason why we chose to model the former is because we find that it is more natural tell the computer what we want rather than ask it politely.
 
 \newenvironment{myfont}{\myfont}{\par}
 
@@ -101,17 +101,17 @@ concrete QuestionsEng of Questions = {
     Java = "Java" ;
 }
 \end{code}
-\caption{English concrete syntax}
+\caption{English concrete syntax\label{fig:english-concr}}
 \end{figure}
 
 \subsubsection*{Solr concrete syntax}
 
 The final step in this example is to linearize abstract syntax into Solr concrete syntax.
-  As figure 4 shows, the categories are strings as in English. The function linearizations are however
+  As \autoref{fig:solr-concr} shows, the categories are strings as in English. The function linearizations are however
   different. \texttt{People} returns 
   \texttt{"object\_type : Person"}, we assume that 
   the Solr-schema has a field with the name \texttt{object\_type} which represents 
-  which type a document is. Similarly, we make another assumption about \texttt{Know}. \texttt{MkQuestion} is also implemented differently, here we can see that the result is going to be a query string\footnote{http://en.wikipedia.org/wiki/Query\_string} by looking at the first part \texttt{"q="} which is prepended on the subject. We then append \texttt{"AND"} together with \texttt{relation} in order to create a valid Solr query.
+  which type a document is. Similarly, we make another assumption about \texttt{Know}. \texttt{MkQuestion} is also implemented differently, here we can see that the result is going to be a query string\footnote{\url{http://en.wikipedia.org/wiki/Query\_string}} by looking at the first part \texttt{"q="} which is prepended on the subject. We then append \texttt{"AND"} together with \texttt{relation} in order to create a valid Solr query.
 
 \begin{figure}[h]
 \begin{code}
@@ -129,7 +129,7 @@ concrete QuestionsSolr of Questions = {
       Java = "Java" ;
 }
 \end{code}
-\caption{Solr concrete syntax}
+\caption{Solr concrete syntax\label{fig:solr-concr}}
 \end{figure}
 
 \pagebreak
@@ -167,45 +167,40 @@ Questions>
 \end{terminal}
 %$ <- Texmaker sux at syntax highlighting
 
-\caption{GF shell prompt}
+\caption{GF shell prompt\label{fig:gf-shell}}
 \end{figure}
+
+A string can be parsed into an abstract syntax tree.
 
 \begin{figure}[H]
 \begin{terminal}
 Questions> parse -lang=QuestionsEng "people who know Java"
 MkQuestion People (Know Java)
-
-3 msec
-Questions> 
 \end{terminal}
 
-\caption{Parse a string}
+\caption{Parse a string\label{fig:parse-a-string}}
 \end{figure}
+
+Abstract syntax trees can be linearized into concrete syntaxes, here we linearize one abstact syntax tree into all known concrete syntaxes.
 
 \begin{figure}[H]
 \begin{terminal}
 Questions> linearize MkQuestion People (Know Java)
 people who know Java
 q= object_type : Person AND expertise : Java
-
-
-0 msec
-Questions> 
 \end{terminal}
 
-\caption{Linearize an abstract syntax tree}
+\caption{Linearize an abstract syntax tree\label{fig:linearization}}
 \end{figure}
+
+Finally, a string can be translated from one concrete syntax into another. Here we translate from \texttt{QuestionsEng} into \texttt{QuestionsSolr}. We use a \emph{pipeline}\footnote{\url{http://en.wikipedia.org/wiki/Pipeline_(Unix)}} to pass the result of the parsing as an argument to the linearizing function. Note how we use \texttt{p} instead of \texttt{parse} and \texttt{l} instead of \texttt{linearize}. They are just shorthands of their longer representations.
 
 \begin{figure}[H]
 \begin{terminal}
-Questions> generate_trees
-MkQuestion People (Know Java)
-
-0 msec
-Questions> 
+Questions> p -lang=QuestionsEng "people who know Java" | l -lang=QuestionsSolr
+q= object_type : Person AND expertise : Java
 \end{terminal}
-
-\caption{Generate all abstract syntax trees}
+\caption{Translate between concrete syntaxes\label{fig:translation-concr}}
 \end{figure}
 
 
@@ -215,9 +210,9 @@ The previous example is fairly easy to understand, but it is also very small. As
 
 \subsection{Example usage of RGL in a grammar}
 
-In this section, we will present how the previous concrete syntax for English can be implemented by using the RGL. We will also show how this grammar can be further generalized into an incomplete grammar which can be used by both English and Swedish.
+In this section, we will present how the previous concrete syntax for English can be implemented by using the RGL. We will also show how this grammar can be further generalized into an incomplete concete syntax which can be used by both English and Swedish.
 
-Figure 5 shows the concrete syntax for English by using the RGL. Instead of just concatenating strings, we now use functions to create specific type of words and sentences. The categories are now set to be built in types that exists in the RGL and the functions are now using the RGL in order to create values of the correct types.
+\autoref{fig:english-RGL} shows the concrete syntax for English by using the RGL. Instead of just concatenating strings, we now use functions to create specific type of words and sentences. The categories are now set to be built in types that exists in the RGL and the functions are now using the RGL in order to create values of the correct types.
 
 The most simple function in this case is \texttt{People}, which shall return a noun (N). A noun can be created by using the \emph{operation}\marginpar{An operation in GF is a function which can be called by linearization functions.} \texttt{mkN}. We create a noun which has the singular form \texttt{"person"} and plural form \texttt{"people"}, we will never use the singular form in this grammar, but GF cannot create a noun with only plural form. 
 
@@ -227,7 +222,7 @@ How to combine a \texttt{Subject} and a \texttt{Relation} into a \texttt{Questio
 
 \begin{figure}[h]
 \begin{code}
-concrete QuestionsEngRGL of Questions = open SyntaxEng, ParadigmsEng in {
+concrete QuestionsEng of Questions = open SyntaxEng, ParadigmsEng in {
   lincat
     Question = NP ;
     Subject = N ;
@@ -249,16 +244,16 @@ concrete QuestionsEngRGL of Questions = open SyntaxEng, ParadigmsEng in {
     Java = mkNP (mkN "Java") ;
 }
 \end{code}
-\caption{English concrete syntax using the RGL}
+\caption{English concrete syntax using the RGL\label{fig:english-RGL}}
 \end{figure}
 
 \subsection{Generalizing the concrete syntax}
 
 The English concrete syntax which uses the RGL is more complicated than the first version, which only concatenates strings. In order to motivate why one shall use the RGL, this section describes how the concrete syntax can be generalized into an \emph{incomplete concerete syntax} and then be instantiated by two concrete syntaxes, one for English and one for Swedish.
 
-\subsubsection*{An incomplete grammar}
+\subsubsection*{An incomplete concrete syntax}
 
-As we already have designed the concrete syntax for English, we can fairly easy convert it to a generalised version. The incomplete concrete syntax can be seen in Figure 6. We no longer have any strings defined, as we want to keep the syntax generalised. Constant operations are used in place of strings, and they are imported from the lexicon interface  \texttt{LexQuestions}.
+As we already have designed the concrete syntax for English, we can fairly easy convert it to a generalised version. The incomplete concrete syntax can be seen in \autoref{fig:incomplete-concrete-syntax}. We no longer have any strings defined, as we want to keep the syntax generalised. Constant operations are used in place of strings, and they are imported from the lexicon interface  \texttt{LexQuestions}.
 
 \begin{figure}[h]
 \begin{code}
@@ -281,12 +276,12 @@ incomplete concrete QuestionsI of Questions = open Syntax, LexQuestions in {
       Java = java_NP ;
 }
 \end{code}
-\caption{Incomplete concrete syntax}
+\caption{Incomplete concrete syntax\label{fig:incomplete-concrete-syntax}}
 \end{figure}
 
-\texttt{LexQuestions} is an \emph{interface}, which means that it only provides declarations. As seen in Figure 6, we have one operation declaration for each word we want to use in the concrete syntax. Because we do not implement the operations, it is possible to create multiple instances of the lexicon where each one can implement the lexicon differently.
+\texttt{LexQuestions} is an \emph{interface}, which means that it only provides declarations. \autoref{fig:lexicon-interface} shows that we have one operation declaration for each word we want to use in the concrete syntax. Because we do not implement the operations, it is possible to create multiple instances of the lexicon where each one can implement the lexicon differently.
 
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{code}
 interface LexQuestions = open Syntax in {
    oper
@@ -295,10 +290,10 @@ interface LexQuestions = open Syntax in {
      java_NP : NP ;
 }
 \end{code}
-\caption{Lexicon interface}
+\caption{Lexicon interface\label{fig:lexicon-interface}}
 \end{figure}
 
-Figure 8 shows how the operations defined in \texttt{LexQuestions} are implemented in \texttt{LexQuestionsEng}, we represent the words in the same  way as in the old version of the concrete syntax for English.
+\autoref{fig:english-lexicon} shows how the operations defined in \texttt{LexQuestions} are implemented in \texttt{LexQuestionsEng}, we represent the words in the same  way as in the old version of the concrete syntax for English.
 
 \begin{figure}[H]
 \begin{code}
@@ -309,10 +304,10 @@ instance LexQuestionsEng of LexQuestions = open SyntaxEng, ParadigmsEng in {
       java_NP = mkNP (mkN "Java");
 }
 \end{code}
-\caption{Lexicon instantiation of English}
+\caption{Lexicon instantiation of English \label{fig:english-lexicon}}
 \end{figure}
 
-Figure 9 shows another instance of \texttt{LexQuestions}, the lexicon for Swedish.
+\autoref{fig:swedish-lexicon} shows another instance of \texttt{LexQuestions}, the lexicon for Swedish.
 
 \begin{figure}[H]
 \begin{code}
@@ -323,10 +318,10 @@ instance LexQuestionsSwe of LexQuestions = open SyntaxSwe, ParadigmsSwe in {
       java_NP = mkNP (mkN "Java");
 }
 \end{code}
-\caption{Lexicon instantiation of Swedish}
+\caption{Lexicon instantiation of Swedish\label{fig:swedish-lexicon}}
 \end{figure}
 
-We are now ready to instantiate the incomplete grammar. The code below describes how \texttt{QuestionsI} is instantiated as \texttt{QuestionsEng}. Note how we override \texttt{Syntax} with \texttt{SyntaxEng} and \texttt{LexQuestions} with \texttt{LexQuestionsEng}.
+We are now ready to instantiate the incomplete concrete syntax. The code below describes how \texttt{QuestionsI} is instantiated as \texttt{QuestionsEng}. Note how we override \texttt{Syntax} with \texttt{SyntaxEng} and \texttt{LexQuestions} with \texttt{LexQuestionsEng}.
 
 \begin{figure}[H]
 \begin{code}
@@ -349,3 +344,20 @@ concrete QuestionsSwe of Questions = QuestionsI with
 \end{code}
 \caption{Swedish instantiation of the incomplete concrete syntax}
 \end{figure}
+
+If we load the GF-shell with \texttt{QuestionsEng.gf} and \texttt{QuestionsSwe.gf} we can make the following translation from English to Swedish.
+
+\begin{figure}[H]
+\begin{code}
+Questions> p -lang=QuestionsEng "people who know Java" | l -lang=QuestionsSwe
+personer som kan Java
+
+personer som kan Java
+
+personer som kan Java
+
+\end{code}
+\caption{Swedish instantiation of the incomplete concrete syntax}
+\end{figure}
+
+\todo{Why we get three results is unknown at the moment.} Whats really interesting is that we can translate questions formulated in English and Swedish into Solr-syntax.
