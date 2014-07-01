@@ -13,7 +13,7 @@ In this project, we have chosen examine how a similar service can be realized. W
 people who know Java
 \end{minted}
 
-The answer would be a list of all employees in the database who have some degree of expertise of the programming language \texttt{Java}. However, when using search engines, expert users do not use instructions as the one above. The simply rely purely on keywords. The following instruction is more suited for expert users
+The answer would be a list of all employees in the database who have some degree of expertise of the programming language \texttt{Java}. However, when using search engines, expert users do not use instructions as the one above. The simply rely purely on keywords\cite{mayer:2007}. The following instruction is more suited for expert users
 
 \begin{minted}{text}
 people know java
@@ -22,14 +22,14 @@ people know java
 How can we create a user interface that is sufficient for both regular- and expert users? And how can we translate these instructions into machine readable queries?
 
 \section{A proposed solution}
-Query languages require precise syntax, we therefore need precise translation from a natural language into a query language. Since we have a limited scope of instructions, we know all instructions that the program shall support - and we know how their machine readable representation shall look like. We only need a tool which we can use to make the mapping between natural language into query language. A very flexible tool we can use to accomplish this is a multilingual grammar. 
+Query languages require precise syntax, we therefore need precise translation from a natural language into a query language. Since we have a limited scope of instructions, we know all instructions that the program shall support and we know how their machine readable representation shall look like. We only need a tool which we can use to make the mapping between natural language into query language. A very flexible tool we can use to accomplish this is a multilingual grammar. 
 
 A grammar is a set of structural rules which decide how words can can be created and be combined into clauses and phrases. By expressing how words can be combined into an instruction in one language one can also use the same logic to express how the same instruction can be produced in another language. A \emph{multilingual} grammar is a special type of grammar which can translate between two or more languages.
 
 Grammars has been used since the 1950's in the field of computer science \cite[p. 4]{ranta:2011}, and they have played a main role in the development of compilers where they are used to translate source code into machine readable instructions.
 
 \section{Grammatical Framework}
-\ac{GF} is a functional programming language for creating grammars for natural languages.\cite[p. 1]{ranta:2011} GF features a strong type system, separate abstract and concrete syntax rules and reusable libraries to facilitate design of grammars. For a reader with a background within compilers, one can easily see that GF is very much based on the theory of programming languages. GF adopts the use of abstract and concrete syntax in the same sense as in compiler theory. 
+\ac{GF} is an open source functional programming language for creating grammars for natural languages.\cite[p. 1]{ranta:2011} GF features a strong type system, separate abstract and concrete syntax rules and reusable libraries to facilitate design of grammars. For a reader with a background within compilers, one can see that GF is very much based on the theory of programming languages as they also make use of abstract- and concrete syntaxes\cite[pp. 69-70]{Aho:1986:CPT:6448}.
 
 Abstract syntax is a tree representation which captures the \emph{meaning} of a sentence, and leaves out anything irrelevant. The concrete syntax represents a natural language. It describes how an abstract syntax tree is represented as a string in the natural language.
 
@@ -37,8 +37,8 @@ With both abstract and concrete syntaxes, GF is able to create a \emph{parser} a
 
 Because GF separates abstract and concrete syntax, one can easily add a new concrete syntax (a natural language) to an existing abstract syntax. This advantage also makes it easy to translate between many languages.
 
-\subsection{A simple example}
-The following section presents an example of how GF can be used to create a grammar that can generate and translate the sentence \emph{which people know Java?} into Apache Solr query language and vice verca.\marginpar{Apache Solr is a search platform based on Apache Lucene. We will explain more about Solr query language later in the thesis.}
+\subsection{A simple example}\label{sec:simple-example}
+The following section presents an example of how GF can be used to create a grammar that can generate and translate the sentence \emph{which people know Java?} into Apache Solr query language and vice verca. Apache Solr is a search platform based on Apache Lucene. We will explain more about Solr query language later in the thesis.
 
 \subsubsection*{Abstract syntax}
 To model the meaning of sentences, GF adopts the use of functions and \emph{categories}. A category (\texttt{cat}) in GF is the same as a data type. We start by listing the categories we need. We then define how our data types can take on values. This is achieved by using functions. The functions in an abstract syntax are not implemented, we can therefore only see the function declarations. The purpose for this is to allow the concrete syntaxes to choose how to represent the semantics. Two concrete syntaxes can therefore implement the same semantics differently.
@@ -49,11 +49,11 @@ An instruction can be created by obtaining a value of the type \texttt{Instructi
 
 \begin{figure}[h]
 \begin{code}
-abstract Instructions = { 
+abstract Instrucs = { 
   flags startcat = Instruction; 
   cat
-    Instruction ; -- A Instruction
-    Subject ;  -- The subject of a Instruction
+    Instruction ; -- An Instruction
+    Subject ;  -- The subject of an instruction
     Relation ; -- A verb phrase
     Object ;   -- an object
 
@@ -88,7 +88,7 @@ We are now going to implement the function declarations we just defined in the a
 
 \begin{figure}[h]
 \begin{code}
-concrete InstructionsEng of Instructions = {
+concrete InstrucsEng of Instrucs = {
   lincat
     Instruction = Str ;
     Subject = Str ;
@@ -115,7 +115,7 @@ The final step in this example is to linearize abstract syntax into Solr concret
 
 \begin{figure}[h]
 \begin{code}
-concrete InstructionsSolr of Instructions = {
+concrete InstrucsSolr of Instrucs = {
     lincat
       Instruction = Str ;
       Subject = Str ;
@@ -132,15 +132,13 @@ concrete InstructionsSolr of Instructions = {
 \caption{Solr concrete syntax\label{fig:solr-concr}}
 \end{figure}
 
-\pagebreak
-
 \subsubsection*{Translation}
 
 In order to make any translations, we need to use the GF runtime system. The  runtime system we will use in this section is the shell application, which allows us to load our GF source code and use parsers, linearizers and generators. In addition to the shell application, there also exists programming libraries for GF in C, Haskell and Java. These libraries can be used to build a translation application which not requires the user to have GF installed.
 
 \begin{figure}[H]
 \begin{terminal}
-$ gf InstructionsEng.gf InstructionsSwe.gf 
+$ gf InstrucsEng.gf InstrucsSwe.gf 
                                 
        *  *  *              
     *           *           
@@ -158,12 +156,12 @@ No detailed version info available
 Built on linux/x86_64 with ghc-7.6, flags: interrupt server
 License: see help -license.   
 Bug reports: http://code.google.com/p/grammatical-framework/issues/list
- - compiling Instructions.gf...   write file Instructions.gfo
-- compiling InstructionsEng.gf...   write file InstructionsEng.gfo
-- compiling InstructionsSolr.gf...   write file InstructionsSolr.gfo
+ - compiling Instrucs.gf...   write file Instrucs.gfo
+- compiling InstrucsEng.gf...   write file InstrucsEng.gfo
+- compiling InstrucsSolr.gf...   write file InstrucsSolr.gfo
 linking ... OK
- Languages: InstructionsEng InstructionsSolr
-Instructions> 
+ Languages: InstrucsEng InstrucsSolr
+Instrucs> 
 \end{terminal}
 %$ <- Texmaker sux at syntax highlighting
 
@@ -174,7 +172,7 @@ A string can be parsed into an abstract syntax tree.
 
 \begin{figure}[H]
 \begin{terminal}
-Instructions> parse -lang=InstructionsEng "people who know Java"
+Instrucs> parse -lang=InstrucsEng "people who know Java"
 MkInstruction People (Know Java)
 \end{terminal}
 
@@ -185,7 +183,7 @@ Abstract syntax trees can be linearized into concrete syntaxes, here we lineariz
 
 \begin{figure}[H]
 \begin{terminal}
-Instructions> linearize MkInstruction People (Know Java)
+Instrucs> linearize MkInstruction People (Know Java)
 people who know Java
 q= object_type : Person AND expertise : Java
 \end{terminal}
@@ -193,12 +191,11 @@ q= object_type : Person AND expertise : Java
 \caption{Linearize an abstract syntax tree\label{fig:linearization}}
 \end{figure}
 
-Finally, a string can be translated from one concrete syntax into another. Here we translate from \texttt{InstructionsEng} into \texttt{InstructionsSolr}. We use a \emph{pipeline}\footnote{\url{http://en.wikipedia.org/wiki/Pipeline_(Unix)}} to pass the result of the parsing as an argument to the linearizing function. Note how we use \texttt{p} instead of \texttt{parse} and \texttt{l} instead of \texttt{linearize}. They are just shorthands of their longer representations.
+Finally, a string can be translated from one concrete syntax into another. Here we translate from \texttt{InstrucsEng} into \texttt{InstrucsSolr}. We use a \emph{pipeline}\footnote{\url{http://en.wikipedia.org/wiki/Pipeline_(Unix)}} to pass the result of the parsing as an argument to the linearizing function. Note how we use \texttt{p} instead of \texttt{parse} and \texttt{l} instead of \texttt{linearize}. They are just shorthands of their longer representations.
 
-\marginpar{Note: We shortened the name of the concrete syntaxes here so they could fit in the box.}
 \begin{figure}[H]
 \begin{terminal}
-Instructions> p -lang=Eng "people who know Java" | l -lang=Solr
+Instrucs> p -lang=InstrucsEng "people who know Java" | l -lang=InstrucsSolr
 q= object_type : Person AND expertise : Java
 \end{terminal}
 \caption{Translate between concrete syntaxes\label{fig:translation-concr}}
@@ -217,13 +214,13 @@ In this section, we will present how the previous concrete syntax for English ca
 
 The most simple function in this case is \texttt{People}, which shall return a noun (N). A noun can be created by using the \emph{operation}\marginpar{An operation in GF is a function which can be called by linearization functions.} \texttt{mkN}. We create a noun which has the singular form \texttt{"person"} and plural form \texttt{"people"}, we will never use the singular form in this grammar, but GF cannot create a noun with only plural form. 
 
-\texttt{Java} creates a noun similarly, except that it only gives \texttt{mkN} one argument. By doing this, GF applies an algorithm in order to find the plural form automatically. This does however only work on regular nouns. \texttt{Know} returns a verb phrase (VP). We use a VP to combine a verb with a noun in order to create a \texttt{Relation}, as seen in lines 16-19. 
+\texttt{Java} creates a noun similarly, except that it only gives \texttt{mkN} one argument. By doing this, GF applies an algorithm in order to find the plural form automatically. This does however only work on regular nouns. We then create a noun phrase (NP) from the noun received.  \texttt{Know} returns a verb phrase (VP). We use a VP to combine a verb with a noun in order to create a \texttt{Relation}, as seen in lines 16-19. 
 
-How to combine a \texttt{Subject} and a \texttt{Relation} into a \texttt{Instruction} can be seen in lines 9-14. We first create a relative clause (RCl) by combining a built in constant \texttt{which\_RP} with the verb phrase (\texttt{relation}). There is however no built in operation available to combine a RCl with a noun, so we must create a relative sentence (RS). The RS is then combined with the subject by creating a common noun (CN). In order to only allow translations of plural forms we create a noun phrase with \texttt{aPl\_Det} as determiner.
+How to combine a \texttt{Subject} and a \texttt{Relation} into a \texttt{Instruction} can be seen in lines 9-14. We first create a relative clause (RCl) by combining a built in constant \texttt{which\_RP} with the verb phrase (\texttt{relation}). There is however no built in operation available to combine a RCl with a noun, so we must create a relative sentence (RS). The RS is then combined with the subject by creating a common noun (CN). In order to only allow translations of plural forms we create a noun phrase (NP) with \texttt{aPl\_Det} as determiner.
 
 \begin{figure}[h]
 \begin{code}
-concrete InstructionsEng of Instructions = open SyntaxEng, ParadigmsEng in {
+concrete InstrucsEng of Instrucs = open SyntaxEng, ParadigmsEng in {
   lincat
     Instruction = NP ;
     Subject = N ;
@@ -250,15 +247,15 @@ concrete InstructionsEng of Instructions = open SyntaxEng, ParadigmsEng in {
 
 \subsection{Generalizing the concrete syntax}
 
-The English concrete syntax which uses the \ac{RGL} is more complicated than the first version, which only concatenates strings. In order to motivate why one shall use the RGL, this section describes how the concrete syntax can be generalized into an \emph{incomplete concerete syntax} and then be instantiated by two concrete syntaxes, one for English and one for Swedish.
+The English concrete syntax which uses the \ac{RGL} is more complicated than the first version which only concatenates strings. In order to motivate why one shall use the RGL, this section describes how the concrete syntax can be generalized into an \emph{incomplete concerete syntax} and then be instantiated by two concrete syntaxes, one for English and one for Swedish.
 
 \subsubsection*{An incomplete concrete syntax}
 
-As we already have designed the concrete syntax for English, we can fairly easy convert it to a generalised version. The incomplete concrete syntax can be seen in \autoref{fig:incomplete-concrete-syntax}. We no longer have any strings defined, as we want to keep the syntax generalised. Constant operations are used in place of strings, and they are imported from the lexicon interface  \texttt{LexInstructions}.
+As we already have designed the concrete syntax for English, we can fairly easy convert it to a generalised version. The incomplete concrete syntax can be seen in \autoref{fig:incomplete-concrete-syntax}. We no longer have any strings defined, as we want to keep the syntax generalised. Constant operations are used in place of strings, and they are imported from the lexicon interface  \texttt{LexInstrucs}.
 
 \begin{figure}[h]
 \begin{code}
-incomplete concrete InstructionsI of Instructions = open Syntax, LexInstructions in {
+incomplete concrete InstrucsI of Instrucs = open Syntax, LexInstrucs in {
     lincat
       Instruction = NP ;
       Subject = N ;
@@ -280,11 +277,11 @@ incomplete concrete InstructionsI of Instructions = open Syntax, LexInstructions
 \caption{Incomplete concrete syntax\label{fig:incomplete-concrete-syntax}}
 \end{figure}
 
-\texttt{LexInstructions} is an \emph{interface}, which means that it only provides declarations. \autoref{fig:lexicon-interface} shows that we have one operation declaration for each word we want to use in the concrete syntax. Because we do not implement the operations, it is possible to create multiple instances of the lexicon where each one can implement the lexicon differently.
+\texttt{LexInstrucs} is an \emph{interface}, which means that it only provides declarations. \autoref{fig:lexicon-interface} shows that we have one operation declaration for each word we want to use in the concrete syntax. Because we do not implement the operations, it is possible to create multiple instances of the lexicon where each one can implement the lexicon differently.
 
 \begin{figure}[H]
 \begin{code}
-interface LexInstructions = open Syntax in {
+interface LexInstrucs = open Syntax in {
    oper
      person_N : N ;
      know_V2 : V2 ;
@@ -294,11 +291,11 @@ interface LexInstructions = open Syntax in {
 \caption{Lexicon interface\label{fig:lexicon-interface}}
 \end{figure}
 
-\autoref{fig:english-lexicon} shows how the operations defined in \texttt{LexInstructions} are implemented in \texttt{LexInstructionsEng}, we represent the words in the same  way as in the old version of the concrete syntax for English.
+\autoref{fig:english-lexicon} shows how the operations defined in \texttt{LexInstrucs} are implemented in \texttt{LexInstrucsEng}, we represent the words in the same  way as in the old version of the concrete syntax for English.
 
 \begin{figure}[H]
 \begin{code}
-instance LexInstructionsEng of LexInstructions = open SyntaxEng, ParadigmsEng in {
+instance LexInstrucsEng of LexInstrucs = open SyntaxEng, ParadigmsEng in {
     oper
       person_N = mkN "person" "people" ;
       know_V2 = mkV2 (mkV "know") ;	  
@@ -308,11 +305,11 @@ instance LexInstructionsEng of LexInstructions = open SyntaxEng, ParadigmsEng in
 \caption{Lexicon instantiation of English \label{fig:english-lexicon}}
 \end{figure}
 
-\autoref{fig:swedish-lexicon} shows another instance of \texttt{LexInstructions}, the lexicon for Swedish.
+\autoref{fig:swedish-lexicon} shows another instance of \texttt{LexInstrucs}, the lexicon for Swedish.
 
 \begin{figure}[H]
 \begin{code}
-instance LexInstructionsSwe of LexInstructions = open SyntaxSwe, ParadigmsSwe in {
+instance LexInstrucsSwe of LexInstrucs = open SyntaxSwe, ParadigmsSwe in {
     oper
       person_N = mkN "person" "personer" ;
       know_V2 = mkV2 (mkV "kunna" "kan" "kunna" "kunde" "kunnat" "kunna") ;	  
@@ -323,35 +320,35 @@ instance LexInstructionsSwe of LexInstructions = open SyntaxSwe, ParadigmsSwe in
 \end{figure}
 \todo{Why can't we define \texttt{know\_V2} as just \texttt{mkV2 (mkV "kan")}?}
 
-We are now ready to instantiate the incomplete concrete syntax. The code below describes how \texttt{InstructionsI} is instantiated as \texttt{InstructionsEng}. Note how we override \texttt{Syntax} with \texttt{SyntaxEng} and \texttt{LexInstructions} with \texttt{LexInstructionsEng}.
+We are now ready to instantiate the incomplete concrete syntax. The code below describes how \texttt{InstrucsI} is instantiated as \texttt{InstrucsEng}. Note how we override \texttt{Syntax} with \texttt{SyntaxEng} and \texttt{LexInstrucs} with \texttt{LexInstrucsEng}.
 
 \begin{figure}[H]
 \begin{code}
-concrete InstructionsEng of Instructions = InstructionsI with 
-                                             (Syntax = SyntaxEng), 
-                                             (LexInstructions = LexInstructionsEng) 
-                                             ** open ParadigmsEng in {}
+concrete InstrucsEng of Instrucs = InstrucsI with 
+                                         (Syntax = SyntaxEng), 
+                                         (LexInstrucs = LexInstrucsEng) 
+                                         ** open ParadigmsEng in {}
 \end{code}
 \caption{English instantiation of the incomplete concrete syntax}
 \end{figure}
 
-Analogously, we create an instance for Swedish concrete syntax by instantiating \texttt{InstructionsI} and overriding with different files.
+Analogously, we create an instance for Swedish concrete syntax by instantiating \texttt{InstrucsI} and overriding with different files.
 
 \begin{figure}[H]
 \begin{code}
-concrete InstructionsSwe of Instructions = InstructionsI with 
+concrete InstrucsSwe of Instrucs = InstrucsI with 
                                              (Syntax = SyntaxSwe), 
-                                             (LexInstructions = LexInstructionsSwe) 
+                                             (LexInstrucs = LexInstrucsSwe) 
                                              ** open ParadigmsSwe in {}
 \end{code}
 \caption{Swedish instantiation of the incomplete concrete syntax}
 \end{figure}
 
-If we load the GF-shell with \texttt{InstructionsEng.gf} and \texttt{InstructionsSwe.gf} we can make the following translation from English to Swedish.
+If we load the GF-shell with \texttt{InstrucsEng.gf} and \texttt{InstrucsSwe.gf} we can make the following translation from English to Swedish.
 
 \begin{figure}[H]
 \begin{code}
-Instructions> p -lang=InstructionsEng "people who know Java" | l -lang=InstructionsSwe
+Instrucs> p -lang=InstrucsEng "people who know Java" | l -lang=InstrucsSwe
 personer som kan Java
 
 personer som kan Java
@@ -362,4 +359,4 @@ personer som kan Java
 \caption{Swedish instantiation of the incomplete concrete syntax}
 \end{figure}
 
-\todo{Why we get three results is unknown at the moment.} Whats really interesting is that we can translate instructions formulated in English and Swedish into Solr-syntax.
+\todo{Why we get three results is unknown at the moment.} Whats really interesting is that we can translate Instrucs formulated in English and Swedish into Solr-syntax.

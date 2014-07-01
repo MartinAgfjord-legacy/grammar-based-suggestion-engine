@@ -5,13 +5,13 @@
 \section{Requirements specification}
 
 \subsection{Generation of mock data}
-As described in \autoref{sec:problem-description}, we want to develop an application which can translate natural language questions that refers to entities in a database or index owned by a software development company. This project has been made with strong collaboration with Findwise, a company with focus on search driven solutions. Although Findwise has an index with information about employees, projects and customers, their information is confidential and cannot be published in a master thesis. A different approach to get hold of relevant data is to generate mock data that is inspired by Findwise's data model.
+As described in \autoref{sec:problem-description}, we want to develop an application which can translate natural language questions that refers to entities in a database or index owned by a software development company. This project has been made with strong collaboration with Findwise, a company with focus on search driven solutions. Findwise has an index with information about employees, projects and customers, however, it is not possible to use their information because it is confidential and cannot be published in a master thesis. A different approach to get hold of relevant data is to generate mock data that is inspired by Findwise's data model. Mock data in this project is simply generated data from files that can be used to simulate a real world example application.
 
 \subsection{Grammar development}
-The grammar in section 1 can only translate the question \texttt{people who know Java} in English and Swedish into Solr query language. The grammar needs to be extended to handle \emph{any} programming language that exists in the mock data, not only \texttt{Java}. In addition, it also needs to support other questions involving not only people, but customers and projects.
+The grammar in \autoref{sec:simple-example} can only translate the question \texttt{people who know Java} in English and Swedish into Solr query language. The grammar needs to be extended to handle \emph{any} programming language that exists in the mock data, not only \texttt{Java}. In addition, it also needs to support other questions involving not only people, but customers and projects.
 
 \subsection{Suggestions}
-If a user have no idea of which questions the application can translate, how can she use the application? GF can only parse syntactically correct input, therefore, if the question has one character in the wrong place it will not be able to translate anything.
+If a user has no idea of which questions the application can translate, how can she use the application? GF can only parse syntactically correct input, therefore, if the question has one character in the wrong place it will not be able to translate anything.
 
 A suggestion engine can be used to complete the input of the user. For instance, if a user types \texttt{'All persons that know Java'} the application can display a list of related valid sentences where the user can choose which questions that she wants to replace the original sentence with.
 
@@ -19,12 +19,18 @@ To make the application more flexible, a better suggestion engine shall be able 
 
 \subsection{Runtime environment}
 The chosen programming language for this project is Java. The main reason is because it is Findwise's primary programming language. It is also very well known among many companies in the world.
-
 Many professional Java-developers adopts a specific development platform, \ac{javaee}. This platform provides many libraries that can be scaled to work in an enterprise environment. This project also adopts Java EE.
 
-A typical Java EE project make use of several libraries, in computer science terms we say that a project can have other libraries as \emph{dependencies}. It is not unusual that these libraries also have their own dependencies. Larger projects can therefore have a lot of dependencies, so many that it becomes hard to keep track of them. This project make use of a tool called Maven to handle dependencies. One simply list all libraries the project shall have access to, then Maven will automatically fetch them and their dependencies. This also makes the application more flexible, as it do not have to include the needed libraries in the application.
+\subsubsection*{Handling dependencies}
+A typical Java EE project make use of several libraries, in computer science terms we say that a project can have other libraries as \emph{dependencies}. It is not unusual that these libraries also have their own dependencies. Larger projects can therefore have a lot of dependencies, so many that it becomes hard to keep track of them. This project make use of an open source tool called Apache Maven to handle dependencies. One simply list all libraries the project shall have access to, then Maven will automatically fetch them and their dependencies. This also makes the application more flexible, as it do not have to include the needed libraries in the application.
 
-\todo{Some text about tomcat}
+\subsubsection*{Input and output presentation}
+Besides handling translation and suggestions, the application also needs to handle input and present its results in some way. This application takes input and presents output by using a web gui\footnote{\url{http://en.wikipedia.org/wiki/Graphical_user_interface}}.
+
+To summarize, this application is a web application built in Java EE and uses Apache Maven for library management.
+
+\subsubsection{Running the application}
+Web applications built in Java are usually has the WAR file format. It a special JAR-file which includes classes, dependencies and webpages. This project uses an open source web server called Apache Tomcat to host a web application by exporting our application as a WAR-file. Apache Tomcat will make the application available by using HTTP-requests and spawn a new thread each request.
 
 Details about the runtime environment can be found in \autoref{ch:appendix-a}.
 

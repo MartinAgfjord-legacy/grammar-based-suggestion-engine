@@ -7,13 +7,13 @@
 
 \section{GF runtime systems}
 
-While the GF-shell is a powerful tool, it is not very convenient to interact with when programming an application. It requires the hosting computer to have installed and also requires the application to have access to executing other applications, a major drawback. Luckily, the creators of GF has thought about this and built embeddable runtime systems for a few programming languages \cite[p. 3]{angelov:2011}\marginpar{The GF-shell uses the Haskell runtime system.}. These runtime systems makes it possible to interact with a grammar directly through language specific data types. We have chosen to work with the Java-runtime system in this project. The main purpose is because it is used by many developers and companies in the industry.
+While the GF-shell is a powerful tool, it is not very convenient to interact with when programming an application. Luckily, the creators of GF has thought about this and built embeddable runtime systems for a few programming languages \cite[p. 3]{angelov:2011}. These runtime systems makes it possible to interact with a grammar directly through language specific data types. We have chosen to work with the Java-runtime system in this project.
 
 \subsection{Portable Grammar Format}
 The GF-shell interacts with grammars by interpreting the GF programming language. This allows us to write our grammars in an simple and convenient syntax. Interpreting the GF programming language directly is however a heavy operation\cite{angelov:2011}[p. 13], especially with larger grammars. This is where the \ac{pgf}\cite{angelov:2011}[p. 14] comes in. PGF is a custom made machine language which is dynamically created by compiling a grammar with GF into a PGF-file. The runtime systems works exclusively with PGF-files.
 
 \subsection{GF libraries}
-In order to use the Java-runtime, we first need to generate a few libraries which is used by the runtime system. The Java-runtime system depends on the C-runtime system and a special wrapper between the C- and the Java-runtime. The libraries are platform dependent and at the time of writing, no pre-generated libraries exists. We therefore need to generate the libraries by ourselves. We will start by generating and installing the C-libraries. We will then go through how to generate the wrapper library.
+In order to use the Java-runtime, we first need to generate a few libraries which is used by the runtime system. The Java-runtime system depends on the C-runtime system and a special wrapper between the C- and the Java-runtime. The libraries are platform dependent and at the time of writing, no pre-generated libraries exists. We therefore need to generate the libraries by ourselves. We will start by generating and installing the C-libraries. We will then go through how we can generate the wrapper library.
 
 \subsubsection{Building and installing the C-runtime}
 Start by fetching the needed dependencies
@@ -102,4 +102,5 @@ mv libjpgf.so /usr/local/lib (or /usr/lib)
 You have now installed the wrapper library.
 
 \subsection{Using the Java-runtime}
+Have not started on this yet...
 \todo{Don't forget how to set java lib path when using tomcat!}

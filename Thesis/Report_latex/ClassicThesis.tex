@@ -82,6 +82,7 @@
 % Mainmatter
 %*******************************************************
 \pagenumbering{arabic}
+\bibliographystyle{unsrtnat}
 %\setcounter{page}{90}
 % use \cleardoublepage here to avoid problems with pdfbookmark
 \cleardoublepage
@@ -106,6 +107,66 @@ da. Le usate medical addresses pro, europa origine sanctificate nos se.}
 \cleardoublepage
 %\part{Appendix}
 \include{Chapters/Chapter0A}
+
+%*******************************************************
+% List of Figures and of the Tables
+%*******************************************************
+%\clearpage
+
+\begingroup 
+%    \let\clearpage\relax
+%    \let\cleardoublepage\relax
+%    \let\cleardoublepage\relax
+    %*******************************************************
+    % List of Figures
+    %*******************************************************    
+%    %\phantomsection 
+%    \refstepcounter{dummy}
+%    %\addcontentsline{toc}{chapter}{\listfigurename}
+%    \pdfbookmark[1]{\listfigurename}{lof}
+%    \listoffigures
+
+%    \vspace*{8ex}
+
+    %*******************************************************
+    % List of Tables
+    %*******************************************************
+    %\phantomsection 
+%    \refstepcounter{dummy}
+%    %\addcontentsline{toc}{chapter}{\listtablename}
+%    \pdfbookmark[1]{\listtablename}{lot}
+%    \listoftables
+%        
+%    \vspace*{8ex}
+%   \newpage
+    
+    %*******************************************************
+    % List of Listings
+    %*******************************************************      
+	  %\phantomsection 
+%    \refstepcounter{dummy}
+%    %\addcontentsline{toc}{chapter}{\lstlistlistingname}
+%    \pdfbookmark[1]{\lstlistlistingname}{lol}
+%    \lstlistoflistings 
+%
+%    \vspace*{8ex}
+       
+    %*******************************************************
+    % Acronyms
+    %*******************************************************
+    %\phantomsection 
+    \refstepcounter{dummy}
+    \pdfbookmark[1]{Acronyms}{acronyms}
+    \markboth{\spacedlowsmallcaps{Acronyms}}{\spacedlowsmallcaps{Acronyms}}
+    \chapter*{Acronyms}
+    \begin{acronym}[UML]
+        \acro{GF}{Grammatical Framework}
+        \acro{RGL}{Resource Grammar Library}
+        \acro{javaee}[Java EE]{Java Enterprise Edition}
+        \acro{pgf}[PGF]{Portable Grammar Format}
+    \end{acronym}                     
+\endgroup
+
 %********************************************************************
 % Other Stuff in the Back
 %*******************************************************
