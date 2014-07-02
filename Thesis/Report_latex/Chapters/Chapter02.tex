@@ -35,7 +35,68 @@ Web applications built in Java are usually has the WAR file format. It a special
 Details about the runtime environment can be found in \autoref{ch:appendix-a}.
 
 \section{Generation of mock data}
+This section describes how the data used by the application is generated. In order to generate data, one must know what to generate. In this context, this means that 
 
 \section{Grammar development}
+This section continues the work on the grammar introduced in \autoref{sec:simple-example}.
+
+\subsection{Supported instructions}
+The example grammar could only translate one instruction. This instruction in English is \emph{people who know Java}. It is easy to extend this grammar to support more programming languages, for example, to support \emph{Python} one can add a function \texttt{Python : Object} in the abstract syntax and implement it as \texttt{Python = "python"} in the concrete syntaxes. However, this approach makes the grammar inflexible because we need to extend the grammar every time we want to add a new programming language.
+
+\subsection{Names}
+Defining a new function for each programming language is not a good idea, it forces us to update the grammar every time we want it to support a new programming language. A better solution would be to make one function that could be used by any programming language.
+
+One intuitive approach to solve this problem is to create a function \texttt{MkObject : String -> Object}. The implementation for this function would be 
+\begin{figure}[H]
+\begin{code}
+-- Abstract syntax
+MkObject : String -> Object ;
+-- RGL implementation
+MkObject str = mkNP (mkPN str.s) ; -- PN = Proper Name
+-- Solr implementation
+MkObject str = str.s ;
+\end{code}
+\caption{Intuitive approach on names}
+\end{figure}
+
+The GF-code compiles, and the parsing and linearization by using Solr query language works. Unfortunately, this approach does not work with the RGL. GF cannot create a proper name by using an arbitrary string. \todo{Why?}
+
+Fortunately, there exists a built in category which can be used for exactly these situations. We use the category \texttt{Symb}, along with the function \texttt{MkSymb : String -> Symb} to represent arbitrary strings. We can then use the function \texttt{SymbPN} to create a proper name and finally create a noun phrase.
+\begin{figure}[H]
+\begin{code}
+-- Abstract syntax
+MkObject : Symb -> Object ;
+-- RGL implementation
+MkObject symb = mkNP (SymbPN symb) ; -- PN = Proper Name
+-- Solr implementation
+MkObject symb = symb.s ; -- Symb has the type { s : Str }
+\end{code}
+\caption{Working approach on names}
+\end{figure}
+
+By using this solution, we can translate the sentence \emph{people who know foo}, where \emph{foo} can be anything.
+
+\subsection{More questions}
+We have only covered translation of one sentence in the application so far. \autoref{fig:suppported-sentences} shows all sentences that the end application supports.
+\begin{figure}[H]
+\begin{terminal}
+English                        Solr query language
+people who know Java           q= object_type : Person AND KNOWS : Java
+people who work in London      q= object_type : Person AND WORKS_IN : London
+people who work with Unicef    q= object_type : Person AND WORKS_WITH : Unicef
+customers who use Solr         q= object_type : Customer AND USES : Solr
+projects who use Solr          q= object_type : Project AND USES : Solr
+\end{terminal}
+\caption{All sentences supported by the application\label{fig:suppported-sentences}}
+\end{figure}
+
+Two more cases has been added to instructions regarding \emph{people}. In addition, two new type of instructions has been added, translations about customers and projects. Note that \autoref{fig:suppported-sentences} only shows instances of instructions. As described in the previous section, the grammar uses names to take on any string for specific parts of the sentences. This means that the words \emph{Java}, \emph{London}, \emph{Unicef} and \emph{Solr} can be exchanged into anything.
+
+It is not trivial to extend the grammar to support these instructions. One has to take into account that it shall not be possible to translate invalid instructions like \emph{projects who work in London}.
+
+\subsection{Extending the grammar}
+
+
+\section{Boolean operators}
 
 \section{Suggestion engine}
