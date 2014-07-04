@@ -214,9 +214,9 @@ In this section, we will present how the previous concrete syntax for English ca
 
 The most simple function in this case is \texttt{People}, which shall return a noun (N). A noun can be created by using the \emph{operation}\marginpar{An operation in GF is a function which can be called by linearization functions.} \texttt{mkN}. We create a noun which has the singular form \texttt{"person"} and plural form \texttt{"people"}, we will never use the singular form in this grammar, but GF cannot create a noun with only plural form. 
 
-\texttt{Java} creates a noun similarly, except that it only gives \texttt{mkN} one argument. By doing this, GF applies an algorithm in order to find the plural form automatically. This does however only work on regular nouns. We then create a noun phrase (NP) from the noun received.  \texttt{Know} returns a verb phrase (VP). We use a VP to combine a verb with a noun in order to create a \texttt{Relation}, as seen in lines 16-19. 
+\texttt{Java} creates a noun similarly, except that it only gives \texttt{mkN} one argument. By doing this, GF applies an algorithm in order to find the plural form automatically. This does however only work on regular nouns. We then create a noun phrase (NP) from the noun received.  \texttt{Know} returns a relative sentence (RS). A relative sentence can for example be \emph{who know Java}. A relative sentence is constructed by first creating a \emph{verb phrase} (VP) from a verb and an object. This verb phrase is then used together with a constant operation \texttt{which\_RP} to create a \emph{relative clause}. We can then finally convert the relative clause into a relative sentence. This is achieved by using a self made operation named \texttt{mkRS'}, the purpose of this operation is to make the code easier to read and also in the future reuse code. 
 
-How to combine a \texttt{Subject} and a \texttt{Relation} into a \texttt{Instruction} can be seen in lines 9-14. We first create a relative clause (RCl) by combining a built in constant \texttt{which\_RP} with the verb phrase (\texttt{relation}). There is however no built in operation available to combine a RCl with a noun, so we must create a relative sentence (RS). The RS is then combined with the subject by creating a common noun (CN). In order to only allow translations of plural forms we create a noun phrase (NP) with \texttt{aPl\_Det} as determiner.
+The only thing that is left is to combine a noun with a relative sentence, e.g. combine \emph{people} with \emph{who know Java}. This is done by using the operation \texttt{mkCN} to create a common noun (CN). As CN's do not have any determiners, we have to construct a noun phrase together with the determiner \texttt{aPl\_Det} in order to to only allow translation of plural forms.
 
 \begin{figure}[h]
 \begin{code}
@@ -224,22 +224,16 @@ concrete InstrucsEng of Instrucs = open SyntaxEng, ParadigmsEng in {
   lincat
     Instruction = NP ;
     Subject = N ;
-    Relation = VP ;
+    Relation = RS ;
     Object = NP ;
 
   lin
-    MkInstruction subject relation = mkNP aPl_Det 
-                                        (mkCN subject 
-                                            (mkRS 
-                                                (mkRCl which_RP relation)
-                                            )
-                                        ) ;
+    MkInstruction subject relation = mkNP aPl_Det (mkCN subject relation) ;
     People = mkN "person" "people" ;
-    Know object = mkVP 
-                    (mkV2 
-                        (mkV "know")
-                    ) object ;
-    Java = mkNP (mkN "Java") ;
+    Know object = mkRS' (mkVP (mkV2 (mkV "know") object)) ;
+    
+   oper
+      mkRS' : VP -> RS = \vp -> mkRS (mkRCl which_RP vp) ;
 }
 \end{code}
 \caption{English concrete syntax using the RGL\label{fig:english-RGL}}
@@ -256,22 +250,19 @@ As we already have designed the concrete syntax for English, we can fairly easy 
 \begin{figure}[h]
 \begin{code}
 incomplete concrete InstrucsI of Instrucs = open Syntax, LexInstrucs in {
-    lincat
-      Instruction = NP ;
-      Subject = N ;
-      Relation = VP ;
-      Object = NP ;
+  lincat
+    Instruction = NP ;
+    Subject = N ;
+    Relation = RS ;
+    Object = NP ;
 
-    lin
-      MkInstruction subject relation = mkNP aPl_Det 
-                                        (mkCN subject 
-                                            (mkRS 
-                                                (mkRCl which_RP relation)
-                                            )
-                                        ) ;
-      People = person_N ;
-      Know object = mkVP know_V2 object ;
-      Java = java_NP ;
+  lin
+    MkInstruction subject relation = mkNP aPl_Det (mkCN subject relation) ;
+    People = people_N ;
+    Know object = mkRS' (mkVP (mkV2 know_V object)) ;
+    
+   oper
+      mkRS' : VP -> RS = \vp -> mkRS (mkRCl which_RP vp) ;
 }
 \end{code}
 \caption{Incomplete concrete syntax\label{fig:incomplete-concrete-syntax}}

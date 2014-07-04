@@ -90,13 +90,254 @@ projects who use Solr          q= object_type : Project AND USES : Solr
 \caption{All sentences supported by the application\label{fig:suppported-sentences}}
 \end{figure}
 
-Two more cases has been added to instructions regarding \emph{people}. In addition, two new type of instructions has been added, translations about customers and projects. Note that \autoref{fig:suppported-sentences} only shows instances of instructions. As described in the previous section, the grammar uses names to take on any string for specific parts of the sentences. This means that the words \emph{Java}, \emph{London}, \emph{Unicef} and \emph{Solr} can be exchanged into anything.
-
-It is not trivial to extend the grammar to support these instructions. One has to take into account that it shall not be possible to translate invalid instructions like \emph{projects who work in London}.
+Two more cases has been added to instructions regarding \emph{people}. In addition, two new type of instructions has been added, translations about customers and projects. Note that \autoref{fig:suppported-sentences} only shows instances of instructions. As described in the previous section, the grammar uses names that can take on any string for specific parts of the sentences. This means that the words \emph{Java}, \emph{London}, \emph{Unicef} and \emph{Solr} can be exchanged into anything.
 
 \subsection{Extending the grammar}
+It is not trivial to extend the grammar to support the instructions described in the previous section.. One has to take into account that it shall not be possible to translate invalid instructions like \emph{projects who work in London}.
 
+\subsubsection{Abstract syntax}
+
+The first step towards a solution to this problem is to modify the abstract syntax. We begin by removing the category \texttt{Subject} and replacing it with three new categories: \texttt{Internal}, \texttt{External} and \texttt{Resource}. The function \texttt{People} will return a value of the type \texttt{Internal} and \texttt{Customer} and \texttt{Project} will return values of the types \texttt{External} and \texttt{Resource} respectively.
+
+\begin{figure}[H]
+\begin{code}
+-- Instructions.gf
+cat
+  Internal ;
+  External ;
+  Resource ;
+fun
+  People   : Internal ;
+  Customer : External ;
+  Project  : Resource ;
+\end{code}
+\caption{New categories and functions for subjects}
+\end{figure}
+
+In addition to adding new subject categories, three new categories for relations are also introduced: \texttt{InternalRelation}, \texttt{ExternalRelation} and \texttt{ResourceRelation} (\texttt{Relation} is removed). The idea is to link subject values to the correct relation types. For instance, we link a value of the type \texttt{Internal} with a value of type \texttt{InternalRelation}.
+
+All relation functions are changed to return the correct type. For example, \texttt{Know} is changed to return a value of the type \texttt{InternalRelation}. This means that only \texttt{People} can be used together with \texttt{Know}, as desired. \autoref{fig:newrelations} also shows the new supported relations.
+
+\begin{figure}[H]
+\begin{code}
+-- Instructions.gf
+cat
+  InternalRelation ;
+  ExternalRelation ;
+  ResourceRelation ;
+fun
+  Know     : Object -> InternalRelation ;
+  UseExt   : Object -> ExternalRelation ;
+  UseRes   : Object -> ResourceRelation ;
+  WorkIn   : Object -> InternalRelation ;
+  WorkWith : Object -> InternalRelation ;
+\end{code}
+\caption{New categories and functions for relations\label{fig:newrelations}}
+\end{figure}
+
+The last thing to modify is how subjects and relations are combined. The function \texttt{MkInstruction} is replaced by three new functions: \texttt{InstrucInternal}, \texttt{InstrucExternal} and \texttt{InstrucResource}. However, as we do not need to make any distinction between different type of instructions at this level, all three functions returns a value of the type \texttt{Instruction}.
+
+\begin{figure}[H]
+\begin{code}
+-- Instructions.gf
+cat
+  Instruction ;
+fun
+  InstrucInternal : Internal -> InternalRelation -> Instruction ;
+  InstrucExternal : External -> ExternalRelation -> Instruction ;
+  InstrucResource : Resource -> ResourceRelation -> Instruction ;
+\end{code}
+\caption{New functions for instructions\label{fig:newinstructions}}
+\end{figure}
+
+\subsubsection{Concrete syntax for RGL}
+As the abstract syntax has changed, the concrete syntaxes has to be modifed as well. This section explains how the generalised concrete syntax which uses the RGL is implemeneted. 
+
+\autoref{fig:rgl-new-categories} shows how the categories has been implemented. The new categories are implemented in the same way as the previous.
+
+\begin{figure}[H]
+\begin{code}
+lincat
+  Instruction = NP ;
+  Internal, External, Resource = N ;
+  InternalRelation, ExternalRelation, ResourceRelation = VP ;
+\end{code}
+\caption{New category implementations \label{fig:rgl-new-categories}}
+\end{figure}
+
+The new subject functions are implemented in the same way as \texttt{People}.
+
+\begin{figure}[H]
+\begin{code}
+lin
+  People = person_N ;
+  Customer = customer_N ;
+  Project = project_N ;
+\end{code}
+\caption{Implementation of subjects\label{fig:rgl-new-subjects}}
+\end{figure}
+
+Four new relation functions are added. Line 5-6 in \autoref{fig:rgl-new-relations} shows how we use the verb \texttt{work\_V} together with two prepositions, \texttt{in\_Prep} and \texttt{with\_Prep} in order correctly linearize into \emph{work in foo} and \emph{work with foo} respectively (\emph{foo} is the value of \texttt{object}.
+
+\begin{figure}[H]
+\begin{code}
+lin
+  Know object = mkRS' (mkVP know_V2 object) ;
+  UseExt object = mkRS' (mkVP use_V2 object) ;
+  UseRes object = mkRS' (mkVP use_V2 object) ;
+  WorkIn object = mkRS' (mkVP (mkV2 work_V in_Prep) object) ;
+  WorkWith object = mkRS' (mkVP (mkV2 work_V with_Prep) object) ;
+\end{code}
+\caption{Implementation of relations\label{fig:rgl-new-relations}}
+\end{figure}
+
+Subjects and relations are combined as before, but as this solution has three functions instead of one, a new operation \texttt{mkQ} has been defined in order to reuse code.
+
+\begin{figure}[H]
+\begin{code}
+lin
+  InstrucInternal internal relation = mkI internal relation ;
+  InstrucExternal external relation = mkI external relation ;
+  InstrucResource resource' relation = mkI resource' relation ;
+
+oper
+  mkI : N -> RS -> NP = \noun,rs -> mkNP aPl_Det 
+                             (mkCN noun rs) ;
+\end{code}
+\caption{Implementation of combining functions\label{fig:rgl-new-relations}}
+\end{figure}
+
+\subsubsection{Concrete syntax for Solr}
+This section describes how the concrete syntax for Solr is modified to work with the new abstract syntax.
+
+The new categories are all defined as strings.
+
+\begin{figure}[H]
+\begin{code}
+lincat
+  Instruction = Str ;
+  Internal, External, Resource = Str ;
+  InternalRelation, ExternalRelation, ResourceRelation = Str ;
+  Object = Str ;
+\end{code}
+\caption{Implementation of combining functions\label{fig:rgl-new-relations}}
+\end{figure}
+
+Subject types are hard coded into strings. We assume that these strings exists in the Solr index.
+
+\begin{figure}[H]
+\begin{code}
+lin
+  People = "Person" ;
+  Customer = "Organization" ;
+  Project = "Project" ;
+\end{code}
+\caption{Implementation of combining functions\label{fig:rgl-new-relations}}
+\end{figure}
+
+We also make an assumption about how the relations are defined in the Solr index. 
+
+\begin{figure}[H]
+\begin{code}
+lin
+  Know obj = "KNOWS" ++ ":" ++ obj ;
+  UseExt obj = "USES" ++ ":" ++ obj ;
+  UseRes obj = "USES" ++ ":" ++ obj ;
+  WorkWith obj = "WORKS_WITH" ++ ":" ++ obj ;
+  WorkIn obj = "WORKS_IN" ++ ":" ++ obj ;
+\end{code}
+\caption{Implementation of combining functions\label{fig:rgl-new-relations}}
+\end{figure}
+
+As in the concrete syntax for RGL, also an operation is defined and used by the three functions.
+
+\begin{figure}[H]
+\begin{code}
+lin
+  InstrucInternal internal relation = select internal relation ;
+  InstrucExternal external relation = select external relation;
+  InstrucResource resource' relation = select resource' relation;
+
+oper
+  select : Str -> Str -> Str = \subj,relation -> 
+                    "select?q=*:*&wt=json&fq=" ++ "object_type :" 
+                    ++ subj ++ "AND" ++ relation ;
+\end{code}
+\caption{Implementation of combining functions\label{fig:rgl-new-relations}}
+\end{figure}
 
 \section{Boolean operators}
+The grammar is now powerful enough to translate a variety of questions. To make it even more powerful, one could use boolean operators in order to combine relations. For example, an instruction that could useful is \emph{people who know Java and Python}. Another useful instruction is \emph{people who know Java and work in Gothenburg}. This section explains how the grammar can be extended to support these kind of instructions.
+
+We begin by extending the abstract syntax. In addition to the previous example with the boolean operator \emph{and}, we will also add support for the boolean operator \emph{or}. As seen in \autoref{fig:boolean-abs-obj}, two new functions are defined to handle these cases, one for each operator.
+
+\begin{figure}[H]
+\begin{code}
+lin
+  And_O : Object -> Object -> Object ;
+  Or_O : Object -> Object -> Object ;
+\end{code}
+\caption{Implementation of combining functions\label{fig:boolean-abs-obj}}
+\end{figure}
+
+The RGL implementation is shown in \autoref{fig:boolean-rgl-obj}.
+
+\begin{figure}[H]
+\begin{code}
+lin
+  And_O o1 o2 = mkNP and_Conj o1 o2 ;
+  Or_O o1 o2 = mkNP or_Conj o1 o2 ;
+\end{code}
+\caption{Implementation of combining functions\label{fig:boolean-rgl-obj}}
+\end{figure}
+
+The Solr implementation is shown in \autoref{fig:boolean-solr-obj}.
+
+\begin{figure}[H]
+\begin{code}
+lin
+  And_O o1 o2 = "(" ++ o1 ++ "AND" ++ o2 ++ ")" ;
+  Or_O o1 o2 = "(" ++ o1 ++ "OR" ++ o2 ++ ")" ;
+\end{code}
+\caption{Implementation of combining functions\label{fig:boolean-rgl-obj}}
+\end{figure}
+
+It is now possible to express \emph{people who know Java and Python}, in order to use boolean operators with whole relations like \emph{people who know Java and work in Gothenburg}, the grammar has to be further extended.
+
+We must also take into account that it shall only be possible to combine relationship that are possible to express in the current sentence. Therefore, we need to define the boolean logic three times, as we have three different types of instructions.
+
+\begin{figure}[H]
+\begin{code}
+lin
+  InternalAnd : InternalRelation -> InternalRelation -> InternalRelation ;
+  InternalOr : InternalRelation -> InternalRelation -> InternalRelation ;
+
+  ExternalAnd : ExternalRelation -> ExternalRelation -> ExternalRelation ;
+  ExternalOr : ExternalRelation -> ExternalRelation -> ExternalRelation ;
+ 	  
+  ResourceAnd : ResourceRelation -> ResourceRelation -> ResourceRelation ;
+  ResourceOr : ResourceRelation -> ResourceRelation -> ResourceRelation ;
+\end{code}
+\caption{Implementation of combining functions\label{fig:boolean-rgl-obj}}
+\end{figure}
+
+Instead of combining noun phrases as in the previous solution, here we combine relative sentences in the RGL implementation.
+
+\begin{figure}[H]
+\begin{code}
+lin
+  InternalAnd rs1 rs2 = mkRS and_Conj rs1 rs2 ;
+  InternalOr rs1 rs2 = mkRS or_Conj rs1 rs2 ;
+	  
+  ExternalAnd rs1 rs2 = mkRS and_Conj rs1 rs2 ;
+  ExternalAnd rs1 rs2 = mkRS or_Conj rs1 rs2 ;
+	  
+  ResourceAnd rs1 rs2 = mkRS and_Conj rs1 rs2 ;
+  ResourceOr rs1 rs2 = mkRS or_Conj rs1 rs2 ;
+\end{code}
+\caption{Implementation of combining functions\label{fig:boolean-rgl-obj}}
+\end{figure}
+\todo{Don't forget to change actual source code (files) to the same as the report. I've just changed the report to support AndOr with relations}
+
 
 \section{Suggestion engine}
