@@ -10,12 +10,19 @@ As described in \autoref{sec:problem-description}, we want to develop an applica
 \subsection{Grammar development}
 The grammar in \autoref{sec:simple-example} can only translate the question \texttt{people who know Java} in English and Swedish into Solr query language. The grammar needs to be extended to handle \emph{any} programming language that exists in the mock data, not only \texttt{Java}. In addition, it also needs to support other questions involving not only people, but customers and projects.
 
-\subsection{Suggestions}
-If a user has no idea of which questions the application can translate, how can she use the application? GF can only parse syntactically correct input, therefore, if the question has one character in the wrong place it will not be able to translate anything.
+\subsection{Suggestions}\label{sec:suggestions}
+If a user has no idea of which questions the application can translate, how can she use the application? GF has the power to suggest valid words of an incomplete sentence by using incremental parsing. \cite{angelov09:incremental-parser}. This means that even though a user do not know what to type, the application can suggest valid words to use. If the user chooses to add one of those words, the suggestion engine can show a new list of words that will match the new partial sentence.
 
-A suggestion engine can be used to complete the input of the user. For instance, if a user types \texttt{'All persons that know Java'} the application can display a list of related valid sentences where the user can choose which questions that she wants to replace the original sentence with.
+However, this method does not support the use of only keywords, since one cannot start a sentence with for example the word \texttt{Java}. It it also inflexible since it does not support the use of words outside the grammar, e.g. \texttt{all people who know Java}\marginpar{The parser would not be able to parse the word \emph{all}}.
 
-To make the application more flexible, a better suggestion engine shall be able to complete sentences based purely on keywords, for example \texttt{'people java'} shall suggest sentences that can be formulated with these two words.
+\todo{One solution to this problem is ; write about how to use chunks and stuff}
+
+This thesis takes a different approach on a suggestion engine. Instead of suggesting one word at a time, one can suggest a whole sentence based on what the user has typed so far. This is achieved by generating all possible sentences that the application can translate and indexing them in Apache Solr. This makes it very easy to search on matching sentences, we also gain powerful techniques such as approximate string matching. 
+\newline
+\newline
+By using this approach, if a user types a sentence in the application, it will search in the index on instructions related to the string and retrieve the most relevant instructions.
+
+As the suggestion engine uses a search platform, it is possible to type anything and get suggestions, even only keywords like \texttt{'people java'} will suggest instructions that can be formulated with these two words.
 
 \subsection{Runtime environment}
 The chosen programming language for this project is Java. The main reason is because it is Findwise's primary programming language. It is also very well known among many companies in the world.
@@ -30,7 +37,7 @@ Besides handling translation and suggestions, the application also needs to hand
 To summarize, this application is a web application built in Java EE and uses Apache Maven for library management.
 
 \subsubsection{Running the application}
-Web applications built in Java are usually has the WAR file format. It a special JAR-file which includes classes, dependencies and webpages. This project uses an open source web server called Apache Tomcat to host a web application by exporting our application as a WAR-file. Apache Tomcat will make the application available by using HTTP-requests and spawn a new thread each request.
+Web applications built in Java are usually has the WAR file format. It a special JAR-file which includes classes, dependencies and web pages. This project uses an open source web server called Apache Tomcat to host a web application by exporting our application as a WAR-file. Apache Tomcat will make the application available by using HTTP-requests and spawn a new thread for each request.
 
 Details about the runtime environment can be found in \autoref{ch:appendix-a}.
 
@@ -111,7 +118,7 @@ fun
   Customer : External ;
   Project  : Resource ;
 \end{code}
-\caption{New categories and functions for subjects}
+\caption{Abstract syntax with new categories and functions for subjects}
 \end{figure}
 
 In addition to adding new subject categories, three new categories for relations are also introduced: \texttt{InternalRelation}, \texttt{ExternalRelation} and \texttt{ResourceRelation} (\texttt{Relation} is removed). The idea is to link subject values to the correct relation types. For instance, we link a value of the type \texttt{Internal} with a value of type \texttt{InternalRelation}.
@@ -120,7 +127,6 @@ All relation functions are changed to return the correct type. For example, \tex
 
 \begin{figure}[H]
 \begin{code}
--- Instructions.gf
 cat
   InternalRelation ;
   ExternalRelation ;
@@ -132,14 +138,13 @@ fun
   WorkIn   : Object -> InternalRelation ;
   WorkWith : Object -> InternalRelation ;
 \end{code}
-\caption{New categories and functions for relations\label{fig:newrelations}}
+\caption{Abstract syntax with new categories and functions for relations \label{fig:newrelations}}
 \end{figure}
 
 The last thing to modify is how subjects and relations are combined. The function \texttt{MkInstruction} is replaced by three new functions: \texttt{InstrucInternal}, \texttt{InstrucExternal} and \texttt{InstrucResource}. However, as we do not need to make any distinction between different type of instructions at this level, all three functions returns a value of the type \texttt{Instruction}.
 
 \begin{figure}[H]
 \begin{code}
--- Instructions.gf
 cat
   Instruction ;
 fun
@@ -147,7 +152,7 @@ fun
   InstrucExternal : External -> ExternalRelation -> Instruction ;
   InstrucResource : Resource -> ResourceRelation -> Instruction ;
 \end{code}
-\caption{New functions for instructions\label{fig:newinstructions}}
+\caption{Abstract syntax with new categories and functions for instructions\label{fig:newinstructions}}
 \end{figure}
 
 \subsubsection{Concrete syntax for RGL}
@@ -162,7 +167,7 @@ lincat
   Internal, External, Resource = N ;
   InternalRelation, ExternalRelation, ResourceRelation = VP ;
 \end{code}
-\caption{New category implementations \label{fig:rgl-new-categories}}
+\caption{RGL concrete syntax with new category implementations\label{fig:rgl-new-categories}}
 \end{figure}
 
 The new subject functions are implemented in the same way as \texttt{People}.
@@ -174,7 +179,7 @@ lin
   Customer = customer_N ;
   Project = project_N ;
 \end{code}
-\caption{Implementation of subjects\label{fig:rgl-new-subjects}}
+\caption{RGL concrete syntax with new subject implementations\label{fig:rgl-new-subjects}}
 \end{figure}
 
 Four new relation functions are added. Line 5-6 in \autoref{fig:rgl-new-relations} shows how we use the verb \texttt{work\_V} together with two prepositions, \texttt{in\_Prep} and \texttt{with\_Prep} in order correctly linearize into \emph{work in foo} and \emph{work with foo} respectively (\emph{foo} is the value of \texttt{object}.
@@ -188,7 +193,7 @@ lin
   WorkIn object = mkRS' (mkVP (mkV2 work_V in_Prep) object) ;
   WorkWith object = mkRS' (mkVP (mkV2 work_V with_Prep) object) ;
 \end{code}
-\caption{Implementation of relations\label{fig:rgl-new-relations}}
+\caption{RGL concrete syntax with new relation implementations\label{fig:rgl-new-relations}}
 \end{figure}
 
 Subjects and relations are combined as before, but as this solution has three functions instead of one, a new operation \texttt{mkQ} has been defined in order to reuse code.
@@ -204,7 +209,7 @@ oper
   mkI : N -> RS -> NP = \noun,rs -> mkNP aPl_Det 
                              (mkCN noun rs) ;
 \end{code}
-\caption{Implementation of combining functions\label{fig:rgl-new-relations}}
+\caption{RGL concrete syntax with new instruction implementations\label{fig:rgl-new-instructions}}
 \end{figure}
 
 \subsubsection{Concrete syntax for Solr}
@@ -220,7 +225,7 @@ lincat
   InternalRelation, ExternalRelation, ResourceRelation = Str ;
   Object = Str ;
 \end{code}
-\caption{Implementation of combining functions\label{fig:rgl-new-relations}}
+\caption{Solr concrete syntax with new implementation of categories\label{fig:solr-categories-impl}}
 \end{figure}
 
 Subject types are hard coded into strings. We assume that these strings exists in the Solr index.
@@ -232,7 +237,7 @@ lin
   Customer = "Organization" ;
   Project = "Project" ;
 \end{code}
-\caption{Implementation of combining functions\label{fig:rgl-new-relations}}
+\caption{Solr concrete syntax with new subject implementations\label{fig:solr-function-implementation}}
 \end{figure}
 
 We also make an assumption about how the relations are defined in the Solr index. 
@@ -246,7 +251,7 @@ lin
   WorkWith obj = "WORKS_WITH" ++ ":" ++ obj ;
   WorkIn obj = "WORKS_IN" ++ ":" ++ obj ;
 \end{code}
-\caption{Implementation of combining functions\label{fig:rgl-new-relations}}
+\caption{Solr concrete syntax with new relation implementations\label{fig:solr-new-relations}}
 \end{figure}
 
 As in the concrete syntax for RGL, also an operation is defined and used by the three functions.
@@ -263,13 +268,13 @@ oper
                     "select?q=*:*&wt=json&fq=" ++ "object_type :" 
                     ++ subj ++ "AND" ++ relation ;
 \end{code}
-\caption{Implementation of combining functions\label{fig:rgl-new-relations}}
+\caption{Solr concrete syntax with new instruction implementations\label{fig:solr-new-instructions}}
 \end{figure}
 
 \section{Boolean operators}
-The grammar is now powerful enough to translate a variety of questions. To make it even more powerful, one could use boolean operators in order to combine relations. For example, an instruction that could useful is \emph{people who know Java and Python}. Another useful instruction is \emph{people who know Java and work in Gothenburg}. This section explains how the grammar can be extended to support these kind of instructions.
+The grammar is now powerful enough to translate a variety of questions. To make it even more powerful, one could use boolean operators in order to combine relations. For example, an instruction that could be useful is \emph{people who know Java and Python}. Another useful instruction is \emph{people who know Java and work in Gothenburg}. This section explains how the grammar can be extended to support these kind of instructions.
 
-We begin by extending the abstract syntax. In addition to the previous example with the boolean operator \emph{and}, we will also add support for the boolean operator \emph{or}. As seen in \autoref{fig:boolean-abs-obj}, two new functions are defined to handle these cases, one for each operator.
+In addition to the previous example with the boolean operator \emph{and}, we will also add support for the boolean operator \emph{or}. We begin by adding functionality to support boolean operators to combine values of the type \texttt{Object}. As seen in \autoref{fig:boolean-abs-obj}, two new functions are defined in the abstract syntax to handle these cases, one for each operator.
 
 \begin{figure}[H]
 \begin{code}
@@ -277,7 +282,7 @@ lin
   And_O : Object -> Object -> Object ;
   Or_O : Object -> Object -> Object ;
 \end{code}
-\caption{Implementation of combining functions\label{fig:boolean-abs-obj}}
+\caption{Abstract syntax for boolean operators and objects\label{fig:boolean-abs-obj}}
 \end{figure}
 
 The RGL implementation is shown in \autoref{fig:boolean-rgl-obj}.
@@ -288,10 +293,10 @@ lin
   And_O o1 o2 = mkNP and_Conj o1 o2 ;
   Or_O o1 o2 = mkNP or_Conj o1 o2 ;
 \end{code}
-\caption{Implementation of combining functions\label{fig:boolean-rgl-obj}}
+\caption{RGL concrete syntax for boolean operators and objects\label{fig:boolean-rgl-obj}}
 \end{figure}
 
-The Solr implementation is shown in \autoref{fig:boolean-solr-obj}.
+The Solr implementation is shown in \autoref{fig:boolean-solr-obj}. We add \texttt{AND} or \texttt{OR} between the two objects.
 
 \begin{figure}[H]
 \begin{code}
@@ -299,10 +304,10 @@ lin
   And_O o1 o2 = "(" ++ o1 ++ "AND" ++ o2 ++ ")" ;
   Or_O o1 o2 = "(" ++ o1 ++ "OR" ++ o2 ++ ")" ;
 \end{code}
-\caption{Implementation of combining functions\label{fig:boolean-rgl-obj}}
+\caption{Solr concrete syntax for boolean operators and objects\label{fig:boolean-solr-obj}}
 \end{figure}
 
-It is now possible to express \emph{people who know Java and Python}, in order to use boolean operators with whole relations like \emph{people who know Java and work in Gothenburg}, the grammar has to be further extended.
+It is now possible to express \emph{people who know Java and Python}. In order to use boolean operators with whole relations like \emph{people who know Java and work in Gothenburg}, the grammar has to be further extended.
 
 We must also take into account that it shall only be possible to combine relationship that are possible to express in the current sentence. Therefore, we need to define the boolean logic three times, as we have three different types of instructions.
 
@@ -318,7 +323,7 @@ lin
   ResourceAnd : ResourceRelation -> ResourceRelation -> ResourceRelation ;
   ResourceOr : ResourceRelation -> ResourceRelation -> ResourceRelation ;
 \end{code}
-\caption{Implementation of combining functions\label{fig:boolean-rgl-obj}}
+\caption{Abstract syntax for boolean operators and relations\label{fig:boolean-abstract-relations}}
 \end{figure}
 
 Instead of combining noun phrases as in the previous solution, here we combine relative sentences in the RGL implementation.
@@ -335,9 +340,29 @@ lin
   ResourceAnd rs1 rs2 = mkRS and_Conj rs1 rs2 ;
   ResourceOr rs1 rs2 = mkRS or_Conj rs1 rs2 ;
 \end{code}
-\caption{Implementation of combining functions\label{fig:boolean-rgl-obj}}
+\caption{RGL concrete syntax for boolean operators and relations\label{fig:boolean-rgl-relations}}
 \end{figure}
+
+The Solr implementation is fairly straight forward, similarly as with values of the type \texttt{Object}, we also add \texttt{AND} or \texttt{OR} between the strings. The only difference is that we do it three times as we have three different subject types.
+
+\begin{figure}[H]
+\begin{code}
+lin
+  InternalAnd s1 s2 = "(" ++ s1.s ++ "AND" ++ s2.s ++ ")";
+  InternalOr s1 s2 = "(" ++ s1.s ++ " OR " ++ s2.s ++ ")";
+
+  ExternalAnd s1 s2 = "(" ++ s1.s ++ "AND" ++ s2.s ++ ")";
+  ExternalOr s1 s2 = "(" ++ s1.s ++ " OR " ++ s2.s ++ ")";
+
+  ResourceAnd s1 s2 = "(" ++ s1.s ++ "AND" ++ s2.s ++ ")";
+  ResourceOr s1 s2 = "(" ++ s1.s ++ " OR " ++ s2.s ++ ")";
+\end{code}
+\caption{Solr concrete syntax for boolean operators and relations\label{fig:boolean-solr-relations}}
+\end{figure}
+
 \todo{Don't forget to change actual source code (files) to the same as the report. I've just changed the report to support AndOr with relations}
 
-
 \section{Suggestion engine}
+This section continues where \autoref{sec:suggestions} left off. The suggestion engine shall generate all possible instructions in all natural languages and store them in an Apache Solr index. It is suitable to use the \emph{generator} which GF creates to generate abstract syntax trees and linearize them into the specified concrete languages (English and Swedish in this case).
+
+\todo{Fix code so you can show examples in the gf-prompt, using the GF-shell to generate trees}
