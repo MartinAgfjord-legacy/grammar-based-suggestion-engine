@@ -326,7 +326,7 @@ lin
 \caption{Abstract syntax for boolean operators and relations\label{fig:boolean-abstract-relations}}
 \end{figure}
 
-Instead of combining noun phrases as in the previous solution, here we combine relative sentences in the RGL implementation.
+Instead of combining noun phrases as in \autoref{fig:boolean-rgl-obj}, here we combine relative sentences in the RGL implementation.
 
 \begin{figure}[H]
 \begin{code}
@@ -348,21 +348,119 @@ The Solr implementation is fairly straight forward, similarly as with values of 
 \begin{figure}[H]
 \begin{code}
 lin
-  InternalAnd s1 s2 = "(" ++ s1.s ++ "AND" ++ s2.s ++ ")";
-  InternalOr s1 s2 = "(" ++ s1.s ++ " OR " ++ s2.s ++ ")";
+  InternalAnd s1 s2 = "(" ++ s1 ++ "AND" ++ s2 ++ ")";
+  InternalOr s1 s2 = "(" ++ s1 ++ " OR " ++ s2 ++ ")";
 
-  ExternalAnd s1 s2 = "(" ++ s1.s ++ "AND" ++ s2.s ++ ")";
-  ExternalOr s1 s2 = "(" ++ s1.s ++ " OR " ++ s2.s ++ ")";
+  ExternalAnd s1 s2 = "(" ++ s1 ++ "AND" ++ s2 ++ ")";
+  ExternalOr s1 s2 = "(" ++ s1 ++ " OR " ++ s2 ++ ")";
 
-  ResourceAnd s1 s2 = "(" ++ s1.s ++ "AND" ++ s2.s ++ ")";
-  ResourceOr s1 s2 = "(" ++ s1.s ++ " OR " ++ s2.s ++ ")";
+  ResourceAnd s1 s2 = "(" ++ s1 ++ "AND" ++ s2 ++ ")";
+  ResourceOr s1 s2 = "(" ++ s1 ++ " OR " ++ s2 ++ ")";
 \end{code}
 \caption{Solr concrete syntax for boolean operators and relations\label{fig:boolean-solr-relations}}
 \end{figure}
 
-\todo{Don't forget to change actual source code (files) to the same as the report. I've just changed the report to support AndOr with relations}
-
 \section{Suggestion engine}
 This section continues where \autoref{sec:suggestions} left off. The suggestion engine shall generate all possible instructions in all natural languages and store them in an Apache Solr index. It is suitable to use the \emph{generator} which GF creates to generate abstract syntax trees and linearize them into the specified concrete languages (English and Swedish in this case).
 
-\todo{Fix code so you can show examples in the gf-prompt, using the GF-shell to generate trees}
+The generator can be accessed through the GF-shell.  \autoref{fig:gf-shell-generate-trees} shows how the function \texttt{generate\_trees} is executed to generate all trees with the \emph{depth} 4. By depth, we mean the maximum number edges between a leaf and the root element.
+
+\begin{figure}[H]
+\begin{terminal}
+Instrucs> generate_trees
+InstrucExternal Customer (UseExt (MkObject (MkSymb "Foo")))
+InstrucInternal People (Know (MkObject (MkSymb "Foo")))
+InstrucInternal People (WorkIn (MkObject (MkSymb "Foo")))
+InstrucInternal People (WorkWith (MkObject (MkSymb "Foo")))
+InstrucResource Project (UseRes (MkObject (MkSymb "Foo")))
+\end{terminal}
+\caption{\texttt{generate\_trees} is used to create all abstract syntax trees with max depth 4\label{fig:gf-shell-generate-trees}}
+\end{figure}
+
+\autoref{fig:gf-shell-generate-trees} shows 5 trees, but there exists many more trees.\marginpar{Actually, there exists infinitely many trees, as we have recursive functions in the abstract syntax.} The reason GF only generates 5 trees is because of the default depth setting is 4. If we increase the depth we will obtain more trees, as it then will include trees containing boolean operators. By increasing the max depth to 5, GF will generate 36 trees. With depth 6, GF will generate 1653 trees.
+\newline
+\newline
+It is often good to visualize trees to understand them better. \autoref{fig:asts-depths} shows two abstract syntax trees, the first one with depth 4 and the second with depth 5. One can easily see that the former has maximum 4 edges between root and leaf, and the latter has 5 edges between root and leaf.
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/depth4}
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/depth5}
+\caption{Visualization of abstract syntax trees with depth 4 and 5\label{fig:asts-depths}}
+\end{figure}
+
+\subsection{Populating the Solr index}
+It is now time to linearize the generated trees and store them in a Solr index. By doing so, we will be able to search on instructions by using words that exists in the instructions. What we cannot do is to search on names, because the names does not occur in the instructions, instead they only contain a placeholder for a name (\emph{"Foo"}). It will therefore only suggest instructions like \emph{people who know Foo and Foo} which is a useless suggestion.
+
+We want to be able to suggest relevant names, if the user database contains a person which knows Java, then we also want to suggest instructions based on that name. This requirement forces us to change the application once more. 
+\newline
+\newline
+A na{\"i}ve solution would be to fetch all distinct names from the database and create all possible instructions that a user shall be able to express with these names. For an instruction like \emph{people who know Foo or Foo and works in Foo} and if the database contains 10 programming languages and 10 cities we would then have to generate $2*10*10=200$ instructions. This is clearly not suitable, as GF generates 1653 trees (with depth 6).
+\newline
+\newline
+A better approach on the problem is to store all distinct names in a separate index. When a user begins to type an instruction, the application checks each word the user has typed. If a word exists in the name-index, then treat it as a name and replace it with \texttt{Foo}, then query the tree index. Retrieve the results, and change back \texttt{Foo} to the original name. However, as the application do not make any distinction between different type of names, we could end up with suggestions like \emph{people who work in Python}, because \emph{Python} was replaced by \emph{Foo}. Luckily, this problem can be resolved by introducing a distinction between different types of names in the grammar.
+
+This application uses four different kind of names. Programming languages are used together with the \texttt{Know} relation. Organizations are used with the \texttt{Work\_With} relation. Locations are used with the \texttt{Work\_In} relation. Lastly, modules are used with the \texttt{Use} relation. We extend the grammar to support these new name types.
+
+\autoref{fig:abstract-syntax-name-types} shows the new abstract syntax. Line 3 defines new name types. Line 7-10 defines how the names are instantiated. Lines 13-23 defines how names can be combined by using boolean operators. Note how we use the type \texttt{Skill} for programming languages.
+
+\begin{figure}[H]
+\begin{code}
+cat
+  -- Names
+  Skill ; Organization ; Location ; Module ;
+  
+fun
+  -- Create unknown names
+  MkSkill : Symb -> Skill ;
+  MkOrganization : Symb -> Organization ;
+  MkModule: Symb -> Module ;
+  MkLocation : Symb -> Location ;
+  
+  -- Boolean operators for Organizations
+  And_S : Skill -> Skill -> Skill ;
+  Or_S : Skill -> Skill -> Skill ;
+
+  And_O : Organization -> Organization -> Organization ;
+  Or_O : Organization -> Organization -> Organization ;
+
+  And_L : Location -> Location -> Location ;
+  Or_L : Location -> Location -> Location ;
+
+  And_M : Module -> Module -> Module ;
+  Or_M : Module -> Module -> Module ;
+\end{code}
+\caption{Abstract syntax with new name types\label{fig:abstract-syntax-name-types}}
+\end{figure}
+
+The concrete syntax for these new functions are implemented in the same way as the ones we removed (category \texttt{Object} and functions \texttt{MkObject}, \texttt{And\_O} and \texttt{Or\_O}). We have omitted the new concrete syntaxes from the thesis as they do not contribute to anything new.
+\newline
+\newline
+As the grammar has changed, also the abstract syntax trees has changed. The sentence \emph{people who know Java} is now represented by the following abstract syntax tree:
+\begin{figure}[H]
+\begin{terminal}
+cat
+  -- Names
+  Skill ; Organization ; Location ; Module ;
+  
+fun
+  -- Create unknown names
+  MkSkill : Symb -> Skill ;
+  MkOrganization : Symb -> Organization ;
+  MkModule: Symb -> Module ;
+  MkLocation : Symb -> Location ;
+  
+  -- Boolean operators for Organizations
+  And_S : Skill -> Skill -> Skill ;
+  Or_S : Skill -> Skill -> Skill ;
+
+  And_O : Organization -> Organization -> Organization ;
+  Or_O : Organization -> Organization -> Organization ;
+
+  And_L : Location -> Location -> Location ;
+  Or_L : Location -> Location -> Location ;
+
+  And_M : Module -> Module -> Module ;
+  Or_M : Module -> Module -> Module ;
+\end{terminal}
+\caption{Abstract syntax with new name types\label{fig:abstract-syntax-name-types}}
+\end{figure}
