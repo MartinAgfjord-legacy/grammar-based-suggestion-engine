@@ -314,6 +314,18 @@ coltitle=black, colback=bg,
 borderline={.1pt}{-0.5pt}{gray, dashed, sharp corners}]}%
 \AfterEndEnvironment{terminal}{\end{tcolorbox}}
 
+% Java
+\BeforeBeginEnvironment{java-code}{\begin{tcolorbox}[enhanced,
+width=\linewidth,
+enlarge top by=3pt,enlarge bottom by=3pt,
+enlarge left by=3pt,enlarge right by=3pt,
+frame hidden,boxrule=0pt,top=1mm,bottom=1mm,
+colframe=green!30!black, colbacktitle=green!50!yellow,
+coltitle=black, colback=bg,
+borderline={.1pt}{-0.5pt}{gray, dashed, sharp corners}]}%
+\AfterEndEnvironment{java-code}{\end{tcolorbox}}
+
+
 % Plaintext
 \BeforeBeginEnvironment{plaintext}{\begin{tcolorbox}[enhanced,
 frame hidden,boxrule=0pt,top=1mm,bottom=0.5mm]}%
@@ -321,6 +333,7 @@ frame hidden,boxrule=0pt,top=1mm,bottom=0.5mm]}%
 
 \definecolor{bg}{HTML}{F2F2F2}
 \newminted[code]{text}{linenos=true,numbersep=5pt,fontsize=\footnotesize,framesep=10pt}
+\newminted[java-code]{csharp}{linenos=true,numbersep=5pt,fontsize=\footnotesize,framesep=10pt}
 \newminted[terminal]{text}{linenos=false,numbersep=5pt,fontsize=\footnotesize,framesep=10pt}
 \newminted[plaintext]{text}{linenos=false,numbersep=5pt,fontsize=\footnotesize,framesep=10pt}
 \newminted[bashcode2]{bash}{linenos=true, texcl=true}
@@ -342,3 +355,6 @@ frame hidden,boxrule=0pt,top=1mm,bottom=0.5mm]}%
 %Todo color
 \usepackage{xcolor}
 \newcommand\todo[1]{\textcolor{red}{#1}}
+
+% Centering of graphics
+\usepackage[export]{adjustbox}% http://ctan.org/pkg/adjustbox

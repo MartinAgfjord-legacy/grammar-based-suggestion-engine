@@ -380,7 +380,7 @@ InstrucResource Project (UseRes (MkObject (MkSymb "Foo")))
 \autoref{fig:gf-shell-generate-trees} shows 5 trees, but there exists many more trees.\marginpar{Actually, there exists infinitely many trees, as we have recursive functions in the abstract syntax.} The reason GF only generates 5 trees is because of the default depth setting is 4. If we increase the depth we will obtain more trees, as it then will include trees containing boolean operators. By increasing the max depth to 5, GF will generate 36 trees. With depth 6, GF will generate 1653 trees.
 \newline
 \newline
-It is often good to visualize trees to understand them better. \autoref{fig:asts-depths} shows two abstract syntax trees, the first one with depth 4 and the second with depth 5. One can easily see that the former has maximum 4 edges between root and leaf, and the latter has 5 edges between root and leaf.
+It is often good to visualize trees to understand them better. \autoref{fig:asts-depths} shows two abstract syntax trees, the first one with depth 4 and the second with depth 5. One can easily see that the former has maximum 4 edges between root and leaf, and the latter has maximum 5 edges between root and leaf.
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/depth4}
@@ -435,32 +435,60 @@ fun
 The concrete syntax for these new functions are implemented in the same way as the ones we removed (category \texttt{Object} and functions \texttt{MkObject}, \texttt{And\_O} and \texttt{Or\_O}). We have omitted the new concrete syntaxes from the thesis as they do not contribute to anything new.
 \newline
 \newline
-As the grammar has changed, also the abstract syntax trees has changed. The sentence \emph{people who know Java} is now represented by the following abstract syntax tree:
+As the grammar has changed, also the abstract syntax trees has changed. \autoref{fig:new-trees-different-types} shows how GF now generate all trees with depth 4.
 \begin{figure}[H]
 \begin{terminal}
-cat
-  -- Names
-  Skill ; Organization ; Location ; Module ;
-  
-fun
-  -- Create unknown names
-  MkSkill : Symb -> Skill ;
-  MkOrganization : Symb -> Organization ;
-  MkModule: Symb -> Module ;
-  MkLocation : Symb -> Location ;
-  
-  -- Boolean operators for Organizations
-  And_S : Skill -> Skill -> Skill ;
-  Or_S : Skill -> Skill -> Skill ;
+Instrucs> generate_trees
+InstrucExternal Customer (UseExt (MkModule (MkSymb "Foo")))
+InstrucInternal People (Know (MkSkill (MkSymb "Foo")))
+InstrucInternal People (WorkIn (MkLocation (MkSymb "Foo")))
+InstrucInternal People (WorkWith (MkOrganization (MkSymb "Foo")))
+InstrucResource Project (UseRes (MkModule (MkSymb "Foo")))
 
-  And_O : Organization -> Organization -> Organization ;
-  Or_O : Organization -> Organization -> Organization ;
-
-  And_L : Location -> Location -> Location ;
-  Or_L : Location -> Location -> Location ;
-
-  And_M : Module -> Module -> Module ;
-  Or_M : Module -> Module -> Module ;
 \end{terminal}
-\caption{Abstract syntax with new name types\label{fig:abstract-syntax-name-types}}
+\caption{Abstract syntax trees with name types\label{fig:new-trees-different-types}}
+\end{figure}
+
+As the index stores the linearizations of each tree it is important to post process each linearization in order to preserve the type information. Currently, the type of each name would be lost when linearized, for example \texttt{MkSkill (MkSymb "Foo")} is linearized into just \texttt{"Foo"} if using the english concrete syntax.
+
+To preserve type information, we replace each \texttt{"Foo"} with the current name type $+$ an index. \autoref{fig:preserve-types-example} shows an example.
+
+\begin{figure}[H]
+\begin{terminal}
+InstrucInternal People (InternalAnd (Know 
+                (And_S (MkSkill (MkSymb "Skill0")) (MkSkill (MkSymb "Skill1")))) 
+                (WorkIn (MkLocation (MkSymb "Location0"))))
+\end{terminal}
+\caption{Abstract syntax trees with name types\label{fig:preserve-types-example}}
+\end{figure}
+
+In addition, as we store each name in a separate index, we also want to associate each name in that index with a type. 
+%By doing so, when we find out if a word the user has typed is a name, we can also find out what type that name is. We then replace the name with its type and add an index that we keep track of in the application. The resulting string can be used to query the tree index, as it no longer contains any information about a specific name, it only contains the name type. The result from the tree index is a list of suggestions. We change back the type to the original word and present the result to the user.
+\newline
+\newline
+The grammar and the Solr indices are now complete. The application can now suggest relevant sentences even though the user only has typed names (provided that the names exists in the name index).  \autoref{fig:psuedocode-suggestions} shows the pseudocode for the suggestion algorithm with informative comments. This algorithm is executed by the Java-application when a user has typed a partial question.
+
+\begin{figure}[H]
+\begin{java-code}
+suggestions(question) {
+    // question = "persons who knew java or python and work in London"
+    names[] = extractNames(question);
+    
+    // "persons who knew java or python and work in London" ===> 
+    // "persons who knew Skill0 or Skill1 and work in Location0"
+    question = replaceNamesWithTypes(question, names);
+    
+    // suggestions =
+    //   { "people who know Skill0 or Skill1 and who work in Location0", ... }
+    suggestions[] = findQuestions(question);
+    
+    foreach suggestion in suggestions {
+        // "people who know Skill0 or Skill1 and who work in Location0" ===> 
+        // "people who know Java or Python and who work in London"
+        suggestion = restoreNames(names, suggestion);
+    } 
+    return suggestions; 
+}
+\end{java-code}
+\caption{Pseudocode for the suggestion algorithm\label{fig:psuedocode-suggestions}}
 \end{figure}
