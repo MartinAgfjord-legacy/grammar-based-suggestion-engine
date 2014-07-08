@@ -462,7 +462,9 @@ InstrucInternal People (InternalAnd (Know
 \caption{Abstract syntax trees with name types\label{fig:preserve-types-example}}
 \end{figure}
 
-In addition, as we store each name in a separate index, we also want to associate each name in that index with a type. 
+The previous example linearizes into \emph{people who know Skill$0$ and Skill$1$ and who work in Location$0$} by using the concrete syntax for English. We generate all trees again and store them in the tree index.
+
+In addition, as we store each name in a separate index, we associate each name with its type. By doing so, we can easily find out if a word is a name and then find out what type that name has. 
 %By doing so, when we find out if a word the user has typed is a name, we can also find out what type that name is. We then replace the name with its type and add an index that we keep track of in the application. The resulting string can be used to query the tree index, as it no longer contains any information about a specific name, it only contains the name type. The result from the tree index is a list of suggestions. We change back the type to the original word and present the result to the user.
 \newline
 \newline
