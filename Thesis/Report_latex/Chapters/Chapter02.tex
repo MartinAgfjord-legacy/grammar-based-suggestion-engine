@@ -11,11 +11,12 @@ As described in \autoref{sec:problem-description}, we want to develop an applica
 The grammar in \autoref{sec:simple-example} can only translate the question \texttt{people who know Java} in English and Swedish into Solr query language. The grammar needs to be extended to handle \emph{any} programming language that exists in the mock data, not only \texttt{Java}. In addition, it also needs to support other questions involving not only people, but customers and projects.
 
 \subsection{Suggestions}\label{sec:suggestions}
-If a user has no idea of which questions the application can translate, how can she use the application? GF has the power to suggest valid words of an incomplete sentence by using incremental parsing. \cite{angelov09:incremental-parser}. This means that even though a user do not know what to type, the application can suggest valid words to use. If the user chooses to add one of those words, the suggestion engine can show a new list of words that will match the new partial sentence.
+If a user has no idea of which instructions the application can translate, how can she use the application? This thesis uses a narrow application grammar, which means that it only covers specified sentences. Therefore, if a sentence has one character in the wrong place, GF will not be able to
+translate anything. This problem can be solved by using a wide coverage grammar, an example of an application that adopts this technique is the GF android app \cite[p. 41]{angelov2014speech}. This project, however, does not.
+
+GF has the power to suggest valid words of an incomplete sentence by using incremental parsing \cite{angelov09:incremental-parser}. This means that even though a user do not know what to type, the application can suggest valid words to use. If the user chooses to add one of those words, the suggestion engine can show a new list of words that will match the new partial sentence.
 
 However, this method does not support the use of only keywords, since one cannot start a sentence with for example the word \texttt{Java}. It it also inflexible since it does not support the use of words outside the grammar, e.g. \texttt{all people who know Java}\marginpar{The parser would not be able to parse the word \emph{all}}.
-
-\todo{One solution to this problem is ; write about how to use chunks and stuff}
 
 This thesis takes a different approach on a suggestion engine. Instead of suggesting one word at a time, one can suggest a whole sentence based on what the user has typed so far. This is achieved by generating all possible sentences that the application can translate and indexing them in Apache Solr. This makes it very easy to search on matching sentences, we also gain powerful techniques such as approximate string matching. 
 \newline
@@ -37,12 +38,10 @@ Besides handling translation and suggestions, the application also needs to hand
 To summarize, this application is a web application built in Java EE and uses Apache Maven for library management.
 
 \subsubsection{Running the application}
-Web applications built in Java are usually has the WAR file format. It a special JAR-file which includes classes, dependencies and web pages. This project uses an open source web server called Apache Tomcat to host a web application by exporting our application as a WAR-file. Apache Tomcat will make the application available by using HTTP-requests and spawn a new thread for each request.
-
+Web applications built in Java are usually has the WAR file format. It is a special JAR-file which includes classes, dependencies and web pages. This project uses an open source web server called Apache Tomcat to host a web application by exporting our application as a WAR-file. Apache Tomcat will make the application available by using HTTP-requests and spawn a new thread for each request.
+\newline
+\newline
 Details about the runtime environment can be found in \autoref{ch:appendix-a}.
-
-\section{Generation of mock data}
-This section describes how the data used by the application is generated. In order to generate data, one must know what to generate. In this context, this means that 
 
 \section{Grammar development}
 This section continues the work on the grammar introduced in \autoref{sec:simple-example}.
@@ -83,7 +82,7 @@ MkObject symb = symb.s ; -- Symb has the type { s : Str }
 
 By using this solution, we can translate the sentence \emph{people who know foo}, where \emph{foo} can be anything.
 
-\subsection{More questions}
+\subsection{More instructions}\label{sec:more-instructions}
 We have only covered translation of one sentence in the application so far. \autoref{fig:suppported-sentences} shows all sentences that the end application supports.
 \begin{figure}[H]
 \begin{terminal}
@@ -182,7 +181,7 @@ lin
 \caption{RGL concrete syntax with new subject implementations\label{fig:rgl-new-subjects}}
 \end{figure}
 
-Four new relation functions are added. Line 5-6 in \autoref{fig:rgl-new-relations} shows how we use the verb \texttt{work\_V} together with two prepositions, \texttt{in\_Prep} and \texttt{with\_Prep} in order correctly linearize into \emph{work in foo} and \emph{work with foo} respectively (\emph{foo} is the value of \texttt{object}.
+Four new relation functions are added. Line 5-6 in \autoref{fig:rgl-new-relations} shows how we use the verb \texttt{work\_V} together with two prepositions, \texttt{in\_Prep} and \texttt{with\_Prep} in order correctly linearize into \emph{work in foo} and \emph{work with foo} respectively (\emph{foo} is the value of \texttt{object}. The relation implementations make use of an operation \texttt{mkRS'} to reuse code.
 
 \begin{figure}[H]
 \begin{code}
@@ -192,6 +191,10 @@ lin
   UseRes object = mkRS' (mkVP use_V2 object) ;
   WorkIn object = mkRS' (mkVP (mkV2 work_V in_Prep) object) ;
   WorkWith object = mkRS' (mkVP (mkV2 work_V with_Prep) object) ;
+
+oper
+  -- Make a relative sentence
+  mkRS' : VP -> RS = \vp -> mkRS (mkRCl which_RP vp) ;
 \end{code}
 \caption{RGL concrete syntax with new relation implementations\label{fig:rgl-new-relations}}
 \end{figure}
@@ -389,7 +392,7 @@ It is often good to visualize trees to understand them better. \autoref{fig:asts
 \end{figure}
 
 \subsection{Populating the Solr index}
-It is now time to linearize the generated trees and store them in a Solr index. By doing so, we will be able to search on instructions by using words that exists in the instructions. What we cannot do is to search on names, because the names does not occur in the instructions, instead they only contain a placeholder for a name (\emph{"Foo"}). It will therefore only suggest instructions like \emph{people who know Foo and Foo} which is a useless suggestion.
+It is now time to linearize the generated trees and store them in a Solr index that is dedicated to store linearizations. By doing so, we will be able to search on instructions by using words that exists in the instructions. What we cannot do is to search on names, because the names does not occur in the instructions, instead they only contain a placeholder for a name (\emph{"Foo"}). It will therefore only suggest instructions like \emph{people who know Foo and Foo} which is a useless suggestion.
 
 We want to be able to suggest relevant names, if the user database contains a person which knows Java, then we also want to suggest instructions based on that name. This requirement forces us to change the application once more. 
 \newline
@@ -397,7 +400,7 @@ We want to be able to suggest relevant names, if the user database contains a pe
 A na{\"i}ve solution would be to fetch all distinct names from the database and create all possible instructions that a user shall be able to express with these names. For an instruction like \emph{people who know Foo or Foo and works in Foo} and if the database contains 10 programming languages and 10 cities we would then have to generate $2*10*10=200$ instructions. This is clearly not suitable, as GF generates 1653 trees (with depth 6).
 \newline
 \newline
-A better approach on the problem is to store all distinct names in a separate index. When a user begins to type an instruction, the application checks each word the user has typed. If a word exists in the name-index, then treat it as a name and replace it with \texttt{Foo}, then query the tree index. Retrieve the results, and change back \texttt{Foo} to the original name. However, as the application do not make any distinction between different type of names, we could end up with suggestions like \emph{people who work in Python}, because \emph{Python} was replaced by \emph{Foo}. Luckily, this problem can be resolved by introducing a distinction between different types of names in the grammar.
+A better approach on the problem is to store all distinct names in a separate index. When a user begins to type an instruction, the application checks each word the user has typed. If a word exists in the name-index, then treat it as a name and replace it with \texttt{Foo}, then query the linearizations index. Retrieve the results, and change back \texttt{Foo} to the original name. However, as the application do not make any distinction between different type of names, we could end up with suggestions like \emph{people who work in Python}, because \emph{Python} was replaced by \emph{Foo}. Luckily, this problem can be resolved by introducing a distinction between different types of names in the grammar.
 
 This application uses four different kind of names. Programming languages are used together with the \texttt{Know} relation. Organizations are used with the \texttt{Work\_With} relation. Locations are used with the \texttt{Work\_In} relation. Lastly, modules are used with the \texttt{Use} relation. We extend the grammar to support these new name types.
 
@@ -456,33 +459,34 @@ To preserve type information, we replace each \texttt{"Foo"} with the current na
 \begin{figure}[H]
 \begin{terminal}
 InstrucInternal People (InternalAnd (Know 
-                (And_S (MkSkill (MkSymb "Skill0")) (MkSkill (MkSymb "Skill1")))) 
-                (WorkIn (MkLocation (MkSymb "Location0"))))
+            (And_S (MkSkill (MkSymb "Skill0")) (MkSkill (MkSymb "Skill1")))) 
+            (WorkIn (MkLocation (MkSymb "Location0"))))
 \end{terminal}
-\caption{Abstract syntax trees with name types\label{fig:preserve-types-example}}
+\caption{An abstract syntax tree with name types and changed names\label{fig:preserve-types-example}}
 \end{figure}
 
-The previous example linearizes into \emph{people who know Skill$0$ and Skill$1$ and who work in Location$0$} by using the concrete syntax for English. We generate all trees again and store them in the tree index.
+The previous example linearizes into \emph{people who know Skill$0$ and Skill$1$ and who work in Location$0$} by using the concrete syntax for English. We generate all trees again, linearize them into all natural languages and store them in the linearizations index.
 
 In addition, as we store each name in a separate index, we associate each name with its type. By doing so, we can easily find out if a word is a name and then find out what type that name has. 
-%By doing so, when we find out if a word the user has typed is a name, we can also find out what type that name is. We then replace the name with its type and add an index that we keep track of in the application. The resulting string can be used to query the tree index, as it no longer contains any information about a specific name, it only contains the name type. The result from the tree index is a list of suggestions. We change back the type to the original word and present the result to the user.
+%By doing so, when we find out if a word the user has typed is a name, we can also find out what type that name is. We then replace the name with its type and add an index that we keep track of in the application. The resulting string can be used to query the linearizations index, as it no longer contains any information about a specific name, it only contains the name type. The result from the linearizations index is a list of suggestions. We change back the type to the original word and present the result to the user.
 \newline
 \newline
 The grammar and the Solr indices are now complete. The application can now suggest relevant sentences even though the user only has typed names (provided that the names exists in the name index).  \autoref{fig:psuedocode-suggestions} shows the pseudocode for the suggestion algorithm with informative comments. This algorithm is executed by the Java-application when a user has typed a partial question.
 
 \begin{figure}[H]
 \begin{java-code}
-suggestions(question) {
-    // question = "persons who knew java or python and work in London"
-    names[] = extractNames(question);
+suggestions(sentence) {
+    // sentence = "persons who knew java or python and work in London"
+    // names[] = {Java, Python, London}
+    names[] = extractNames(sentence);
     
     // "persons who knew java or python and work in London" ===> 
     // "persons who knew Skill0 or Skill1 and work in Location0"
-    question = replaceNamesWithTypes(question, names);
+    sentence = replaceNamesWithTypes(sentence, names);
     
     // suggestions =
     //   { "people who know Skill0 or Skill1 and who work in Location0", ... }
-    suggestions[] = findQuestions(question);
+    suggestions[] = findSentences(sentence);
     
     foreach suggestion in suggestions {
         // "people who know Skill0 or Skill1 and who work in Location0" ===> 
@@ -494,3 +498,73 @@ suggestions(question) {
 \end{java-code}
 \caption{Pseudocode for the suggestion algorithm\label{fig:psuedocode-suggestions}}
 \end{figure}
+
+\subsubsection{Supporting invalid sentences}
+This section aims to add better accuracy of the suggestion engine by linearizing different variations of a sentence. While the linearization function in GF returns a string representation of a tree, there also exists a parameter \texttt{-list} which allows GF to return all semantically equivalent ways of expressing a sentence.
+
+\begin{figure}[H]
+\begin{terminal}
+Languages: InstrucsEng
+Instrucs> p "people who know Java" | l -list
+people who know Java, people's who know Java
+\end{terminal}
+\caption{Linearization to InstrucsEng using \texttt{-list}\label{fig:linearize-using-list}}
+\end{figure}
+\todo{Here we actually get four results, three duplicates! Fix, but how?}
+
+\autoref{fig:linearize-using-list} shows that \texttt{people who know Java} actually can be expressed in two ways. We add both linearizations as a list to the same object in the linearizations index, and we list the one we think is the most suitable in the beginning of the list. This makes it possible to search for something similar to what the grammar can parse, but get a more suitable suggestion. For instance, if type \emph{people's who know Java} then the application will match the lesser suitable sentence in the index, but return \emph{people who know Java} as a suggestion.
+\newline
+\newline
+It is possible to add more linearizations than those listed in \autoref{fig:linearize-using-list}. GF adopts the symbol pipe symbol to express that two elements are semantically equivalent. 
+
+We extend the grammar to treat a subject in singular form the same as a subject in plural form. I.e. the sentences \emph{a person which knows Java} is the same as \emph{people who know Java}. As we treat them equivalent, they will have the same abstract syntax tree, and this tree will linearize to only one Solr query, hence if we translate \emph{a person who knows Java} into Solr, we will obtain a query that retrieves multiple results. The implementation of this extension is achieved by modifying the operation \texttt{mkI}.
+
+\begin{figure}[H]
+\begin{code}
+oper
+  mkI : N -> RS -> NP = \noun_N,rs_RS -> mkNP (aPl_Det | aSg_Det)
+                             (mkCN noun_N rs_RS) ;
+\end{code}
+\caption{Treating singular form equivalent to plural form\label{fig:linearize-using-list}}
+\end{figure}
+
+The second extension is to treat the \emph{progressive form} of a verb as the same as the regular form. A progressive form of a verb indicates that something is happening right now or was happening or will be happening. The grammar in this project only supports present tense, so it will only cover progressive verbs which expresses that something is happening right now. This is achieved by using the variance function again.
+
+\begin{figure}[H]
+\begin{code}
+oper
+  mkRS' : VP -> RS = \vp -> mkRS (mkRCl which_RP (vp | progressiveVP vp)) ;
+\end{code}
+\caption{Treating progressive verb equivalent normal form\label{fig:linearize-using-list}}
+\end{figure}
+
+However, not all verbs can be used in progressive form. An example of such verb is \emph{know}. An example of  \emph{know} in progressive form is \emph{people who are knowing Java} which clearly is incorrect. Although it might look ugly, it is not an issue for our application as the suggestion engine only suggest the most suitable suggestion. The extension will contribute to make the suggestion engine richer as it allows users to use incorrect instructions.
+
+\section{Generation of mock data}
+This section describes how the data used by the application is generated. In order to generate data, we must know what to generate. From \autoref{sec:more-instructions} we know the Solr queries our index must support. We have three different types of objects: \emph{Customer}, \emph{Person} and \emph{Project}. Each of these types of objects has their own data. A customer shall have one value, a list of technologies it uses. A person shall have three values, a list of programming languages it knows, a list of cities it works in and a list of organizations it has been working with. A project shall have one value, the same as a customer, a list of technologies it uses. In addition to these requirements by the grammar, customers and persons also have names. \autoref{fig:example-data-json} shows an example of data that could exists in the Solr index.
+
+\begin{figure}[H]
+\begin{js-code}
+{ // Customer
+  "name" : "Amnesty"
+  "object_type" : "Customer",
+  "USES" : ["Solr", "Tomcat", "GF"]
+},
+{ // Person
+  "name" : "Jane Doe"
+  "object_type" : "Person",
+  "KNOWS" : ["Java", "Python", "C"],
+  "WORKS_IN" : ["London", "Gothenburg"],
+  "WORKS_WITH" :  ["Amnesty", "Unicef"]
+},
+{ // Project
+  "object_type" : "Project",
+  "USES" : ["Android", "GF"]
+}
+\end{js-code}
+\caption{Example data in JSON\label{fig:example-data-json}}
+\end{figure}
+
+Mock data is generated by combining data from text-files. We have two text-files concerning personal names (\texttt{first\_names.txt} and \texttt{last\_names.txt}). One text-file with organization names (\texttt{charity\_organizations.txt}). One text file about programming languages (\texttt{programming\_languages.txt}). Lastly, one text file containing cities (\texttt{cities.txt}). 
+
+An object is generated by taking one value from each text file that the object needs. For instance, to create an object of the type \texttt{Person}, we fetch values from \texttt{first\_names.txt}, \texttt{last\_names.txt}, \texttt{programming\_languages.txt}, \texttt{cities.txt} and \texttt{charity\_organizations.txt}. The object is then exported to Solr to be stored in the index.

@@ -54,8 +54,10 @@ incomplete concrete InstrucsI of Instrucs = open Syntax, LexInstrucs in {
 
     oper
       -- Make an instruction
-      mkI : N -> RS -> NP = \noun_N,rs_RS -> mkNP aPl_Det 
+      mkI : N -> RS -> NP = \noun_N,rs_RS -> mkNP (aPl_Det | aSg_Det) 
                              (mkCN noun_N rs_RS) ;
+
       -- Make a relative sentence 
-      mkRS' : VP -> RS = \vp -> mkRS (mkRCl which_RP vp) ;
+--      mkRS' : VP -> RS = \vp -> mkRS (mkRCl which_RP vp) ;
+      mkRS' : VP -> RS = \vp -> mkRS (mkRCl which_RP (vp | progressiveVP vp)) ;
 }
