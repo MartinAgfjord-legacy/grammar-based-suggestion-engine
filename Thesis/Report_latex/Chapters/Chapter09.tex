@@ -15,3 +15,15 @@ Add "more sophisticated suggestion engine with graph database. Eg. if one type "
 \section{Negative things}
 Generates three trees for each instruction (p "people who know Java or Python and who work in London"
 Can just generate all instructions in all languages and add them to solr. No need for translating then.
+
+\section{install the environment}
+Prereqs: Tomcat8, Maven. Install GF through cabal (needed to generate instructions). Write howto install generate instructions and mock data. Write how to add the gf.pgf.jar as a maven dependency
+
+mvn install:install-file -Dfile=org.grammaticalframework.pgf.jar -DgroupId=org.grammaticalframework -DartifactId=pgf -Dversion=1.0 -Dpackaging=jar
+
+<tomcat-users>
+<role rolename="manager-gui"/>
+  <role rolename="manager-script"/>
+  <user username="admin" password="a2kp09" roles="manager-gui,manager-script"/>
+</tomcat-users>
+

@@ -512,10 +512,10 @@ people who know Java, people's who know Java
 \end{figure}
 \todo{Here we actually get four results, three duplicates! Fix, but how?}
 
-\autoref{fig:linearize-using-list} shows that \texttt{people who know Java} actually can be expressed in two ways. We add both linearizations as a list to the same object in the linearizations index, and we list the one we think is the most suitable in the beginning of the list. This makes it possible to search for something similar to what the grammar can parse, but get a more suitable suggestion. For instance, if type \emph{people's who know Java} then the application will match the lesser suitable sentence in the index, but return \emph{people who know Java} as a suggestion.
+\autoref{fig:linearize-using-list} shows that \texttt{people who know Java} actually can be expressed in two ways. We add both linearizations as a list to the same object in the linearizations index, and we list the one we think is the most suitable in the beginning of the list. This makes it possible to search for everything the grammar can parse, but get a more suitable suggestion. For instance, if type \emph{people's who know Java} then the application will match the lesser suitable sentence in the index, but return \emph{people who know Java} as a suggestion.
 \newline
 \newline
-It is possible to add more linearizations than those listed in \autoref{fig:linearize-using-list}. GF adopts the symbol pipe symbol to express that two elements are semantically equivalent. 
+It is possible to add more linearizations than those listed in \autoref{fig:linearize-using-list}. GF adopts the pipe symbol to express that two elements are semantically equivalent. The following sections describes how the pipe symbol can be used to further extend the grammar.
 
 We extend the grammar to treat a subject in singular form the same as a subject in plural form. I.e. the sentences \emph{a person which knows Java} is the same as \emph{people who know Java}. As we treat them equivalent, they will have the same abstract syntax tree, and this tree will linearize to only one Solr query, hence if we translate \emph{a person who knows Java} into Solr, we will obtain a query that retrieves multiple results. The implementation of this extension is achieved by modifying the operation \texttt{mkI}.
 
