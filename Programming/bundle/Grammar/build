@@ -1,0 +1,2 @@
+#!/bin/sh
+gf -src --gfo-dir=bin -make -literal=Symb InstrucsEng.gf InstrucsSwe.gf InstrucsSolr.gf

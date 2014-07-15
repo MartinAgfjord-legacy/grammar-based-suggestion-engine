@@ -1,0 +1,198 @@
+twbs/bootstrap
+The most popular front-end framework for developing responsive, mobile first projects on the web.
+Last updated 28 minutes ago
+JavaScript 30,696  6,883
+jquery/jquery
+jQuery JavaScript Library
+Last updated 3 hours ago
+JavaScript 29,827  6,441
+joyent/node
+evented I/O for v8 javascript
+Last updated an hour ago
+JavaScript 25,996  5,670
+mbostock/d3
+A JavaScript visualization library for HTML and SVG.
+Last updated Monday at 8:31pm
+ 25,657  4,794
+vhf/free-programming-books
+Last updated 3 hours ago
+CSS 25,388  6,592
+h5bp/html5-boilerplate
+A professional front-end template for building fast, robust, and adaptable web apps or sites.
+Last updated 22 hours ago
+JavaScript 24,136  8,193
+angular/angular.js
+HTML enhanced for web apps
+Last updated 2 hours ago
+CSS 23,443  3,138
+FortAwesome/Font-Awesome
+The iconic font and CSS framework
+Last updated yesterday at 1:06pm
+Ruby 21,923  8,063
+rails/rails
+Ruby on Rails
+Last updated 2 hours ago
+JavaScript 20,300  4,132
+bartaz/impress.js
+It's a presentation framework based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com.
+Last updated on Apr 5
+
+jashkenas/backbone
+Give your JS App some Backbone with Models, Views, Collections, and Events
+Last updated on May 5
+Ruby 17,384  8,707
+Homebrew/homebrew
+The missing package manager for OS X.
+Last updated an hour ago
+CSS 16,850  3,685
+zurb/foundation
+The most advanced responsive front-end framework in the world. Quickly create prototypes and production code for sites and apps that work on any kind of device.
+Last updated yesterday at 10:38pm
+JavaScript 16,302  4,004
+blueimp/jQuery-File-Upload
+File Upload widget with multiple file selection, drag&amp;drop support, progress bar, validation and preview images, audio and video for jQuery. Supports cross-domain, chunked and resumable file uploads. Works with any server-side platform (Google App Engine, PHP, Python, Ruby on Rails, Java, etc.) that supports standard HTML form file uploads.
+Last updated on May 14
+Shell 16,267  5,671
+robbyrussell/oh-my-zsh
+A community-driven framework for managing your zsh configuration. Includes 120+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, macports, etc), over 120 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
+Last updated on May 16
+ 16,252  5,643
+github/gitignore
+A collection of useful .gitignore templates
+Last updated on May 11
+JavaScript 16,236  1,466
+moment/moment
+Parse, validate, manipulate, and display dates in javascript.
+Last updated yesterday at 8:49pm
+JavaScript 16,199  3,315
+adobe/brackets
+An open source code editor for the web, written in JavaScript, HTML and CSS.
+Last updated 28 minutes ago
+CoffeeScript 15,477  2,890
+harvesthq/chosen
+Chosen is a library for making long, unwieldy select boxes more friendly.
+Last updated on May 5
+JavaScript 15,396  4,366
+hakimel/reveal.js
+The HTML Presentation Framework
+Last updated Wednesday at 10:31am
+
+jekyll/jekyll
+Jekyll is a blog-aware, static site generator in Ruby
+Last updated Wednesday at 7:40am
+JavaScript 15,281  4,020
+mrdoob/three.js
+JavaScript 3D library.
+Last updated an hour ago
+JavaScript 14,033  2,643
+visionmedia/express
+Sinatra inspired web development framework for node.js -- insanely fast, flexible, and simple
+Last updated 18 hours ago
+C 13,808  5,352
+torvalds/linux
+Linux kernel source tree
+Last updated 3 hours ago
+Ruby 13,138  3,377
+gitlabhq/gitlabhq
+Project management and code hosting application. Follow us on twitter @gitlabhq
+Last updated 7 hours ago
+C++ 12,937  1,408
+rogerwang/node-webkit
+Call all Node.js modules directly from DOM and enable a new way of writing applications with all Web technologies.
+Last updated yesterday at 11:27am
+JavaScript 12,581  1,774
+meteor/meteor
+Meteor, an ultra-simple, database-everywhere, data-on-the-wire, pure-Javascript web framework.
+Last updated 16 hours ago
+CSS 12,562  2,714
+daneden/animate.css
+A cross-browser library of CSS animations. As easy to use as an easy thing.
+Last updated on Apr 26
+CSS 12,397  2,601
+necolas/normalize.css
+A collection of HTML element and attribute style-normalizations
+Last updated on Mar 27
+JavaScript 12,220  1,495
+Modernizr/Modernizr
+Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.
+Last updated Wednesday at 6:35pm
+
+AFNetworking/AFNetworking
+A delightful iOS and OS X networking framework
+Last updated Saturday at 9:56pm
+Go 11,992  1,982
+dotcloud/docker
+Docker - the open-source application container engine
+Last updated an hour ago
+JavaScript 11,816  2,040
+LearnBoost/socket.io
+Realtime application framework for Node.JS, with HTML5 WebSockets and cross-browser fallbacks support.
+Last updated yesterday at 8:04pm
+JavaScript 11,799  359
+resume/resume.github.com
+Resumes generated using the GitHub informations
+Last updated on Dec 6, 2013
+JavaScript 11,391  2,429
+jashkenas/underscore
+JavaScript's utility _ belt
+Last updated Tuesday at 8:43pm
+JavaScript 10,762  2,147
+TryGhost/Ghost
+Just a blogging platform
+Last updated 4 hours ago
+JavaScript 10,761  1,942
+ivaynberg/select2
+Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.
+Last updated Tuesday at 3:03pm
+Ruby 10,679  2,139
+plataformatec/devise
+Flexible authentication solution for Rails with Warden.
+Last updated yesterday at 10:20am
+Ruby 10,659  2,802
+discourse/discourse
+A platform for community discussion. Free, open, simple.
+Last updated 30 minutes ago
+JavaScript 10,493  2,327
+less/less.js
+Leaner CSS
+Last updated Tuesday at 2:00pm
+
+ariya/phantomjs
+Scriptable Headless WebKit
+Last updated on May 10
+JavaScript 10,253  2,215
+emberjs/ember.js
+Ember.js - A JavaScript framework for creating ambitious web applications
+Last updated 35 minutes ago
+PHP 10,030  3,248
+laravel/laravel
+A PHP Framework For Web Artisans
+Last updated on May 16
+Python 9,859  3,757
+django/django
+The Web framework for perfectionists with deadlines.
+Last updated 8 hours ago
+CSS 9,820  27,389
+octocat/Spoon-Knife
+This repo is for demonstration purposes only.
+Last updated on May 2
+Python 9,811  1,528
+kennethreitz/requests
+Python HTTP Requests for Humans™.
+Last updated Saturday at 5:37pm
+JavaScript 9,803  1,085
+bower/bower
+A package manager for the web
+Last updated Wednesday at 1:50pm
+Python 9,684  2,467
+mitsuhiko/flask
+A microframework based on Werkzeug, Jinja2 and good intentions
+Last updated on May 16
+C++ 9,664  1,530
+textmate/textmate
+TextMate is a graphical text editor for OS X 10.7+
+Last updated Sunday at 6:17pm
+CoffeeScript 9,311  1,171
+jashkenas/coffeescript
+Unfancy JavaScript
+Last updated Wednesday at 4:49pm

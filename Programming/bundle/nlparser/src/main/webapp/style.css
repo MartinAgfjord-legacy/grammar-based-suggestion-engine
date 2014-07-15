@@ -1,0 +1,42 @@
+pre {outline: 1px solid #ccc; padding: 5px; margin-top: 10px; }
+.string { color: green; }
+.number { color: darkorange; }
+.boolean { color: blue; }
+.null { color: magenta; }
+.key { color: #484848 ; }
+
+body { padding: 25px ; }
+
+.input-large {
+  width: 210px;
+  height: 44px !important;
+  margin-bottom: 10px !important;
+  line-height: 30px !important;
+  padding: 11px 19px !important;
+  font-size: 17.5px !important;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+.input-large[class=input-large] {
+    width: 700px;
+
+  display: block;
+}
+
+.error {
+  color : red;
+}
+
+.error-word {
+  font-weight: bold;
+}
+
+.btn-group.group {
+  padding-bottom: 4px;
+  margin-left: 0px;
+}
+#ambiguous_result {
+  display: none ;
+}

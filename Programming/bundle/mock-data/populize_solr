@@ -1,0 +1,3 @@
+#!/bin/sh
+MAVEN_OPTS=-Djava.library.path=/usr/local/lib
+mvn exec:java -Dexec.mainClass="org.agfjord.graph.Main"

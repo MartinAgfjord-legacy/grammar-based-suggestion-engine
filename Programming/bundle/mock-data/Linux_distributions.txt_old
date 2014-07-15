@@ -1,0 +1,86 @@
+64 Studio	Attempts to specialize in audio and video production on x86-64 workstations.[3]
+aptosid	Multilingual desktop-oriented Live CD based on Debian unstable. Formerly sidux.[4]
+Bharat Operating System Solutions	This software is also known by the acronym BOSS GNU/Linux or simply BOSS Linux.[5]
+Canaima	A Venezuelan distribution.[6]
+Caixa Mágica	A Portuguese distribution.[7]
+Corel Linux	Commercial. Short-lived desktop distribution, bought by Xandros Linux.[8]
+CrunchBang Linux	A small Distro and Live CD based on Debian Stable, featuring the Openbox window manager and tint2 panel with GTK+ applications.[9]
+Dreamlinux	A Brazilian Linux distribution (not active anymore).
+Elive	A Live CD and Distribution featuring Enlightenment as the only window manager. Aims to be intuitive and easy to use.[10]
+Emdebian Grip	A small-footprint Linux distribution based on and compatible with Debian, intended for use on resource-limited embedded systems.[11]
+Finnix	A small system administration Live CD that is available for multiple architectures.[12]
+gNewSense	gNewSense is a computer operating system, originally based on Ubuntu and later upon Debian, and developed with sponsorship from the Free Software Foundation. Its goal is user-friendliness, but with all proprietary (e.g. binary blobs) and non-free software removed.
+grml	Live CD for system recovery.[13]
+HandyLinux	A Debian derivative, designed for seniors equipped with old computers which have become too slow for Windows.[14]
+Instant WebKiosk	Live, browser only operating system for use in web kiosks and for digital signage.[15]
+Kali Linux	Made to be a completely customizable OS, used for penetration testing.[16]
+Kanotix	An installable live DVD/CD for desktop usage using KDE and LXDE, focusing on convenient scripts and GUI for ease of use.[17]
+Knoppix	The first Live CD (later DVD) version of Debian GNU/Linux.[18]
+Kurumin	Earlier, it was a version of the Knoppix distribution, modified with Debian and designed for Brazilian users.
+LEAF Project	The Linux Embedded Appliance Framework. A tiny primarily floppy-based distribution for routers, firewalls and other appliances.[19]
+LiMux	An ISO 9241 industry workplace certified Linux distribution, deployed at the City of Munich, Germany.[20]
+LinuxBBQ	LinuxBBQ is a plethora of releases for various targets and goals based on Debian Sid.
+Linux Mint Debian Edition	Linux Mint Debian Edition (LMDE) is a rolling distribution based on Debian Testing. It is available in both 32 and 64-bit as a live DVD with a Cinnamon or MATE desktop. The purpose of LMDE is to look identical to the main Linux Mint edition and to provide the same functionality while using Debian as a base.[21]
+Maemo	A development platform for hand held devices such as the Nokia N800, N810, and Nokia N900 Internet Tablets and other Linux kernel–based devices.[22]
+MEPIS	Focuses on ease of use. Also includes a lightweight variant called antiX. antiX is meant to be used on older computers with limited hardware.[23]
+MintPPC	For PowerPC computers. Although MintPPC uses some Mint LXDE code, it is not Linux Mint.[24]
+Musix GNU+Linux	A Debian based distribution, intended for music production, graphic design, audio, video editing, and other tasks. It is built with only free software.[25]
+NepaLinux	A Debian and Morphix based distribution focused for desktop usage in Nepali language computing.[26]
+OpenZaurus	Debian packages and ROM image for the Sharp Zaurus PDA. Replaced by Ångström distribution.[27]
+Pardus	Developed by Turkish National Research Institute of Electronics and Cryptology. Prior to 2013 it used PISI as the package manager, with COMAR as the configuration framework. Starting with Pardus 2013, it is Debian-based.
+Parsix	Optimized for personal computers and laptops. Built on top of Debian testing branch and comes with security support.[28]
+PureOS	Based on Debian Testing.[29]
+Rxart	Desktop-oriented distribution. Focused on providing proprietary software.[30]
+Sacix	A Debian Pure Blend originally created to support the educational and free software diffusion goals of the Telecentres project of the city of São Paulo, Brazil.[31]
+Siduction	Derived from aptosid, siduction is a distro based on debian sid with a friendly community.[32]
+Skolelinux	A distribution from Norway. It is provided as a thin client distribution for schools.[33]
+SolusOS	Based on the Stable branch of Debian with updated software applications from Debian backports. Improved media support. Features the Gnome desktop with usability patches and customized applications.[34]
+SolydXK	Xfce and KDE desktop with a semi-rolling release model.[35]
+SteamOS	Debian-based and gaming-focused distribution developed by Valve Corporation and designed around the Steam digital distribution platform.
+Sunwah Linux	A Chinese distribution[36]
+Symphony OS	Includes the Mezzo desktop environment. Previous versions were based on Knoppix.[37]
+SalineOS	Lean, stable and easy-to-use distribution with XFCE as graphical interface.[38]
+TAILS	The Amnesic Incognito Live System' or Tails is aimed at preserving privacy and anonymity, with all outgoing connections forced to go through Tor.[39]
+Ubuntu	A distribution sponsored by Canonical Ltd. and receiving major funding from South African Mark Shuttleworth. Aims to offer a complete and polished desktop on a single DVD.[40]
+Ulteo	Virtual desktop project.[41]
+Univention Corporate Server	Enterprise distribution with integrated IT infrastructure and identity management system by the company Univention GmbH, Germany. A full version for up to 5 users for tests and for private use can be downloaded.[42]
+Webconverger	Debian Live based browser only distribution, similar to Google Chrome OS. However based on Firefox & dwm, with no user sign-in, no special hardware required and designed for public places.[43]
+Vyatta	Commercial open source network operating system includes routing, firewall, VPN, intrusion prevention and more. Designed to be an open source Cisco replacement.[44]
+Damn Small Linux	It is a small distro designed to run on older hardware. It is commonly used on virtual machines due to low memory requirements.[46]
+Feather Linux	It boots from either a CD or a USB flash drive. Uses Knoppix-based hardware detection and the Fluxbox window manager.[47]
+Hikarunix	A distribution solely for studying and playing the game of Go. Based on Damn Small Linux.[48]
+Kaella	The French translation of Knoppix.[49]
+Edubuntu	A complete Linux kernel–based operating system targeted for primary and secondary education. It is freely available with community based support. The Edubuntu community is built on the ideas enshrined in the Edubuntu Manifesto: that software, especially for education, should be available free of charge and that software tools should be usable by people in their local language and despite any disabilities.[52]
+Kubuntu	An official derivative of Ubuntu using KDE instead of the GNOME or Unity interfaces used by default in Ubuntu.[53]
+Lubuntu	Lubuntu is a project that is an official derivative of the Ubuntu operating system that is "lighter, less resource hungry and more energy-efficient", using the LXDE desktop environment.[54][55][56]
+Mythbuntu	Based on Ubuntu and MythTV, providing applications for recording TV and acting as a media center.[57]
+Ubuntu for Android	Designed for use with Android phones.[58]
+Ubuntu GNOME	An official Ubuntu variant[59] that uses Gnome Shell as its default desktop and GDM as its display manager.[60]
+UbuntuKylin	An official derivative aimed at the Chinese market.
+Ubuntu Server	An official derivative made for use in servers. Ubuntu Server handles mail, controls printers, acts as a fileserver, can host LAMP and more.[61]
+Ubuntu Studio	Based on Ubuntu, providing open-source applications for multimedia creation aimed at the audio, video and graphic editors.[62]
+Ubuntu Touch	Designed for use with touchscreen devices.
+Ubuntu TV	Designed for use with TVs.[63]
+Xubuntu	An official derivative of Ubuntu using Xfce. Xubuntu is intended for use on less-powerful computers or those who seek a highly efficient desktop environment on faster systems, and uses mostly GTK+ applications.[64]
+Ubuntu JeOS	"Just Enough OS" – was described as "an efficient variant [...] configured specifically for virtual appliances".[65] Since the release of Ubuntu 8.10 it has been included as an option as part of the standard Ubuntu Server Edition.
+Ubuntu Mobile	An embedded operating system designed for use on mobile devices. The operating system will use Hildon from maemo as its graphical frontend. Ubuntu Touch is a successor to Ubuntu Mobile.
+Ubuntu Netbook Edition[66]	Netbook Edition was an official derivative of Ubuntu designed for netbooks using the Intel Atom processor. Starting from Ubuntu 11.04, Ubuntu Netbook Edition has been merged into the desktop edition.
+Arch Linux	An i686- and x86-64-optimized distribution targeted at experienced users. Arch runs on a rolling release system and uses the pacman utility for package management.
+Chakra Linux	Originally derived from Arch Linux, with the latest KDE desktop. For now uses the pacman utility for package management. Strives to be Qt-only.
+Frugalware Linux	A general purpose Linux distribution designed for intermediate users. Has some influences from Slackware, and uses a heavily modified version of the Pacman package manager, Pacman-G2, a fork of a cvs version of the complete rewrite of Pacman-G1 by Aurelien Foret (the old monolithic Pacman-G1 is written by Judd Vinet). The packages are tar archives that are compressed using xz.[111]
+
+Distribution	Description
+aLinux	Formerly known as Peanut Linux
+ALT Linux	Several distributions including Master, Compact, and Junior, Server, Terminal.
+Caldera OpenLinux	A distribution originally introduced by Caldera and later developed by its subsidiary Caldera Systems, the later Caldera International, who bought SCO and then renamed into The SCO Group and no longer produces a Linux distribution. Last release: 3.1.1 – Jan. 30, 2002
+cAos Linux	A general purpose distribution. Designed to have low overhead, run on older hardware, and be easily customizable.
+Fedora	Community-supported distribution sponsored by Red Hat. It usually features cutting-edge Linux technologies.
+Lycoris Desktop/LX
+Mageia	A community distribution initially forked from Mandriva Linux in response to the discontinuation of free versions of Mandriva Linux.
+Mandriva Linux	Easy to use system through its unique Control Center.
+openSUSE	A community-developed distribution, sponsored by SUSE. It maintains a strict policy of ensuring all code in the standard installs will be from Free/Libre/Open-Source Software solutions, including Linux kernel Modules. SUSE's enterprise Linux products are all based on the codebase that comes out of the openSUSE project.
+PCLinuxOS	A rolling release Live CD distribution. Originally based on Mandrake 9.2. Later rebased on Mandriva 2007.
+Red Hat Linux	Split into Fedora Core and Red Hat Enterprise Linux. The last official release of the unsplit distribution was Red Hat Linux 9 in March 2003.
+Turbolinux	Originally based on Red Hat Linux.
+Vine Linux	A Japanese distribution originally based on Red Hat Linux.
+YOPER	A rolling release desktop distribution from New Zealand that focuses on optimizing system performance for workstation use. Discontinued.
