@@ -2,3 +2,262 @@
 \chapter{Results}\label{ch:results}
 %************************************************
 
+\begin{figure}[H]
+\begin{terminal}
+people who know Java
+\end{terminal}
+\begin{json-small}
+[
+ {
+  'ast': 'InstrucInternal People (Know_R (MkSkill (MkSymb "Java")))',
+  'linearizations': [
+   {
+    'query': 'people who know Java',
+    'language': 'InstrucsEng'
+   },
+   {
+    'query': 'select?q=*:*&wt=json&fq= object_type : Person AND KNOWS : ( Java )',
+    'language': 'InstrucsSolr'
+   },
+   {
+    'query': 'personer som kan Java',
+    'language': 'InstrucsSwe'
+   }
+  ]
+ }
+]
+\end{json-small}
+\caption{Translation from English to all concrete syntaxes\label{fig:asts-depths}}
+\end{figure}
+
+\begin{figure}[H]
+\begin{terminal}
+people who work in London
+\end{terminal}
+\begin{json-small}
+[
+ {
+  'ast': 'InstrucInternal People (WorkIn_R (MkLocation (MkSymb "London")))',
+  'linearizations': [
+   {
+    'query': 'people who work in London',
+    'language': 'InstrucsEng'
+   },
+   {
+    'query': 'select?q=*:*&wt=json&fq= object_type : Person AND WORKS_IN : ( London )',
+    'language': 'InstrucsSolr'
+   },
+   {
+    'query': 'personer som arbetar i London',
+    'language': 'InstrucsSwe'
+   }
+  ]
+ }
+]
+\end{json-small}
+\caption{Translation from English to all concrete syntaxes\label{fig:asts-depths}}
+\end{figure}
+
+\begin{figure}[H]
+\begin{terminal}
+people who work with Amnesty
+\end{terminal}
+\begin{json-small}
+[
+ {
+  'ast': 'InstrucInternal People (WorkWith_R (MkOrganization (MkSymb "Amnesty")))',
+  'linearizations': [
+   {
+    'query': 'people who work with Amnesty',
+    'language': 'InstrucsEng'
+   },
+   {
+    'query': 'select?q=*:*&wt=json&fq= object_type : Person AND WORKS_WITH : ( Amnesty )',
+    'language': 'InstrucsSolr'
+   },
+   {
+    'query': 'personer som arbetar med Amnesty',
+    'language': 'InstrucsSwe'
+   }
+  ]
+ }
+]
+\end{json-small}
+\caption{Translation from English to all concrete syntaxes\label{fig:asts-depths}}
+\end{figure}
+
+\begin{figure}[H]
+\begin{terminal}
+customers who use Solr
+\end{terminal}
+\begin{json-small}
+[
+ {
+  'ast': 'InstrucExternal Customer (UseExt_R (MkModule (MkSymb "Solr")))',
+  'linearizations': [
+   {
+    'query': 'customers who use Solr',
+    'language': 'InstrucsEng'
+   },
+   {
+    'query': 'select?q=*:*&wt=json&fq= object_type : Organization AND USES : ( Solr )',
+    'language': 'InstrucsSolr'
+   },
+   {
+    'query': 'kunder som använder Solr',
+    'language': 'InstrucsSwe'
+   }
+  ]
+ }
+]
+\end{json-small}
+\caption{Translation from English to all concrete syntaxes\label{fig:asts-depths}}
+\end{figure}
+
+\begin{figure}[H]
+\begin{terminal}
+projects who use Solr
+\end{terminal}
+\begin{json-small}
+[
+ {
+  'ast': 'InstrucResource Project (UseRes_R (MkModule (MkSymb "Solr")))',
+  'linearizations': [
+   {
+    'query': 'projects who use Solr',
+    'language': 'InstrucsEng'
+   },
+   {
+    'query': 'select?q=*:*&wt=json&fq= object_type : Project AND USES : ( Solr )',
+    'language': 'InstrucsSolr'
+   },
+   {
+    'query': 'projekt som använder Solr',
+    'language': 'InstrucsSwe'
+   }
+  ]
+ }
+]
+\end{json-small}
+\caption{Translation from English to all concrete syntaxes\label{fig:asts-depths}}
+\end{figure}
+
+\begin{figure}[H]
+\begin{terminal}
+people who know Java and Python
+\end{terminal}
+\begin{json-small}
+[
+ {
+  'ast': 'InstrucInternal People (Know_R (And_S (MkSkill (MkSymb "Java")) 
+                                                      (MkSkill (MkSymb "Python"))))',
+  'linearizations': [
+   {
+    'query': 'people who know Java and Python',
+    'language': 'InstrucsEng'
+   },
+   {
+    'query': 'select?q=*:*&wt=json&fq= object_type : Person AND 
+                                                KNOWS : ( ( Java ) AND ( Python ) )',
+    'language': 'InstrucsSolr'
+   },
+   {
+    'query': 'personer som kan Java och Python',
+    'language': 'InstrucsSwe'
+   }
+  ]
+ }
+]
+\end{json-small}
+\caption{Translation from English to all concrete syntaxes\label{fig:asts-depths}}
+\end{figure}
+
+\begin{figure}[H]
+\begin{terminal}
+people who know Java and Python or Haskell
+\end{terminal}
+\begin{json-small}
+[
+ {
+  'ast': 'InstrucInternal People (Know_R (Or_S (And_S (MkSkill (MkSymb "Java")) 
+                       (MkSkill (MkSymb "Python"))) (MkSkill (MkSymb "Haskell"))))',
+  'linearizations': [
+   {
+    'query': 'people who know Java and Python or Haskell',
+    'language': 'InstrucsEng'
+   },
+   {
+    'query': 'select?q=*:*&wt=json&fq= object_type : Person AND 
+                      KNOWS : ( ( ( Java ) AND ( Python ) ) OR ( Haskell ) )',
+    'language': 'InstrucsSolr'
+   },
+   {
+    'query': 'personer som kan Java och Python eller Haskell',
+    'language': 'InstrucsSwe'
+   }
+  ]
+ },
+ {
+  'ast': 'InstrucInternal People (Know_R (And_S (MkSkill (MkSymb "Java")) 
+                      (Or_S (MkSkill (MkSymb "Python")) (MkSkill (MkSymb "Haskell")))))',
+  'linearizations': [
+   {
+    'query': 'people who know Java and Python or Haskell',
+    'language': 'InstrucsEng'
+   },
+   {
+    'query': 'select?q=*:*&wt=json&fq= object_type : Person AND 
+                      KNOWS : ( ( Java ) AND ( ( Python ) OR ( Haskell ) ) )',
+    'language': 'InstrucsSolr'
+   },
+   {
+    'query': 'personer som kan Java och Python eller Haskell',
+    'language': 'InstrucsSwe'
+   }
+  ]
+ }
+]
+\end{json-small}
+\caption{Translation from English to all concrete syntaxes\label{fig:asts-depths}}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/java.png}
+\caption{Suggestions using only keyword of type Skill\label{fig:asts-depths}}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/london.png}
+\caption{Suggestions using only keyword of type Location \label{fig:asts-depths}}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/java_python.png}
+\caption{Suggestions combining  \label{fig:asts-depths}}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/misspelled_name.png}
+\caption{Misspelled name\label{fig:asts-depths}}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/swedish.png}
+\caption{Swedish suggestions\label{fig:asts-depths}}
+\end{figure}
+
+people who know Java
+people who work in Gothenburg
+people who work with Amnesty
+
+customers who use Solr
+projects who use Neo4j
+
+people who know Java and Python
+
+Java
+Gothunburg
+
+people who know Java and Python or Haskell
+
+Swedish

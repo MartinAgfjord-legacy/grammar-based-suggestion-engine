@@ -72,24 +72,24 @@
 % ******************************************************************** 
 % Packages with options that might require adjustments
 % ******************************************************************** 
-\PassOptionsToPackage{latin9}{inputenc}	% latin9 (ISO-8859-9) = latin1+"Euro sign"
- \usepackage{inputenc}				
-
-%\PassOptionsToPackage{ngerman,american}{babel}   % change this to your language(s)
+%\PassOptionsToPackage{utf8}{inputenc}	% latin9 (ISO-8859-9) = latin1+"Euro sign"
+\usepackage[utf8]{inputenc}	
+%\PassOptionsToPackage{swedish}{babel}   % change this to your language(s)
 % Spanish languages need extra options in order to work with this template
 %\PassOptionsToPackage{spanish,es-lcroman}{babel}
- \usepackage{babel}					
+ \usepackage[swedish]{babel}
 
 \PassOptionsToPackage{square,numbers}{natbib}
 \usepackage{natbib}
 \PassOptionsToPackage{fleqn}{amsmath}		% math environments and more by the AMS 
  \usepackage{amsmath}
 
+%\newunicodechar{00E4}{ä}
 % ******************************************************************** 
 % General useful packages
 % ******************************************************************** 
-\PassOptionsToPackage{T1}{fontenc} % T2A for cyrillics
-	\usepackage{fontenc}     
+%\PassOptionsToPackage{T1}{fontenc} % T2A for cyrillics
+	\usepackage[T1]{fontenc}
 \usepackage{textcomp} % fix warning with missing font shapes 
 \usepackage{xspace} % to get the spacing after macros right  
 \usepackage{mparhack} % get marginpar right
@@ -285,6 +285,37 @@
 % \usepackage{fontspec}
 \usepackage{minted}
 
+%
+% Fix to support extended characters in minted with combination of pdfTeX
+% http://tex.stackexchange.com/questions/19781/using-package-minted-with-non-english-characters
+%
+
+\makeatletter
+\newcommand{\minted@write@detok}[1]{%
+  \immediate\write\FV@OutFile{\detokenize{#1}}}%
+
+\newcommand{\minted@FVB@VerbatimOut}[1]{%
+  \@bsphack
+  \begingroup
+    \FV@UseKeyValues
+    \FV@DefineWhiteSpace
+    \def\FV@Space{\space}%
+    \FV@DefineTabOut
+    %\def\FV@ProcessLine{\immediate\write\FV@OutFile}% %Old, non-Unicode version
+    \let\FV@ProcessLine\minted@write@detok %Patch for Unicode
+    \immediate\openout\FV@OutFile #1\relax
+    \let\FV@FontScanPrep\relax
+%% DG/SR modification begin - May. 18, 1998 (to avoid problems with ligatures)
+    \let\@noligs\relax
+%% DG/SR modification end
+    \FV@Scan}
+    \let\FVB@VerbatimOut\minted@FVB@VerbatimOut
+
+\renewcommand\minted@savecode[1]{
+  \immediate\openout\minted@code\jobname.pyg
+  \immediate\write\minted@code{\expandafter\detokenize\expandafter{#1}}%
+  \immediate\closeout\minted@code}
+\makeatother
 
 \usepackage{tcolorbox}
 \tcbuselibrary{skins}
@@ -325,7 +356,7 @@ coltitle=black, colback=bg,
 borderline={.1pt}{-0.5pt}{gray, dashed, sharp corners}]}%
 \AfterEndEnvironment{java-code}{\end{tcolorbox}}
 
-% Java
+% Js
 \BeforeBeginEnvironment{js-code}{\begin{tcolorbox}[enhanced,
 width=\linewidth,
 enlarge top by=3pt,enlarge bottom by=3pt,
@@ -335,6 +366,28 @@ colframe=green!30!black, colbacktitle=green!50!yellow,
 coltitle=black, colback=bg,
 borderline={.1pt}{-0.5pt}{gray, dashed, sharp corners}]}%
 \AfterEndEnvironment{js-code}{\end{tcolorbox}}
+
+% Json
+\BeforeBeginEnvironment{json-normal}{\begin{tcolorbox}[enhanced,
+width=\linewidth,
+enlarge top by=3pt,enlarge bottom by=3pt,
+enlarge left by=3pt,enlarge right by=3pt,
+frame hidden,boxrule=0pt,top=1mm,bottom=1mm,
+colframe=green!30!black, colbacktitle=green!50!yellow,
+coltitle=black, colback=bg,
+borderline={.1pt}{-0.5pt}{gray, dashed, sharp corners}]}%
+\AfterEndEnvironment{json-normal}{\end{tcolorbox}}
+
+% Json
+\BeforeBeginEnvironment{json-small}{\begin{tcolorbox}[enhanced,
+width=\linewidth,
+enlarge top by=3pt,enlarge bottom by=3pt,
+enlarge left by=3pt,enlarge right by=3pt,
+frame hidden,boxrule=0pt,top=1mm,bottom=1mm,
+colframe=green!30!black, colbacktitle=green!50!yellow,
+coltitle=black, colback=bg,
+borderline={.1pt}{-0.5pt}{gray, dashed, sharp corners}]}%
+\AfterEndEnvironment{json-small}{\end{tcolorbox}}
 
 
 % Plaintext
@@ -346,12 +399,16 @@ frame hidden,boxrule=0pt,top=1mm,bottom=0.5mm]}%
 \newminted[code]{text}{mathescape=true,linenos=true,numbersep=5pt,fontsize=\footnotesize,framesep=10pt}
 \newminted[java-code]{csharp}{linenos=true,numbersep=5pt,fontsize=\footnotesize,framesep=10pt}
 \newminted[js-code]{js}{linenos=true,numbersep=5pt,fontsize=\footnotesize,framesep=10pt}
+\newminted[json-normal]{js}{linenos=true,numbersep=5pt,fontsize=\footnotesize,framesep=10pt}
+\newminted[json-small]{js}{linenos=true,numbersep=5pt,fontsize=\scriptsize,framesep=10pt}
 \newminted[terminal]{text}{linenos=false,numbersep=5pt,fontsize=\footnotesize,framesep=10pt}
 \newminted[plaintext]{text}{linenos=false,numbersep=5pt,fontsize=\footnotesize,framesep=10pt}
 \newminted[bashcode2]{bash}{linenos=true, texcl=true}
 \usepackage{scrhack} % fix warnings when using KOMA with listings package         
 %\setsansfont{Calibri}
 %\setmonofont{Consolas}
+%\renewcommand{\familydefault}{\sfdefault}
+
 \usepackage{etoolbox}
 
 % Margin

@@ -540,6 +540,7 @@ oper
 
 However, not all verbs can be used in progressive form. An example of such verb is \emph{know}. An example of  \emph{know} in progressive form is \emph{people who are knowing Java} which clearly is incorrect. Although it might look ugly, it is not an issue for our application as the suggestion engine only suggest the most suitable suggestion. The extension will contribute to make the suggestion engine richer as it allows users to use incorrect instructions.
 
+\todo{Also add that we let people\_N = mkN "person" ("people" | "persons")}
 \section{Generation of mock data}
 This section describes how the data used by the application is generated. In order to generate data, we must know what to generate. From \autoref{sec:more-instructions} we know the Solr queries our index must support. We have three different types of objects: \emph{Customer}, \emph{Person} and \emph{Project}. Each of these types of objects has their own data. A customer shall have one value, a list of technologies it uses. A person shall have three values, a list of programming languages it knows, a list of cities it works in and a list of organizations it has been working with. A project shall have one value, the same as a customer, a list of technologies it uses. In addition to these requirements by the grammar, customers and persons also have names. \autoref{fig:example-data-json} shows an example of data that could exists in the Solr index.
 

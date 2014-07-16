@@ -10,6 +10,9 @@ Issue with the suggestion algorithm, cannot take more than one word..
 
 \section{To dos}
 How we add a special behavior of names with spaces in it.
+Write about how we get the most related results by counting names
+Write that we use fuzzy search
+
 
 Add "more sophisticated suggestion engine with graph database. Eg. if one type "people" then it shall recognize it as a node and check all distinct edges from that node as relationships to other nodes and suggest to autocomplete all those nodes.
 \section{Negative things}
@@ -21,9 +24,11 @@ Prereqs: Tomcat8, Maven. Install GF through cabal (needed to generate instructio
 
 mvn install:install-file -Dfile=org.grammaticalframework.pgf.jar -DgroupId=org.grammaticalframework -DartifactId=pgf -Dversion=1.0 -Dpackaging=jar
 
-<tomcat-users>
-<role rolename="manager-gui"/>
-  <role rolename="manager-script"/>
-  <user username="admin" password="a2kp09" roles="manager-gui,manager-script"/>
-</tomcat-users>
+\section{Issues}
+Bug causes gf to parse strings into multiple ASTS and multiple linearizations, and the application post process alot.
+Must have capital letter on each name
 
+\section{Future work}
+Speech to text
+Handle ambiguous instructions
+Make application know which language that is used
