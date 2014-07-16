@@ -156,7 +156,7 @@ function parse(query){
                  */
                 var firstAst = true;
                 i = 0;
-                if($(response).size() > 1){
+                if($(response).size() > 1 && false){
                     $("#ambiguous_result").css('display','block');
                 } else{
                     $("#ambiguous_result").css('display','none');
@@ -170,15 +170,13 @@ function parse(query){
                         }
                         if(this.language == 'InstrucsSolr'){
                             solrQuery = this.query.replace(/ /g,'+');
-//                              solrQuery = this.query;
                             this.query = '<a href="' + 'http://localhost:8080/solr-instrucs/relations/' + solrQuery + '">' + this.query + '</a>';
-//                            this.query = '<a href="' + 'http://' + host + '/nlparser/api/solr/' + solrQuery + '">' + this.query + '</a>';
-                            if(!fetchedResult){
-                                $("#ast" + i).css('font-weight','bold');
-                                $("#ast" + i).append(' (this was executed)')
-                                fetchResult(solrQuery);
-                                fetchedResult = true;
-                            }
+                            //if(!fetchedResult){
+                              //  $("#ast" + i).css('font-weight','bold');
+                                //$("#ast" + i).append(' (this was executed)')
+                                //fetchResult(solrQuery);
+                                //fetchedResult = true;
+                            //}
                         }
                     });
                     i++;

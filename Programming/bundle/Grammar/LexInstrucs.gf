@@ -6,6 +6,5 @@ interface LexInstrucs = open Syntax in {
 	  know_V2 : V2 ;
   	  use_V2  : V2 ;
   	  work_V  :  V ;
-  	  java_NP : NP ;
 
 }

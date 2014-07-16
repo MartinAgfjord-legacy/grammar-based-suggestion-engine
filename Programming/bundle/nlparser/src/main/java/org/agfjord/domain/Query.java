@@ -35,4 +35,19 @@ public class Query {
 		this.result = result;
 	}
 	
+	@Override
+	public int hashCode() {
+		return (query + language).hashCode();
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if(this.getClass() == obj.getClass()){
+			Query query = (Query) obj;
+			return (this.query + this.language).equals(query.query + query.language);
+		} else return false;
+	}
+	
+	
+	
 }

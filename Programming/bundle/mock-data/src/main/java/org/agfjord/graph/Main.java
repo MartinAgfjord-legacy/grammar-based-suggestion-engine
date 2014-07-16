@@ -1,6 +1,11 @@
 package org.agfjord.graph;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
@@ -12,26 +17,41 @@ import org.grammaticalframework.pgf.ParseError;
 
 public class Main {
 	
-	static File file = new File("/home/eidel/Documents/School/Exjobb/Programming/bundle/nlparser/src/main/resources/Instrucs.pgf");
-	static Grammar grammar = new Grammar(file);
-	static DataImportSolr solr = new DataImportSolr();
-	static DataImportNeo4j dataImport = new DataImportNeo4j();
+//	static File file = new File("/src/main/resources/Instrucs.pgf");
+//	static InputStream is = ClassLoader.getSystemResourceAsStream("Instrucs.pgf")
+	static File file = new File("src/main/resources/Instrucs.pgf");
+//	static InputStream is;
 	
-	public static void main(String[] args) throws ParseError, IOException, SolrServerException {
-		// Generate random objects and then create persons who uses these values
-//		importDocumentsNeo4j();
-		// Add all names that have a relation to solr
-//		importNamesSolr();
-		// Generate instructions (suggestions) by using
-		// the GF-shell and add them to solr
-		importInstrucsSolr();
-		
-//		dataImport.shutdown();
-		// Add all persons with its relations to solr
-//		solr.importRelationsFromNeo4j();
+	public Main(){
+		URL url = this.getClass().getClassLoader().getResource("Instrucs.pgf");
+		try {
+			grammar = new Grammar(url.openStream());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	
-	public static void importDocumentsNeo4j() throws IOException{
+	Grammar grammar;
+	DataImportSolr solr = new DataImportSolr();
+	DataImportNeo4j dataImport = new DataImportNeo4j();
+	
+	public static void main(String[] args) throws ParseError, IOException, SolrServerException {
+		Main main = new Main();
+		// Generate random objects and then create persons who uses these values
+		main.importDocumentsNeo4j();
+		// Add all names that have a relation to solr
+		main.importNamesSolr();
+		// Generate instructions (suggestions) by using
+		// the GF-shell and add them to solr
+		main.importInstrucsSolr();
+		
+		main.dataImport.shutdown();
+		// Add all persons with its relations to solr
+		main.solr.importRelationsFromNeo4j();
+	}
+	
+	public void importDocumentsNeo4j() throws IOException{
 		dataImport.deleteDatabase();
 		dataImport.importFromFile(new File("First_names.txt"), "Firstname", "name");
 		dataImport.importFromFile(new File("Last_names.txt"), "Lastname", "name");
@@ -45,7 +65,7 @@ public class Main {
 		dataImport.createOrganizationRelations();
 	}
 	
-	public static void importNamesSolr() throws SolrServerException, IOException{
+	public void importNamesSolr() throws SolrServerException, IOException{
 		solr.deleteAllNames();
 		solr.importNames("Skill", dataImport.fetchAllLabelWithRelation("Expertise"));
 		solr.importNames("Location", dataImport.fetchAllLabelWithRelation("Location"));
@@ -53,7 +73,7 @@ public class Main {
 		solr.importNames("Module", dataImport.fetchAllLabelWithRelation("Module"));
 	}
 	
-	public static void importInstrucsSolr() throws IOException, SolrServerException, ParseError{
+	public void importInstrucsSolr() throws IOException, SolrServerException, ParseError{
 		Set<String> asts = grammar.generateAbstractSyntaxTreesFromShell();
 		System.out.println("Successfully generated abstract syntax trees");
 		solr.deleteAllInstrucs();

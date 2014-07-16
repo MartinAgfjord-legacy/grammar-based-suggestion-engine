@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.nio.file.Files;
@@ -40,11 +41,9 @@ public class Grammar {
 	final private String[] nameCats = new String[]{ "Skill", "Location", "Organization", "Module" };
 	final private Properties prop = new Properties();
 
-	public Grammar(File pgf) {
+	public Grammar(InputStream pgf) {
 		try {
-			gr = PGF.readPGF(pgf.getAbsolutePath());
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
+			gr = PGF.readPGF(pgf);
 		} catch (PGFError e) {
 			e.printStackTrace();
 		}

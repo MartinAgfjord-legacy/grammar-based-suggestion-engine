@@ -5,8 +5,10 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -15,6 +17,7 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.TreeSet;
 
 import org.agfjord.domain.AbstractSyntaxTree;
 import org.agfjord.domain.CompletionWord;
@@ -40,6 +43,8 @@ import org.grammaticalframework.pgf.PGF;
 import org.grammaticalframework.pgf.PGFError;
 import org.grammaticalframework.pgf.ParseError;
 
+import com.google.gson.Gson;
+
 public class Parser {
 
 	private PGF gr;
@@ -52,17 +57,18 @@ public class Parser {
 			Parser.class.getName());
 
 	public Parser() throws SolrServerException, FileNotFoundException {
-//		InputStream pgf = ClassLoader.getSystemResourceAsStream("Questions.pgf");
-		FileInputStream pgf = new FileInputStream("/home/eidel/Documents/School/Exjobb/Programming/bundle/nlparser/src/main/resources/Instrucs.pgf");
 		try {
-			gr = PGF.readPGF(pgf);
+			URL url = this.getClass().getClassLoader().getResource("Instrucs.pgf");
+			gr = PGF.readPGF(url.openStream());
 		}
 		catch (PGFError e) { 
 			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
 		try {
-			prop.load(new FileInputStream("/home/eidel/Documents/School/Exjobb/Programming/nlparser/src/main/resources/config.properties"));
-//			prop.load(ClassLoader.getSystemResourceAsStream("config.properties"));
+			URL url = this.getClass().getClassLoader().getResource("config.properties");
+			prop.load(url.openStream());
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -87,17 +93,24 @@ public class Parser {
 		return nlQuestion;
 	}
 	
+	/*
+	 * Parse a string @question in a language @parseLang. Retrieve all distinct abstract syntax trees
+	 * and their distinct linearizations. I think there exists a bug in GF which causes a NLP-sentence
+	 * to be parsed into multiple equal abstract syntax trees, the same with linearizations. drbean @ #gf @ freenode
+	 * told me this bug existed.
+	 * 
+	 */
 	public List<AbstractSyntaxTree> parse(String question, String parseLang) throws ParseError {
 		Iterable<ExprProb> exprProbs;
-		Map<String,List<Query>> astQuery = new HashMap<String,List<Query>>();
+		// Map is used to only have distinct asts, Set is used to only have distinct linearizations
+		Map<String,Set<Query>> astQuery = new HashMap<String,Set<Query>>();
 		exprProbs = gr.getLanguages().get(parseLang).parse(gr.getStartCat(), question);
-
 		for(String key : gr.getLanguages().keySet()){
 			Concr lang = gr.getLanguages().get(key);
 			for(ExprProb exprProb : exprProbs) {
-				List<Query> qs = astQuery.get(exprProb.getExpr().toString());
+				Set<Query> qs = astQuery.get(exprProb.getExpr().toString());
 				if(qs == null){
-					qs = new ArrayList<Query>();
+					qs = new TreeSet<Query>(comparator);
 					astQuery.put(exprProb.getExpr().toString(), qs);
 				}
 				qs.add(new Query(lang.linearize(exprProb.getExpr()), lang.getName()));	
@@ -109,6 +122,12 @@ public class Parser {
 		}
 		return asts;
 	}
+	
+	Comparator<Query> comparator = new Comparator<Query>(){
+        public int compare(Query a, Query b){
+            return a.getLanguage().compareTo(b.getLanguage());
+        }
+    };
 
 	//people who know Skill0 and who work in Location0 ==> add(sub(Skill_i,1),sub(Location_i,1))
 
@@ -223,8 +242,9 @@ public class Parser {
 
 		Map<String,List<NameResult>> names = parseQuestionIntoNameResults(nlQuestion);
 		nlQuestion = replaceNames(nlQuestion, names, "types");
-		treesQuery.setQuery(nlQuestion);
-		treesQuery.setFilterQueries("lang:" + parseLang);
+		treesQuery.setQuery("*:*");
+		treesQuery.addFilterQuery("linearizations:" + nlQuestion);
+		treesQuery.addFilterQuery("lang:" + parseLang);
 		String sorting = getSort(names);
 		treesQuery.addSort(SortClause.asc(sorting));
 		treesQuery.addSort(SortClause.desc("score"));

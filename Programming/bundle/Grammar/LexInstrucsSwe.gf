@@ -1,7 +1,6 @@
 instance LexInstrucsSwe of LexInstrucs = open SyntaxSwe, ParadigmsSwe in {
 	oper
           person_N = mkN "person" "personer" ;
-          java_NP = mkNP (mkPN "Java");
           project_N = mkN "projekt" "projekt" ;
           customer_N = mkN "kund" "kunder" ;
           work_V = mkV "arbeta" ;

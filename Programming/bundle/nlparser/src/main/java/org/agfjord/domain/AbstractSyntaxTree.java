@@ -1,12 +1,13 @@
 package org.agfjord.domain;
 
 import java.util.List;
+import java.util.Set;
 
 public class AbstractSyntaxTree {
 	String ast;
-	List<Query> linearizations;
+	Set<Query> linearizations;
 	
-	public AbstractSyntaxTree(String ast, List<Query> linearizations){
+	public AbstractSyntaxTree(String ast, Set<Query> linearizations){
 		this.ast = ast;
 		this.linearizations = linearizations;
 	}
@@ -17,10 +18,10 @@ public class AbstractSyntaxTree {
 	public void setAst(String ast) {
 		this.ast = ast;
 	}
-	public List<Query> getLinearizations() {
+	public Set<Query> getLinearizations() {
 		return linearizations;
 	}
-	public void setLinearizations(List<Query> linearizations) {
+	public void setLinearizations(Set<Query> linearizations) {
 		this.linearizations = linearizations;
 	}
 	
