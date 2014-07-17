@@ -135,7 +135,13 @@ public class Parser {
 
 	private String getSort(Map<String,List<NameResult>> names) {
 		StringBuilder sb = new StringBuilder();
-		int i = 0;
+		int sum = 0;
+		for(String key : names.keySet()){
+			sum += names.get(key).size();
+		}
+		if(sum == 0){
+			return null;
+		}
 		if(names.keySet().size() > 1) {
 			sb.append("add(");
 		}
@@ -242,12 +248,14 @@ public class Parser {
 
 		Map<String,List<NameResult>> names = parseQuestionIntoNameResults(nlQuestion);
 		nlQuestion = replaceNames(nlQuestion, names, "types");
-		treesQuery.setQuery("*:*");
-		treesQuery.addFilterQuery("linearizations:" + nlQuestion);
+		treesQuery.setQuery("linearizations:" + nlQuestion);
 		treesQuery.addFilterQuery("lang:" + parseLang);
 		String sorting = getSort(names);
-		treesQuery.addSort(SortClause.asc(sorting));
+		if(sorting != null){
+			treesQuery.addSort(SortClause.asc(sorting));			
+		}
 		treesQuery.addSort(SortClause.desc("score"));
+		treesQuery.addSort(SortClause.asc("length"));
 		//		treesQuery.addSort(SortClause.asc("length"));
 		System.out.println(treesQuery.toString());
 		QueryResponse rsp = treesServer.query(treesQuery);
