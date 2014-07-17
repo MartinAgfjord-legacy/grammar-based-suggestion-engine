@@ -1,6 +1,12 @@
 %************************************************
 \chapter{Results}\label{ch:results}
 %************************************************
+This chapter presents results from the end application.
+
+\section{Translation}
+We begin by demonstrating how a few sentences are parsed into an abstract syntax which is linearized into all possible concrete syntaxes. The input is shown in the first box in each figure and the result in second (larger) box. The result of a translation is JSON-data, given by the application.
+
+The first five figures shows the most simplest translations. They include all subjects and all types of names. Each one contains a subject, one verb and one name of a certain type.
 
 \begin{figure}[H]
 \begin{terminal}
@@ -27,7 +33,7 @@ people who know Java
  }
 ]
 \end{json-small}
-\caption{Translation from English to all concrete syntaxes\label{fig:asts-depths}}
+\caption{Translation including \texttt{people} and a name of type \texttt{Skill}\label{fig:asts-depths}}
 \end{figure}
 
 \begin{figure}[H]
@@ -55,7 +61,7 @@ people who work in London
  }
 ]
 \end{json-small}
-\caption{Translation from English to all concrete syntaxes\label{fig:asts-depths}}
+\caption{Translation including \texttt{people} and a name of type \texttt{Location}\label{fig:asts-depths}}
 \end{figure}
 
 \begin{figure}[H]
@@ -83,7 +89,7 @@ people who work with Amnesty
  }
 ]
 \end{json-small}
-\caption{Translation from English to all concrete syntaxes\label{fig:asts-depths}}
+\caption{Translation including \texttt{people} and a name of type \texttt{Organization}\label{fig:asts-depths}}
 \end{figure}
 
 \begin{figure}[H]
@@ -111,7 +117,7 @@ customers who use Solr
  }
 ]
 \end{json-small}
-\caption{Translation from English to all concrete syntaxes\label{fig:asts-depths}}
+\caption{Translation including \texttt{customer} and a name of type \texttt{Module}\label{fig:asts-depths}}
 \end{figure}
 
 \begin{figure}[H]
@@ -139,8 +145,10 @@ projects who use Solr
  }
 ]
 \end{json-small}
-\caption{Translation from English to all concrete syntaxes\label{fig:asts-depths}}
+\caption{Translation including \texttt{project} and a name of type \texttt{Module}\label{fig:asts-depths}}
 \end{figure}
+
+\autoref{fig:translation-java-python} shows how the applications handles the boolean operator \emph{and}. The application handles the case for \emph{or} similarly.
 
 \begin{figure}[H]
 \begin{terminal}
@@ -169,8 +177,12 @@ people who know Java and Python
  }
 ]
 \end{json-small}
-\caption{Translation from English to all concrete syntaxes\label{fig:asts-depths}}
+\caption{Translation including \texttt{people} and two names of the type \texttt{Skill}\label{fig:translation-java-python}}
 \end{figure}
+
+\newpage
+
+\autoref{fig:translation-ambig} shows how the application handles an ambiguous instruction. Two abstract syntax trees are seen in the result, as there are two ways of interpreting the instruction. The different interpretations can be modelled as follows: \emph{people who know (Java and Python) or Haskell} or \emph{people who know Java and (Python or Haskell)}.
 
 \begin{figure}[H]
 \begin{terminal}
@@ -218,46 +230,79 @@ people who know Java and Python or Haskell
  }
 ]
 \end{json-small}
-\caption{Translation from English to all concrete syntaxes\label{fig:asts-depths}}
+\caption{Translation of an ambiguous instruction involving \texttt{people} and three names of the type \texttt{Skill}\label{fig:translation-ambig}}
 \end{figure}
+
+\section{Suggestions}
+This section shows how the application reacts to input before the user has chosen to translate the instruction. Each figure shows an image of how the application suggest valid sentences from a partial instruction.
+
+\autoref{fig:suggestions-people} shows suggestions based on the first word in a valid sentence.
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/people.png}
+\caption{Suggestions based on the word \texttt{people}\label{fig:suggestions-people}}
+\end{figure}
+
+\autoref{fig:suggestions-who-know} shows that it is possible to use a combination of words to retrieve suggestions. It also demonstrates that the words do not have to be the first words in an instruction.
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/who_know.png}
+\caption{Suggestions based on the words \texttt{who know}\label{fig:suggestions-who-know}}
+\end{figure}
+
+The next four figures shows how it is possible to retreive suggestions based on only names.
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/java.png}
-\caption{Suggestions using only keyword of type Skill\label{fig:asts-depths}}
+\caption{Suggestions based on a name of type Skill\label{fig:name-skill}}
 \end{figure}
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/london.png}
-\caption{Suggestions using only keyword of type Location \label{fig:asts-depths}}
+\caption{Suggestions based on a name of type Location \label{fig:name-location}}
 \end{figure}
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/amnesty.png}
+\caption{Suggestions based on a name of type Organization\label{fig:name-organization}}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/solr.png}
+\caption{Suggestions based on a name of type Module\label{fig:name-module}}
+\end{figure}
+
+\autoref{fig:java-python} shows suggestions based on two names of the same type.
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/java_python.png}
-\caption{Suggestions combining  \label{fig:asts-depths}}
+\caption{Suggestions based on two names  of type Skill\label{fig:java-python}}
 \end{figure}
+
+\autoref{fig:haskell-london} shows that names do not have to be of the same type to suggest relevant instructions.
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/haskell-london.png}
+\caption{Suggestions based on two names of different types\label{fig:haskell-london}}
+\end{figure}
+
+\autoref{fig:persons} shows how we can use the word \texttt{persons} in order to get suggestions. The word \texttt{persons} does not exist in any suggestion, but as it is a synonym to \texttt{people}, the application suggest relevant instructions.
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/persons.png}
+\caption{Suggestions combining  \label{fig:persons}}
+\end{figure}
+
+\autoref{fig:misspelled-name} shows how the application shows relevant suggestion based on a misspelled word.
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/misspelled_name.png}
-\caption{Misspelled name\label{fig:asts-depths}}
+\caption{Suggestions based on a misspelled word\label{fig:misspelled-name}}
 \end{figure}
+
+Lastly, \autoref{fig:swedish} demonstrates that the application also can translate give suggestions in Swedish. The application can translate valid Swedish sentences as long as the user has chosen Swedish as input language in the application.
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/swedish.png}
-\caption{Swedish suggestions\label{fig:asts-depths}}
+\caption{Suggestions in Swedish\label{fig:swedish}}
 \end{figure}
-
-people who know Java
-people who work in Gothenburg
-people who work with Amnesty
-
-customers who use Solr
-projects who use Neo4j
-
-people who know Java and Python
-
-Java
-Gothunburg
-
-people who know Java and Python or Haskell
-
-Swedish

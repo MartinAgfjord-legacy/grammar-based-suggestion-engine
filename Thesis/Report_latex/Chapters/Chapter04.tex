@@ -1,0 +1,26 @@
+%************************************************
+\chapter{Conclusion}\label{ch:conclusion}
+%************************************************
+\section{Implications for future research}
+\subsection{Inspiration to GF-developers how to handle suggestions}
+A hint to GF-developers that it is crucial for an application to handle incorrect sentences properly.
+\subsection{Not use RGL when focusing on one natural language}
+When only using one natural language and have relatively little valid sentences, I feel that RGL is unnessecary. It makes it harder to express valid sentences, but also express invalid sentences.
+
+\section{Known issues}
+\subsection{Multiple equal abstract syntax trees and linearizations}
+\subsection{Incorrect English grammar}
+project who uses Solr.
+\subsection{Name suggestions}
+Cannot suggest names based on two words.
+
+\section{Limitations}
+Can be applied in any context where one want to instruct a computer by using a natural language.
+\section{Related work}
+\section{Future work}
+\subsection{Speech to text}
+\subsection{Proper handling of ambiguous instructions}
+\subsection{Prediction function in PGF in combination with "previous words"}
+This will also make it possible to suggest infinitely many suggestions in recursive functions as we can suggest based on a sentence and continue to suggest on the resulting sentence.
+\subsection{Generate Solr-queries to store in the index}
+Map each English or Swedish instruction to the corresponding Solr instruction, then no need of translating with GF anymore.

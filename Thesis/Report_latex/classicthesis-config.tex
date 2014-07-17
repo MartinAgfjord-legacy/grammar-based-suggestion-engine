@@ -294,6 +294,20 @@
 \newcommand{\minted@write@detok}[1]{%
   \immediate\write\FV@OutFile{\detokenize{#1}}}%
 
+% Blank page
+\newcommand*{\blankpage}{%
+  \begingroup
+    \setlength{\topskip}{0pt}%
+    \setlength{\parskip}{0pt}%
+    \vspace*{\fill}%
+    \centering
+    \nointerlineskip % suppresses partial \baselineskip above text
+    This page is intentionally left (almost) blank.\par
+    \vspace{\fill}%
+  \endgroup
+  % \showlists
+}
+
 \newcommand{\minted@FVB@VerbatimOut}[1]{%
   \@bsphack
   \begingroup
