@@ -1,13 +1,89 @@
 %************************************************
 \chapter{Conclusion}\label{ch:conclusion}
 %************************************************
+
+We found out that the RGL can be used to construct concrete syntaxes for natural languages. We defined one generalised concrete syntax which could be instantiated with 
+
+Some text about how well the results satisfies the problem motivation, what parts that could be better. Like some suggestions are not optimal.
+
 \section{Implications for future research}
 \subsection{Inspiration to GF-developers how to handle suggestions}
 A hint to GF-developers that it is crucial for an application to handle incorrect sentences properly.
-\subsection{Not use RGL when focusing on one natural language}
+\subsection{Alternative implementation without the Resource Grammar Library}
+The development of a concrete syntax using the RGL was not trivial, we faced many problems and some of them are still unresolved (see \autoref{sec:known-issues} for details). The example grammar we developed in \autoref{sec:simple-example} however, was easy to develop as we only concatenated strings. 
+
+\autoref{fig:concat-english} shows how concatenation can be used to support all instructions that the RGL-grammar supports. It also supports sentences that the RGL-version do not, as it combines all  variations, including some which involves more work if one were using the RGL. For example grammatically incorrect sentences like \emph{people which knows Foo}. These grammatically incorrect sentences is however not a problem, as the correct sentence always is the preferred linearization of each abstract syntax tree, and this linearization is the one we suggest in the application. 
+
+What we gain is the possibilty to map sentences expressed using bad grammar into correct sentences. Therefore, users with little knowledge of writing in English have a higher probability of finding the correct sentence using this approach.
+\begin{figure}[H]
+\begin{code}
+concrete InstrucsEngSimpl of Instrucs = SymbolEng ** {
+ lincat
+  Instruction = Str ;
+  Internal, External, Resource = Str ;
+  InternalRelation, ExternalRelation, ResourceRelation = Str ;
+  Skill, Organization, Location, Module = Str ;
+
+ lin
+  -- Instructions
+  InstrucInternal internal relation = internal ++ 
+                                   ("who" | "which" | "that") ++ relation ;
+  InstrucExternal external relation = external ++ 
+                                   ("who" | "which" | "that") ++ relation ;
+  InstrucResource resource' relation = resource' ++ 
+                                   ("which" | "that") ++ relation ;
+
+  -- Subjects
+  People = "people" | "persons" | "person" ;
+  Customer = "customers" | "customer" ;
+  Project = "projects" | "project" ;
+
+  -- Relations
+  Know obj = ("know" | "knows") ++ obj;
+  UseExt obj = ("use" | "uses") ++ obj ;
+  UseRes obj = ("use" | "uses") ++ obj ;
+  WorkWith obj = ("work with" | "works with") ++ obj ;
+  WorkIn obj = ("work in" | "works in") ++ obj ;
+
+  -- Boolean operators for relations
+  InternalAnd s1 s2 = s1 ++ "and" ++ s1 ;
+  InternalOr s1 s2 = s1 ++ "or" ++ s1 ;
+
+  ExternalAnd s1 s2 = s1 ++ "and" ++ s1 ;
+  ExternalOr s1 s2 = s1 ++ "or" ++ s1 ;
+
+  ResourceAnd s1 s2 = s1 ++ "and" ++ s1 ;
+  ResourceOr s1 s2 = s1 ++ "or" ++ s1 ; 
+
+  -- Unknown names
+  MkSkill s = s.s ;
+  MkOrganization s = s.s ;
+  MkLocation s = s.s ;
+  MkModule s = s.s ;
+
+  -- Boolean operators for names
+  And_S s1 s2 = s1 ++ "and" ++ s2 ;
+  Or_S s1 s2 = s1 ++ "or" ++ s2 ;
+	  
+  And_O s1 s2 = s1 ++ "and" ++ s1 ;
+  Or_O s1 s2 = s1 ++ "or" ++ s1 ;
+	  
+  And_L s1 s2 = s1 ++ "and" ++ s1 ;
+  Or_L s1 s2 = s1 ++ "or" ++ s1 ;
+	  
+  And_M s1 s2 = s1 ++ "and" ++ s1 ;
+  Or_M s1 s2 = s1 ++ "or" ++ s1 ;
+}
+\end{code}
+\caption{Concrete syntax for english using concatenation\label{fig:concat-english}}
+\end{figure}
+
+
+
 When only using one natural language and have relatively little valid sentences, I feel that RGL is unnessecary. It makes it harder to express valid sentences, but also express invalid sentences.
 
-\section{Known issues}
+
+\section{Known issues}\label{sec:known-issues}
 \subsection{Multiple equal abstract syntax trees and linearizations}
 \subsection{Incorrect English grammar}
 project who uses Solr.
