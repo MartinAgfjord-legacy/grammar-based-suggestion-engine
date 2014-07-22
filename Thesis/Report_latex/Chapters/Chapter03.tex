@@ -4,12 +4,13 @@
 This chapter presents results from the end application.
 
 \section{Translation}
-We begin by demonstrating how a few sentences are parsed into an abstract syntax which is linearized into all possible concrete syntaxes. The input is shown in the first box in each figure and the result in second (larger) box. The result of a translation is JSON-data, given by the application.
+We begin by demonstrating how a few sentences are parsed into an abstract syntax which is linearized into all possible concrete syntaxes. The input is shown in the first box in each figure (with input language as a comment) and the result in second (larger) box. The result of a translation is JSON-data, given by the application.
 
 The first five figures shows the most simplest translations. They include all subjects and all types of names. Each one contains a subject, one verb and one name of a certain type.
 
 \begin{figure}[H]
 \begin{terminal}
+-- EnglishRGL
 people who know Java
 \end{terminal}
 \begin{json-small}
@@ -19,7 +20,11 @@ people who know Java
   'linearizations': [
    {
     'query': 'people who know Java',
-    'language': 'InstrucsEng'
+    'language': 'InstrucsEngConcat'
+   },
+   {
+    'query': 'people who know Java',
+    'language': 'InstrucsEngRGL'
    },
    {
     'query': 'select?q=*:*&wt=json&fq= object_type : Person AND KNOWS : ( Java )',
@@ -27,7 +32,7 @@ people who know Java
    },
    {
     'query': 'personer som kan Java',
-    'language': 'InstrucsSwe'
+    'language': 'InstrucsSweRGL'
    }
   ]
  }
@@ -38,6 +43,7 @@ people who know Java
 
 \begin{figure}[H]
 \begin{terminal}
+-- English RGL
 people who work in London
 \end{terminal}
 \begin{json-small}
@@ -47,7 +53,11 @@ people who work in London
   'linearizations': [
    {
     'query': 'people who work in London',
-    'language': 'InstrucsEng'
+    'language': 'InstrucsEngConcat'
+   },
+   {
+    'query': 'people who work in London',
+    'language': 'InstrucsEngRGL'
    },
    {
     'query': 'select?q=*:*&wt=json&fq= object_type : Person AND WORKS_IN : ( London )',
@@ -55,7 +65,7 @@ people who work in London
    },
    {
     'query': 'personer som arbetar i London',
-    'language': 'InstrucsSwe'
+    'language': 'InstrucsSweRGL'
    }
   ]
  }
@@ -66,6 +76,7 @@ people who work in London
 
 \begin{figure}[H]
 \begin{terminal}
+-- EnglishRGL
 people who work with Amnesty
 \end{terminal}
 \begin{json-small}
@@ -75,7 +86,11 @@ people who work with Amnesty
   'linearizations': [
    {
     'query': 'people who work with Amnesty',
-    'language': 'InstrucsEng'
+    'language': 'InstrucsEngConcat'
+   },
+   {
+    'query': 'people who work with Amnesty',
+    'language': 'InstrucsEngRGL'
    },
    {
     'query': 'select?q=*:*&wt=json&fq= object_type : Person AND WORKS_WITH : ( Amnesty )',
@@ -94,6 +109,7 @@ people who work with Amnesty
 
 \begin{figure}[H]
 \begin{terminal}
+-- EnglishRGL
 customers who use Solr
 \end{terminal}
 \begin{json-small}
@@ -103,7 +119,11 @@ customers who use Solr
   'linearizations': [
    {
     'query': 'customers who use Solr',
-    'language': 'InstrucsEng'
+    'language': 'InstrucsEngConcat'
+   },
+   {
+    'query': 'customers who use Solr',
+    'language': 'InstrucsEngRGL'
    },
    {
     'query': 'select?q=*:*&wt=json&fq= object_type : Organization AND USES : ( Solr )',
@@ -122,6 +142,7 @@ customers who use Solr
 
 \begin{figure}[H]
 \begin{terminal}
+-- EnglishRGL
 projects who use Solr
 \end{terminal}
 \begin{json-small}
@@ -131,7 +152,11 @@ projects who use Solr
   'linearizations': [
    {
     'query': 'projects who use Solr',
-    'language': 'InstrucsEng'
+    'language': 'InstrucsEngConcat'
+   },
+   {
+    'query': 'projects who use Solr',
+    'language': 'InstrucsEngRGL'
    },
    {
     'query': 'select?q=*:*&wt=json&fq= object_type : Project AND USES : ( Solr )',
@@ -152,6 +177,7 @@ projects who use Solr
 
 \begin{figure}[H]
 \begin{terminal}
+-- EnglishRGL
 people who know Java and Python
 \end{terminal}
 \begin{json-small}
@@ -162,7 +188,11 @@ people who know Java and Python
   'linearizations': [
    {
     'query': 'people who know Java and Python',
-    'language': 'InstrucsEng'
+    'language': 'InstrucsEngConcat'
+   },
+   {
+    'query': 'people who know Java and Python',
+    'language': 'InstrucsEngRGL'
    },
    {
     'query': 'select?q=*:*&wt=json&fq= object_type : Person AND 
@@ -186,6 +216,7 @@ people who know Java and Python
 
 \begin{figure}[H]
 \begin{terminal}
+-- EnglishRGL
 people who know Java and Python or Haskell
 \end{terminal}
 \begin{json-small}
@@ -196,7 +227,11 @@ people who know Java and Python or Haskell
   'linearizations': [
    {
     'query': 'people who know Java and Python or Haskell',
-    'language': 'InstrucsEng'
+    'language': 'InstrucsEngConcat'
+   },
+   {
+    'query': 'people who know Java and Python or Haskell',
+    'language': 'InstrucsEngRGL'
    },
    {
     'query': 'select?q=*:*&wt=json&fq= object_type : Person AND 
@@ -215,7 +250,11 @@ people who know Java and Python or Haskell
   'linearizations': [
    {
     'query': 'people who know Java and Python or Haskell',
-    'language': 'InstrucsEng'
+    'language': 'InstrucsEngConcat'
+   },
+   {
+    'query': 'people who know Java and Python or Haskell',
+    'language': 'InstrucsEngRGL'
    },
    {
     'query': 'select?q=*:*&wt=json&fq= object_type : Person AND 
@@ -240,69 +279,88 @@ This section shows how the application reacts to input before the user has chose
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/people.png}
-\caption{Suggestions based on the word \texttt{people}\label{fig:suggestions-people}}
+\caption{Suggestions based on the word \texttt{people} by using EnglishRGL or EnglishConcat\label{fig:suggestions-people}}
 \end{figure}
 
 \autoref{fig:suggestions-who-know} shows that it is possible to use a combination of words to retrieve suggestions. It also demonstrates that the words do not have to be the first words in an instruction.
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/who_know.png}
-\caption{Suggestions based on the words \texttt{who know}\label{fig:suggestions-who-know}}
+\caption{Suggestions based on the words \texttt{who know} by using EnglishRGL or EnglishConcat\label{fig:suggestions-who-know}}
 \end{figure}
 
 The next four figures shows how it is possible to retreive suggestions based on only names.
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/java.png}
-\caption{Suggestions based on a name of type Skill\label{fig:name-skill}}
+\caption{Suggestions based on a name of type Skill by using EnglishRGL or EnglishConcat\label{fig:name-skill}}
 \end{figure}
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/london.png}
-\caption{Suggestions based on a name of type Location \label{fig:name-location}}
+\caption{Suggestions based on a name of type Location by using EnglishRGL or EnglishConcat\label{fig:name-location}}
 \end{figure}
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/amnesty.png}
-\caption{Suggestions based on a name of type Organization\label{fig:name-organization}}
+\caption{Suggestions based on a name of type Organization by using EnglishRGL or EnglishConcat\label{fig:name-organization}}
 \end{figure}
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/solr.png}
-\caption{Suggestions based on a name of type Module\label{fig:name-module}}
+\caption{Suggestions based on a name of type Module by using EnglishRGL or EnglishConcat\label{fig:name-module}}
 \end{figure}
 
 \autoref{fig:java-python} shows suggestions based on two names of the same type.
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/java_python.png}
-\caption{Suggestions based on two names  of type Skill\label{fig:java-python}}
+\caption{Suggestions based on two names  of type Skill by using EnglishRGL or EnglishConcat\label{fig:java-python}}
 \end{figure}
 
 \autoref{fig:haskell-london} shows that names do not have to be of the same type to suggest relevant instructions.
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/haskell-london.png}
-\caption{Suggestions based on two names of different types\label{fig:haskell-london}}
+\caption{Suggestions based on two names of different types by using EnglishRGL or EnglishConcat\label{fig:haskell-london}}
 \end{figure}
 
 \autoref{fig:persons} shows how we can use the word \texttt{persons} in order to get suggestions. The word \texttt{persons} does not exist in any suggestion, but as it is a synonym to \texttt{people}, the application suggest relevant instructions.
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/persons.png}
-\caption{Suggestions combining  \label{fig:persons}}
+\caption{Synonyms based on a synonym by using EnglishRGL or EnglishConcat\label{fig:persons}}
+\end{figure}
+
+Also \autoref{fig:that} shows how we can get suggestions based on a synonym. However, only EnglishConcat gives suggestions based on the word \emph{that}.
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/that.png}
+\caption{Synonyms based on a synonym by using EnglishConcat\label{fig:that}}
 \end{figure}
 
 \autoref{fig:misspelled-name} shows how the application shows relevant suggestion based on a misspelled word.
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/misspelled_name.png}
-\caption{Suggestions based on a misspelled word\label{fig:misspelled-name}}
+\caption{Suggestions based on a misspelled word by using EnglishRGL or EnglishConcat\label{fig:misspelled-name}}
 \end{figure}
 
-Lastly, \autoref{fig:swedish} demonstrates that the application also can translate give suggestions in Swedish. The application can translate valid Swedish sentences as long as the user has chosen Swedish as input language in the application.
+\autoref{fig:projects-rgl} and \autoref{fig:projects-concat} show how the same word can obtain different suggestions by using the concrete languages EnglishRGL and EnglishConcat.
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/projects-rgl.png}
+\caption{Suggestions based on the string \emph{projects} by using EnglishRGL\label{fig:projects-rgl}}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/projects-concat.png}
+\caption{Suggestions based on the string \emph{projects} by using EnglishConcat\label{fig:projects-concat}}
+\end{figure}
+
+Lastly, \autoref{fig:swedish} demonstrates that the application also can translate give suggestions in Swedish. The application can translate valid Swedish sentences as long as the user has chosen Swedish as input language in the application. All instructions that can be translated from English can also be translated from Swedish.
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/swedish.png}
-\caption{Suggestions in Swedish\label{fig:swedish}}
+\caption{Suggestions in Swedish by using SwedishRGL\label{fig:swedish}}
 \end{figure}
