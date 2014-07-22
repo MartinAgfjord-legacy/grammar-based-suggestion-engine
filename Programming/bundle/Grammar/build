@@ -1,4 +1,4 @@
 #!/bin/sh
-gf -src --gfo-dir=bin -make -literal=Symb InstrucsEng.gf InstrucsSwe.gf InstrucsSolr.gf
+gf -src --gfo-dir=bin -make -literal=Symb InstrucsEngRGL.gf InstrucsSweRGL.gf InstrucsEngConcat.gf InstrucsSolr.gf
 cp Instrucs.pgf ../nlparser/src/main/resources/
 cp Instrucs.pgf  ../mock-data/src/main/resources/
