@@ -3,19 +3,43 @@
 %*******************************************************
 % If problems with the headers: get headings in appendix etc. right
 %\markboth{\spacedlowsmallcaps{Appendix}}{\spacedlowsmallcaps{Appendix}}
-\chapter{GF runtime systems and libraries}\label{ch:appendix-a}
-adasd
+\chapter{GF shell, runtime systems and libraries}\label{ch:appendix-a}
+This appendix describes how the dependencies of the application can be installed.
+
+\section{GF shell}
+The GF shell is the interpreter which can be used together with GF-grammars. The shell is used by the application when generating abstract syntax trees and is therefore needed in order to use the application.
+
+An easy and convenient method of installing GF is by using the Haskell program \texttt{cabal}. Cabal is available if the haskell platform is installed on a system. The haskell platform can be installed in Debian by executing
+
+\begin{terminal}
+sudo apt-get install haskell-platform
+\end{terminal}
+Run \texttt{'cabal update'} in a shell to download the latest package list from \texttt{hackage.haskell.org}. GF can now be installed by executing:
+
+\begin{terminal}
+cabal install gf
+\end{terminal}
+
+The GF-binary can now be found in \texttt{\textasciitilde /.cabal/bin/gf}. Append this directory to the path variable:
+
+\begin{terminal}
+export PATH=$PATH:~/.cabal/bin/gf
+\end{terminal}
+%$
+
+Note that \texttt{export} does not set \$PATH permanently, so add the command to \texttt{\textasciitilde /.bashrc} or similar. 
+
 \section{GF runtime systems}
 
 While the GF-shell is a powerful tool, it is not very convenient to interact with when programming an application. Luckily, the creators of GF has thought about this and built embeddable runtime systems for a few programming languages \cite[p. 3]{angelov:2011}. These runtime systems makes it possible to interact with a grammar directly through language specific data types. We have chosen to work with the Java-runtime system in this project.
 
-\subsection{Portable Grammar Format}
-The GF-shell interacts with grammars by interpreting the GF programming language. This allows us to write our grammars in an simple and convenient syntax. Interpreting the GF programming language directly is however a heavy operation\cite{angelov:2011}[p. 13], especially with larger grammars. This is where the \ac{pgf}\cite{angelov:2011}[p. 14] comes in. PGF is a custom made machine language which is dynamically created by compiling a grammar with GF into a PGF-file. The runtime systems works exclusively with PGF-files.
+\hiddensubsection{Portable Grammar Format}
+The GF-shell interacts with grammars by interpreting the GF programming language. This allows us to write our grammars in an simple and convenient syntax. Interpreting the GF programming language directly is however a heavy operation\cite{angelov:2011}[p. 13], especially with larger grammars. This is where the Portable Grammar Format (PGF)\cite{angelov:2011}[p. 14] comes in. PGF is a custom made machine language which is dynamically created by compiling a grammar with GF into a PGF-file. The runtime systems works exclusively with PGF-files.
 
-\subsection{GF libraries}
+\hiddensubsection{GF libraries}
 In order to use the Java-runtime, we first need to generate a few libraries which is used by the runtime system. The Java-runtime system depends on the C-runtime system and a special wrapper between the C- and the Java-runtime. The libraries are platform dependent and at the time of writing, no pre-generated libraries exists. We therefore need to generate the libraries by ourselves. We will start by generating and installing the C-libraries. We will then go through how we can generate the wrapper library.
 
-\subsubsection{Building and installing the C-runtime}
+\hiddensubsubsection{Building and installing the C-runtime}
 Start by fetching the needed dependencies
 
 \begin{terminal}
@@ -64,7 +88,7 @@ sudo make install
 
 Make sure the installed libraries are installed into \texttt{/usr/local/lib}. It is crucial that they exists in that directory in order for the program to work.
 
-\subsection{Building and installing the C to Java wrapper library}
+\hiddensubsection{Building and installing the C to Java wrapper library}
 Start by installing the needed dependency
 
 \begin{terminal}
@@ -110,76 +134,3 @@ Finish the tutorial by moving the wrapper library to the correct location.
 \begin{terminal}
 mv libjpgf.so /usr/local/lib
 \end{terminal}
-
-\subsection{Using the Java-runtime}
-This application can be executed by using any application server that supports \texttt{WAR}-files. The \texttt{WAR}-file in this project is built using Maven, which also can upload the file to an instance of the application server Tomcat. This method is very convenient since it automates a lot work. The following section describes how to install and configure Tomcat and Maven to work with this project.
-
-Download and install Tomcat 8 and Maven (here by using aptitude package-manager).
-
-\begin{terminal}
-$ sudo apt-get install tomcat8 tomcat8-admin maven
-\end{terminal}
-%$
-
-Tomcat requires an uploader to have the correct permissions.
-\newline
-Edit \texttt{/etc/tomcat8/tomcat-users.xml} and add the following:
-
-\begin{terminal}
-/etc/tomcat8/tomcat-users.xml
-------------------------------------------------
-<tomcat-users>
-  <role rolename="manager-gui"/>
-  <role rolename="manager-script"/>
-  <user username="admin" password="secr3t" roles="manager-gui,manager-script"/>
-</tomcat-users>
-\end{terminal}
-
-As the application will use the generated wrapper library \texttt{libjpgf.so}, we need to make a proper reference to this library and its dependencies (the C-libraries). This is achieved by creating a new file \texttt{setenv.sh} in the directory \texttt{/usr/share/tomcat8/bin/}, the location of this directory can differ on different Linux-distributions. The directory shall contain the file \texttt{catalina.sh}, so a search on the file should show the correct directory.
-
-Create the file \texttt{setenv.sh} and add the following 
-
-\begin{terminal}
-/usr/share/tomcat8/bin/setenv.sh
-------------------------------------------------
-#!/bin/sh
-export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
-\end{terminal}
-%$
-
-Restart Tomcat for the changes to take effect.
-
-\begin{terminal}
-$ sudo service tomcat8 restart
-\end{terminal}
-%$
-
-The next thing we would like to do is to allow Maven to upload applications to Tomcat. As Tomcat now has an admin user with a password, we can use this to setup a server definition in Maven. 
-\newline
-Add the following to \texttt{/etc/maven/settings.xml}
-
-\begin{terminal}
-/etc/maven/settings.xml
-------------------------------------------------
-<servers>
- <server>
-    <id>localTomcatServer</id>
-    <username>admin</username>
-    <password>secr3t</password>
-  </server>
-</servers>
-\end{terminal}
-
-The field \texttt{id} is used by the application to define that it shall be uploaded to the server we just specified.
-
-The project can now be uploaded to tomcat by executing the following.
-
-\begin{terminal}
-$ cd <project_directory>/nlparser
-$ mvn tomcat7:deploy
-\end{terminal}
-%$
-
-The application shall now be accessible through the URL
-\newline
- \texttt{http://localhost:8080/nlparser}.

@@ -88,36 +88,6 @@
 % use \cleardoublepage here to avoid problems with pdfbookmark
 \cleardoublepage
 %\part{Some Kind of Manual}
-\include{Chapters/Chapter01}
-\cleardoublepage
-\ctparttext{You can put some informational part preamble text here. 
-Illo principalmente su nos. Non message \emph{occidental} angloromanic
-da. Debitas effortio simplificate sia se, auxiliar summarios da que,
-se avantiate publicationes via. Pan in terra summarios, capital
-interlingua se que. Al via multo esser specimen, campo responder que
-da. Le usate medical addresses pro, europa origine sanctificate nos se.}
-%\part{The Showcase}
-\include{Chapters/Chapter02}
-\include{Chapters/Chapter03}
-\include{Chapters/Chapter04}
-%\include{Chapters/Chapter09}
-%\addtocontents{toc}{\protect\clearpage} % <--- just debug stuff, ignore
-%\include{Chapters/Chapter03}
-%\include{multiToC} % <--- just debug stuff, ignore for your documents
-% ********************************************************************
-% Backmatter
-%*******************************************************
-\appendix
-\cleardoublepage
-%\part{Appendix}
-\include{Chapters/Chapter0A}
-\include{Chapters/Chapter0B}
-
-%*******************************************************
-% List of Figures and of the Tables
-%*******************************************************
-%\clearpage
-
 \begingroup 
 %    \let\clearpage\relax
 %    \let\cleardoublepage\relax
@@ -164,13 +134,51 @@ da. Le usate medical addresses pro, europa origine sanctificate nos se.}
     \pdfbookmark[1]{Acronyms}{acronyms}
     \markboth{\spacedlowsmallcaps{Acronyms}}{\spacedlowsmallcaps{Acronyms}}
     \chapter*{Acronyms}
-    \begin{acronym}[UML]
-        \acro{GF}{Grammatical Framework}
-        \acro{RGL}{Resource Grammar Library}
-        \acro{javaee}[Java EE]{Java Enterprise Edition}
-        \acro{pgf}[PGF]{Portable Grammar Format}
-    \end{acronym}                     
+   % \begin{acronym}[UML]
+\begin{tabular}{ l l }
+  GF & Grammatical Framework \\
+  RGL & Resouce Grammar Library \\
+  Java EE & Java Enterprise Edition \\
+  PGF & Portable Grammar Format \\
+\end{tabular}
+%        \acro{GF}{Grammatical Framework}
+%        \acro{RGL}{Resource Grammar Library}
+%        \acro{javaee}[Java EE]{Java Enterprise Edition}
+%        \acro{pgf}[PGF]{Portable Grammar Format}
+%    \end{acronym}                     
 \endgroup
+\include{Chapters/Chapter01}
+\cleardoublepage
+\ctparttext{You can put some informational part preamble text here. 
+Illo principalmente su nos. Non message \emph{occidental} angloromanic
+da. Debitas effortio simplificate sia se, auxiliar summarios da que,
+se avantiate publicationes via. Pan in terra summarios, capital
+interlingua se que. Al via multo esser specimen, campo responder que
+da. Le usate medical addresses pro, europa origine sanctificate nos se.}
+%\part{The Showcase}
+\include{Chapters/Chapter02}
+\include{Chapters/Chapter03}
+\include{Chapters/Chapter04}
+\include{Chapters/Chapter05}
+%\include{Chapters/Chapter09}
+%\addtocontents{toc}{\protect\clearpage} % <--- just debug stuff, ignore
+%\include{Chapters/Chapter03}
+%\include{multiToC} % <--- just debug stuff, ignore for your documents
+% ********************************************************************
+% Backmatter
+%*******************************************************
+\appendix
+\cleardoublepage
+%\part{Appendix}
+\include{Chapters/Chapter0A}
+\include{Chapters/Chapter0B}
+
+%*******************************************************
+% List of Figures and of the Tables
+%*******************************************************
+%\clearpage
+
+
 
 %********************************************************************
 % Other Stuff in the Back

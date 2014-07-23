@@ -1,48 +1,366 @@
 %************************************************
-\chapter{Conclusion}\label{ch:conclusion}
+\chapter{Results}\label{ch:results}
 %************************************************
-\section{A brief discussion about the results}
-The results are overall very positive. We have managed to build a system which can translate a small subset of instructions formulated in English or Swedish into Solr query language. In addition, as the results show, we can obtain relevant suggestions of instructions based on a partial sentence or by just using keywords - which was exacly what we wanted. This means that the application is sufficient for both novice and expert users\cite{mayer:2007}.
+This chapter presents results from the end application.
 
-\section{Comparison of the RGL and simple concatenation}\label{sec:comparison}
-We developed a concrete syntax for English by using RGL (EngRGL) and one for English by concatenating strings (EngConcat). EngRGL is without doubt the most complex and least intuitive if the reader has no prior knowledge of the RGL. Conversely, EngConcat is very instuitive and straight forward for any reader with basic knowledge in programming. The two syntaxes supports equally many abstract syntax trees, but as we have added more variations of linearizations to EngConcat, one can represent a few abstract syntax trees in more ways in EngConcat than in EngRGL. One example is \emph{people \textbf{that} know Java}. We have not found out how this can be express by using the RGL.
+\section{Translations}
+We begin by demonstrating how a few sentences are parsed into an abstract syntax which is linearized into all possible concrete syntaxes. The input is shown in the first box in each figure (with input language as a comment) and the result in second (larger) box. The result of a translation is JSON-data, given by the application.
 
-In addition, concatenation of strings make it possible to create all kind of different (and strange) linearizations with the variance function. For instance, we can add all tenses and make it possible to map sentences expressed in bad grammar into a correct suggestion. Therefore, users with little knowledge of writing in English have a higher probability of finding the correct sentence by using this approach.
-\newline
-\newline
-In \autoref{ch:application-overview}, we wanted the application to support the sentence \emph{people who know Java and work in London}, however, we did not manage to create this sentence by using the RGL. Instead we had to content ourselves with \emph{people who know Java and \textbf{who} work in London}. This problem could easily be solved by using concatenation of strings.
-\newline
-\newline
-Another problem we had with the RGL is the constant \texttt{which\_RP} which linearizes into \emph{which} if the subject is in singular form and \emph{who} if the subject is in plural form. The RGL does not take into accout that this rule is only valid if the subject refers to a group of humans, it applies the rule to any group of things.
+The first five figures shows the most simplest translations. They include all subjects and all types of names. Each one contains a subject, one verb and one name of a certain type.
 
-\section{Known issues}\label{sec:known-issues}
-\subsection{Multiple equal abstract syntax trees}
-The resulting application always presents distinct abstract syntax trees if there exists more than one in the results of a parsing. This is because the application processes the result and deletes any duplicate abstract syntax trees with its linearizations. GF actually produces 6 equal abstract syntax trees if translating from EngRGL or SweRGL. The PGF-implementation for Java produces 2 equal abstract syntax trees if translating from EngRGL or SweRGL. EngConcat however does not produce any duplicated abstract syntax trees.
+\begin{figure}[H]
+\begin{terminal}
+-- EnglishRGL
+people who know Java
+\end{terminal}
+\begin{json-small}
+[
+ {
+  'ast': 'InstrucInternal People (Know_R (MkSkill (MkSymb "Java")))',
+  'linearizations': [
+   {
+    'query': 'people who know Java',
+    'language': 'InstrucsEngConcat'
+   },
+   {
+    'query': 'people who know Java',
+    'language': 'InstrucsEngRGL'
+   },
+   {
+    'query': 'select?q=*:*&wt=json&fq= object_type : Person AND KNOWS : ( Java )',
+    'language': 'InstrucsSolr'
+   },
+   {
+    'query': 'personer som kan Java',
+    'language': 'InstrucsSweRGL'
+   }
+  ]
+ }
+]
+\end{json-small}
+\caption{Translation including \texttt{people} and a name of type \texttt{Skill}\label{fig:asts-depths}}
+\end{figure}
 
-\subsection{Incorrect English grammar}
-As described in \autoref{sec:comparison}, the concrete syntax based on the RGL does not properly linearize the plural form of the constant \texttt{which\_RP} when using a subject that does not refer to a group of humans.
+\begin{figure}[H]
+\begin{terminal}
+-- English RGL
+people who work in London
+\end{terminal}
+\begin{json-small}
+[
+ {
+  'ast': 'InstrucInternal People (WorkIn_R (MkLocation (MkSymb "London")))',
+  'linearizations': [
+   {
+    'query': 'people who work in London',
+    'language': 'InstrucsEngConcat'
+   },
+   {
+    'query': 'people who work in London',
+    'language': 'InstrucsEngRGL'
+   },
+   {
+    'query': 'select?q=*:*&wt=json&fq= object_type : Person AND WORKS_IN : ( London )',
+    'language': 'InstrucsSolr'
+   },
+   {
+    'query': 'personer som arbetar i London',
+    'language': 'InstrucsSweRGL'
+   }
+  ]
+ }
+]
+\end{json-small}
+\caption{Translation including \texttt{people} and a name of type \texttt{Location}\label{fig:asts-depths}}
+\end{figure}
 
-\subsection{Name suggestions}
-The suggestion engine splits the input on words. It checks if a word can be represented by a name. However, the application will not find names based on multiple words. If a name is \emph{Apache Solr} then at the current implementation we would replace \emph{Apache} with \emph{Apache Tomcat} and \emph{Solr} with \emph{Apache Solr} if both names existed in the index. The reason is because the application simply takes the first name it finds. A better solution would try to find longer names first in order to get more precise results.
+\begin{figure}[H]
+\begin{terminal}
+-- EnglishRGL
+people who work with Amnesty
+\end{terminal}
+\begin{json-small}
+[
+ {
+  'ast': 'InstrucInternal People (WorkWith_R (MkOrganization (MkSymb "Amnesty")))',
+  'linearizations': [
+   {
+    'query': 'people who work with Amnesty',
+    'language': 'InstrucsEngConcat'
+   },
+   {
+    'query': 'people who work with Amnesty',
+    'language': 'InstrucsEngRGL'
+   },
+   {
+    'query': 'select?q=*:*&wt=json&fq= object_type : Person AND WORKS_WITH : ( Amnesty )',
+    'language': 'InstrucsSolr'
+   },
+   {
+    'query': 'personer som arbetar med Amnesty',
+    'language': 'InstrucsSwe'
+   }
+  ]
+ }
+]
+\end{json-small}
+\caption{Translation including \texttt{people} and a name of type \texttt{Organization}\label{fig:asts-depths}}
+\end{figure}
 
-\subsection{PGF runtime and Tomcat \todo{Maybe not have this here?}}
-The Java class \texttt{org.grammaticalframework.pgf.PGF} can sometimes not be initialized properly. It is unknown why this occur, but it might depend on how Tomcat handles its native resources, as the PGF-class is a connector to the native libraries. The problem can be temporarly solved by redeploying the application.
+\begin{figure}[H]
+\begin{terminal}
+-- EnglishRGL
+customers who use Solr
+\end{terminal}
+\begin{json-small}
+[
+ {
+  'ast': 'InstrucExternal Customer (UseExt_R (MkModule (MkSymb "Solr")))',
+  'linearizations': [
+   {
+    'query': 'customers who use Solr',
+    'language': 'InstrucsEngConcat'
+   },
+   {
+    'query': 'customers who use Solr',
+    'language': 'InstrucsEngRGL'
+   },
+   {
+    'query': 'select?q=*:*&wt=json&fq= object_type : Organization AND USES : ( Solr )',
+    'language': 'InstrucsSolr'
+   },
+   {
+    'query': 'kunder som använder Solr',
+    'language': 'InstrucsSwe'
+   }
+  ]
+ }
+]
+\end{json-small}
+\caption{Translation including \texttt{customer} and a name of type \texttt{Module}\label{fig:asts-depths}}
+\end{figure}
 
-\subsection{Limited amount of suggestions}
-Suggestions are limited to depth 6 of an abstract syntax tree. This means maximum 6 edges from root to leaf in an abstract syntax tree. It is therefore not possible to get suggestions containing many names. The depth can however be increased in the program.
+\begin{figure}[H]
+\begin{terminal}
+-- EnglishRGL
+projects who use Solr
+\end{terminal}
+\begin{json-small}
+[
+ {
+  'ast': 'InstrucResource Project (UseRes_R (MkModule (MkSymb "Solr")))',
+  'linearizations': [
+   {
+    'query': 'projects who use Solr',
+    'language': 'InstrucsEngConcat'
+   },
+   {
+    'query': 'projects who use Solr',
+    'language': 'InstrucsEngRGL'
+   },
+   {
+    'query': 'select?q=*:*&wt=json&fq= object_type : Project AND USES : ( Solr )',
+    'language': 'InstrucsSolr'
+   },
+   {
+    'query': 'projekt som använder Solr',
+    'language': 'InstrucsSwe'
+   }
+  ]
+ }
+]
+\end{json-small}
+\caption{Translation including \texttt{project} and a name of type \texttt{Module}\label{fig:asts-depths}}
+\end{figure}
 
-\section{Future work}
-\subsection{Improvments of suggestions}
-The suggestions obtained from the appliction are relevant to the input words, but they can definitely be better. The suggestion engine do not give any suggestions when the textbox is empty, in other words, it does not give suggestions based on no words. For a user that has now clue of what to type, a suggestion of base sentences could help the user to get to know the system.
-\newline
-\newline
-If one starts to type a partial instruction that does not contain any name itself, but suggested instructions do contain names. The application will fetch some names automatically to fill the missing names. It would be good if there was some heuristic that could learn what the most relevant name of the specific type could be. The current function just takes the first name it finds.
-\newline
-\newline
-Another nice improvment of the suggestion engine is to automatically choose the first suggestion available if the input is not is a valid instruction. By doing so, one will always translate a correct sentence.
+\autoref{fig:translation-java-python} shows how the applications handles the boolean operator \emph{and}. The application handles the case for \emph{or} similarly.
 
-\subsection{Instructions in speech}
-Speech recognition software translate from speech to text. If one has access to such software, it is relatively easy to enable speech to instructions by using the application developed in this project. One simply uses the speech recognition software to translate speech to text, and then take the text and use as input to the program. The program will show the most relevant suggestions based on the input.
+\begin{figure}[H]
+\begin{terminal}
+-- EnglishRGL
+people who know Java and Python
+\end{terminal}
+\begin{json-small}
+[
+ {
+  'ast': 'InstrucInternal People (Know_R (And_S (MkSkill (MkSymb "Java")) 
+                                                      (MkSkill (MkSymb "Python"))))',
+  'linearizations': [
+   {
+    'query': 'people who know Java and Python',
+    'language': 'InstrucsEngConcat'
+   },
+   {
+    'query': 'people who know Java and Python',
+    'language': 'InstrucsEngRGL'
+   },
+   {
+    'query': 'select?q=*:*&wt=json&fq= object_type : Person AND 
+                                                KNOWS : ( ( Java ) AND ( Python ) )',
+    'language': 'InstrucsSolr'
+   },
+   {
+    'query': 'personer som kan Java och Python',
+    'language': 'InstrucsSwe'
+   }
+  ]
+ }
+]
+\end{json-small}
+\caption{Translation including \texttt{people} and two names of the type \texttt{Skill}\label{fig:translation-java-python}}
+\end{figure}
 
-\subsection{Proper handling of ambiguous instructions}
-If one translates an ambiguous instruction, the resulting application will show all resulting abstract syntax trees with their corresponding linearizations. A better program would ask the user to clarify the instruction or make choose one of the astract syntax trees as the one to use. Both alternatives are non trivial to implement, since the former need a better grammar in order to distinguish between ambiguous instructions and the latter need some heuristic to know which instruction to choose.
+\newpage
+
+\autoref{fig:translation-ambig} shows how the application handles an ambiguous instruction. Two abstract syntax trees are seen in the result, as there are two ways of interpreting the instruction. The different interpretations can be modelled as follows: \emph{people who know (Java and Python) or Haskell} or \emph{people who know Java and (Python or Haskell)}.
+
+\begin{figure}[H]
+\begin{terminal}
+-- EnglishRGL
+people who know Java and Python or Haskell
+\end{terminal}
+\begin{json-small}
+[
+ {
+  'ast': 'InstrucInternal People (Know_R (Or_S (And_S (MkSkill (MkSymb "Java")) 
+                       (MkSkill (MkSymb "Python"))) (MkSkill (MkSymb "Haskell"))))',
+  'linearizations': [
+   {
+    'query': 'people who know Java and Python or Haskell',
+    'language': 'InstrucsEngConcat'
+   },
+   {
+    'query': 'people who know Java and Python or Haskell',
+    'language': 'InstrucsEngRGL'
+   },
+   {
+    'query': 'select?q=*:*&wt=json&fq= object_type : Person AND 
+                      KNOWS : ( ( ( Java ) AND ( Python ) ) OR ( Haskell ) )',
+    'language': 'InstrucsSolr'
+   },
+   {
+    'query': 'personer som kan Java och Python eller Haskell',
+    'language': 'InstrucsSwe'
+   }
+  ]
+ },
+ {
+  'ast': 'InstrucInternal People (Know_R (And_S (MkSkill (MkSymb "Java")) 
+                      (Or_S (MkSkill (MkSymb "Python")) (MkSkill (MkSymb "Haskell")))))',
+  'linearizations': [
+   {
+    'query': 'people who know Java and Python or Haskell',
+    'language': 'InstrucsEngConcat'
+   },
+   {
+    'query': 'people who know Java and Python or Haskell',
+    'language': 'InstrucsEngRGL'
+   },
+   {
+    'query': 'select?q=*:*&wt=json&fq= object_type : Person AND 
+                      KNOWS : ( ( Java ) AND ( ( Python ) OR ( Haskell ) ) )',
+    'language': 'InstrucsSolr'
+   },
+   {
+    'query': 'personer som kan Java och Python eller Haskell',
+    'language': 'InstrucsSwe'
+   }
+  ]
+ }
+]
+\end{json-small}
+\caption{Translation of an ambiguous instruction involving \texttt{people} and three names of the type \texttt{Skill}\label{fig:translation-ambig}}
+\end{figure}
+
+\section{Suggestions}
+This section shows how the application reacts to input before the user has chosen to translate the instruction. Each figure shows an image of how the application suggest valid sentences from a partial instruction.
+
+\autoref{fig:suggestions-people} shows suggestions based on the first word in a valid sentence.
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/people.png}
+\caption{Suggestions based on the word \texttt{people} by using EnglishRGL or EnglishConcat\label{fig:suggestions-people}}
+\end{figure}
+
+\autoref{fig:suggestions-who-know} shows that it is possible to use a combination of words to retrieve suggestions. It also demonstrates that the words do not have to be the first words in an instruction.
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/who_know.png}
+\caption{Suggestions based on the words \texttt{who know} by using EnglishRGL or EnglishConcat\label{fig:suggestions-who-know}}
+\end{figure}
+
+The next four figures shows how it is possible to retreive suggestions based on only names.
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/java.png}
+\caption{Suggestions based on a name of type Skill by using EnglishRGL or EnglishConcat\label{fig:name-skill}}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/london.png}
+\caption{Suggestions based on a name of type Location by using EnglishRGL or EnglishConcat\label{fig:name-location}}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/amnesty.png}
+\caption{Suggestions based on a name of type Organization by using EnglishRGL or EnglishConcat\label{fig:name-organization}}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/solr.png}
+\caption{Suggestions based on a name of type Module by using EnglishRGL or EnglishConcat\label{fig:name-module}}
+\end{figure}
+
+\autoref{fig:java-python} shows suggestions based on two names of the same type.
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/java_python.png}
+\caption{Suggestions based on two names  of type Skill by using EnglishRGL or EnglishConcat\label{fig:java-python}}
+\end{figure}
+
+\autoref{fig:haskell-london} shows that names do not have to be of the same type to suggest relevant instructions.
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/haskell-london.png}
+\caption{Suggestions based on two names of different types by using EnglishRGL or EnglishConcat\label{fig:haskell-london}}
+\end{figure}
+
+\autoref{fig:persons} shows how we can use the word \texttt{persons} in order to get suggestions. The word \texttt{persons} does not exist in any suggestion, but as it is a synonym to \texttt{people}, the application suggest relevant instructions.
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/persons.png}
+\caption{Synonyms based on a synonym by using EnglishRGL or EnglishConcat\label{fig:persons}}
+\end{figure}
+
+Also \autoref{fig:that} shows how we can get suggestions based on a synonym. However, only EnglishConcat gives suggestions based on the word \emph{that}.
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/that.png}
+\caption{Synonyms based on a synonym by using EnglishConcat\label{fig:that}}
+\end{figure}
+
+\autoref{fig:misspelled-name} shows how the application shows relevant suggestion based on a misspelled word.
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/misspelled_name.png}
+\caption{Suggestions based on a misspelled word by using EnglishRGL or EnglishConcat\label{fig:misspelled-name}}
+\end{figure}
+
+\autoref{fig:projects-rgl} and \autoref{fig:projects-concat} show how the same word can obtain different suggestions by using the concrete languages EnglishRGL and EnglishConcat.
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/projects-rgl.png}
+\caption{Suggestions based on the string \emph{projects} by using EnglishRGL\label{fig:projects-rgl}}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/projects-concat.png}
+\caption{Suggestions based on the string \emph{projects} by using EnglishConcat\label{fig:projects-concat}}
+\end{figure}
+
+Lastly, \autoref{fig:swedish} demonstrates that the application also can translate give suggestions in Swedish. The application can translate valid Swedish sentences as long as the user has chosen Swedish as input language in the application. All instructions that can be translated from English can also be translated from Swedish.
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/swedish.png}
+\caption{Suggestions in Swedish by using SwedishRGL\label{fig:swedish}}
+\end{figure}

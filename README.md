@@ -1,5 +1,12 @@
 # Master thesis 2014
-## To do
+## Current to do
+* Elaborate more on results
+* Finish mail to Krasimir
+* Send draft to Krasimir
+* Upload application to makasd
+* add '$' to all shell examples
+
+## Old to do
 * Graph database! Mock data
 * Filter names by using valid already existing sub query. Hard to do with current data structure
 * Would be nice to support parentheses in QuestionsEng

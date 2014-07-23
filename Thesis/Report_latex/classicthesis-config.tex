@@ -441,3 +441,19 @@ frame hidden,boxrule=0pt,top=1mm,bottom=0.5mm]}%
 
 % Centering of graphics
 \usepackage[export]{adjustbox}% http://ctan.org/pkg/adjustbox
+
+%Hidden sections
+\newcommand{\hiddensubsection}[1]{
+    \stepcounter{subsection}
+    \subsection*{\arabic{chapter}.\arabic{section}.\arabic{subsection}\hspace{1em}{#1}}
+}
+
+\newcommand{\hiddensubsubsection}[1]{
+    \stepcounter{subsubsection}
+    \subsubsection*{\arabic{chapter}.\arabic{section}.\arabic{subsection}\hspace{1em}{#1}}
+}
+
+\newcommand{\hiddensubsubsubsection}[1]{
+    \stepcounter{subsubsubsection}
+    \subsubsubsection*{\arabic{chapter}.\arabic{section}.\arabic{subsection}\hspace{1em}{#1}}
+}
