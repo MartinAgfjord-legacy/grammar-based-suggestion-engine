@@ -37,7 +37,7 @@ public class DataImportNeo4j
 	
 	private void initDatabase(){
 		File file = new File("data");
-		boolean exists = file.list().length != 0;
+		boolean exists = file.list() != null;
 		graphDb = new GraphDatabaseFactory().newEmbeddedDatabase(file.getAbsolutePath());
 		registerShutdownHook(graphDb);
 		if(!exists){
