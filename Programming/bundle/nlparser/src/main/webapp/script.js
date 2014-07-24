@@ -170,7 +170,7 @@ function parse(query){
                         }
                         if(this.language == 'InstrucsSolr'){
                             solrQuery = this.query.replace(/ /g,'+');
-                            this.query = '<a href="' + 'http://localhost:8080/solr-instrucs/relations/' + solrQuery + '">' + this.query + '</a>';
+                            this.query = '<a href="' + '/solr-instrucs/relations/' + solrQuery + '">' + this.query + '</a>';
                             //if(!fetchedResult){
                               //  $("#ast" + i).css('font-weight','bold');
                                 //$("#ast" + i).append(' (this was executed)')
