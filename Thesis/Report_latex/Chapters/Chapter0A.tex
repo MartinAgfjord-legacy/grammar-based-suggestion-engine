@@ -17,9 +17,9 @@ sudo apt-get install haskell-platform
 Run \texttt{'cabal update'} in a shell to download the latest package list from \texttt{hackage.haskell.org}. GF can now be installed by executing:
 
 \begin{terminal}
-cabal install gf
+$ cabal install gf
 \end{terminal}
-
+%$
 The GF-binary can now be found in \texttt{\textasciitilde /.cabal/bin/gf}. Append this directory to the path variable:
 
 \begin{terminal}
@@ -43,58 +43,58 @@ In order to use the Java-runtime, we first need to generate a few libraries whic
 Start by fetching the needed dependencies
 
 \begin{terminal}
-sudo apt-get install gcc autoconf libtool
+$ sudo apt-get install gcc autoconf libtool
 \end{terminal}
-
+%$
 Download the latest source code of GF from GitHub.
 
 \begin{terminal}
-git clone https://github.com/GrammaticalFramework/GF.git
+$ git clone https://github.com/GrammaticalFramework/GF.git
 \end{terminal}
-
+%$
 It is also possible to download the project as an archive by visiting the repository url.
 
 You will receive a directory \texttt{GF/}. Change the current working directory to the C-runtime folder.
 
 \begin{terminal}
-cd GF/src/runtime/c
+$ cd GF/src/runtime/c/
 \end{terminal}
-
+%$
 Generate a configuration file
 
 \begin{terminal}
-autoreconf -i
+$ autoreconf -i
 \end{terminal}
-
+%$
 Check that all dependencies are met
 
 \begin{terminal}
-./configure
+$ ./configure
 \end{terminal}
-
+%$
 If there exists a dependency that is not fulfilled, try to install an appropriate package using your package-manager.
 
 Build the program
 
 \begin{terminal}
-make
+$ make
 \end{terminal}
-
+%$
 Install the libraries you just built
 
 \begin{terminal}
-sudo make install
+$ sudo make install
 \end{terminal}
-
+%$
 Make sure the installed libraries are installed into \texttt{/usr/local/lib}. It is crucial that they exists in that directory in order for the program to work.
 
 \hiddensubsection{Building and installing the C to Java wrapper library}
 Start by installing the needed dependency
 
 \begin{terminal}
-sudo apt-get install g++
+$ sudo apt-get install g++
 \end{terminal}
-
+%$
 The wrapper is built by using a script which is executed in Eclipse. This step assumes that you have Eclipse installed with the CDT-plugin. If you don't have Eclipse, you can download it with your package manager, just do not forget to install the CDT-plugin.
 
 Start Eclipse and choose \texttt{File} > \texttt{Import..} in the menu. Choose \texttt{Import Existing Projects into Workspace} and click on the \texttt{Next} button. Select \texttt{Browse...} and navigate to the location where you downloaded GF from GitHub and press enter. Uncheck everything except \texttt{jpgf} and click on \texttt{Finish}. You have now imported the project which can build the Java-runtime system. 
@@ -118,19 +118,20 @@ The project also needs another flag in order to build properly. In the \texttt{P
 You can now build the project by choosing \texttt{Project} > \texttt{Build Project} in the menu. If everything went well you shall have generated a file \texttt{libjpgf.so} in \texttt{Release (posix)/} . You can check that the dependencies of \texttt{libjpgf.so} is fulfilled (i.e. it finds the C-runtime) by executing the following in a terminal
 
 \begin{terminal}
-ldd libjpgf.so
+$ ldd libjpgf.so
 \end{terminal}
-
+%$
 If you cannot see \texttt{'not found'} anywhere in the results, all dependencies are met. However if the C-runtime libraries are missing then \texttt{LD\_LIBRARY\_PATH} is probably not set. This is achieved by executing the following in the terminal:
 
 \begin{terminal}
-export LD_LIBRARY_PATH=/usr/local/lib
+$ export LD_LIBRARY_PATH=/usr/local/lib
 \end{terminal}
-
+%$
 This is only a one time setting and the variable will not exist for the next terminal session. This is however not a problem, since the libraries will be used by Apache Tomcat which will set the variable at startup.
 
 Finish the tutorial by moving the wrapper library to the correct location.
 
 \begin{terminal}
-mv libjpgf.so /usr/local/lib
+$ mv libjpgf.so /usr/local/lib
 \end{terminal}
+%$
