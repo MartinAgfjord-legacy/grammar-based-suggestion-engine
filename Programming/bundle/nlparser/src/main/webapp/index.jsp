@@ -50,10 +50,10 @@
 <pre id="search_result"></pre>
 <a href="grammar/Instrucs.gf.txt">Instrucs.gf</a>
 <a href="grammar/InstrucsI.gf.txt">InstrucsI.gf</a>
-<a href="grammar/InstrucsEng.gf.txt">InstrucsEng.gf</a>
-<a href="grammar/InstrucsEng.gf.txt">InstrucsSwe.gf</a>
+<a href="grammar/InstrucsEngRGL.gf.txt">InstrucsEngRGL.gf</a>
+<a href="grammar/InstrucsEngConcat.gf.txt">InstrucsConcat.gf</a>
+<a href="grammar/InstrucsSweRGL.gf.txt">InstrucsSweRGL.gf</a>
 <a href="grammar/InstrucsSolr.gf.txt">InstrucsSolr.gf</a>
-<a href="grammar/InstrucsAmbig.gf.txt">InstrucsAmbig.gf</a>
 <a href="grammar/LexInstrucs.gf.txt">LexInstrucs.gf</a>
 <a href="grammar/LexInstrucsEng.gf.txt">LexInstrucsEng.gf</a>
 <a href="grammar/LexInstrucsSwe.gf.txt">LexInstrucsSwe.gf</a>
