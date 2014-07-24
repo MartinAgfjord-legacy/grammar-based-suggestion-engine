@@ -7,6 +7,10 @@ This chapter presents results from the end application.
 We begin by demonstrating how a few sentences are parsed into an abstract syntax which is linearized into all possible concrete syntaxes. The input is shown in the first box in each figure (with input language as a comment) and the result in second (larger) box. The result of a translation is JSON-data, given by the application.
 
 The first five figures shows the most simplest translations. They include all subjects and all types of names. Each one contains a subject, one verb and one name of a certain type.
+\newline
+\newline
+
+\autoref{fig:result1} shows that the word \texttt{Java} is of the type \texttt{Skill}.
 
 \begin{figure}[H]
 \begin{terminal}
@@ -38,8 +42,10 @@ people who know Java
  }
 ]
 \end{json-small}
-\caption{Translation including \texttt{people} and a name of type \texttt{Skill}\label{fig:asts-depths}}
+\caption{Translation including \texttt{people} and a name of type \texttt{Skill}\label{fig:result1}}
 \end{figure}
+
+\autoref{fig:result2} shows that the word \texttt{London} is of the type \texttt{Location}.
 
 \begin{figure}[H]
 \begin{terminal}
@@ -71,8 +77,10 @@ people who work in London
  }
 ]
 \end{json-small}
-\caption{Translation including \texttt{people} and a name of type \texttt{Location}\label{fig:asts-depths}}
+\caption{Translation including \texttt{people} and a name of type \texttt{Location}\label{fig:result2}}
 \end{figure}
+
+\autoref{fig:result3} shows that the word \texttt{Amnesty} is of the type \texttt{Organization}.
 
 \begin{figure}[H]
 \begin{terminal}
@@ -104,8 +112,10 @@ people who work with Amnesty
  }
 ]
 \end{json-small}
-\caption{Translation including \texttt{people} and a name of type \texttt{Organization}\label{fig:asts-depths}}
+\caption{Translation including \texttt{people} and a name of type \texttt{Organization}\label{fig:result3}}
 \end{figure}
+
+\autoref{fig:result4} shows that the word \texttt{Solr} is of the type \texttt{Module}.
 
 \begin{figure}[H]
 \begin{terminal}
@@ -137,8 +147,10 @@ customers who use Solr
  }
 ]
 \end{json-small}
-\caption{Translation including \texttt{customer} and a name of type \texttt{Module}\label{fig:asts-depths}}
+\caption{Translation including \texttt{customer} and a name of type \texttt{Module}\label{fig:result4}}
 \end{figure}
+
+Similarly, also \autoref{fig:result5} shows that the word \texttt{Solr} is of the type \texttt{Module}.
 
 \begin{figure}[H]
 \begin{terminal}
@@ -209,8 +221,6 @@ people who know Java and Python
 \end{json-small}
 \caption{Translation including \texttt{people} and two names of the type \texttt{Skill}\label{fig:translation-java-python}}
 \end{figure}
-
-\newpage
 
 \autoref{fig:translation-ambig} shows how the application handles an ambiguous instruction. Two abstract syntax trees are seen in the result, as there are two ways of interpreting the instruction. The different interpretations can be modelled as follows: \emph{people who know (Java and Python) or Haskell} or \emph{people who know Java and (Python or Haskell)}.
 

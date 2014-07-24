@@ -19,12 +19,12 @@ people who work with Unicef    q= object_type : Person AND WORKS_WITH : Unicef
 customers who use Solr         q= object_type : Customer AND USES : Solr
 projects who use Solr          q= object_type : Project AND USES : Solr
 \end{terminal}
-\caption{All sentences supported by the application\label{fig:suppported-sentences}}
+\caption{All sentences supported by the application}\label{fig:suppported-sentences}
 \end{figure}
 
 Two more cases has been added to instructions regarding \emph{people}. In addition, two new type of instructions has been added, translations about \emph{customers} and \emph{projects}. Note that \autoref{fig:suppported-sentences} only shows specific instances of instructions. These instances are based on data in the mock-database, where we assume that the words \emph{Java}, \emph{London}, \emph{Unicef} and \emph{Solr} exists in the database. It should be possible to express every word available in the database in an instruction. For example if \emph{Paris} is a city in the database we can create the instruction \emph{people who work in Paris}.
 
-\hiddensubsection{Suggestions}\label{sec:suggestions}
+\hiddensubsection{Suggestions\label{sec:foobar}}
 If a user has no idea of which instructions the application can translate, how can she use the application? This thesis uses a narrow application grammar, which means that it only covers specified sentences. Therefore, if a sentence has one character in the wrong place, GF will not be able to
 translate anything. This problem can be solved by using a wide coverage grammar, an example of an application that adopts this technique is the GF android app \cite[p. 41]{angelov2014speech}. This project, however, does not.
 
@@ -362,7 +362,7 @@ lin
 \end{figure}
 
 \section{Suggestion engine}
-This section continues where \autoref{sec:suggestions} left off. The suggestion engine shall generate all possible instructions in all natural languages and store them in an Apache Solr index. It is suitable to use the \emph{generator} which GF creates to generate abstract syntax trees and linearize them into the specified concrete languages (English and Swedish in this case).
+The suggestion engine shall generate all possible instructions in all natural languages and store them in an Apache Solr index. It is suitable to use the \emph{generator} which GF creates to generate abstract syntax trees and linearize them into the specified concrete languages (English and Swedish in this case).
 
 The generator can be accessed through the GF-shell.  \autoref{fig:gf-shell-generate-trees} shows how the function \texttt{generate\_trees} is executed to generate all trees with the \emph{depth} 4. By depth, we mean the maximum number edges between a leaf and the root element.
 

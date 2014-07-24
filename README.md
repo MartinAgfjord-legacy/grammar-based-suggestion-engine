@@ -5,6 +5,9 @@
 * Send draft to Krasimir
 * Upload application to makasd
 * add '$' to all shell examples
+* (Unsure) Write about how we use absolute value when searching with Solr
+* Maybe add actual Solr results in the Result chapter (ask Krasimir)
+* Maybe write about how the actual parsing and linearization works with GF (in related work section)
 
 ## Old to do
 * Graph database! Mock data
