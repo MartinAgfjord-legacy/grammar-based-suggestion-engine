@@ -72,7 +72,7 @@ public class Grammar {
 				}
 				nameCounts.put(nameCat, count);
 			}
-			question.setAst(it.next());
+//			question.setAst(it.next());
 			question.setNameCounts(nameCounts);
 			question.setLang(lang);
 			Instrucs.add(question);
@@ -187,7 +187,7 @@ public class Grammar {
 	 */
 	public Set<String> sendGfShellCommands(List<String> commands) throws IOException{
 		// Run 'gf --run' in the correct directory
-		ProcessBuilder pb = new ProcessBuilder("gf", "--run");
+		ProcessBuilder pb = new ProcessBuilder("gf", "-literal=Symb", "--run");
 		Map<String, String> env = pb.environment();
 		pb.directory(new File(prop.get("grammar_dir").toString()));
 		Process p = pb.start();

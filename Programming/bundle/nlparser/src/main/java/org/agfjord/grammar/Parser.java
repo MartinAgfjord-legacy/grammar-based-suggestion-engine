@@ -72,8 +72,9 @@ public class Parser {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		gr.getLanguages().get("InstrucsEng").addLiteral("Symb", new NercLiteralCallback());
-		gr.getLanguages().get("InstrucsSwe").addLiteral("Symb", new NercLiteralCallback());
+		gr.getLanguages().get("InstrucsEngRGL").addLiteral("Symb", new NercLiteralCallback());
+		gr.getLanguages().get("InstrucsEngConcat").addLiteral("Symb", new NercLiteralCallback());
+		gr.getLanguages().get("InstrucsSweRGL").addLiteral("Symb", new NercLiteralCallback());
 	}
 
 	public String closestQuestion(String nlQuestion){
@@ -125,6 +126,7 @@ public class Parser {
 	
 	Comparator<Query> comparator = new Comparator<Query>(){
         public int compare(Query a, Query b){
+//        	return 1;
             return a.getLanguage().compareTo(b.getLanguage());
         }
     };

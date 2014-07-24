@@ -40,10 +40,10 @@ public class Main {
 		Main main = new Main();
 		// Generate random objects and then create persons who uses these values
 		main.importDocumentsNeo4j();
-		// Add all names that have a relation to solr
+//		// Add all names that have a relation to solr
 		main.importNamesSolr();
-		// Generate instructions (suggestions) by using
-		// the GF-shell and add them to solr
+//		// Generate instructions (suggestions) by using
+//		// the GF-shell and add them to solr
 		main.importInstrucsSolr();
 		
 		main.dataImport.shutdown();
@@ -78,21 +78,29 @@ public class Main {
 		System.out.println("Successfully generated abstract syntax trees");
 		solr.deleteAllInstrucs();
 		{
-		List<Set<String>> linearizations = grammar.generateLinearizations(asts, "InstrucsEng.gf", "InstrucsEng");
+		List<Set<String>> linearizations = grammar.generateLinearizations(asts, "InstrucsEngRGL.gf", "InstrucsEngRGL");
 		System.out.println("Successfully generated English linearizations");
-		List<Instruction> Instrucs = grammar.createInstrucs(asts, linearizations, "InstrucsEng");
+		List<Instruction> Instrucs = grammar.createInstrucs(asts, linearizations, "InstrucsEngRGL");
 		System.out.println("Successfully instantiated English linearizations");
 		solr.addInstrucsToSolr(Instrucs);
 		System.out.println("Successfully added English linearizations to solr");
 		
 		}
 		{
-		List<Set<String>> linearizations = grammar.generateLinearizations(asts, "InstrucsSwe.gf", "InstrucsSwe");
+		List<Set<String>> linearizations = grammar.generateLinearizations(asts, "InstrucsSweRGL.gf", "InstrucsSweRGL");
 		System.out.println("Successfully generated Swedish linearizations");
-		List<Instruction> Instrucs = grammar.createInstrucs(asts, linearizations, "InstrucsSwe");
+		List<Instruction> Instrucs = grammar.createInstrucs(asts, linearizations, "InstrucsSweRGL");
 		System.out.println("Successfully instantiated Swedish linearizations");
 		solr.addInstrucsToSolr(Instrucs);
 		System.out.println("Successfully added Swedish linearizations to solr");
+		}
+		{
+		List<Set<String>> linearizations = grammar.generateLinearizations(asts, "InstrucsEngConcat.gf", "InstrucsEngConcat");
+		System.out.println("Successfully generated Concat English linearizations");
+		List<Instruction> Instrucs = grammar.createInstrucs(asts, linearizations, "InstrucsEngConcat");
+		System.out.println("Successfully instantiated Concat English linearizations");
+		solr.addInstrucsToSolr(Instrucs);
+		System.out.println("Successfully added Concat English linearizations to solr");
 		}
 	}
 }

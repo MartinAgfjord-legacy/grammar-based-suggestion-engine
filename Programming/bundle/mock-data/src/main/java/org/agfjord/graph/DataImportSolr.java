@@ -31,7 +31,7 @@ public class DataImportSolr {
 			namesServer.add(createNameDocument(type, (String) node.get("name"), Long.toString((long)node.get("count")), id++));		
 		}
 		namesServer.commit();
-		System.out.println("Imported " + type + " to Solr");
+//		System.out.println("Imported " + type + " to Solr");
 	}
 	
 	void importRelationsFromNeo4j() throws SolrServerException, IOException{

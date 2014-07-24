@@ -15,8 +15,9 @@
 <h2>Natural language parser</h2>
 <input id="input" type="text" class="input-large" placeholder="Type your question.."></input>
 <select id="language">
-  <option value="InstrucsEng">English</option>
-  <option value="InstrucsSwe">Swedish</option>
+  <option value="InstrucsEngRGL">English (RGL)</option>
+  <option value="InstrucsEngConcat">English (concat)</option>
+  <option value="InstrucsSweRGL">Swedish (RGL)</option>
 </select>
 <!--
 <div class="btn-group group">
