@@ -1,0 +1,287 @@
+\documentclass{beamer}
+
+\usepackage{color}
+\definecolor{ForestGreen}{RGB}{60, 128, 49}
+\definecolor{Blue}{RGB}{45, 47, 146}
+
+\usetheme[menuwidth={0.3\paperwidth}]{erlangen}
+\setbeamercovered{transparent=20}
+
+\begin{document}
+
+\title[Interpretation of natural language instructions]{Interpretation of natural language instructions} 
+\subtitle{Translating sentences by using a grammar}
+\author{Martin Agfjord} 
+\date{\today} 
+\institute{University of Gothenburg\\ 
+  \vspace{-0.2em}{\small Computer Science  and Engineering} }
+
+\begin{frame}[plain]
+    \thispagestyle{empty}
+
+  \begin{picture}(0,0)(0,0)
+    \put(-29,-171){\includegraphics[width=1.01\paperwidth]{images/titlepage2.pdf}}
+  \end{picture}
+
+  \begin{picture}(0,0)(0,0)
+    \put(10,0){
+        \begin{minipage}{0.9\linewidth}
+        \centering{\LARGE\color{erlangenwhite} \inserttitle\par}
+        \vspace{5mm}
+        \centering{\large\color{erlangenlightgrey} \insertsubtitle\par}
+        \end{minipage}
+    }
+  \end{picture}
+  \begin{picture}(0,0)(0,0)
+    \put(10,-65){
+        \begin{minipage}{0.90\linewidth}
+        \centering{\large\color{erlangenwhite} \insertauthor\par}
+        \end{minipage}
+    }
+  \end{picture}
+  \begin{picture}(0,0)(0,0)
+    \put(10,-127){
+        \begin{minipage}{0.90\linewidth}
+        \centering{\color{erlangenblue} \insertinstitute\par}
+        \end{minipage}
+    }
+  \end{picture}
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+\end{frame}
+
+\section{Introduction \& problem description}
+\begin{frame}{Introduction \& problem description} 
+    \begin{itemize}
+    \item An alternative user interface \pause
+    \item Translation \pause % from natural language to query language
+    \item Delimitation 
+      \begin{itemize}
+        \item Intranet of a software development company
+        \item Customers, People and Projects exists
+	    \item Limited amount of instructions
+      \end{itemize}
+  \end{itemize} 
+\end{frame}
+
+\begin{frame}{Interface definition} 
+\begin{block}{Sufficient for novice users}
+      \texttt{people who know Java}
+\end{block}
+\pause
+\begin{block}{Sufficient for expert users}
+      \texttt{people know java}
+\end{block}
+\end{frame}
+
+\section{Solution} 
+\begin{frame}{Solution} 
+  \begin{itemize}
+    \item Precise translation \pause
+    \item Need mapping from natural language to query language \pause
+      \begin{itemize}
+        \item Use a grammar
+      \end{itemize}
+  \end{itemize}
+  
+\end{frame}
+
+\begin{frame}{Translate by using a grammar} 
+         \begin{itemize}
+           \item Structured rules for strings \pause
+           \item Use logic to combine strings in one language \pause
+           \item Use the same logic to combine strings in another language \pause
+           \item Grammars have a long history within programming languages\pause
+         \end{itemize}
+           \begin{block}{How can we build a grammar to translate sentences?}
+              We will use Grammatical Framework (GF)
+         \end{block}
+\end{frame}
+
+\begin{frame}{Introducing Grammatical Framework (GF)} 
+         \begin{itemize}
+           \item Development platform for natural languages \pause
+           \begin{itemize}
+              \item Open source functional programming language \pause
+              \item Designed for creating natural language grammars
+               %specifically designed for writing grammars.
+           \end{itemize}\pause
+           \item Separates abstract and concrete syntax \pause
+           \begin{itemize}
+              \item Abstract syntax captures the \emph{logic} of a sentence \pause
+              % It is a tree!
+              \item Concrete syntax represents the logic as a string
+           \end{itemize}\pause
+         \end{itemize}
+         
+           \begin{block}{Same technique used by programming languages}
+             \begin{itemize}
+               \item Programmer writes source code in concrete syntax \pause
+               \item Compiler translates concrete syntax to abstract syntax \pause
+               \item The rest of the compiler manipulates the abstract syntax
+             \end{itemize}
+         \end{block}
+         
+\end{frame}
+
+\begin{frame}[fragile]{A simple example}
+\textbf{Abstract syntax}
+\begin{semiverbatim}
+    Instruction
+   /           \\
+People        Know
+                |
+              Java
+\end{semiverbatim}\pause
+
+\textbf{Concrete syntaxes}
+\begin{semiverbatim}
+people who know Java                           -- English
+personer som kan Java                          -- Swedish
+q=object_type : Person AND expertise : Java    -- Solr
+\end{semiverbatim}
+\end{frame}
+
+\begin{frame}[fragile]{GF implementation: Abstract syntax}
+\begin{semiverbatim}
+abstract Instrucs = \{  
+  cat \textcolor{ForestGreen}{
+    Instruction 
+    Subject ;
+    Relation ;
+    Object ; }
+  fun \textcolor{Blue}{
+    MkInstruction : Subject -> Relation -> Instruction ;
+    People : Subject ;
+    Know : Object -> Relation ; }
+\}
+\end{semiverbatim}
+\end{frame}
+
+\begin{frame}[fragile]{GF implementation: English concrete syntax}
+\begin{semiverbatim}
+concrete InstrucsEng of Instrucs = \{
+  lincat \textcolor{ForestGreen}{
+    Instruction = Str ;
+    Subject = Str ;
+    Relation = Str ;
+    Object = Str ; }
+  lin \textcolor{Blue}{
+    MkInstruction subject relation = 
+                   subject ++ "who" ++ relation ;
+    People = "people" ;
+    Know object = "know" ++ object ;
+    Java = "Java" ; }
+\}
+\end{semiverbatim}
+\end{frame}
+
+\begin{frame}[fragile]{GF implementation: Solr concrete syntax}
+\begin{semiverbatim}
+concrete InstrucsEng of Instrucs = \{
+  lincat \textcolor{ForestGreen}{
+    Instruction = Str ;
+    Subject = Str ;
+    Relation = Str ;
+    Object = Str ; }
+  lin \textcolor{Blue}{
+    MkInstruction subject relation = 
+                   "q=" ++ subject ++ "AND" ++ relation ;
+    People = "object_type : Person" ;
+    Know object = object = "expertise : " ++ object ;
+    Java = "Java" ; }
+\}
+\end{semiverbatim}
+\end{frame}
+
+\begin{frame}[fragile]{GF implementation: Translation}
+GF + Abstract syntax + Concrete syntax = \pause
+\begin{itemize}
+\item Parser\pause
+\item Linearizer\pause
+\item Generator
+\end{itemize}
+\begin{semiverbatim}
+
+\end{semiverbatim}
+\end{frame}
+
+\section{Results} 
+\begin{frame}{Results} 
+foobar
+\end{frame}
+
+\section{Conclusion} 
+\begin{frame}{Title} 
+  This is an example.
+\end{frame}
+
+
+
+\subsection{Enumerate}
+\begin{frame}{Enumerate}
+\begin{columns}
+  \begin{column}{0.49\paperwidth}
+      \begin{enumerate}
+        \item Lorem ;
+        \item<2-> Ipsum ;
+        \item<2-> Dolor ;
+        \item<2-> Sit amet.
+      \end{enumerate}
+  \end{column}
+
+  \begin{column}{0.49\paperwidth}
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur 
+    ultricies, dui ac luctus pellentesque, nunc dui lobortis lorem, nec 
+    porta mauris massa vel ante. Maecenas justo nisl, sodales quis 
+    placerat nec, convallis mollis magna. Curabitur blandit elementum 
+    elit et euismod. In et purus nisl, ac elementum orci.
+  \end{column}
+\end{columns}
+
+\end{frame}
+
+\section{Blocs}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{}
+    \sectionframe{Blocks \\ \textit{Lorem ipsum dolor sit amet}}
+\end{frame}
+
+\begin{frame}{Block}
+  \begin{block}{Aliquam quis eros}
+
+    Aliquam quis eros nec risus mattis porttitor ac eget justo. 
+    Aliquam lacinia condimentum tempus. Nulla metus magna, feugiat 
+    id faucibus ut, commodo et justo. Aliquam tincidunt purus vitae 
+    lacus dictum in placerat purus mollis. 
+
+  \end{block}
+\end{frame}
+
+\begin{frame}{Example block}
+  \begin{exampleblock}{Nulla cursus vehicula cursus}
+
+
+    Nulla cursus vehicula cursus. Suspendisse ac enim eget purus 
+    tincidunt eleifend et et purus. Suspendisse ultricies viverra 
+    sodales. Proin non congue risus. Maecenas vel ornare sem. Ut 
+    laoreet nibh tempor felis suscipit dignissim. Aliquam urna 
+    eros, sagittis interdum ultrices sed, venenatis eu nisl.
+
+  \end{exampleblock}
+\end{frame}
+
+\begin{frame}{Alert block}
+  \begin{alertblock}{Quisque vehicula pretium arcu}
+
+    Quisque vehicula pretium arcu, eget bibendum arcu iaculis sit amet. 
+    Proin facilisis sollicitudin magna, et varius lorem euismod ornare. 
+    Fusce lobortis dignissim tempor. Mauris augue tortor, elementum non 
+    lobortis vel, interdum vitae augue.
+
+  \end{alertblock}
+\end{frame}
+
+\end{document}
