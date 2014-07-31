@@ -1,0 +1,21 @@
+\frametitle {Suggestion Engine: Pseudocode of algorithm}\begin {semiverbatim}\small
+suggestions(sentence) \{
+    \textcolor{Comment}{// sentence = "anyone that ever knew java"
+    // names[] = \{Java\}}
+    names[] = extractNames(sentence);\pause
+    \vspace{-2mm} \textcolor{Comment}{
+    // "anyone that ever knew java" ===>
+    // "anyone that ever knew Skill0"}
+    sentence = replaceNamesWithTypes(sentence, names); \pause
+    \vspace{-2mm}\textcolor{Comment}{
+    // suggestions = \{ "people who know Skill0", ... \} }
+    suggestions[] = findSentences(sentence);\pause
+    \vspace{-2mm}
+    for each suggestion in suggestions \{ \textcolor{Comment}{
+    // "people who know Skill0" ===>
+    // "people who know Java"}
+      suggestion = restoreNames(names, suggestion);
+    \}
+    return suggestions;
+\}
+\end{semiverbatim}
