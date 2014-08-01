@@ -127,18 +127,18 @@ GF + Abstract syntax + Concrete syntax = \pause
 \textbf{Parser}
 \begin{semiverbatim}
 > parse -lang=InstrucsEng \textcolor{String}{"people who know Java"}
-MkInstrucs People (Know Java)
+MkInstruction People (Know Java)
 \end{semiverbatim} \pause
 \textbf{Linearizer}
 \begin{semiverbatim}
 > linearize -lang=InstrucsSolr 
->                  MkInstrucs People (Know Java)
+>                  MkInstruction People (Know Java)
 \textcolor{String}{"q= object_type : Person AND expertise : Java"}
 \end{semiverbatim} \pause
 \textbf{Generator}
 \begin{semiverbatim}
 > generate_trees
-MkInstrucs People (Know Java)
+MkInstruction People (Know Java)
 \end{semiverbatim}
 \end{frame}
 %###################################
@@ -148,13 +148,18 @@ MkInstrucs People (Know Java)
 \begin{itemize}
 \item Contains linguistic descriptions for natural languages\pause
   \begin{itemize}
-    \item Types for nouns, verbs, ajectives, noun phrases, verb phrases, relative sentences, phrases...\pause
+    \item Types for nouns, verbs, adjectives, noun phrases, verb phrases, relative sentences, phrases...\pause
   \end{itemize}
   \item Developer does not need to know linguistics\pause
-  \item Only need to know her \emph{domain}
+  \begin{itemize}
+      \item Example: 'Yesterday I ate an apple' \pause
+      \item Direct translation to Swedish: 'Ig{\aa}r \textcolor{ForestGreen}{jag} \textcolor{String}{{\aa}t} ett {\"a}pple' \pause
+      \item Correct translation to Swedish: 'Ig{\aa}r \textcolor{String}{{\aa}t} \textcolor{ForestGreen}{jag} ett {\"a}pple' \pause
+      \end{itemize}
+  \item Only need to know the \emph{domain}
 \end{itemize}
 \end{frame}
-\begin{frame}[fragile]{Resource Grammar Library: English concrete syntax}
+\begin{frame}[fragile]{Resource Grammar Library: English concrete syntax} \pause
 \begin{semiverbatim}
 concrete InstrucsEng of Instrucs = {
   lincat\textcolor{ForestGreen}{
@@ -163,11 +168,11 @@ concrete InstrucsEng of Instrucs = {
     Relation = \textcolor{Type}{RS} ;
     Object = \textcolor{Type}{NP} ;}\pause
 
-  lin\textcolor{Blue}{
+  lin \textcolor{Blue}{
    MkInstruction subject relation = 
                     mkNP aPl_Det (mkCN subject relation) ;
    People = mkN \textcolor{String}{"person" "people"} ;
-   Know object = mkRS' (mkVP (mkV2 (mkV \textcolor{String}{"know"}) object)) ;
+   Know object = mkRS' (mkVP (mkV2 (mkV \textcolor{String}{"know"})) object) ;
    Java = mkNP (mkPN \textcolor{String}{"Java"}) ; }
   oper
      mkRS' : \textcolor{Type}{VP} -> \textcolor{Type}{RS} = \\vp -> mkRS (mkRCl which_RP vp) ;
@@ -222,7 +227,7 @@ lin
 fun
   \textcolor{Blue}{MkObject : Symb -> Object ; }
 lin
-  \textcolor{Blue}{MkObject s = s.s ; }
+  \textcolor{Blue}{MkObject symb = symb.s ; }
 \end{semiverbatim}
 \end{frame}
 %###################################
@@ -278,11 +283,11 @@ fun \textcolor{Blue}{
 %                  EXTENDING THE GRAMMAR:
 %                  BOOLEAN OPERATORS
 %###################################
-\begin{frame}[fragile]{Extending the grammar: Boolean operators}
+\begin{frame}[fragile]{Extending the grammar: Boolean operators}\pause
 \begin{itemize}
   \item Extend grammar to support boolean operators
-  \item \texttt{people who know Java and Python}
-  \item \texttt{people who know Java or work in London}  
+  \item \texttt{people who know Java and Python} \pause
+  \item \texttt{people who know Java or work in London} \pause
 \end{itemize}
 \begin{semiverbatim}
 fun \textcolor{Blue}{
@@ -292,8 +297,8 @@ fun \textcolor{Blue}{
 
 \begin{semiverbatim}
 lin\textcolor{Blue}{
-  And s1 s2 = s1 ++ \textcolor{String}{"and"} ++ s2 ;
-  Or s1 s2 = s1 ++ \textcolor{String}{"or"} ++ s2 ;}
+  And o1 o2 = o1 ++ \textcolor{String}{"and"} ++ o2 ;
+  Or o1 o2 = o1 ++ \textcolor{String}{"or"} ++ o2 ;}
 \end{semiverbatim}
 \end{frame}
 %###################################
@@ -379,7 +384,7 @@ InstrucResource Project (UseRes (\textcolor{Type}{MkModule} (MkSymb \textcolor{S
 
 \end{frame}
 
-\begin{frame}[fragile]{Suggestion Engine: Pseudocode of algorithm}
+\begin{frame}[fragile]{Suggestion Engine: Pseudocode of algorithm}\pause
 \begin{semiverbatim}\small
 suggestions(sentence) \{
     \textcolor{Comment}{// sentence = "anyone that ever knew java"

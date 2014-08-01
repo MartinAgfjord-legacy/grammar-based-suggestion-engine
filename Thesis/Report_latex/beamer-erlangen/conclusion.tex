@@ -5,6 +5,9 @@
 \item Resource Grammar Library not worth the effort\pause
   \begin{itemize}
     \item Not possible to express a few sentences\pause
+    \item For example: \texttt{people \textcolor{String}{that} know Java}\pause
+    \item \texttt{people \textcolor{String}{who} know Java and work in London} \pause
+    \item Compare: \texttt{\footnotesize people \textcolor{String}{who} know Java and \textcolor{String}{who} work in London} \pause
     % For example
     % people that know java
     % people who know java and work in Gothenburg
@@ -17,8 +20,13 @@
 \begin{frame}{Future Work}\pause
 \begin{itemize}
 \item Improvments of suggestions \pause
+\begin{itemize}
+  \item No suggestions based on empty string \pause
+  \item Add heuristic to auto completion \pause
+  \item If invalid instruction, choose most similar suggestion \pause
+\end{itemize}
 \item Instructions in speech \pause
-\item Proper handling of ambiguous instructions
+\item Proper handling of ambiguous instructions \pause
 \item Use application in other context
 \end{itemize}
 \end{frame}
