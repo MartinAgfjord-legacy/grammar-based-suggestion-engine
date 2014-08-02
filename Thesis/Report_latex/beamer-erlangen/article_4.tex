@@ -101,16 +101,24 @@ When translating, we want to map a natural language to Solr query language, how 
 We use a grammar to solve this problem.
 
 \subsection{Translation with a grammar}
-So what is a grammar? In loose terms it is structured production rules for strings.
+So what is a grammar? A grammar is a set of structured rules for strings. And the rules defines whats valid to express in the language.
+
+But what is a rule? When learning a foreign language, one usually study grammar rules. One example of a rule is the Is/Are rule in English.
 \newline
 \newline
-The production rules describe how to form strings, in our case combinations of \emph{words} that are valid in a formal language.
+ It describes that if refeering to a group of objects, one shall use \texttt{are}. If one refeers to a single object, one shall use is. It is therefore valid in english to say \texttt{The students are here}, it is however not valid to say \texttt{The students is here}.
 \newline
 \newline
-If we know which rules that are used to create a a specific sentence in one language, we can use the same rules to create a sentence in another language that represents the same information.
+However, in Swedish we use the word \texttt{är} in both occations. So how can we translate this sentence into english and still have a valid result?
 \newline
 \newline
-It is not trivial to develop a grammar, so we make use of Grammatical Framework when building grammars.
+We use the rules to analyze the string and obtain the logic behind it. We represent the result in a general way. In this example we see that the grammar used the rules to obtain that the word studenterna is in definite and plural form.
+\newline
+\newline
+And we use the logic we obtained to produce a sentence in another language.
+\newline
+\newline
+So how can we build a grammar to translate sentences? We will use Grammatical framework.
 
 \subsection{Introducing Grammatical Framework (GF)}
 GF is a development platform for natural languages.
