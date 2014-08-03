@@ -5,7 +5,7 @@
 \section{Requirements specification}
 
 \hiddensubsection{Generation of mock data}
-As described in \autoref{sec:problem-description}, we want to develop an application which can translate natural language questions that refers to entities in a database or index owned by a software development company. This project has been made with strong collaboration with Findwise, a company with focus on search driven solutions. Findwise has an index with information about employees, projects and customers, however, it is not possible to use their information because it is confidential and cannot be published in a master thesis. A different approach to get hold of relevant data is to generate mock data that is inspired by Findwise's data model. Mock data in this project is simply generated data from files that can be used to simulate a real world example application.
+As described in \autoref{sec:problem-description}, we want to develop an application which can translate natural language questions that refers to entities in a database or index owned by a software development company. This project has been made with strong collaboration with Findwise, a company with focus on search driven solutions. Findwise has an index with information about employees, projects and customers. However, it is not possible to use their information because it is confidential and cannot be published in a master thesis. A different approach to get hold of relevant data is to generate mock data that is inspired by Findwise's data model. Mock data in this project is simply generated data from files that can be used to simulate a real world example application.
 
 \hiddensubsection{Grammar development}\label{sec:grammar-development}
 The grammar in \autoref{ch:simple-grammar} can only translate the instruction \texttt{people who know Java} in English and Swedish into Solr query language. The grammar needs to be extended to handle \emph{any} programming language that exists in the mock data, not only \texttt{Java}. The grammar also needs to support more instructions in order to make a more realistic use case. We have chosen the to support the following instructions:
@@ -30,7 +30,7 @@ translate anything. This problem can be solved by using a wide coverage grammar,
 
 GF has the power to suggest valid words of an incomplete sentence by using incremental parsing \cite{angelov09:incremental-parser}. This means that even though a user do not know what to type, the application can suggest valid words to use. If the user chooses to add one of those words, the suggestion engine can show a new list of words that will match the new partial sentence.
 
-However, this method does not support the use of only keywords, since one cannot start a sentence with for example the word \texttt{Java}. It it also inflexible since it does not support the use of words outside the grammar, e.g. \texttt{all people who know Java}\marginpar{The parser would not be able to parse the word \emph{all}}.
+However, this method does not support the use of only keywords, since one cannot start a sentence with for example the word \emph{Java}. It it also inflexible as it does not support the use of words outside the grammar. For example, in the sentence \texttt{all people who know Java}, the parser would not be able to parse the word \emph{all}.
 
 This thesis takes a different approach on a suggestion engine. Instead of suggesting one word at a time, one can suggest a whole sentence based on what the user has typed so far. This is achieved by generating all possible sentences that the application can translate and indexing them in Apache Solr. This makes it very easy to search on matching sentences, we also gain powerful techniques such as approximate string matching. 
 \newline
@@ -138,7 +138,7 @@ fun
 \caption{Abstract syntax with new categories and functions for relations \label{fig:newrelations}}
 \end{figure}
 
-The last thing to modify is how subjects and relations are combined. The function \texttt{MkInstruction} is replaced by three new functions: \texttt{InstrucInternal}, \texttt{InstrucExternal} and \texttt{InstrucResource}. However, as we do not need to make any distinction between different type of instructions at this level, all three functions returns a value of the type \texttt{Instruction}.
+The last thing to modify is how subjects and relations are combined. The function \texttt{MkInstruction} is replaced by three new functions: \texttt{InstrucInternal}, \texttt{InstrucExternal} and \texttt{InstrucResource}. However, as we do not need to make a distinction between different type of instructions at this level, all three functions returns a value of the type \texttt{Instruction}.
 
 \begin{figure}[H]
 \begin{code}
@@ -153,7 +153,7 @@ fun
 \end{figure}
 
 \hiddensubsubsection{Concrete syntax using the RGL}
-As the abstract syntax has changed, the concrete syntaxes has to be modifed as well. This section explains how the generalised concrete syntax which uses the RGL is implemeneted. 
+As the abstract syntax has changed, the concrete syntaxes have to be modifed as well. This section explains how the generalised concrete syntax which uses the RGL is implemeneted. 
 
 \autoref{fig:rgl-new-categories} shows how the categories has been implemented. The new categories are implemented in the same way as the previous.
 

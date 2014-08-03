@@ -1,5 +1,5 @@
 \chapter{A simple grammar}\label{ch:simple-grammar}
-This chapter presents an example of how GF can be used to create a grammar that can generate and translate the sentence \emph{which people know Java?} into Apache Solr query language and vice verca. Apache Solr is a search platform based on Apache Lucene.
+This chapter presents an example of how GF can be used to create a grammar that can generate and translate the sentence \emph{people who know Java?} into Apache Solr query language and vice verca. Apache Solr is a search platform based on Apache Lucene.
 
 \section{Abstract syntax}
 To model the meaning of sentences, GF adopts the use of functions and \emph{categories}. A category (\texttt{cat}) in GF is the same as a data type. We start by listing the categories we need. We then define how our data types can take on values. This is achieved by using functions. The functions in an abstract syntax are not implemented, we can therefore only see the function declarations. The purpose for this is to allow the concrete syntaxes to choose how to represent the semantics. Two concrete syntaxes can therefore implement the same semantics differently.
@@ -68,7 +68,7 @@ concrete InstrucsEng of Instrucs = {
 \hiddensubsection{Solr concrete syntax}
 
 The final step in this example is to linearize abstract syntax into Solr concrete syntax.
-  As \autoref{fig:solr-concr} shows, the categories are strings{sec:more-instructions} as in English. The function linearizations are however
+  As \autoref{fig:solr-concr} shows, the categories are strings as in English. The function linearizations are however
   different. \texttt{People} returns 
   \texttt{"object\_type : Person"}, we assume that 
   the Solr-schema has a field with the name \texttt{object\_type} which represents 
@@ -164,19 +164,19 @@ q= object_type : Person AND expertise : Java
 
 \section{GF resource grammar library}
 
-The previous example is fairly easy to understand, but it is also very small. As a grammar grows to support translation of more sentences, the complexity grows as well. GF has the power to make distinctions between singular and plural forms, genders, tenses and anteriors. However, in order to correctly develop a grammar to translate these sentences one needs to have knowledge of linguistics. It is also very time consuming to implement basic morphologies over and over again. Instead, one can use GF Resource Grammar Library (RGL)\cite{gf-rgl}. The RGL contains at the time of writing grammars for 29 natural languages. These grammars includes categories and functions which can be used to represent all kinds of different words and sentences. A developer needs therefore only knowledge of her \emph{domain} and do not need to worry about linguistic problems. By domain, we mean specific words which may have special grammatical rules, e.g. fish in English which is the same in singular as in plural form.
+The previous example is fairly easy to understand, but it is also very small. As a grammar grows to support translation of more sentences, the complexity grows as well. GF has the power to make distinctions between singular and plural forms, genders, tenses and anteriors. However, in order to correctly develop a grammar to translate these sentences one needs to have knowledge of linguistics. It is also very time consuming to implement basic morphologies over and over again. Instead, one can use GF Resource Grammar Library (RGL) \cite{gf-rgl}. The RGL contains at the time of writing grammars for 29 natural languages. These grammars includes categories and functions which can be used to represent all kinds of different words and sentences. A developer needs therefore only knowledge of her \emph{domain} and do not need to worry about linguistic problems. By domain, we mean specific words which may have special grammatical rules, e.g. fish in English which is the same in singular as in plural form.
 
 \subsection*{Example usage of the RGL in a grammar}
 
 In this section, we will present how the previous concrete syntax for English can be implemented by using the RGL. We will also show how this grammar can be further generalized into an incomplete concete syntax which can be used by both English and Swedish.
 
-\autoref{fig:english-RGL} shows the concrete syntax for English by using the RGL. Instead of just concatenating strings, we now use functions to create specific type of words and sentences. The categories are now set to be built in types that exists in the RGL and the functions are now using the RGL in order to create values of the correct types.
+\autoref{fig:english-RGL} shows the concrete syntax for English by using the RGL. The categories are now set to be built in types that exists in the RGL and the functions are now using RGL-functions in order to create values of the correct types.
 
-The most simple function in this case is \texttt{People}, which shall return a noun (N). A noun can be created by using the \emph{operation}\marginpar{An operation in GF is a function which can be called by linearization functions.} \texttt{mkN}. We create a noun which has the singular form \texttt{"person"} and plural form \texttt{"people"}, we will never use the singular form in this grammar, but it will become handy later in the thesis to use both singular and plural forms.
+The most simple function in this case is \texttt{People}, which shall return a noun. A noun can be created by using the \emph{operation}\marginpar{An operation in GF is a function which can be called by linearization functions.} \texttt{mkN}. We create a noun which has the singular form \texttt{"person"} and plural form \texttt{"people"}, we will never use the singular form in this grammar, but it will become handy later in the thesis to use both singular and plural forms.
 
-\texttt{Java} creates a noun similarly, except that it only gives \texttt{mkN} one argument. By doing this, GF applies an algorithm in order to find the plural form automatically. This does however only work on regular nouns. We then create a noun phrase (NP) from the noun received.  \texttt{Know} returns a relative sentence (RS). A relative sentence can for example be \emph{who know Java}. A relative sentence is constructed by first creating a \emph{verb phrase} (VP) from a verb and an object. This verb phrase is then used together with a constant operation \texttt{which\_RP} to create a \emph{relative clause}. We can then finally convert the relative clause into a relative sentence. This is achieved by using a self made operation named \texttt{mkRS'}, the purpose of this operation is to make the code easier to read and also in the future reuse code. 
+\texttt{Java} returns a \texttt{noun phrase} which is created by the function \texttt{mkNP}, however, we create a noun phrase by converting a proper name which is initialized as \emph{Java}. \texttt{Know} returns a relative sentence. A relative sentence can for example be \emph{who know Java}. A relative sentence is constructed by first creating a \emph{verb phrase} from a verb and an object. This verb phrase is then used together with a constant operation \texttt{which\_RP} to create a \emph{relative clause}. We can then finally convert the relative clause into a relative sentence. This is achieved by using a self made operation named \texttt{mkRS'}, the purpose of this operation is to make the code easier to read and also in the future reuse code. 
 
-The only thing that is left is to combine a noun with a relative sentence, e.g. combine \emph{people} with \emph{who know Java}. This is done by using the operation \texttt{mkCN} to create a common noun (CN). As CN's do not have any determiners, we have to construct a noun phrase together with the determiner \texttt{aPl\_Det} in order to to only allow translation of plural forms.
+The only thing that is left is to combine a noun with a relative sentence, e.g. combine \emph{people} with \emph{who know Java}. This is done by using the operation \texttt{mkCN} to create a common noun. As common nouns do not have any determiners, we have to construct a noun phrase together with the determiner \texttt{aPl\_Det} in order to to only allow translation of plural forms.
 
 \begin{figure}[h]
 \begin{code}
@@ -202,7 +202,7 @@ concrete InstrucsEng of Instrucs = open SyntaxEng, ParadigmsEng in {
 
 \section{Generalizing the concrete syntax}
 
-The English concrete syntax which uses the RGL is more complicated than the first version which only concatenates strings. In order to motivate why one shall use the RGL, this section describes how the concrete syntax can be generalized into an \emph{incomplete concerete syntax} and then be instantiated by two concrete syntaxes, one for English and one for Swedish.
+This section describes how the concrete syntax can be generalized into an \emph{incomplete concerete syntax} and then be instantiated by two concrete syntaxes, one for English and one for Swedish.
 
 \subsection*{An incomplete concrete syntax}
 
@@ -312,4 +312,4 @@ personer som kan Java
 \caption{Swedish instantiation of the incomplete concrete syntax}
 \end{figure}
 
-\todo{Why we get three results is unknown at the moment.} Whats really interesting is that we can translate Instrucs formulated in English and Swedish into Solr-syntax.
+\todo{Why we get three results is unknown at the moment.} Whats really interesting is that we now can go from both English and Swedish into abstract syntax, and by extension, also to Solr-syntax.
