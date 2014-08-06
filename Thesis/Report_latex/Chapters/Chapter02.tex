@@ -2,9 +2,9 @@
 This chapter presents an example of how GF can be used to create a grammar that can generate and translate the sentence \emph{people who know Java?} into Apache Solr query language and vice verca. Apache Solr is a search platform based on Apache Lucene.
 
 \section{Abstract syntax}
-To model the meaning of sentences, GF adopts the use of functions and \emph{categories}. A category (\texttt{cat}) in GF is the same as a data type. We start by listing the categories we need. We then define how our data types can take on values. This is achieved by using functions. The functions in an abstract syntax are not implemented, we can therefore only see the function declarations. The purpose for this is to allow the concrete syntaxes to choose how to represent the semantics. Two concrete syntaxes can therefore implement the same semantics differently.
+To model the meaning of sentences, GF adopts the use of functions and \emph{categories}. A category (\texttt{cat}) in GF is the same as a data type. We start by listing the categories we need, as seen in \autoref{fig:abstract-syntax} on lines 3-7. We then define how our data types can take on values. This is achieved by using functions. The functions in an abstract syntax are not implemented, we can therefore only see the function declarations. The purpose for this is to allow the concrete syntaxes to choose how to represent the semantics. Two concrete syntaxes can therefore implement the same semantics differently.
 
-In \autoref{fig:abstract-syntax}, we define a function \texttt{Java : Object} which means that \texttt{Java} is a constant \marginpar{A function without arguments is called a constant in lazy functional programming languages.} and returns a value of type \texttt{Object}. \texttt{Know} takes one argument of the type \texttt{Object} and returns a value of type \texttt{Relation}.
+We define a function \texttt{Java : Object} which means that \texttt{Java} is a constant \marginpar{A function without arguments is called a constant in lazy functional programming languages.} and returns a value of type \texttt{Object}. \texttt{Know} takes one argument of the type \texttt{Object} and returns a value of type \texttt{Relation}.
 
 An instruction can be created by obtaining a value of the type \texttt{Instruction}. Only \texttt{MkInstruction} returns the desired type and it takes two arguments, one of type \texttt{Subject} the other of type \texttt{Relation}.
 
@@ -14,9 +14,9 @@ abstract Instrucs = {
   flags startcat = Instruction; 
   cat
     Instruction ; -- An Instruction
-    Subject ;  -- The subject of an instruction
-    Relation ; -- A verb phrase
-    Object ;   -- an object
+    Subject ;     -- The subject of an instruction
+    Relation ;    -- A verb phrase
+    Object ;      -- an object
 
   fun		 	  
     MkInstruction : Subject -> Relation -> Instruction ;
@@ -28,14 +28,14 @@ abstract Instrucs = {
 \caption{Abstract syntax\label{fig:abstract-syntax}}
 \end{figure}
 
-We can now use this abstract syntax to create an abstract syntax tree as seen in \autoref{fig:ast}
+%We can now use this abstract syntax to create an abstract syntax tree as seen in \autoref{fig:ast}
 
-\begin{figure}[h]
-\begin{plaintext}
-MkInstruction People (Know Java)
-\end{plaintext}
-\caption{Abstract syntax tree\label{fig:ast}}
-\end{figure}
+%\begin{figure}[h]
+%\begin{plaintext}
+%MkInstruction People (Know Java)
+%\end{plaintext}
+%\caption{Abstract syntax tree\label{fig:ast}}
+%\end{figure}
 
 \section{Concrete syntax}
 
@@ -72,7 +72,7 @@ The final step in this example is to linearize abstract syntax into Solr concret
   different. \texttt{People} returns 
   \texttt{"object\_type : Person"}, we assume that 
   the Solr-schema has a field with the name \texttt{object\_type} which represents 
-  which type a document is. Similarly, we make another assumption about \texttt{Know}. \texttt{MkInstruction} is also implemented differently, here we can see that the result is going to be a query string\footnote{\url{http://en.wikipedia.org/wiki/Query\_string}} by looking at the first part \texttt{"q="} which is prepended on the subject. We then append \texttt{"AND"} together with \texttt{relation} in order to create a valid Solr query.
+  the type of a document. Similarly, we make another assumption about \texttt{Know}. \texttt{MkInstruction} is also implemented differently, here we can see that the result is going to be a query string\footnote{\url{http://en.wikipedia.org/wiki/Query\_string}} by looking at the first part \texttt{"q="} which is prepended on the subject. We then append \texttt{"AND"} together with \texttt{relation} in order to create a valid Solr query.
 
 \begin{figure}[h]
 \begin{code}
@@ -95,7 +95,7 @@ concrete InstrucsSolr of Instrucs = {
 
 \section{Translation}
 
-In order to make any translations, we need to use the GF runtime system. The  runtime system we will use in this section is the shell application, which allows us to load our GF source code and use parsers, linearizers and generators. In addition to the shell application, there also exists programming libraries for GF in C, Haskell, Java and Python. These libraries can be used to build a translation application which not requires the user to have GF installed.
+In order to make any translations, we need to use the GF runtime system. The  runtime system we will use in this section is the shell application, which allows us to load our GF source code and use parsers, linearizers and generators. In addition to the shell application, there also exists programming libraries for GF in C, Haskell, Java and Python. These libraries can be used to build a translation application which not require the user to have GF installed.
 
 \begin{figure}[H]
 \begin{terminal}
@@ -140,7 +140,7 @@ MkInstruction People (Know Java)
 \caption{Parse a string\label{fig:parse-a-string}}
 \end{figure}
 
-Abstract syntax trees can be linearized into concrete syntaxes, here we linearize one abstact syntax tree into all known concrete syntaxes.
+Abstract syntax trees can be linearized into concrete syntaxes, here we linearize one abstract syntax tree into all known concrete syntaxes.
 
 \begin{figure}[H]
 \begin{terminal}
@@ -164,7 +164,10 @@ q= object_type : Person AND expertise : Java
 
 \section{GF resource grammar library}
 
-The previous example is fairly easy to understand, but it is also very small. As a grammar grows to support translation of more sentences, the complexity grows as well. GF has the power to make distinctions between singular and plural forms, genders, tenses and anteriors. However, in order to correctly develop a grammar to translate these sentences one needs to have knowledge of linguistics. It is also very time consuming to implement basic morphologies over and over again. Instead, one can use GF Resource Grammar Library (RGL) \cite{gf-rgl}. The RGL contains at the time of writing grammars for 29 natural languages. These grammars includes categories and functions which can be used to represent all kinds of different words and sentences. A developer needs therefore only knowledge of her \emph{domain} and do not need to worry about linguistic problems. By domain, we mean specific words which may have special grammatical rules, e.g. fish in English which is the same in singular as in plural form.
+The previous example is fairly easy to understand, but it also make use of English, a well-known natural language. It is much harder to create a concrete syntax that implements a lesser known natural language by using concatenation. Even though a user might know correct translation of the individual words to use, she might not know how to use them in a grammatically correct sentence. It is often the case that if one directly translates a sentence, i.e. just translate each word by word, one ends up in a grammatically incorrect sentence.
+\newline
+\newline
+The GF Resource Grammar Library is a set of grammars which implements the morphology and basic syntax of currently 29 languages \cite{gf-rgl}. In other words, it contains functions and categories which describes the structure of natural languages. One can therefore create values of specific types from the words of a sentence and then combine the words by using functions in order to combine them in a grammatically correct way. We say that a developer does only need to have knowledge of her \emph{domain}, i.e. the individual words to use, and does not have any specific linguistic knowledge of the natural language.
 
 \subsection*{Example usage of the RGL in a grammar}
 
@@ -244,7 +247,7 @@ interface LexInstrucs = open Syntax in {
 \caption{Lexicon interface\label{fig:lexicon-interface}}
 \end{figure}
 
-\autoref{fig:english-lexicon} shows how the operations defined in \texttt{LexInstrucs} are implemented in \texttt{LexInstrucsEng}, we represent the words in the same  way as in the old version of the concrete syntax for English.
+\autoref{fig:english-lexicon} shows how the operations defined in \texttt{LexInstrucs} are implemented in \texttt{LexInstrucsEng}. We represent the words in the same  way as in the old version of the concrete syntax for English.
 
 \begin{figure}[H]
 \begin{code}
@@ -271,7 +274,7 @@ instance LexInstrucsSwe of LexInstrucs = open SyntaxSwe, ParadigmsSwe in {
 \end{code}
 \caption{Lexicon instantiation of Swedish\label{fig:swedish-lexicon}}
 \end{figure}
-\todo{Why can't we define \texttt{know\_V2} as just \texttt{mkV2 (mkV "kan")}?}
+%\todo{Why can't we define \texttt{know\_V2} as just \texttt{mkV2 (mkV "kan")}?}
 
 We are now ready to instantiate the incomplete concrete syntax. The code below describes how \texttt{InstrucsI} is instantiated as \texttt{InstrucsEng}. Note how we override \texttt{Syntax} with \texttt{SyntaxEng} and \texttt{LexInstrucs} with \texttt{LexInstrucsEng}.
 
@@ -303,13 +306,8 @@ If we load the GF-shell with \texttt{InstrucsEng.gf} and \texttt{InstrucsSwe.gf}
 \begin{code}
 Instrucs> p -lang=InstrucsEng "people who know Java" | l -lang=InstrucsSwe
 personer som kan Java
-
-personer som kan Java
-
-personer som kan Java
-
 \end{code}
 \caption{Swedish instantiation of the incomplete concrete syntax}
 \end{figure}
-
-\todo{Why we get three results is unknown at the moment.} Whats really interesting is that we now can go from both English and Swedish into abstract syntax, and by extension, also to Solr-syntax.
+%\todo{Why we get three results is unknown at the moment.}
+Whats really interesting is that we now can go from both English and Swedish into abstract syntax, and by extension, also to Solr-syntax.

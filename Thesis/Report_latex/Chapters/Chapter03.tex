@@ -8,7 +8,7 @@
 As described in \autoref{sec:problem-description}, we want to develop an application which can translate natural language questions that refers to entities in a database or index owned by a software development company. This project has been made with strong collaboration with Findwise, a company with focus on search driven solutions. Findwise has an index with information about employees, projects and customers. However, it is not possible to use their information because it is confidential and cannot be published in a master thesis. A different approach to get hold of relevant data is to generate mock data that is inspired by Findwise's data model. Mock data in this project is simply generated data from files that can be used to simulate a real world example application.
 
 \hiddensubsection{Grammar development}\label{sec:grammar-development}
-The grammar in \autoref{ch:simple-grammar} can only translate the instruction \texttt{people who know Java} in English and Swedish into Solr query language. The grammar needs to be extended to handle \emph{any} programming language that exists in the mock data, not only \texttt{Java}. The grammar also needs to support more instructions in order to make a more realistic use case. We have chosen the to support the following instructions:
+The grammar in \autoref{ch:simple-grammar} can only translate the instruction \emph{people who know Java} in English and Swedish into Solr query language. The grammar needs to be extended to handle \emph{any} programming language that exists in the mock data, not only \emph{Java}. The grammar also needs to support more instructions in order to make a more realistic use case. We have chosen the to support the following instructions:
 
 \begin{figure}[H]
 \begin{terminal}
@@ -26,7 +26,7 @@ Two more cases has been added to instructions regarding \emph{people}. In additi
 
 \hiddensubsection{Suggestions\label{sec:foobar}}
 If a user has no idea of which instructions the application can translate, how can she use the application? This thesis uses a narrow application grammar, which means that it only covers specified sentences. Therefore, if a sentence has one character in the wrong place, GF will not be able to
-translate anything. This problem can be solved by using a wide coverage grammar, an example of an application that adopts this technique is the GF android app \cite[p. 41]{angelov2014speech}. This project, however, does not.
+translate anything. This problem can be solved by using a wide coverage grammar, an example of an application that adopts this technique is the GF android app \cite[p. 41]{angelov2014speech}. This project, does however not use this technique due to lack of documentation of how it is accomplished.
 
 GF has the power to suggest valid words of an incomplete sentence by using incremental parsing \cite{angelov09:incremental-parser}. This means that even though a user do not know what to type, the application can suggest valid words to use. If the user chooses to add one of those words, the suggestion engine can show a new list of words that will match the new partial sentence.
 
@@ -49,8 +49,6 @@ A typical Java EE project make use of several libraries, in computer science ter
 \hiddensubsection{Input and output presentation}
 Besides handling translation and suggestions, the application also needs to handle input and present its results in some way. This application takes input and presents output by using a web gui\footnote{\url{http://en.wikipedia.org/wiki/Graphical_user_interface}}.
 
-To summarize, this application is a web application built in Java EE and uses Apache Maven for library management.
-
 \hiddensubsection{Running the application}
 Web applications built in Java are usually has the WAR file format. It is a special JAR-file which includes classes, dependencies and web pages. This project uses an open source web server called Apache Tomcat to host a web application by exporting our application as a WAR-file. Apache Tomcat will make the application available by using HTTP-requests and spawn a new thread for each request.
 \newline
@@ -64,7 +62,7 @@ This section continues the work on the grammar introduced in \autoref{ch:simple-
 The example grammar could only translate one instruction. This instruction in English is \emph{people who know Java}. It is easy to extend this grammar to support more programming languages, for example, to support \emph{Python} one can add a function \texttt{Python : Object} in the abstract syntax and implement it as \texttt{Python = "python"} in the concrete syntaxes. However, this approach makes the grammar inflexible because we need to extend the grammar every time we want to add a new programming language.
 
 \hiddensubsection{Names}
-Defining a new function for each programming language is not a good idea, it forces us to update the grammar every time we want it to support a new programming language. A better solution would be to make one function that could be used by any programming language.
+Defining a new function for each programming language is not a good idea, as described in the previous section. A better solution would be to make one function that could be used by any programming language.
 
 One intuitive approach to solve this problem is to create a function \texttt{MkObject : String -> Object}. The implementation for this function would be 
 \begin{figure}[H]
@@ -100,8 +98,7 @@ By using this solution, we can translate the sentence \emph{people who know foo}
 It is not trivial to extend the grammar to support the instructions described in \autoref{sec:grammar-development}. One has to take into account that it shall not be possible to translate invalid instructions like \emph{projects who work in London}. We will in this section first extend the abstract syntax to support the new instructions and then extend the concrete syntaxes.
 
 \subsubsection*{Abstract syntax}
-
-The first step towards a solution to this problem is to modify the abstract syntax. We begin by removing the category \texttt{Subject} and replacing it with three new categories: \texttt{Internal}, \texttt{External} and \texttt{Resource}. The function \texttt{People} will return a value of the type \texttt{Internal} and \texttt{Customer} and \texttt{Project} will return values of the types \texttt{External} and \texttt{Resource} respectively.
+We begin by removing the category \texttt{Subject} and replacing it with three new categories: \texttt{Internal}, \texttt{External} and \texttt{Resource}. The function \texttt{People} will return a value of the type \texttt{Internal} and \texttt{Customer} and \texttt{Project} will return values of the types \texttt{External} and \texttt{Resource} respectively.
 
 \begin{figure}[H]
 \begin{code}
@@ -138,7 +135,7 @@ fun
 \caption{Abstract syntax with new categories and functions for relations \label{fig:newrelations}}
 \end{figure}
 
-The last thing to modify is how subjects and relations are combined. The function \texttt{MkInstruction} is replaced by three new functions: \texttt{InstrucInternal}, \texttt{InstrucExternal} and \texttt{InstrucResource}. However, as we do not need to make a distinction between different type of instructions at this level, all three functions returns a value of the type \texttt{Instruction}.
+The last thing to modify is how subjects and relations are combined.In \autoref{fig:newinstructions}, the function \texttt{MkInstruction} is replaced by three new functions: \texttt{InstrucInternal}, \texttt{InstrucExternal} and \texttt{InstrucResource}. However, as we do not need to make a distinction between different type of instructions at this level, all three functions returns a value of the type \texttt{Instruction}.
 
 \begin{figure}[H]
 \begin{code}
@@ -197,7 +194,7 @@ oper
 \caption{Concrete syntax using the RGL with new relation implementations\label{fig:rgl-new-relations}}
 \end{figure}
 
-Subjects and relations are combined as before, but as this solution has three functions instead of one, a new operation \texttt{mkQ} has been defined in order to reuse code.
+Subjects and relations are combined as before, but as this solution has three functions instead of one, a new operation \texttt{mkI} has been defined in order to reuse code.
 
 \begin{figure}[H]
 \begin{code}
@@ -310,7 +307,7 @@ lin
 
 It is now possible to express \emph{people who know Java and Python}. In order to use boolean operators with whole relations like \emph{people who know Java and work in Gothenburg}, the grammar has to be further extended.
 
-We must also take into account that it shall only be possible to combine relationship that are possible to express in the current sentence. Therefore, we need to define the boolean logic three times, as we have three different types of instructions.
+We must also take into account that it shall only be possible to combine relation that are possible to express in the current sentence. Therefore, we need to define the boolean logic three times, as we have three different types of instructions.
 
 \begin{figure}[H]
 \begin{code}
@@ -538,7 +535,7 @@ oper
 \caption{Treating progressive verb equivalent normal form\label{fig:linearize-using-list}}
 \end{figure}
 
-However, not all verbs can be used in progressive form. An example of such verb is \emph{know}. An example of  \emph{know} in progressive form is \emph{people who are knowing Java} which clearly is incorrect. Although it might look ugly, it is not an issue for our application as the suggestion engine only suggest the most suitable suggestion. The extension will contribute to make the suggestion engine richer as it allows users to use incorrect instructions.
+However, not all verbs can be used in progressive form. An example of such verb is \emph{know}. An example of  \emph{know} in progressive form is \emph{people who are knowing Java} which clearly is incorrect. Although it might look ugly, it is not an issue for our application as the suggestion engine only suggest the most suitable suggestion. The extension will contribute to make the suggestion engine richer as it allows users to use invalid instructions.
 
 \section{Alternative implementation without the RGL}\label{sec:english-concat}
 We have implemented the concrete syntax for English by using the RGL. This section shows how the same functionality can be achieved by concatenating strings. The purpose of this section is to be able to compare the complexity of a concrete syntax developed by using RGL and by concatenating strings.\newline
@@ -648,7 +645,7 @@ lin
 \end{figure}
 
 \section{Generation of mock data}
-This section describes how the data used by the application is generated. In order to generate data, we must know what to generate. From \autoref{sec:grammar-development} we know the Solr queries our index must support. We have three different types of objects: \emph{Customer}, \emph{Person} and \emph{Project}. Each of these types of objects has their own data. A customer shall have one value, a list of technologies it uses. A person shall have three values, a list of programming languages it knows, a list of cities it works in and a list of organizations it has been working with. A project shall have one value, the same as a customer, a list of technologies it uses. In addition to these requirements by the grammar, customers and persons also have names. \autoref{fig:example-data-json} shows an example of data that could exists in the Solr index.
+This section describes how the data used by the application is generated. In order to generate data, we must know what to generate. From \autoref{sec:grammar-development} we know the Solr queries our index must support. We have three different types of objects: \emph{Customer}, \emph{Person} and \emph{Project}. Each of these types of objects has their own data. A customer shall have one value, a list of technologies it uses. A person shall have three values, a list of programming languages it knows, a list of cities it works in and a list of organizations it has been or are working with. A project shall have one value, the same as a customer, a list of technologies it uses. In addition to these requirements by the grammar, customers and persons also have names. \autoref{fig:example-data-json} shows an example of data that could exists in the Solr index.
 
 \begin{figure}[H]
 \begin{js-code}

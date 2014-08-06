@@ -3,13 +3,13 @@
 %*******************************************************
 % If problems with the headers: get headings in appendix etc. right
 %\markboth{\spacedlowsmallcaps{Appendix}}{\spacedlowsmallcaps{Appendix}}
-\chapter{GF shell, runtime systems and libraries}\label{ch:appendix-a}
+\chapter{GF shell and runtime systems}\label{ch:appendix-a}
 This appendix describes how the dependencies of the application can be installed.
 
 \section{GF shell}
 The GF shell is the interpreter which can be used together with GF-grammars. The shell is used by the application when generating abstract syntax trees and is therefore needed in order to use the application.
 
-An easy and convenient method of installing GF is by using the Haskell program \texttt{cabal}. Cabal is available if the haskell platform is installed on a system. The haskell platform can be installed in Debian by executing
+An easy and convenient method of installing GF is by using the Haskell program \texttt{cabal}. Cabal is available if the haskell platform is installed on a system. The haskell platform can be installed on Debian by executing
 
 \begin{terminal}
 sudo apt-get install haskell-platform
@@ -34,10 +34,10 @@ Note that \texttt{export} does not set \$PATH permanently, so add the command to
 While the GF-shell is a powerful tool, it is not very convenient to interact with when programming an application. Luckily, the creators of GF has thought about this and built embeddable runtime systems for a few programming languages \cite[p. 3]{angelov:2011}. These runtime systems makes it possible to interact with a grammar directly through language specific data types. We have chosen to work with the Java-runtime system in this project.
 
 \hiddensubsection{Portable Grammar Format}
-The GF-shell interacts with grammars by interpreting the GF programming language. This allows us to write our grammars in an simple and convenient syntax. Interpreting the GF programming language directly is however a heavy operation\cite{angelov:2011}[p. 13], especially with larger grammars. This is where the Portable Grammar Format (PGF)\cite{angelov:2011}[p. 14] comes in. PGF is a custom made machine language which is dynamically created by compiling a grammar with GF into a PGF-file. The runtime systems works exclusively with PGF-files.
+The GF-shell interacts with grammars by interpreting the GF programming language. This allows us to write our grammars in an simple and convenient syntax. Interpreting the GF programming language directly is however a heavy operation \cite{angelov:2011}[p. 13], especially with larger grammars. This is where the Portable Grammar Format (PGF) \cite{angelov:2011}[p. 14] comes in. PGF is a custom made machine language which is dynamically created by compiling a grammar with GF into a PGF-file. The runtime systems works exclusively with PGF-files.
 
 \hiddensubsection{GF libraries}
-In order to use the Java-runtime, we first need to generate a few libraries which is used by the runtime system. The Java-runtime system depends on the C-runtime system and a special wrapper between the C- and the Java-runtime. The libraries are platform dependent and at the time of writing, no pre-generated libraries exists. We therefore need to generate the libraries by ourselves. We will start by generating and installing the C-libraries. We will then go through how we can generate the wrapper library.
+In order to use the Java-runtime, we first need to build a few libraries which is used by the runtime system. The Java-runtime system depends on the C-runtime system and a special wrapper between the C- and the Java-runtime. The libraries are platform dependent. There exists some pre-generated libraries in the GF-project, but we have chosen to build the libraries from source in this tutorial. The main reason is because we want to make the project suitable for many architectures. We will start by building and installing the C-libraries. We will then go through how we can build the wrapper library.
 
 \hiddensubsubsection{Building and installing the C-runtime}
 Start by fetching the needed dependencies
@@ -99,7 +99,7 @@ The wrapper is built by using a script which is executed in Eclipse. This step a
 
 Start Eclipse and choose \texttt{File} > \texttt{Import..} in the menu. Choose \texttt{Import Existing Projects into Workspace} and click on the \texttt{Next} button. Select \texttt{Browse...} and navigate to the location where you downloaded GF from GitHub and press enter. Uncheck everything except \texttt{jpgf} and click on \texttt{Finish}. You have now imported the project which can build the Java-runtime system. 
 
-Unfortunately, the build-configuration for the jpgf-project is not complete at time of writing. We therefore need to make additional adjustments in order to build the project.
+Eclipse need to have pointers to some directories of the Java virtual machine. It is unfortunately not possible to use environment variables in eclipse, so we need therefore to set the values manually.
 
 Right-click on the project and choose \texttt{Properties}. Expand the \texttt{C/C++ Build} menu, click on \texttt{Settings}. Click on \texttt{Includes} which is located below \texttt{GCC C Compiler}. You will see one directory listed in the textbox. You need to check that this directory exists. If not, change it to the correct one. For instance, this tutorial was written using Debian 7 amd64 with Oracle Java 8, hence the correct directory is
 
