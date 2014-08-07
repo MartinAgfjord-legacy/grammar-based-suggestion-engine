@@ -1,6 +1,6 @@
 incomplete concrete InstrucsI of Instrucs = open Syntax, LexInstrucs in {
     lincat
-      Instruction = NP ;
+      Instruction = Utt ;
       Internal, External, Resource = N ;
       InternalRelation, ExternalRelation, ResourceRelation = RS ;
       Skill, Organization, Location, Module = NP ;
@@ -54,10 +54,10 @@ incomplete concrete InstrucsI of Instrucs = open Syntax, LexInstrucs in {
 
     oper
       -- Make an instruction
-      mkI : N -> RS -> NP = \noun_N,rs_RS -> mkNP (aPl_Det | aSg_Det) 
-                             (mkCN noun_N rs_RS) ;
+      mkI : N -> RS -> Utt = \noun_N,rs_RS -> mkUtt (mkNP (aPl_Det | aSg_Det) 
+                             (mkCN noun_N rs_RS)) ;
 
       -- Make a relative sentence 
 --      mkRS' : VP -> RS = \vp -> mkRS (mkRCl which_RP vp) ;
-      mkRS' : VP -> RS = \vp -> mkRS (mkRCl which_RP (vp | progressiveVP vp)) ;
+      mkRS' : VP -> RS = \vp -> mkRS (mkRCl (who_RP) (vp | progressiveVP vp)) ;
 }
