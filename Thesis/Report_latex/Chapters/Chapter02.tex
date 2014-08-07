@@ -1,8 +1,8 @@
 \chapter{A simple grammar}\label{ch:simple-grammar}
-This chapter presents an example of how GF can be used to create a grammar that can generate and translate the sentence \emph{people who know Java?} into Apache Solr query language and vice verca. Apache Solr is a search platform based on Apache Lucene.
+This chapter presents an example of how GF can be used to create a grammar that can translate the sentence \emph{people who know Java?} into Apache Solr query language and vice verca. Apache Solr is a search platform based on Apache Lucene.
 
 \section{Abstract syntax}
-To model the meaning of sentences, GF adopts the use of functions and \emph{categories}. A category (\texttt{cat}) in GF is the same as a data type. We start by listing the categories we need, as seen in \autoref{fig:abstract-syntax} on lines 3-7. We then define how our data types can take on values. This is achieved by using functions. The functions in an abstract syntax are not implemented, we can therefore only see the function declarations. The purpose for this is to allow the concrete syntaxes to choose how to represent the semantics. Two concrete syntaxes can therefore implement the same semantics differently.
+To model the meaning of a sentence, GF adopts the use of functions and \emph{categories}. A category (\texttt{cat}) in GF is the same as a data type. We start by listing the categories we need, as seen in \autoref{fig:abstract-syntax} on lines 3-7. We then define the values that our data types can take. This is achieved by using functions. The functions in an abstract syntax are usually not implemented, we can therefore only see the function declarations. The reason is because we only want to model the semantics at the abstract level. How the semantics are implemented in a specific language is irrelevant, because we want to keep the abstract syntax as language independent as possible in order to make it easier to develop concrete syntaxes.
 
 We define a function \texttt{Java : Object} which means that \texttt{Java} is a constant \marginpar{A function without arguments is called a constant in lazy functional programming languages.} and returns a value of type \texttt{Object}. \texttt{Know} takes one argument of the type \texttt{Object} and returns a value of type \texttt{Relation}.
 
@@ -39,11 +39,11 @@ abstract Instrucs = {
 
 \section{Concrete syntax}
 
-We are now going to implement the function declarations we just defined in the abstract syntax. This implementation makes it possible to linearize abstract syntax trees into concrete syntax. We will start by defining the concrete syntax for English.
+We are now going to implement the linearizations of the function declarations we just defined in the abstract syntax. This implementation makes it possible to linearize abstract syntax trees into concrete syntax. We will start by defining the concrete syntax for English.
 
 \hiddensubsection{English concrete syntax}
 
-\autoref{fig:english-concr} shows the implementation of the concrete syntax for English. Categories are linearized by the keyword \texttt{lincat}, which literally means the linearization of categories. A category is linearized by assigning a data type to it. Here we assign all categories to be strings. The functions are linearized by using the keyword \texttt{lin}. We linearize \texttt{Java} by returning the string \texttt{"Java"}, as it is a constant function. Analogously, \texttt{"people"} is returned by \texttt{People}. The function \texttt{Know} takes one parameter. This parameter is appended on the string \texttt{"know"}. Finally, \texttt{MkInstruction} takes two arguments, where \texttt{subject} is prepended and \texttt{relation} is appended on \texttt{"who"}. One can easily see how these functions can be used to construct the sentence \emph{people who know Java}.
+\autoref{fig:english-concr} shows the implementation of the concrete syntax for English. Categories are linearized by the keyword \texttt{lincat}, which literally means the linearization of categories. A category is linearized by assigning a data type to it. Here we assign all categories to be of the type string, which means that all our linearization functions also must return a string. The functions are linearized by using the keyword \texttt{lin}. We linearize \texttt{Java} by returning the string \texttt{"Java"}, as it is a constant function. Analogously, \texttt{"people"} is returned by \texttt{People}. The function \texttt{Know} takes one parameter. This parameter is appended on the string \texttt{"know"}. Finally, \texttt{MkInstruction} takes two arguments, where \texttt{subject} is prepended and \texttt{relation} is appended on \texttt{"who"}. One can easily see how these functions can be used to construct the sentence \emph{people who know Java}.
 
 \newenvironment{myfont}{\myfont}{\par}
 
@@ -67,7 +67,7 @@ concrete InstrucsEng of Instrucs = {
 
 \hiddensubsection{Solr concrete syntax}
 
-The final step in this example is to linearize abstract syntax into Solr concrete syntax.
+The final step in this example is to linearize the same abstract syntax into Solr concrete syntax.
   As \autoref{fig:solr-concr} shows, the categories are strings as in English. The function linearizations are however
   different. \texttt{People} returns 
   \texttt{"object\_type : Person"}, we assume that 
@@ -95,11 +95,11 @@ concrete InstrucsSolr of Instrucs = {
 
 \section{Translation}
 
-In order to make any translations, we need to use the GF runtime system. The  runtime system we will use in this section is the shell application, which allows us to load our GF source code and use parsers, linearizers and generators. In addition to the shell application, there also exists programming libraries for GF in C, Haskell, Java and Python. These libraries can be used to build a translation application which not require the user to have GF installed.
+In order to make any translations, we need to use the GF runtime system. The  runtime system we will use in this section is the shell application, which allows us to load our GF source code and use parsers, linearizers and generators. In addition to the shell application, there also exists programming libraries for GF in C, Haskell, Java and Python. These libraries can be used to build a translation application which does not require the user to have GF installed.
 
 \begin{figure}[H]
 \begin{terminal}
-$ gf InstrucsEng.gf InstrucsSwe.gf 
+$ gf InstrucsEng.gf InstrucsSolr.gf 
                                 
        *  *  *              
     *           *           
@@ -171,27 +171,28 @@ The GF Resource Grammar Library is a set of grammars which implements the morpho
 
 \subsection*{Example usage of the RGL in a grammar}
 
-In this section, we will present how the previous concrete syntax for English can be implemented by using the RGL. We will also show how this grammar can be further generalized into an incomplete concete syntax which can be used by both English and Swedish.
+In this section, we will present how the previous concrete syntax for English can be implemented by using the RGL. We will also show how this grammar can be further generalized into an incomplete concrete syntax which can be used by both English and Swedish.
 
-\autoref{fig:english-RGL} shows the concrete syntax for English by using the RGL. The categories are now set to be built in types that exists in the RGL and the functions are now using RGL-functions in order to create values of the correct types.
+\autoref{fig:english-RGL} shows the concrete syntax for English by using the RGL. The categories are now set to be types that exists in the RGL and the functions are now using RGL-functions in order to create values of the correct types.
 
 The most simple function in this case is \texttt{People}, which shall return a noun. A noun can be created by using the \emph{operation}\marginpar{An operation in GF is a function which can be called by linearization functions.} \texttt{mkN}. We create a noun which has the singular form \texttt{"person"} and plural form \texttt{"people"}, we will never use the singular form in this grammar, but it will become handy later in the thesis to use both singular and plural forms.
 
-\texttt{Java} returns a \texttt{noun phrase} which is created by the function \texttt{mkNP}, however, we create a noun phrase by converting a proper name which is initialized as \emph{Java}. \texttt{Know} returns a relative sentence. A relative sentence can for example be \emph{who know Java}. A relative sentence is constructed by first creating a \emph{verb phrase} from a verb and an object. This verb phrase is then used together with a constant operation \texttt{which\_RP} to create a \emph{relative clause}. We can then finally convert the relative clause into a relative sentence. This is achieved by using a self made operation named \texttt{mkRS'}, the purpose of this operation is to make the code easier to read and also in the future reuse code. 
+\texttt{Java} returns a \texttt{noun phrase} which is created by the function \texttt{mkNP}, however, we create a noun phrase by converting a proper name which is initialized as \emph{Java}. \texttt{Know} returns a relative sentence. A relative sentence can for example be \emph{who know Java}. A relative sentence is constructed by first creating a \emph{verb phrase} from a verb and an object. This verb phrase is then used together with the constant operation \texttt{which\_RP} to create a \emph{relative clause}. We can then finally convert the relative clause into a relative sentence. This is achieved by using a self made operation named \texttt{mkRS'}, the purpose of this operation is to make the code easier to read and also in the future reuse code. 
 
-The only thing that is left is to combine a noun with a relative sentence, e.g. combine \emph{people} with \emph{who know Java}. This is done by using the operation \texttt{mkCN} to create a common noun. As common nouns do not have any determiners, we have to construct a noun phrase together with the determiner \texttt{aPl\_Det} in order to to only allow translation of plural forms.
+The only thing that is left is to combine a noun with a relative sentence, e.g. combine \emph{people} with \emph{who know Java}. This is done by using the operation \texttt{mkCN} to create a common noun. As common nouns do not have any determiners, we have to construct a noun phrase together with the determiner \texttt{aPl\_Det} in order to to only allow translation of plural forms. Lastly we convert the noun phrase into an utterance in order to only allow the nominative form of the sentence (we would otherwise end up with with multiple equal abstract syntax trees when parsing a sentence).
 
 \begin{figure}[h]
 \begin{code}
 concrete InstrucsEng of Instrucs = open SyntaxEng, ParadigmsEng in {
   lincat
-    Instruction = NP ;
+    Instruction = Utt ;
     Subject = N ;
     Relation = RS ;
     Object = NP ;
 
   lin
-    MkInstruction subject relation = mkNP aPl_Det (mkCN subject relation) ;
+    MkInstruction subject relation = mkUtt 
+                                      (mkNP aPl_Det (mkCN subject relation)) ;
     People = mkN "person" "people" ;
     Know object = mkRS' (mkVP (mkV2 (mkV "know") object)) ;
     Java = mkNP (mkPN "Java") ;
@@ -215,13 +216,14 @@ As we already have designed the concrete syntax for English, we can fairly easy 
 \begin{code}
 incomplete concrete InstrucsI of Instrucs = open Syntax, LexInstrucs in {
   lincat
-    Instruction = NP ;
+    Instruction = Utt ;
     Subject = N ;
     Relation = RS ;
     Object = NP ;
 
   lin
-    MkInstruction subject relation = mkNP aPl_Det (mkCN subject relation) ;
+    MkInstruction subject relation = mkUtt 
+                                      (mkNP aPl_Det (mkCN subject relation)) ;
     People = person_N ;
     Know object = mkRS' (mkVP know_V2 object) ;
     Java = java_NP ;
@@ -240,8 +242,8 @@ incomplete concrete InstrucsI of Instrucs = open Syntax, LexInstrucs in {
 interface LexInstrucs = open Syntax in {
    oper
      person_N : N ;
-     know_V2 : V2 ;
-     java_NP : NP ;
+     know_V2  : V2 ;
+     java_NP  : NP ;
 }
 \end{code}
 \caption{Lexicon interface\label{fig:lexicon-interface}}
@@ -261,14 +263,14 @@ instance LexInstrucsEng of LexInstrucs = open SyntaxEng, ParadigmsEng in {
 \caption{Lexicon instantiation of English \label{fig:english-lexicon}}
 \end{figure}
 
-\autoref{fig:swedish-lexicon} shows another instance of \texttt{LexInstrucs}, the lexicon for Swedish.
+\autoref{fig:swedish-lexicon} shows another instance of \texttt{LexInstrucs}, the lexicon for Swedish. \marginpar{The definition of \texttt{know} is taken from StructuralSwe.gf in the RGL}
 
 \begin{figure}[H]
 \begin{code}
 instance LexInstrucsSwe of LexInstrucs = open SyntaxSwe, ParadigmsSwe in {
     oper
       person_N = mkN "person" "personer" ;
-      know_V2 = mkV2 (mkV "kunna" "kan" "kunna" "kunde" "kunnat" "kunna") ;	  
+      know_V2 = mkV2 (mkV "kunna" "kan" "kunn" "kunde" "kunnat" "kunnen") ;	  
       java_NP = mkNP (mkPN "Java");
 }
 \end{code}
