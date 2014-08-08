@@ -10,9 +10,8 @@ The solr linearization which is a clickable hyper-link in the web application. T
 \newline
 \newline
 The first five figures shows the simplest translations. They include all subjects and all types of names. Each one contains a subject, one verb and one name of a certain type.
-\newline
-\newline
 
+\newpage
 \autoref{fig:result1} shows that the word \texttt{Java} is of the type \texttt{Skill}.
 
 \begin{figure}[H]
@@ -48,6 +47,7 @@ people who know Java
 \caption{Translation including \texttt{people} and a name of type \texttt{Skill}\label{fig:result1}}
 \end{figure}
 
+\newpage
 \autoref{fig:result2} shows that the word \texttt{London} is of the type \texttt{Location}.
 
 \begin{figure}[H]
@@ -83,6 +83,7 @@ people who work in London
 \caption{Translation including \texttt{people} and a name of type \texttt{Location}\label{fig:result2}}
 \end{figure}
 
+\newpage
 \autoref{fig:result3} shows that the word \texttt{Amnesty} is of the type \texttt{Organization}.
 
 \begin{figure}[H]
@@ -118,6 +119,7 @@ people who work with Amnesty
 \caption{Translation including \texttt{people} and a name of type \texttt{Organization}\label{fig:result3}}
 \end{figure}
 
+\newpage
 \autoref{fig:result4} shows that the word \texttt{Solr} is of the type \texttt{Module}.
 
 \begin{figure}[H]
@@ -153,6 +155,7 @@ customers who use Solr
 \caption{Translation including \texttt{customer} and a name of type \texttt{Module}\label{fig:result4}}
 \end{figure}
 
+\newpage
 Similarly, also \autoref{fig:result5} shows that the word \texttt{Solr} is of the type \texttt{Module}.
 
 \begin{figure}[H]
@@ -188,6 +191,7 @@ projects who use Solr
 \caption{Translation including \texttt{project} and a name of type \texttt{Module}\label{fig:result5}}
 \end{figure}
 
+\newpage
 \autoref{fig:translation-java-python} shows how the applications handles the boolean operator \emph{and}. The application handles the case for \emph{or} similarly.
 
 \begin{figure}[H]
@@ -225,7 +229,7 @@ people who know Java and Python
 \caption{Translation including \texttt{people} and two names of the type \texttt{Skill}\label{fig:translation-java-python}}
 \end{figure}
 
-\autoref{fig:translation-ambig} shows how the application handles an ambiguous instruction. Two abstract syntax trees are seen in the result, as there are two ways of interpreting the instruction. The different interpretations can be modelled as follows: \emph{people who know (Java and Python) or Haskell} or \emph{people who know Java and (Python or Haskell)}.
+\autoref{fig:translation-ambig} (on the next page) shows how the application handles an ambiguous instruction. Two abstract syntax trees are seen in the result, as there are two ways of interpreting the instruction. The different interpretations can be modelled as follows: \emph{people who know (Java and Python) or Haskell} or \emph{people who know Java and (Python or Haskell)}.
 
 \begin{figure}[H]
 \begin{terminal}
@@ -298,7 +302,7 @@ This section shows how the application reacts to input before the user has chose
 \autoref{fig:suggestions-people-java} shows that it is possible to use a combination of words to retrieve suggestions. It also shows that we can use the first and the last word to get suggestions.
 
 \begin{figure}[H]
-\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/people-java.png}
+\includegraphics[scale=0.54,keepaspectratio,valign=t]{./gfx/people-java.png}
 \caption{Suggestions based on the words \texttt{people java} by using EnglishRGL or EnglishConcat\label{fig:suggestions-people-java}}
 \end{figure}
 

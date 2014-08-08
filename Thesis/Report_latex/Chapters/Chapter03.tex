@@ -149,7 +149,7 @@ fun
 \caption{Abstract syntax with new categories and functions for relations \label{fig:newrelations}}
 \end{figure}
 
-The last thing to modify is how subjects and relations are combined.In \autoref{fig:newinstructions}, the function \texttt{MkInstruction} is replaced by three new functions: \texttt{InstrucInternal}, \texttt{InstrucExternal} and \texttt{InstrucResource}. However, as we do not need to make a distinction between different type of instructions at this level, all three functions returns a value of the type \texttt{Instruction}.
+The last thing to modify is how subjects and relations are combined. In \autoref{fig:newinstructions}, the function \texttt{MkInstruction} is replaced by three new functions: \texttt{InstrucInternal}, \texttt{InstrucExternal} and \texttt{InstrucResource}. However, as we do not need to make a distinction between different type of instructions at this level, all three functions returns a value of the type \texttt{Instruction}.
 
 \begin{figure}[H]
 \begin{code}
@@ -190,7 +190,7 @@ lin
 \caption{RGL concrete syntax with new subject implementations\label{fig:rgl-new-subjects}}
 \end{figure}
 
-Four new relation functions are added. Line 5-6 in \autoref{fig:rgl-new-relations} shows how we use the verb \texttt{work\_V} together with two prepositions, \texttt{in\_Prep} and \texttt{with\_Prep} in order correctly linearize into \emph{work in foo} and \emph{work with foo} respectively (\emph{foo} is the value of \texttt{object}. The relation implementations make use of an operation \texttt{mkRS'} to reuse code.
+Four new relation functions are added. Line 5-6 in \autoref{fig:rgl-new-relations} shows how we use the verb \texttt{work\_V} together with two prepositions, \texttt{in\_Prep} and \texttt{with\_Prep} in order correctly linearize into \emph{work in Foo} and \emph{work with Foo} respectively (\emph{Foo} is the value of \texttt{object}. The relation implementations make use of an operation \texttt{mkRS'} to reuse code.
 
 \begin{figure}[H]
 \begin{code}

@@ -1,5 +1,5 @@
 %************************************************
-\chapter{Conclusion}\label{ch:conclusion}
+\chapter{Conclusions}\label{ch:conclusion}
 %************************************************
 \section{A brief discussion about the results}
 The results are overall very positive. We have managed to build a system which can translate a small subset of instructions formulated in English or Swedish into Solr query language which represent the same semantics. In addition, as the results show, we can obtain relevant suggestions of instructions based on a partial sentence or by just using keywords - which was exacly what we wanted.
@@ -15,7 +15,7 @@ By doing so, users with little knowledge of writing in English have a higher pro
 \hiddensubsection{The RGL produces an invalid sentence}
 Another problem we had with the RGL is the constant \texttt{which\_RP} which linearizes into \emph{which} if the subject is in singular form and \emph{who} if the subject is in plural form. The RGL does not take into account that this rule is only valid if the subject refers to a group of humans, it applies the rule to any group of things. This is probably a bug which will be fixed soon.
 
-\hiddensubsection{RGL and concatenation - Conclusion}
+\hiddensubsection{RGL and concatenation - Conclusions}
 We found out that concatenation is much more suitable when developing a project which translates from a natural language into machine readable instructions. However, this conclusion assumes that the developer of the grammar has knowledge of the natural language in order to correctly map ungrammatical sentences into their grammatical representations. If the developer is not an expert of the natural language, it will be very hard to use concatenation since she might not now which sentence that is the correct one. The RGL can be used in such cases, but then only grammatical sentences can be produced and there might be cases when it is not possible the articulate a sentence in a speficic way.
 
 \section{Suggestion Engine}
