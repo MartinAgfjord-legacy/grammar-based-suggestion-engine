@@ -6,7 +6,10 @@ This chapter presents results from the end application.
 \section{Translations}
 We begin by demonstrating how a few sentences are parsed into an abstract syntax which is linearized into all possible concrete syntaxes. The input is shown in the first box in each figure (with input language as a comment) and the result in second (larger) box. The result of a translation is JSON-data, given by the application.
 
-The first five figures shows the most simplest translations. They include all subjects and all types of names. Each one contains a subject, one verb and one name of a certain type.
+The solr linearization which is a clickable hyper-link in the web application. This link leads to an actual execution of a HTTP-GET request to the Solr engine. All such links leads to a Solr result which correctly filters data depending on the query. This data is however omitted from the results as the actual translations (and suggestions) are the main results of this project.
+\newline
+\newline
+The first five figures shows the simplest translations. They include all subjects and all types of names. Each one contains a subject, one verb and one name of a certain type.
 \newline
 \newline
 
@@ -292,7 +295,14 @@ This section shows how the application reacts to input before the user has chose
 \caption{Suggestions based on the word \texttt{people} by using EnglishRGL or EnglishConcat\label{fig:suggestions-people}}
 \end{figure}
 
-\autoref{fig:suggestions-who-know} shows that it is possible to use a combination of words to retrieve suggestions. It also demonstrates that the words do not have to be the first words in an instruction.
+\autoref{fig:suggestions-people-java} shows that it is possible to use a combination of words to retrieve suggestions. It also shows that we can use the first and the last word to get suggestions.
+
+\begin{figure}[H]
+\includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/people-java.png}
+\caption{Suggestions based on the words \texttt{people java} by using EnglishRGL or EnglishConcat\label{fig:suggestions-people-java}}
+\end{figure}
+
+\autoref{fig:suggestions-who-know} demonstrates that the words do not have to be the first or last words in the sentence.
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/who_know.png}
@@ -349,7 +359,7 @@ Also \autoref{fig:that} shows how we can get suggestions based on a synonym. Bot
 \caption{Synonyms based on a synonym by using EnglishConcat\label{fig:that}}
 \end{figure}
 
-\autoref{fig:misspelled-name} shows how the application shows relevant suggestion based on a misspelled word.
+\autoref{fig:misspelled-name} shows how the application shows relevant suggestion based on a misspelled word. This is achieved by using a approximate string matching algorithm in Solr.
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/misspelled_name.png}
@@ -368,7 +378,7 @@ Also \autoref{fig:that} shows how we can get suggestions based on a synonym. Bot
 \caption{Suggestions based on the string \emph{projects} by using EnglishConcat\label{fig:projects-concat}}
 \end{figure}
 
-Lastly, \autoref{fig:swedish} demonstrates that the application also can translate give suggestions in Swedish. The application can translate valid Swedish sentences as long as the user has chosen SwedishRGL as input language in the application. All instructions that can be translated from EnglishRGL can also be translated from SwedishRGL.
+Lastly, \autoref{fig:swedish} demonstrates that the application can also give suggestions in Swedish. The application can translate valid Swedish sentences as long as the user has chosen SwedishRGL as input language in the application. All instructions that can be translated from EnglishRGL can also be translated from SwedishRGL.
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/swedish.png}

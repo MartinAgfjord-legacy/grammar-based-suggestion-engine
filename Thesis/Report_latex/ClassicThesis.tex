@@ -71,24 +71,16 @@
 %\include{FrontBackmatter/DirtyTitlepage}
 %\include{FrontBackmatter/Titlepage}
 %\include{FrontBackmatter/Titleback}
+\pdfbookmark[1]{Cover}{Cover}
+\includepdf[pages={1,2}]{gfx/Cover_page_GU.pdf}
 %\cleardoublepage\include{FrontBackmatter/Dedication}
 %\cleardoublepage\include{FrontBackmatter/Foreword}
-%\cleardoublepage\include{FrontBackmatter/Abstract}
+\cleardoublepage\include{FrontBackmatter/Abstract}
 %\cleardoublepage\include{FrontBackmatter/Publication}
-%\cleardoublepage\include{FrontBackmatter/Acknowledgments}
-% #### This page is intentionally left (almost) blank == \blankpage
-%\blankpage
+\cleardoublepage\include{FrontBackmatter/Acknowledgments}
 \pagestyle{scrheadings}
 \cleardoublepage\include{FrontBackmatter/Contents}
-%********************************************************************
-% Mainmatter
-%*******************************************************
-\pagenumbering{arabic}
-\bibliographystyle{unsrtnat}
-%\setcounter{page}{90}
-% use \cleardoublepage here to avoid problems with pdfbookmark
-\cleardoublepage
-%\part{Some Kind of Manual}
+
 \begingroup 
 %    \let\clearpage\relax
 %    \let\cleardoublepage\relax
@@ -119,7 +111,7 @@
     %*******************************************************
     % List of Listings
     %*******************************************************      
-	  %\phantomsection 
+      %\phantomsection 
 %    \refstepcounter{dummy}
 %    %\addcontentsline{toc}{chapter}{\lstlistlistingname}
 %    \pdfbookmark[1]{\lstlistlistingname}{lol}
@@ -138,7 +130,7 @@
    % \begin{acronym}[UML]
 \begin{tabular}{ l l }
   GF & Grammatical Framework \\
-  RGL & Resouce Grammar Library \\
+  RGL & Resource Grammar Library \\
   Java EE & Java Enterprise Edition \\
   PGF & Portable Grammar Format \\
 \end{tabular}
@@ -148,14 +140,22 @@
 %        \acro{pgf}[PGF]{Portable Grammar Format}
 %    \end{acronym}                     
 \endgroup
+
+% #### This page is intentionally left (almost) blank == \blankpage
+\newpage
+\blankpage
+%********************************************************************
+% Mainmatter
+%*******************************************************
+\pagenumbering{arabic}
+\bibliographystyle{unsrtnat}
+%\setcounter{page}{90}
+% use \cleardoublepage here to avoid problems with pdfbookmark
+\cleardoublepage
+%\part{Some Kind of Manual}
+\setcounter{page}{1}
 \include{Chapters/Chapter01}
 \cleardoublepage
-\ctparttext{You can put some informational part preamble text here. 
-Illo principalmente su nos. Non message \emph{occidental} angloromanic
-da. Debitas effortio simplificate sia se, auxiliar summarios da que,
-se avantiate publicationes via. Pan in terra summarios, capital
-interlingua se que. Al via multo esser specimen, campo responder que
-da. Le usate medical addresses pro, europa origine sanctificate nos se.}
 %\part{The Showcase}
 \include{Chapters/Chapter02}
 \include{Chapters/Chapter03}

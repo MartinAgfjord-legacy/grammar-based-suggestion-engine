@@ -14,7 +14,7 @@
 % 1. Configure classicthesis for your needs here, e.g., remove "drafting" below 
 % in order to deactivate the time-stamp on the pages
 % ****************************************************************************************************
-\PassOptionsToPackage{eulerchapternumbers,listings,drafting,%
+\PassOptionsToPackage{eulerchapternumbers,listings,%drafting
 				 pdfspacing,%floatperchapter,%linedheaders,%
 				 subfig,beramono,eulermath,parts}{classicthesis}										
 % ********************************************************************
@@ -39,19 +39,16 @@
 % ****************************************************************************************************
 % 2. Personal data and user ad-hoc commands
 % ****************************************************************************************************
-\newcommand{\myTitle}{A Classic Thesis Style\xspace}
-\newcommand{\mySubtitle}{An Homage to The Elements of Typographic Style\xspace}
-\newcommand{\myDegree}{Doktor-Ingenieur (Dr.-Ing.)\xspace}
-\newcommand{\myName}{Andr\'e Miede\xspace}
-\newcommand{\myProf}{Put name here\xspace}
-\newcommand{\myOtherProf}{Put name here\xspace}
-\newcommand{\mySupervisor}{Put name here\xspace}
-\newcommand{\myFaculty}{Put data here\xspace}
-\newcommand{\myDepartment}{Put data here\xspace}
-\newcommand{\myUni}{Put data here\xspace}
-\newcommand{\myLocation}{Darmstadt\xspace}
-\newcommand{\myTime}{August 2012\xspace}
-\newcommand{\myVersion}{version 4.1\xspace}
+\newcommand{\myTitle}{Interpreting natural language sentences into machine readable instructions\xspace}
+%\newcommand{\mySubtitle}{An Homage to The Elements of Typographic Style\xspace}
+\newcommand{\myDegree}{Master of Science in Computer Science\xspace}
+\newcommand{\myName}{Martin Agfjord\xspace}
+\newcommand{\mySupervisor}{Krasimir Angelov\xspace}
+\newcommand{\myDepartment}{Department of Computer Science and Engineering\xspace}
+\newcommand{\myUni}{University of Gothenburg\xspace}
+\newcommand{\myLocation}{Gothenburg\xspace}
+\newcommand{\myTime}{August 2014\xspace}
+\newcommand{\myVersion}{version 1.0\xspace}
 
 % ********************************************************************
 % Setup, finetuning, and useful commands
@@ -303,6 +300,8 @@
     \centering
     \nointerlineskip % suppresses partial \baselineskip above text
     This page is intentionally left (almost) blank.\par
+    \thispagestyle{empty}
+    \setcounter{page}{}
     \vspace{\fill}%
   \endgroup
   % \showlists
@@ -457,3 +456,6 @@ frame hidden,boxrule=0pt,top=1mm,bottom=0.5mm]}%
     \stepcounter{subsubsubsection}
     \subsubsubsection*{\arabic{chapter}.\arabic{section}.\arabic{subsection}\hspace{1em}{#1}}
 }
+
+% Include pdfs
+\usepackage{pdfpages}

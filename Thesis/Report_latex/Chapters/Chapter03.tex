@@ -2,13 +2,15 @@
 \chapter{Application development}\label{ch:application-overview}
 %************************************************
 
-\section{Requirements specification}
+\section{Brief description of the application}
+
+We begin by describing what the different parts of the application and the why we need them.
 
 \hiddensubsection{Generation of mock data}
 As described in \autoref{sec:problem-description}, we want to develop an application which can translate natural language questions that refers to entities in a database or index owned by a software development company. This project has been made with strong collaboration with Findwise, a company with focus on search driven solutions. Findwise has an index with information about employees, projects and customers. However, it is not possible to use their information because it is confidential and cannot be published in a master thesis. A different approach to get hold of relevant data is to generate mock data that is inspired by Findwise's data model. Mock data in this project is simply generated data from files that can be used to simulate a real world example application.
 
 \hiddensubsection{Grammar development}\label{sec:grammar-development}
-The grammar in \autoref{ch:simple-grammar} can only translate the instruction \emph{people who know Java} in English and Swedish into Solr query language. The grammar needs to be extended to handle \emph{any} programming language that exists in the mock data, not only \emph{Java}. The grammar also needs to support more instructions in order to make a more realistic use case. We have chosen the to support the following instructions:
+The grammar in \autoref{ch:simple-grammar} can only translate the instruction \emph{people who know Java} in English and Swedish into Solr query language. The grammar needs to be extended to handle \emph{any} programming language that exists in the mock data, not only \emph{Java}. The grammar also needs to support more instructions in order to make a more realistic use case. We have chosen to support the following instructions:
 
 \begin{figure}[H]
 \begin{terminal}
@@ -30,14 +32,14 @@ translate anything. This problem can be solved by using a wide coverage grammar,
 
 GF has the power to suggest valid words of an incomplete sentence by using incremental parsing \cite{angelov09:incremental-parser}. This means that even though a user do not know what to type, the application can suggest valid words to use. If the user chooses to add one of those words, the suggestion engine can show a new list of words that will match the new partial sentence.
 
-However, this method does not support the use of only keywords, since one cannot start a sentence with for example the word \emph{Java}. It it also inflexible as it does not support the use of words outside the grammar. For example, in the sentence \texttt{all people who know Java}, the parser would not be able to parse the word \emph{all}.
+However, this method does not support the use of only keywords, since one cannot start a sentence with for example the word \emph{Java}. It is also inflexible as it does not support the use of words outside the grammar. For example, in the sentence \texttt{all people who know Java}, the parser would not be able to parse the word \emph{all}.
 
-This thesis takes a different approach on a suggestion engine. Instead of suggesting one word at a time, one can suggest a whole sentence based on what the user has typed so far. This is achieved by generating all possible sentences that the application can translate and indexing them in Apache Solr. This makes it very easy to search on matching sentences, we also gain powerful techniques such as approximate string matching. 
+This thesis takes a different approach on a suggestion engine. Instead of suggesting one word at a time, one can suggest a whole sentence based on what the user has typed so far. This is achieved by generating all possible sentences (up to a certain size) that the application can translate and indexing them in Apache Solr. This makes it very easy to search on matching sentences, we also gain powerful techniques such as approximate string matching. \cite{bialecki:2012}[p. 22]
 \newline
 \newline
-By using this approach, if a user types a sentence in the application, it will search in the index on instructions related to the string and retrieve the most relevant instructions.
+By using this approach, if a user types a sentence in the application, it will search in the index on instructions related to the string and will retrieve the most relevant instructions.
 
-As the suggestion engine uses a search platform, it is possible to type anything and get suggestions, even only keywords like \texttt{'people java'} will suggest instructions that can be formulated with these two words.
+As the suggestion engine uses a search platform, it is possible to type any word that exists in a sentence and get suggestions, even only keywords like \texttt{'people java'} will suggest instructions that can be formulated with these two words.
 
 \hiddensubsection{Runtime environment}
 The chosen programming language for this project is Java. The main reason is because it is Findwise's primary programming language. It is also very well known among many companies in the world.
@@ -47,12 +49,21 @@ Many professional Java-developers adopts a specific development platform, Java E
 A typical Java EE project make use of several libraries, in computer science terms we say that a project can have other libraries as \emph{dependencies}. It is not unusual that these libraries also have their own dependencies. Larger projects can therefore have a lot of dependencies, so many that it becomes hard to keep track of them. This project make use of an open source tool called Apache Maven to handle dependencies. One simply list all libraries the project shall have access to, then Maven will automatically fetch them and their dependencies. This also makes the application more flexible, as it do not have to include the needed libraries in the application.
 
 \hiddensubsection{Input and output presentation}
-Besides handling translation and suggestions, the application also needs to handle input and present its results in some way. This application takes input and presents output by using a web gui\footnote{\url{http://en.wikipedia.org/wiki/Graphical_user_interface}}.
+Besides handling translation and suggestions, the application also needs to handle input and present its results in some way. This application takes input and presents output by using a web GUI\footnote{\url{http://en.wikipedia.org/wiki/Graphical_user_interface}}.
+
+\hiddensubsection{Information flow}
+This section aims to describe how the information flows in the application when a user starts by typing words in the input field and then obtain relevant data.
+\newline
+\newline
+A JavaScript-listener is active on the input field. When a user starts typing into the input field, the listerner will send the input to a the Java-application which will run the suggestion algorithm on the input. The suggestion algorithm is making multiple requests to the Solr index in order to obtain suggestions. The suggestions are sent back to the user and are presented by using JavaScript.
+
+If a user chooses to translate a sentence (by pushing enter while focusing on the input field), another JavaScript function will be executed which sends the phrase or sentence to the Java application. This sentence is parsed into one or multiple abstract syntax trees by using PGF \cite{angelov:2011}[p. 14]. The resulting abstract syntax tree(s) are linearized into all possible concrete syntaxes and returned to the web application. The web application present the result to the user. 
+
+In addition to presenting the result, it also creates a hyperlink of each Solr linearization. This hyperlink leads to the Solr index and is an executable version of the Solr linearization.
 
 \hiddensubsection{Running the application}
-Web applications built in Java are usually has the WAR file format. It is a special JAR-file which includes classes, dependencies and web pages. This project uses an open source web server called Apache Tomcat to host a web application by exporting our application as a WAR-file. Apache Tomcat will make the application available by using HTTP-requests and spawn a new thread for each request.
-\newline
-\newline
+Web applications built in Java usually have the WAR file format. It is a special JAR-file which includes classes, dependencies and web pages. This project uses an open source web server called Apache Tomcat to host a web application by exporting our application as a WAR-file. Apache Tomcat will make the application available by using HTTP-requests and spawn a new thread for each request.
+
 Details about the runtime environment can be found in \autoref{ch:appendix-a} and \autoref{ch:appendix-b}.
 
 \section{Grammar development with the RGL}
@@ -77,7 +88,7 @@ MkObject str = str.s ;
 \caption{Intuitive approach on names}
 \end{figure}
 
-The GF-code compiles, and the parsing and linearization by using Solr query language works. Unfortunately, this approach does not work with the RGL. GF cannot create a proper name by using an arbitrary string. \todo{Why?}
+The GF-code compiles, and the parsing and linearization by using Solr query language works. Unfortunately, this approach does not work with the RGL, because the \texttt{mkPN}-operation directly tries to manipulate the string which of course cannot be done when it is arbitrary.
 
 Fortunately, there exists a built in category which can be used for exactly these situations. We use the category \texttt{Symb}, along with the function \texttt{MkSymb : String -> Symb} to represent arbitrary strings. We can then use the function \texttt{SymbPN} to create a proper name and finally create a noun phrase.
 \begin{figure}[H]
@@ -92,7 +103,10 @@ MkObject symb = symb.s ; -- Symb has the type { s : Str }
 \caption{Working approach on names}
 \end{figure}
 
-By using this solution, we can translate the sentence \emph{people who know foo}, where \emph{foo} can be anything.
+By using this solution, we can translate the sentence \emph{people who know Foo}, where \emph{Foo} can be anything.
+
+\hiddensubsubsection{Recognition of names}
+We said that \emph{Foo} can be anything in the previous example, but we can also replace it with \emph{Foo Bar Baz...} and the words could continue forever as long as the first letter in each word is in uppercase. This is how the Java runtime for GF recognizes names by default, but one can also use a customized definition.
 
 \hiddensubsection{Extending the grammar}
 It is not trivial to extend the grammar to support the instructions described in \autoref{sec:grammar-development}. One has to take into account that it shall not be possible to translate invalid instructions like \emph{projects who work in London}. We will in this section first extend the abstract syntax to support the new instructions and then extend the concrete syntaxes.
@@ -157,7 +171,7 @@ As the abstract syntax has changed, the concrete syntaxes have to be modifed as 
 \begin{figure}[H]
 \begin{code}
 lincat
-  Instruction = NP ;
+  Instruction = Utt ;
   Internal, External, Resource = N ;
   InternalRelation, ExternalRelation, ResourceRelation = VP ;
 \end{code}
@@ -204,8 +218,7 @@ lin
   InstrucResource resource' relation = mkI resource' relation ;
 
 oper
-  mkI : N -> RS -> NP = \noun,rs -> mkNP aPl_Det 
-                             (mkCN noun rs) ;
+  mkI : N -> RS -> Utt = \noun,rs -> mkUtt (mkNP aPl_Det (mkCN noun rs)) ;
 \end{code}
 \caption{Concrete syntax using the RGL with new instruction implementations\label{fig:rgl-new-instructions}}
 \end{figure}
@@ -258,7 +271,7 @@ As in the concrete syntax using the RGL, also an operation is defined and used b
 \begin{code}
 lin
   InstrucInternal internal relation = select internal relation ;
-  InstrucExternal external relation = select external relation;
+  InstrucExternal external relation = select external relation ;
   InstrucResource resource' relation = select resource' relation;
 
 oper
@@ -358,10 +371,16 @@ lin
 \caption{Solr concrete syntax for boolean operators and relations\label{fig:boolean-solr-relations}}
 \end{figure}
 
-\section{Suggestion engine}
-The suggestion engine shall generate all possible instructions in all natural languages and store them in an Apache Solr index. It is suitable to use the \emph{generator} which GF creates to generate abstract syntax trees and linearize them into the specified concrete languages (English and Swedish in this case).
+\hiddensubsubsection{Boolean operators and ambiguity}
+Our definition of boolean operations can create ambiguous instructions. An ambiguous instruction can be interpreted by the program in more than one way. For example \emph{people who know Java or Python and Haskell} could be interpreted as \texttt{'people who know (Java or Python) and Haskell'} or it can be interpreted as \texttt{'people who know Java or (Python and Haskell)'}. GF automatically detects ambiguity and will return several abstract syntax trees while parsing an instruction which is ambiguous.
 
-The generator can be accessed through the GF-shell.  \autoref{fig:gf-shell-generate-trees} shows how the function \texttt{generate\_trees} is executed to generate all trees with the \emph{depth} 4. By depth, we mean the maximum number edges between a leaf and the root element.
+\hiddensubsubsection{Infinitely many instructions}
+The boolean operators we just defined are recursively defined, because they take two arguments of a certain type, and they use those two arguments to create a value of the same type. This means that the resulting value can actually be used in the same function to create another value, and this goes on forever.
+
+\section{Suggestion engine}
+The suggestion engine shall generate all possible instructions in all natural languages and store them in an Apache Solr index. It is suitable to use the \emph{generator} which GF offers to generate abstract syntax trees and linearize them into the specified concrete languages (English and Swedish in this case).
+
+The generator can be accessed through the GF-shell. \autoref{fig:gf-shell-generate-trees} shows how the function \texttt{generate\_trees} is executed to generate all trees with the \emph{depth} 4. By depth, we mean the maximum number edges between a leaf and the root element.
 
 \begin{figure}[H]
 \begin{terminal}
@@ -375,15 +394,15 @@ InstrucResource Project (UseRes (MkObject (MkSymb "Foo")))
 \caption{\texttt{generate\_trees} is used to create all abstract syntax trees with max depth 4\label{fig:gf-shell-generate-trees}}
 \end{figure}
 
-\autoref{fig:gf-shell-generate-trees} shows 5 trees, but there exists many more trees.\marginpar{Actually, there exists infinitely many trees, as we have recursive functions in the abstract syntax.} The reason GF only generates 5 trees is because of the default depth setting is 4. If we increase the depth we will obtain more trees, as it then will include trees containing boolean operators. By increasing the max depth to 5, GF will generate 36 trees. With depth 6, GF will generate 321 trees.
+\autoref{fig:gf-shell-generate-trees} shows 5 trees, but there exists many more trees.\marginpar{Actually, there exists infinitely many trees, as we have recursive functions in the abstract syntax.} The reason GF only generates 5 trees is because the default depth setting is 4. If we increase the depth we will obtain more trees, as it then will include trees containing boolean operators. By increasing the max depth to 5, GF will generate 36 trees. With depth 6, GF will generate 321 trees.
 \newline
 \newline
-It is often good to visualize trees to understand them better. \autoref{fig:asts-depths} shows two abstract syntax trees, the first one with depth 4 and the second with depth 5. One can easily see that the former has maximum 4 edges between root and leaf, and the latter has maximum 5 edges between root and leaf.
+It is often good to visualize trees to understand them better. \autoref{fig:asts-depths2} shows two abstract syntax trees, the first one with depth 4 and the second with depth 5. One can easily see that the former has maximum 4 edges between root and leaf by counting the edges between \texttt{InstrucInternal} and \texttt{\"Foo\"}, and the latter has maximum 5 edges between root and leaf.
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/depth4}
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/depth5}
-\caption{Visualization of abstract syntax trees with depth 4 and 5\label{fig:asts-depths}}
+\caption{Visualization of abstract syntax trees with depth 4 and 5\label{fig:asts-depths2}}
 \end{figure}
 
 \hiddensubsection{Populating the Solr index}
@@ -399,7 +418,7 @@ A better approach on the problem is to store all distinct names in a separate in
 
 \hiddensubsection{Introducing name types}
 
-This application uses four different kind of names. Programming languages are used together with the \texttt{Know} relation. Organizations are used with the \texttt{Work\_With} relation. Locations are used with the \texttt{Work\_In} relation. Lastly, modules are used with the \texttt{Use} relation. We extend the grammar to support these new name types.
+This application uses four different kind of names. Programming languages are used together with the \texttt{Know} relation. Organizations are used with the \texttt{WorkWith} relation. Locations are used with the \texttt{WorkIn} relation. Lastly, modules are used with the \texttt{Use} relation. We extend the grammar to support these new name types.
 
 \autoref{fig:abstract-syntax-name-types} shows the new abstract syntax. Line 3 defines new name types. Line 7-10 defines how the names are instantiated. Lines 13-23 defines how names can be combined by using boolean operators. Note how we use the type \texttt{Skill} for programming languages.
 
@@ -435,7 +454,7 @@ fun
 The concrete syntax for these new functions are implemented in the same way as the ones we removed (category \texttt{Object} and functions \texttt{MkObject}, \texttt{And\_O} and \texttt{Or\_O}). We have omitted the new concrete syntaxes from the thesis as they do not contribute to anything new.
 \newline
 \newline
-As the grammar has changed, also the abstract syntax trees has changed. \autoref{fig:new-trees-different-types} shows how GF now generate all trees with depth 4.
+As the grammar has changed, also the abstract syntax trees has changed. \autoref{fig:new-trees-different-types} shows how GF now generates all trees with depth 4.
 \begin{figure}[H]
 \begin{terminal}
 Instrucs> generate_trees
@@ -496,46 +515,104 @@ suggestions(sentence) {
 \caption{Pseudocode for the suggestion algorithm\label{fig:psuedocode-suggestions}}
 \end{figure}
 
-\hiddensubsubsection{Supporting invalid sentences}
-This section aims to add better accuracy of the suggestion engine by linearizing different variations of a sentence. While the linearization function in GF returns a string representation of a tree, there also exists a parameter \texttt{-list} which allows GF to return all semantically equivalent ways of expressing a sentence.
+\hiddensubsubsection{Supporting more sentences}
+This section aims to add better accuracy to the suggestion engine by linearizing different variations of a sentence. In other words, we make it possible to linearize an abstract syntax tree into multiple strings. 
 
-\begin{figure}[H]
-\begin{terminal}
-Languages: InstrucsEng
-Instrucs> p "people who know Java" | l -list
-people who know Java, people's who know Java
-\end{terminal}
-\caption{Linearization to InstrucsEng using \texttt{-list}\label{fig:linearize-using-list}}
-\end{figure}
-\todo{Here we actually get four results, three duplicates! Fix, but how?}
-
-\autoref{fig:linearize-using-list} shows that \texttt{people who know Java} actually can be expressed in two ways. We add both linearizations as a list to the same object in the linearizations index, and we list the one we think is the most suitable in the beginning of the list. This makes it possible to search for everything the grammar can parse, but get a more suitable suggestion. For instance, if type \emph{people's who know Java} then the application will match the lesser suitable sentence in the index, but return \emph{people who know Java} as a suggestion.
+When normally linearizing an abstract syntax tree in the GF-shell always gets just one result. However, there exists a parameter \texttt{-list} which can be used to obtain all possible ways of representing the abstract syntax tree.
 \newline
 \newline
-It is possible to add more linearizations than those listed in \autoref{fig:linearize-using-list}. GF adopts the pipe symbol to express that two elements are semantically equivalent. The following sections describes how the pipe symbol can be used to further extend the grammar.
+GF adopts the pipe symbol to express that two elements are semantically equivalent. The following sections describes how the pipe symbol can be used to further extend the grammar.
 
-We extend the grammar to treat a subject in singular form the same as a subject in plural form. I.e. the sentences \emph{a person which knows Java} is the same as \emph{people who know Java}. As we treat them equivalent, they will have the same abstract syntax tree, and this tree will linearize to only one Solr query, hence if we translate \emph{a person who knows Java} into Solr, we will obtain a query that retrieves multiple results. The implementation of this extension is achieved by modifying the operation \texttt{mkI}. The reason why the plural version is chosen as the preferable sentence is because \texttt{aPl\_Det} is listed before \texttt{aSg\_Det}.
+We extend the grammar to treat a subject in singular form the same as a subject in plural form. I.e. the sentences \emph{a person which knows Java} is the same as \emph{people who know Java}. As we treat them equivalent, they will have the same abstract syntax tree, and this tree will linearize to only one Solr query, hence if we translate \emph{a person who knows Java} into Solr, we will obtain a query that retrieves multiple results. The implementation of this extension is achieved by modifying the operation \texttt{mkI} (defined in \autoref{. The reason why the plural version is chosen as the preferable sentence is because \texttt{aPl\_Det} is listed before \texttt{aSg\_Det}.
 
 \begin{figure}[H]
 \begin{code}
 oper
-  mkI : N -> RS -> NP = \noun_N,rs_RS -> mkNP (aPl_Det | aSg_Det)
-                             (mkCN noun_N rs_RS) ;
+  mkI : N -> RS -> Utt = \noun_N,rs_RS -> mkUtt (mkNP (aPl_Det | aSg_Det)
+                             (mkCN noun_N rs_RS)) ;
 \end{code}
 \caption{Treating singular form equivalent to plural form\label{fig:linearize-using-list}}
 \end{figure}
+The second extension is to add support of the word \emph{that} so we can express sentences like \emph{people that know Java}. This is achieved by moving the relative pronoun from the concrete syntax to the lexicon and adding support of multiple relative pronouns by using the variance function. \autoref{fig:add-lexicon-interface} shows how we define a new constant operation which will provide the concrete syntaxes with a relative pronoun.
 
-The second extension is to treat the \emph{progressive form} of a verb as the same as the regular form. A progressive form of a verb indicates that something is happening right now or was happening or will be happening. The grammar in this project only supports present tense, so it will only cover progressive verbs which expresses that something is happening right now. This is achieved by using the variance function again.
+\begin{figure}[H]
+\begin{code}
+interface LexInstrucs = open Syntax in {
+  oper
+    ...
+    who_RP : RP ;
+}
+\end{code}
+\caption{Adding a new relative pronoun to the lexicon interface\label{fig:add-lexicon-interface}}
+\end{figure}
+
+We den implement the constant operation we just defined. In English, we use the variance function to allow both \texttt{which\_RP} and \texttt{that\_RP}.
+
+\begin{figure}[H]
+\begin{code}
+instance LexInstrucsEng of LexInstrucs = open Prelude, SyntaxEng, 
+                                      ParadigmsEng, ExtraEng in {
+  oper
+    ...
+    who_RP = which_RP | that_RP ;
+}
+\end{code}
+\caption{Defining the new relative pronoun in English\label{fig:add-lexicon-english}}
+\end{figure}
+
+It is not possible to express the relative pronoun in more than one way in Swedish, so we let the new operatoin be implemented to return \texttt{which\_RP}.
+
+\begin{figure}[H]
+\begin{code}
+instance LexInstrucsSwe of LexInstrucs = open SyntaxSwe, ParadigmsSwe in {
+  oper
+    ...
+    who_RP = which_RP ;
+}
+\end{code}
+\caption{Defining the new relative pronoun in Swedish\label{fig:add-lexicon-swedish}}
+\end{figure}
+
+Finally we change the operation \texttt{mkRS'} to use the new constant operation we defined in the lexicon.
 
 \begin{figure}[H]
 \begin{code}
 oper
-  mkRS' : VP -> RS = \vp -> mkRS (mkRCl which_RP (vp | progressiveVP vp)) ;
+  mkRS' : VP -> RS = \vp -> mkRS (mkRCl who_RP vp) ;
+\end{code}
+\caption{Usage of the new relative pronoun\label{fig:add-lexicon-incomplete-grammar}}
+\end{figure}
+
+The third extension is to treat the \emph{progressive form} of a verb as the same as the regular form. A progressive form of a verb indicates that something is happening right now or was happening or will be happening. The grammar in this project only supports present tense, so it will only cover progressive verbs which expresses that something is happening right now. This is achieved by using the variance function again.
+
+\begin{figure}[H]
+\begin{code}
+oper
+  mkRS' : VP -> RS = \vp -> mkRS (mkRCl who_RP (vp | progressiveVP vp)) ;
 \end{code}
 \caption{Treating progressive verb equivalent normal form\label{fig:linearize-using-list}}
 \end{figure}
 
-However, not all verbs can be used in progressive form. An example of such verb is \emph{know}. An example of  \emph{know} in progressive form is \emph{people who are knowing Java} which clearly is incorrect. Although it might look ugly, it is not an issue for our application as the suggestion engine only suggest the most suitable suggestion. The extension will contribute to make the suggestion engine richer as it allows users to use invalid instructions.
+However, not all verbs can be used in progressive form. An example of such verb is \emph{know}. An example of  \emph{know} in progressive form is \emph{people who are knowing Java} which is not grammatically correct. Although it might look ugly, it is not an issue for our application as the suggestion engine only suggest the most suitable suggestion. The extension will contribute to make the suggestion engine richer as it allows users to use invalid instructions.
+\newline
+\newline
+If we now linearize the abstract syntax tree which represents the sentence \emph{people who know Java} we will obtain several linearizations (see \autoref{fig:multiple-linearizations}) which by the program are treated to be semantically equivalent. Note how the first linearization is the one we treat as the correct one. It is not a coincidence that it is listed first. The first argument when using the variance function is always linearized first, so we make sure that all the correct linearizations is in the beginning of the list. We can then use this to map the incorrect representations to the correct ones in the suggestion engine.
+
+\begin{figure}[H]
+\begin{terminal}
+Languages: InstrucsEngRGL
+Instrucs> l -lang=InstrucsEngRGL -list 
+>             InstrucInternal People (Know_R (MkSkill (MkSymb "Java")))
+people who know Java, , people who are knowing Java, , people that know Java,
+people that are knowing Java, persons who know Java, 
+persons who are knowing Java, persons that know Java, 
+persons that are knowing Java, a person which knows Java, 
+a person which is knowing Java, a person that knows Java, 
+a person that is knowing Java
+
+\end{terminal}
+\caption{Obtaining multiple linearizations by using \texttt{-list}\label{fig:multiple-linearizations}}
+\end{figure}
 
 \section{Alternative implementation without the RGL}\label{sec:english-concat}
 We have implemented the concrete syntax for English by using the RGL. This section shows how the same functionality can be achieved by concatenating strings. The purpose of this section is to be able to compare the complexity of a concrete syntax developed by using RGL and by concatenating strings.\newline
@@ -671,4 +748,4 @@ This section describes how the data used by the application is generated. In ord
 
 Mock data is generated by combining data from text-files. We have two text-files concerning personal names (\texttt{first\_names.txt} and \texttt{last\_names.txt}). One text-file with organization names (\texttt{charity\_organizations.txt}). One text file about programming languages (\texttt{programming\_languages.txt}). Lastly, one text file containing cities (\texttt{cities.txt}). 
 
-An object is generated by taking one value from each text file that the object needs. For instance, to create an object of the type \texttt{Person}, we fetch values from \texttt{first\_names.txt}, \texttt{last\_names.txt}, \texttt{programming\_languages.txt}, \texttt{cities.txt} and \texttt{charity\_organizations.txt}. The object is then exported to Solr to be stored in the index.
+An object is generated by taking one value from each text file that the object needs. For instance, to create an object of the type \texttt{Person}, we fetch values from \texttt{first\_names.txt}, \texttt{last\_names.txt}, \texttt{programming\_languages.txt}, \texttt{cities.txt} and \texttt{charity\_organizations.txt}. The values are randomly chosen from the text files. The object is then exported to Solr to be stored in the index.

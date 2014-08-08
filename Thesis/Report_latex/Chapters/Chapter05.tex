@@ -4,16 +4,22 @@
 \section{A brief discussion about the results}
 The results are overall very positive. We have managed to build a system which can translate a small subset of instructions formulated in English or Swedish into Solr query language which represent the same semantics. In addition, as the results show, we can obtain relevant suggestions of instructions based on a partial sentence or by just using keywords - which was exacly what we wanted.
 
-\section{Suggestion Engine}
-We generate all possible sentences and store the result in a Solr index. This provides us with a strong suggestion engine which can suggest relevant suggestions based on a partial sentence or only keywords. We can also generate all possible Solr queries and also store them in the index. We can then link each suggestion to the corresponding Solr query. This produces a very fast and efficient translating service (faster than translating with GF). However, if we do so, the end application does not use the grammar at all. The grammar is only used for initialization when we generate the instructions in natural languages and Solr syntax. It is however unknown if this is an optimal solution. If so, is it worth to invest time to learn GF with its programming language and libraries to just generate sentences? As with learning any programming language, this varies depending on the learning person. How complex it is to generate sentences in a stand alone application without GF and a grammar is also unknown.
-
 \section{Comparison of the RGL and simple concatenation}\label{sec:comparison}
-We developed a concrete syntax for English by using the RGL (EngRGL) and one for English by concatenating strings (EngConcat). EngRGL is without doubt the most complex and least intuitive if the reader has no prior knowledge of the RGL. Conversely, EngConcat is very instuitive and straight forward for any reader with basic knowledge in programming. The two syntaxes supports equally many abstract syntax trees, but as we have added more variations of linearizations to EngConcat, it is possible to represent a few abstract syntax trees in more ways in EngConcat than in EngRGL. One example is \emph{people who know Java and work in London} which we could not express by using the RGL. We had to content  ourselves with the sentence \emph{people who know Java and \textbf{who} work in London}.
+We developed a concrete syntax for English by using the RGL (EngRGL) and one for English by concatenating strings (EngConcat). EngRGL is without doubt the most complex and least intuitive if the reader has no prior knowledge of the RGL. Conversely, EngConcat is very instuitive and straight forward for any reader with basic knowledge of programming. The two syntaxes supports equally many abstract syntax trees, but as we have added more variations of linearizations to EngConcat, it is possible to represent a few abstract syntax trees in more ways in EngConcat than in EngRGL. One example is \emph{people who know Java and work in London} which we could not express by using the RGL. We had to content  ourselves with the sentence \emph{people who know Java and \textbf{who} work in London}.
 
-In addition, concatenation of strings make it possible to create all kind of different (and strange) linearizations with the variance function. For instance, we can add all tenses and make it possible to map sentences expressed in bad grammar into a correct suggestion. Therefore, users with little knowledge of writing in English have a higher probability of finding the correct sentence by using this approach.
-\newline
-\newline
-Another problem we had with the RGL is the constant \texttt{which\_RP} which linearizes into \emph{which} if the subject is in singular form and \emph{who} if the subject is in plural form. The RGL does not take into account that this rule is only valid if the subject refers to a group of humans, it applies the rule to any group of things.
+\hiddensubsection{Support of ungrammatical sentences}
+Concatenation of strings make it possible to create all kind of different (and strange) linearizations with the variance function. For instance, we can mix singular words with plural words and make it possible to map sentences expressed in bad grammar into a correct suggestion. One example is \emph{people \textbf{which knows} Java} where the correct representation is \emph{people who know Java}, but it is very clear that we should treat them semantically equivalent.
+
+By doing so, users with little knowledge of writing in English have a higher probability of finding the correct sentence by using this approach. This technique is not supported by the RGL.
+
+\hiddensubsection{The RGL produces an invalid sentence}
+Another problem we had with the RGL is the constant \texttt{which\_RP} which linearizes into \emph{which} if the subject is in singular form and \emph{who} if the subject is in plural form. The RGL does not take into account that this rule is only valid if the subject refers to a group of humans, it applies the rule to any group of things. This is probably a bug which will be fixed soon.
+
+\hiddensubsection{RGL and concatenation - Conclusion}
+We found out that concatenation is much more suitable when developing a project which translates from a natural language into machine readable instructions. However, this conclusion assumes that the developer of the grammar has knowledge of the natural language in order to correctly map ungrammatical sentences into their grammatical representations. If the developer is not an expert of the natural language, it will be very hard to use concatenation since she might not now which sentence that is the correct one. The RGL can be used in such cases, but then only grammatical sentences can be produced and there might be cases when it is not possible the articulate a sentence in a speficic way.
+
+\section{Suggestion Engine}
+We generate all possible sentences and store the result in a Solr index. This provides us with a strong suggestion engine which can suggest relevant suggestions based on a partial sentence or only keywords. We can also generate all possible Solr queries and also store them in the index. If we now link each suggestion to the corresponding Solr query, we get a very fast and efficient translating service (faster than translating with GF). However, if we do so, the end application does not use the grammar at all. The grammar is only used for initialization when we generate the instructions in natural languages and Solr syntax. It is however unknown if this is an optimal solution. If so, is it worth to invest time to learn GF with its programming language and libraries to just generate sentences? As with learning any programming language, this varies depending on the learning person. How complex it is to generate sentences in a stand alone application without GF and a grammar is also unknown.
 
 \section{Known issues}\label{sec:known-issues}
 
@@ -27,27 +33,23 @@ As described in \autoref{sec:comparison}, the concrete syntax based on the RGL d
 The suggestion engine splits the input on words. It checks if a word can be represented by a name. However, the application will not find names based on multiple words. If a name is \emph{Apache Solr} then at the current implementation we would replace \emph{Apache} with \emph{Apache Tomcat} and \emph{Solr} with \emph{Apache Solr} if both names existed in the index. The reason is because the application simply takes the first name it finds. A better solution would try to find longer names first in order to get more precise results.
 
 \subsection*{PGF runtime}
-As described in \autoref{ch:appendix-a}, the Java runtime make us of the PGF-format when dealing with grammars. The Java class \texttt{org.grammaticalframework.pgf.PGF} can sometimes not be initialized properly. It is unknown why this occur, but it might depend on how Tomcat handles its native resources, as the PGF-class is a connector to the native libraries. The problem can be temporarly solved by redeploying the application.
+As described in \autoref{ch:appendix-a}, the Java runtime make us of the PGF-format when dealing with grammars. The Java class \texttt{org.grammaticalframework.pgf.PGF} sometimes can not be initialized properly. It is unknown why this occur, but it might depend on how Tomcat handles its native resources, as the PGF-class is a connector to the native libraries. The problem can be temporarly solved by redeploying the application.
 
 \subsection*{Limited amount of suggestions}
 Suggestions are limited to depth 6 of an abstract syntax tree. This means maximum 6 edges from root to leaf in an abstract syntax tree. It is therefore not possible to get suggestions containing many names. The depth can however be increased in the program.
 
 \section{Future work}
 \subsection*{Improvments of suggestions}
-The suggestions obtained from the appliction are relevant to the input words, but they can definitely be better. The suggestion engine do not give any suggestions when the textbox is empty, in other words, it does not give suggestions based on no words. For a user that has now clue of what to type, a suggestion of base sentences could help the user to get to know the system.
+The suggestions obtained from the appliction are relevant to the input words, but they can definitely be better. The suggestion engine do not give any suggestions when the textbox is empty, in other words, it does not give suggestions based on no words. For a user that has no clue of what to type, a suggestion of base sentences could help the user to get to know the system.
 \newline
 \newline
 If one starts to type a partial instruction that does not contain any name, e.g. \emph{people who know}, then the application will suggest the sentence \emph{people who know \textbf{Lisp}}. The reason is because application automatically tries to fill the missing name, and Lisp is the first name of the typ Skill it finds. It would be good to use some heuristic that can learn what the most relevant name of the specific type would be.
 \newline
 \newline
-Another nice improvment of the suggestion engine is to automatically choose the first suggestion available if the user tries to translate an invalid instruction. By doing so, one will always translate a correct sentence.
+Another nice improvment of the suggestion engine is to automatically choose the first suggestion available if the user tries to translate an invalid instruction. Or at least ask the user if the suggested sentence is what they meant.
 
 \subsection*{Instructions in speech}
-Speech recognition software translate from speech to text. If one has access to such software, it is relatively easy to enable speech to instructions translation by using the application developed in this project. One simply uses the speech recognition software to translate speech to text, and then take the text and use as input to the program. The program will show the most relevant suggestions based on the input.
+Speech recognition software translate from speech to text. If one has access to such software, it is relatively easy to enable speech to instructions translation by using the application developed in this project. One simply uses the speech recognition software to translate speech to text, and then take the text and use it as input to the program. The program will show the most relevant suggestions based on the input.
 
 \subsection*{Proper handling of ambiguous instructions}
-If one translates an ambiguous instruction, the resulting application will show all resulting abstract syntax trees with their corresponding linearizations. A better program would ask the user to clarify the instruction or make choose one of the astract syntax trees as the one to use. Both alternatives are non trivial to implement, since the former need a better grammar in order to distinguish between ambiguous instructions and the latter need some heuristic to know which instruction to choose.
-
-\subsection*{Rewrite grammar with lexicon}
-\todo{Not finished!}
-Instead of storing names in solr, store them in a lexicon and find a way of parsing using a wide coverage grammar.
+If one translates an ambiguous instruction, the resulting application will show all resulting abstract syntax trees with their corresponding linearizations. A better program would ask the user to clarify the instruction or choose one of the astract syntax trees as the one to use. Both alternatives are non trivial to implement, since the former need a better grammar in order to distinguish between ambiguous instructions and the latter need some heuristic to know which instruction to choose.

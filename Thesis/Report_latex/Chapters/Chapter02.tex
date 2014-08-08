@@ -1,5 +1,5 @@
 \chapter{A simple grammar}\label{ch:simple-grammar}
-This chapter presents an example of how GF can be used to create a grammar that can translate the sentence \emph{people who know Java?} into Apache Solr query language and vice verca. Apache Solr is a search platform based on Apache Lucene.
+This chapter presents an example of how GF can be used to create a grammar that can translate the sentence \emph{people who know Java} into Apache Solr query language and vice verca. Apache Solr is a search platform based on Apache Lucene. \cite{kuc2011apache}
 
 \section{Abstract syntax}
 To model the meaning of a sentence, GF adopts the use of functions and \emph{categories}. A category (\texttt{cat}) in GF is the same as a data type. We start by listing the categories we need, as seen in \autoref{fig:abstract-syntax} on lines 3-7. We then define the values that our data types can take. This is achieved by using functions. The functions in an abstract syntax are usually not implemented, we can therefore only see the function declarations. The reason is because we only want to model the semantics at the abstract level. How the semantics are implemented in a specific language is irrelevant, because we want to keep the abstract syntax as language independent as possible in order to make it easier to develop concrete syntaxes.
@@ -8,7 +8,7 @@ We define a function \texttt{Java : Object} which means that \texttt{Java} is a 
 
 An instruction can be created by obtaining a value of the type \texttt{Instruction}. Only \texttt{MkInstruction} returns the desired type and it takes two arguments, one of type \texttt{Subject} the other of type \texttt{Relation}.
 
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{code}
 abstract Instrucs = { 
   flags startcat = Instruction; 
@@ -177,9 +177,9 @@ In this section, we will present how the previous concrete syntax for English ca
 
 The most simple function in this case is \texttt{People}, which shall return a noun. A noun can be created by using the \emph{operation}\marginpar{An operation in GF is a function which can be called by linearization functions.} \texttt{mkN}. We create a noun which has the singular form \texttt{"person"} and plural form \texttt{"people"}, we will never use the singular form in this grammar, but it will become handy later in the thesis to use both singular and plural forms.
 
-\texttt{Java} returns a \texttt{noun phrase} which is created by the function \texttt{mkNP}, however, we create a noun phrase by converting a proper name which is initialized as \emph{Java}. \texttt{Know} returns a relative sentence. A relative sentence can for example be \emph{who know Java}. A relative sentence is constructed by first creating a \emph{verb phrase} from a verb and an object. This verb phrase is then used together with the constant operation \texttt{which\_RP} to create a \emph{relative clause}. We can then finally convert the relative clause into a relative sentence. This is achieved by using a self made operation named \texttt{mkRS'}, the purpose of this operation is to make the code easier to read and also in the future reuse code. 
+\texttt{Java} returns a \texttt{noun phrase} which is created by the function \texttt{mkNP}, however, we create a noun phrase by converting a proper name which is initialized as \emph{Java}. \texttt{Know} returns a relative sentence. A relative sentence can for example be \emph{who know Java}. A relative sentence is constructed by first creating a \emph{verb phrase} from a verb and an object. This verb phrase is then used together with the constant \texttt{which\_RP} to create a \emph{relative clause}. Finally, we convert the relative clause into a relative sentence. This is achieved by using a self made operation named \texttt{mkRS'}, the purpose of this operation is to make the code easier to read and also in the future reuse code. 
 
-The only thing that is left is to combine a noun with a relative sentence, e.g. combine \emph{people} with \emph{who know Java}. This is done by using the operation \texttt{mkCN} to create a common noun. As common nouns do not have any determiners, we have to construct a noun phrase together with the determiner \texttt{aPl\_Det} in order to to only allow translation of plural forms. Lastly we convert the noun phrase into an utterance in order to only allow the nominative form of the sentence (we would otherwise end up with with multiple equal abstract syntax trees when parsing a sentence).
+The only thing that is left is to combine a noun with a relative sentence, e.g. combine \emph{people} with \emph{who know Java}. This is done by using the operation \texttt{mkCN} to create a common noun. As common nouns do not have any determiners, we have to construct a noun phrase together with the determiner \texttt{aPl\_Det} in order to select only the plural forms. Lastly we convert the noun phrase into an utterance in order to only allow the nominative form of the sentence (we would otherwise end up with with multiple equal abstract syntax trees when parsing a sentence).
 
 \begin{figure}[h]
 \begin{code}
@@ -210,7 +210,7 @@ This section describes how the concrete syntax can be generalized into an \emph{
 
 \subsection*{An incomplete concrete syntax}
 
-As we already have designed the concrete syntax for English, we can fairly easy convert it to a generalised version. The incomplete concrete syntax can be seen in \autoref{fig:incomplete-concrete-syntax}. We no longer have any strings defined, as we want to keep the syntax generalised. Constant operations are used in place of strings, and they are imported from the lexicon interface  \texttt{LexInstrucs}.
+As we already have designed the concrete syntax for English, we can fairly easy convert it to a generalised version. The incomplete concrete syntax can be seen in \autoref{fig:incomplete-concrete-syntax}. We no longer have any strings defined, as we want to keep the syntax generalised. Constants are used in place of strings, and they are imported from the lexicon interface  \texttt{LexInstrucs}.
 
 \begin{figure}[h]
 \begin{code}
