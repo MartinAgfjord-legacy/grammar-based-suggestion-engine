@@ -63,21 +63,23 @@
 \selectlanguage{american} % american ngerman
 %\renewcommand*{\bibname}{new name}
 %\setbibpreamble{}
-\pagenumbering{roman}
-\pagestyle{plain}
 %********************************************************************
 % Frontmatter
 %*******************************************************
 %\include{FrontBackmatter/DirtyTitlepage}
 %\include{FrontBackmatter/Titlepage}
 %\include{FrontBackmatter/Titleback}
+\setcounter{page}{-1}
 \pdfbookmark[1]{Cover}{Cover}
 \includepdf[pages={1,2}]{gfx/Cover_page_GU.pdf}
+\pagenumbering{roman}
+\pagestyle{plain}
 %\cleardoublepage\include{FrontBackmatter/Dedication}
 %\cleardoublepage\include{FrontBackmatter/Foreword}
 \cleardoublepage\include{FrontBackmatter/Abstract}
 %\cleardoublepage\include{FrontBackmatter/Publication}
 \cleardoublepage\include{FrontBackmatter/Acknowledgments}
+
 \pagestyle{scrheadings}
 \cleardoublepage\include{FrontBackmatter/Contents}
 

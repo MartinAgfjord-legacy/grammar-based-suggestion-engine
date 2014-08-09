@@ -1,11 +1,19 @@
 %************************************************
 \chapter{Introduction}\label{ch:introduction}
 %************************************************
-\section{An alternative user interface}
-In this thesis we will investigate how we can create a user interface which allows us to execute queries in a query language by expressing instructions in a natural language. In other words, we investigate how we can translate from a natural language into a query language. A query language is a computer language which is used to query a database or index. A natural language is a language that humans use to communicate with each other.
+\section{A demand for a new user interface}
+It is complex for an average person to retrieve data by using query languages. Many applications make use of specifically designed graphical objects in order to facilitate for the end user to create queries. However, as data on the web is constantly growing it is increasingly harder to design such elements to cover the whole data set \cite{damljanovic:2011}[p. 5].
+\newline
+\newline
+An alterantive approach is to support a natural language interface \marginpar{A natural language is a language that humans use to communicate with each other.}, where the user simply writes instructions in a natural language. This method do not have the kind of limits like the traditional method with graphical objects.
+
+In addition, an interface evaluation has shown that systems which adopts a natural language interface is considered as most sufficient by end users. \cite{kaufmann:2007}
+
+\section{A natural language interface}
+We will in this thesis investigate how we can create a user interface which allows us to execute queries in a query language by expressing instructions in a natural language. In other words, we investigate how we can translate from a natural language into a query language. \marginpar{ A query language is a computer language which is used to query a database or index. }
 
 \section{Problem description\label{sec:problem-description}}
-How can one retrieve information from a computer by writing instructions in a natural language? The inspiration for this thesis came from Facebook graph search\footnote{\url{https://www.facebook.com/about/graphsearch}}, which is a service that allows users to search for entities by asking the server for information in a natural language.
+How can one retrieve information from a computer by writing instructions in a natural language? The inspiration for this thesis came from Facebook graph search\footnote{\url{https://www.facebook.com/about/graphsearch}}, which is a service that allows users to search for entities by asking Facebook's social graph for information in a natural language \cite{unicorn}.
 
 In this project, we have chosen to examine how a similar service can be realized. We have limited the project to handle instructions that can occur naturally in the intranet of a software development company. We assume that there exists a database with information about employees, customers and projects. A typical instruction in this environment could be
 
@@ -22,19 +30,25 @@ people java
 How can we create a user interface that is sufficient for both regular and expert users? How can we translate these instructions into machine readable queries?
 
 \section{A proposed solution}
-Query languages require precise syntax, we therefore need precise translation from a natural language into a query language. Since we have a limited scope of instructions, we know all instructions that the program shall support and we know how their machine readable representation shall look like. We only need a tool which we can use to make the mapping between natural language and query language. A computational grammar can be used to extract the semantics from a sentence and translate the semantics into a query language. \cite{citation-needed}
+Query languages require precise syntax, we therefore need precise translation from a natural language into a query language. Since we have a limited scope of instructions, we know all instructions that the program shall support and we know how their machine readable representation shall look like. We only need a tool which we can use to make the mapping between natural language and query language. 
 
-A grammar is a set of structural rules which decide how words can be created and be combined into clauses and phrases. By expressing how words can be combined into an instruction in one language one can also use the same logic to express how the same instruction can be produced in another language. A \emph{multilingual} grammar is a special type of grammar which can translate between two or more languages. \cite{citation-needed}
+We will in this thesis to use a computational grammar to extract the semantics from a natural language sentence. We are then going to use the semantics to produce a query string in a query language.
+\newline
+\newline
+There exists many different grammar formalisms where the context-free grammar \cite{Hopcroft:1990:IAT:574901}[pp. 77-106] along with the Backus Naur Form (BNF) notation \cite{DBLP:journals/cacm/Backus78} is one of the most well-known. In this thesis, we will use the \emph{Grammatical Framework} which is another grammar formalism \cite{ranta:2004} which is based on Martin Löf's type theory \cite{Martin-Löf_anintuitionistic}.
+\newline
+\newline
+A grammar is a set of structural rules which decide how words can be created and be combined into clauses and phrases. By expressing how words can be combined into an instruction in one language one can also use the same logic to express how the same instruction can be produced in another language. A \emph{multilingual} grammar is a special type of grammar which can translate between two or more languages.
 
-Grammars have been used since the 1950's in the field of computer science \cite[p. 4]{ranta:2011}, and they have played a main role in the development of compilers where they are used to translate source code into machine readable instructions.
+Grammars have been used since the 1950's in the field of computer science \cite{DBLP:journals/cacm/Backus78}, and they have played a main role in the development of compilers where they are used to translate source code into machine readable instructions.
 
 \section{Related work}
 This section presents two important projects that this project has been based on.
 
 \hiddensubsection{Facebook graph search}
-Facebook graph search \cite{facebook-graph-search} is a search engine which consists of a user interface where the user can formulate an instruction in a natural language as a string. The semantics of a natural language instruction is extracted while parsing the string.
+Facebook graph search \cite{unicorn} is a search engine which consists of a user interface where the user can formulate an instruction in a natural language as a string. The semantics of a natural language instruction is extracted while parsing the string.
 
-The natural language that can be understood by Facebook Graph Search is represented by a weighted context free grammar (WCFG) \cite{li:2013}. The grammar consists of a set of production rules which are used to extract one or more semantic parse trees from a natural language sentence. The parse tree(s) represent the \emph{meaning} of the sentence in a semantic way. This tree can be sent to Unicorn, which is a software for retrieving information from Facebook's social graph. \cite{citation-needed}
+The natural language that can be understood by Facebook Graph Search is represented by a weighted context free grammar (WCFG) \cite{li:2013}. The grammar consists of a set of production rules which are used to extract one or more semantic parse trees from a natural language sentence. The parse tree(s) represent the \emph{meaning} of the sentence in a semantic way. This tree can be sent to Unicorn, which is a software for retrieving information from Facebook's social graph. \cite{unicorn}
 
 \subsubsection{Entity recognition}
 Facebook's grammar also supports entity recognition \cite{citation-needed}, which means that the grammar tries to find the suitable \emph{type} of a word if it thinks that it represents an object in the social graph. For example, if the user types \emph{people who live in San Fransisco} then the grammar can with high confidence express that \emph{San Fransisco} is an object of the type \emph{Location}. This is achieved by using n-gram based language models in order to obtain the type with the highest probability.
@@ -46,10 +60,26 @@ Synonyms are supported by the grammar. Synonyms could be words or phrases. For e
 Since computers normally only accept perfectly correct input when dealing with machine instructions, Facebook have added support of grammatically incorrect sentences to the grammar. It can therefore map the sentence \emph{people who \textbf{works} at facebook} into \emph{people who work at Facebook}.
 
 \hiddensubsection{Grammatical Framework}
-The development of a grammar is far from straight forward and like most programming projects, the focus on this project has not been on reinventing the wheel. Instead we make use of technology that is available. We will therefore in this section describe Grammatical Framework (GF), which is an open source functional programming language for creating grammars that can interpret natural languages \cite[p. 1]{ranta:2011}. GF features a strong type system, it separates abstract and concrete syntax rules and it offers reusable libraries to facilitate design of grammars. For a reader with a background within compilers, one can see that GF is very much based on the theory of programming languages as they also make use of abstract and concrete syntaxes \cite[pp. 69-70]{Aho:1986:CPT:6448}.
+Natural languages consists alot of ambiguities and can often differ a lot on a linguistic level. Those properties makes it very hard and exhausting to develop accurate natural language interpreters \cite{kaufmann:2007}.
+\newline
+\newline
+In order to make use previous research in the field, we will make us of Grammatical Framework (GF), which is an open source functional programming language for creating grammars that can interpret natural languages \cite[p. 1]{ranta:2011}. GF features a strong type system, it separates abstract and concrete syntax rules and it offers reusable libraries to facilitate design of grammars. For a reader with a background within compilers, one can see that GF is very much based on the theory of programming languages as they also make use of abstract and concrete syntaxes \cite[pp. 69-70]{Aho:1986:CPT:6448}.
+\newline
+\newline
+Abstract syntax is a tree representation which captures the \emph{meaning} of a sentence, and leaves out anything irrelevant. The concrete syntax describes how an abstract syntax tree is represented as a string in a language.
 
-Abstract syntax is a tree representation which captures the \emph{meaning} of a sentence, and leaves out anything irrelevant. The concrete syntax represents a natural language. It describes how an abstract syntax tree is represented as a string in the natural language.
-
+When designing abstract and concrete syntaxes one make us of functions. The functions are defined in the abstract syntax and designs how the a tree can be built by combining values from the functions. The concrete syntax purpose is to add rules to the functions which are used to extract the semantics of strings to build abstract syntax trees. Conversely, if one has an abstract syntax tree, one can use the functions to create a sentence.
+\newline
+\newline
 With both abstract and concrete syntaxes, GF is able to create a \emph{parser} and a \emph{linearizer} for all given concrete languages. The parser translates a string into abstract syntax trees and the linearizer translates abstract syntax trees into a string representations for a specified concrete syntax. In addition, GF also offers a \emph{generator} for abstract syntax trees that can generate all possible abstract syntax trees.
-
+\newline
+\newline
 Because GF separates between abstract and concrete syntax, one can easily add a new concrete syntax (a new language) to an existing abstract syntax. This advantage makes it easy to parse a string in one language and obtain an abstract syntax tree which can be linearized into many concrete syntaxes.
+
+In fact, GF's translation approach is different from previous translation approaches and allows translation between languages that are not closely related from a structural point of view \cite{enache:2013}[p. 9].
+
+%\section{History of computational grammars and comparison with GF}
+%While we describe how to \emph{use} GF to develop a grammar in the main part of this thesis, we do not go into details what type of grammars GF produces and how they differ from other type of grammars. This section briefly compares grammars that have been used in the field of computer science.
+%\newline
+%\newline
+%One of the most known grammar formalisms is the context-free grammar \cite{Hopcroft:1990:IAT:574901}[pp. 77-106]. Computer scientists usually adopts the Backus Naur Form (BNF) notation when describing a context-free grammar. BNF was first published in 1959 and it was the first time anyone described a formal approach on specifying programming languages. \cite{DBLP:journals/cacm/Backus78}. BNF 
