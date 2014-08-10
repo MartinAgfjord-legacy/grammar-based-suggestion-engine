@@ -43,10 +43,10 @@ As the suggestion engine uses a search platform, it is possible to type any word
 
 \hiddensubsection{Runtime environment}
 The chosen programming language for this project is Java. The main reason is because it is Findwise's primary programming language. It is also very well known among many companies in the world.
-Many professional Java-developers adopts a specific development platform, Java Enterprise Edition (Java EE). This platform provides many libraries that can be scaled to work in an enterprise environment. This project also adopts Java EE.
+Many professional Java-developers adopts a specific development platform, Java Enterprise Edition (Java EE) \cite{javaee}. This platform provides many libraries that can be scaled to work in an enterprise environment. This project also adopts Java EE.
 
 \hiddensubsection{Handling dependencies}
-A typical Java EE project make use of several libraries, in computer science terms we say that a project can have other libraries as \emph{dependencies}. It is not unusual that these libraries also have their own dependencies. Larger projects can therefore have a lot of dependencies, so many that it becomes hard to keep track of them. This project make use of an open source tool called Apache Maven to handle dependencies. One simply list all libraries the project shall have access to, then Maven will automatically fetch them and their dependencies. This also makes the application more flexible, as it do not have to include the needed libraries in the application.
+A typical Java EE project make use of several libraries, in computer science terms we say that a project can have other libraries as \emph{dependencies}. It is not unusual that these libraries also have their own dependencies. Larger projects can therefore have a lot of dependencies, so many that it becomes hard to keep track of them. This project make use of an open source tool called Apache Maven \cite{books/daglib/0021697} to handle dependencies. One simply list all libraries the project shall have access to, then Maven will automatically fetch them and their dependencies. This also makes the application more flexible, as it do not have to include the needed libraries in the application.
 
 \hiddensubsection{Input and output presentation}
 Besides handling translation and suggestions, the application also needs to handle input and present its results in some way. This application takes input and presents output by using a web GUI\footnote{\url{http://en.wikipedia.org/wiki/Graphical_user_interface}}.
@@ -62,7 +62,7 @@ If a user chooses to translate a sentence (by pushing enter while focusing on th
 In addition to presenting the result, it also creates a hyperlink of each Solr linearization. This hyperlink leads to the Solr index and is an executable version of the Solr linearization.
 
 \hiddensubsection{Running the application}
-Web applications built in Java usually have the WAR file format. It is a special JAR-file which includes classes, dependencies and web pages. This project uses an open source web server called Apache Tomcat to host a web application by exporting our application as a WAR-file. Apache Tomcat will make the application available by using HTTP-requests and spawn a new thread for each request.
+Web applications built in Java usually have the WAR file format. It is a special JAR-file which includes classes, dependencies and web pages. This project uses an open source web server called Apache Tomcat \cite{tomcat} to host a web application by exporting our application as a WAR-file. Apache Tomcat will make the application available by using HTTP-requests and spawn a new thread for each request.
 
 Details about the runtime environment can be found in \autoref{ch:appendix-a} and \autoref{ch:appendix-b}.
 

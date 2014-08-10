@@ -32,14 +32,14 @@
 % ******************************************************************** 
 \usepackage{ifthen}
 \newboolean{enable-backrefs} % enable backrefs in the bibliography
-\setboolean{enable-backrefs}{false} % true false
+\setboolean{enable-backrefs}{true} % true false
 % ****************************************************************************************************
 
 
 % ****************************************************************************************************
 % 2. Personal data and user ad-hoc commands
 % ****************************************************************************************************
-\newcommand{\myTitle}{Interpreting natural language sentences into machine readable instructions\xspace}
+\newcommand{\myTitle}{Translating natural language sentences into machine readable instructions\xspace}
 %\newcommand{\mySubtitle}{An Homage to The Elements of Typographic Style\xspace}
 \newcommand{\myDegree}{Master of Science in Computer Science\xspace}
 \newcommand{\myName}{Martin Agfjord\xspace}
@@ -188,8 +188,10 @@
     %urlcolor=Black, linkcolor=Black, citecolor=Black, %pagecolor=Black,%
     pdftitle={\myTitle},%
     pdfauthor={\textcopyright\ \myName, \myUni, \myFaculty},%
-    pdfsubject={},%
-    pdfkeywords={},%
+    pdfsubject={NLP - Natural Language Processing},%
+    pdfkeywords={Grammar, Grammatical Framework, GF, Natural language, Query
+language, Translation, Suggestion engine, Apache, Solr, Lucene, Tomcat, Maven,
+Java EE, Functional programming},%
     pdfcreator={pdfLaTeX},%
     pdfproducer={LaTeX with hyperref and classicthesis}%
 }   

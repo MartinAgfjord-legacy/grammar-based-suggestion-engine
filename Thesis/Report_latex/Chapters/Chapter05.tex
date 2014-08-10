@@ -20,6 +20,9 @@ We found out that concatenation is much more suitable when developing a project 
 
 \section{Suggestion Engine}
 We generate all possible sentences and store the result in a Solr index. This provides us with a strong suggestion engine which can suggest relevant suggestions based on a partial sentence or only keywords. We can also generate all possible Solr queries and also store them in the index. If we now link each suggestion to the corresponding Solr query, we get a very fast and efficient translating service (faster than translating with GF). However, if we do so, the end application does not use the grammar at all. The grammar is only used for initialization when we generate the instructions in natural languages and Solr syntax. It is however unknown if this is an optimal solution. If so, is it worth to invest time to learn GF with its programming language and libraries to just generate sentences? As with learning any programming language, this varies depending on the learning person. How complex it is to generate sentences in a stand alone application without GF and a grammar is also unknown.
+\newline
+\newline
+We conclude that we are unsure if the method of using a Solr index is the right approach on suggestions together with a grammar. 
 
 \section{Known issues}\label{sec:known-issues}
 

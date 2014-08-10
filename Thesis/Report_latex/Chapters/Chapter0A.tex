@@ -7,9 +7,9 @@
 This appendix describes how the dependencies of the application can be installed.
 
 \section{GF shell}
-The GF shell is the interpreter which can be used together with GF-grammars. The shell is used by the application when generating abstract syntax trees and is therefore needed in order to use the application.
+The GF shell \cite{ranta:2011}[p. 31] is the interpreter which can be used together with GF-grammars. The shell is used by the application when generating abstract syntax trees and is therefore needed in order to use the application.
 
-An easy and convenient method of installing GF is by using the Haskell program \texttt{cabal}. Cabal is available if the haskell platform is installed on a system. The haskell platform can be installed on Debian by executing
+An easy and convenient method of installing GF is by using the Haskell program \texttt{cabal} \cite{Jones_thehaskell}. Cabal is available if the haskell platform \cite{haskell-platform} is installed on a system. The haskell platform can be installed on Debian by executing
 
 \begin{terminal}
 sudo apt-get install haskell-platform
@@ -95,7 +95,7 @@ Start by installing the needed dependency
 $ sudo apt-get install g++
 \end{terminal}
 %$
-The wrapper is built by using a script which is executed in Eclipse. This step assumes that you have Eclipse installed with the CDT-plugin. If you don't have Eclipse, you can download it with your package manager, just do not forget to install the CDT-plugin.
+The wrapper is built by using a script which is executed in Eclipse \cite{Holzner:2004:EC:2167279}. This step assumes that you have Eclipse installed with the CDT-plugin \cite{eclipse-cdt}. If you don't have Eclipse, you can download it with your package manager, just do not forget to install the CDT-plugin.
 
 Start Eclipse and choose \texttt{File} > \texttt{Import..} in the menu. Choose \texttt{Import Existing Projects into Workspace} and click on the \texttt{Next} button. Select \texttt{Browse...} and navigate to the location where you downloaded GF from GitHub and press enter. Uncheck everything except \texttt{jpgf} and click on \texttt{Finish}. You have now imported the project which can build the Java-runtime system. 
 
