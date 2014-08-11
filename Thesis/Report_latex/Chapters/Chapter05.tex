@@ -46,13 +46,13 @@ Suggestions are limited to depth 6 of an abstract syntax tree. This means maximu
 The suggestions obtained from the appliction are relevant to the input words, but they can definitely be better. The suggestion engine do not give any suggestions when the textbox is empty, in other words, it does not give suggestions based on no words. For a user that has no clue of what to type, a suggestion of base sentences could help the user to get to know the system.
 \newline
 \newline
-If one starts to type a partial instruction that does not contain any name, e.g. \emph{people who know}, then the application will suggest the sentence \emph{people who know \textbf{Lisp}}. The reason is because application automatically tries to fill the missing name, and Lisp is the first name of the typ Skill it finds. It would be good to use some heuristic that can learn what the most relevant name of the specific type would be.
+If one starts to type a partial instruction that does not contain any name, e.g. \emph{people who know}, then the application will suggest the sentence \emph{people who know \textbf{Lisp}}. The reason is because application automatically tries to fill the missing name, and Lisp is the first name of the type Skill it finds. It would be good to use some heuristic that can learn what the most relevant name of the specific type would be.
 \newline
 \newline
-Another nice improvment of the suggestion engine is to automatically choose the first suggestion available if the user tries to translate an invalid instruction. Or at least ask the user if the suggested sentence is what they meant.
+Another nice improvement of the suggestion engine is to automatically choose the first suggestion available if the user tries to translate an invalid instruction. Or at least ask the user if the suggested sentence is what they meant.
 
 \subsection*{Instructions in speech}
 Speech recognition software translate from speech to text. If one has access to such software, it is relatively easy to enable speech to instructions translation by using the application developed in this project. One simply uses the speech recognition software to translate speech to text, and then take the text and use it as input to the program. The program will show the most relevant suggestions based on the input.
 
 \subsection*{Proper handling of ambiguous instructions}
-If one translates an ambiguous instruction, the resulting application will show all resulting abstract syntax trees with their corresponding linearizations. A better program would ask the user to clarify the instruction or choose one of the astract syntax trees as the one to use. Both alternatives are non trivial to implement, since the former need a better grammar in order to distinguish between ambiguous instructions and the latter need some heuristic to know which instruction to choose.
+If one translates an ambiguous instruction, the application will show all resulting abstract syntax trees with their corresponding linearizations. A better program would ask the user to clarify the instruction or choose one of the astract syntax trees as the one to use. Both alternatives are non trivial to implement, since the former need a better grammar in order to distinguish between ambiguous instructions and the latter need some heuristic to know which instruction to choose.
