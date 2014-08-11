@@ -1,19 +1,29 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.5)  11 AUG 2014 15:14
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  30 JUL 2014 10:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**presentation.tex
-(./presentation.tex
+**example.tex
+(./example.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, et
+hiopic, farsi, arabic, pinyin, croatian, bulgarian, ukrainian, russian, slovak,
+ czech, danish, dutch, usenglishmax, ukenglish, finnish, french, basque, ngerma
+n, german, swissgerman, ngerman-x-2012-05-30, german-x-2012-05-30, monogreek, g
+reek, ibycus, ancientgreek, hungarian, bengali, tamil, hindi, telugu, gujarati,
+ sanskrit, malayalam, kannada, assamese, marathi, oriya, panjabi, italian, lati
+n, latvian, lithuanian, mongolian, mongolianlmc, nynorsk, bokmal, indonesian, e
+speranto, coptic, welsh, irish, interlingua, serbian, serbianc, slovenian, friu
+lan, romansh, estonian, romanian, armenian, uppersorbian, turkish, afrikaans, i
+celandic, kurmanji, polish, portuguese, galician, catalan, spanish, swedish, th
+ai, loaded.
 (/usr/share/texmf/tex/latex/beamer/base/beamer.cls
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasercs.sty
-Package: beamerbasercs 2012/11/13 (rcs-revision cb16a617839f)
+Package: beamerbasercs 2010/06/12 (rcs-revision c3821710bb40)
 )
-Document Class: beamer 2012/10/15 development version 3.24 A class for typesett
-ing presentations (rcs-revision 24853e6b98cf)
+Document Class: beamer 2010/06/21 development version 3.10 A class for typesett
+ing presentations (rcs-revision a6b1a8434d30)
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasemodes.sty
-Package: beamerbasemodes 2012/04/15 (rcs-revision cc6557182d97)
+Package: beamerbasemodes 2010/05/01 (rcs-revision efa082c6111d)
 \beamer@tempbox=\box26
 \beamer@tempcount=\count79
 \c@beamerpauses=\count80
@@ -25,10 +35,6 @@ Package: beamerbasedecode 2010/05/01 (rcs-revision efa082c6111d)
 )
 \beamer@commentbox=\box27
 \beamer@modecount=\count83
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 \headheight=\dimen102
 \headdp=\dimen103
@@ -86,6 +92,10 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
@@ -321,7 +331,7 @@ Package: xxcolor 2003/10/24 ver 0.1
 \XC@countmixins=\count117
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
@@ -366,9 +376,6 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
@@ -377,43 +384,42 @@ Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 \Hy@pagecounter=\count119
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count120
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `bookmarks' set `true' on input line 4319.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 4319.
-Package hyperref Info: Option `implicit' set `false' on input line 4319.
-Package hyperref Info: Hyper figures OFF on input line 4443.
-Package hyperref Info: Link nesting OFF on input line 4448.
-Package hyperref Info: Hyper index ON on input line 4451.
-Package hyperref Info: Plain pages OFF on input line 4458.
-Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Option `bookmarks' set `true' on input line 3941.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 3941.
+Package hyperref Info: Option `implicit' set `false' on input line 3941.
+Package hyperref Info: Hyper figures OFF on input line 4062.
+Package hyperref Info: Link nesting OFF on input line 4067.
+Package hyperref Info: Hyper index ON on input line 4070.
+Package hyperref Info: Plain pages OFF on input line 4077.
+Package hyperref Info: Backreferencing OFF on input line 4082.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
-Package hyperref Info: Bookmarks ON on input line 4688.
+Package hyperref Info: Bookmarks ON on input line 4300.
 \c@Hy@tempcnt=\count121
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen162
+LaTeX Info: Redefining \url on input line 4653.
 \Fld@menulength=\count122
-\Field@Width=\dimen163
-\Fld@charsize=\dimen164
-Package hyperref Info: Hyper figures OFF on input line 6295.
-Package hyperref Info: Link nesting OFF on input line 6300.
-Package hyperref Info: Hyper index ON on input line 6303.
-Package hyperref Info: backreferencing OFF on input line 6310.
-Package hyperref Info: Link coloring OFF on input line 6315.
-Package hyperref Info: Link coloring with OCG OFF on input line 6320.
-Package hyperref Info: PDF/A mode OFF on input line 6325.
-LaTeX Info: Redefining \ref on input line 6365.
-LaTeX Info: Redefining \pageref on input line 6369.
+\Field@Width=\dimen162
+\Fld@charsize=\dimen163
+Package hyperref Info: Hyper figures OFF on input line 5773.
+Package hyperref Info: Link nesting OFF on input line 5778.
+Package hyperref Info: Hyper index ON on input line 5781.
+Package hyperref Info: backreferencing OFF on input line 5788.
+Package hyperref Info: Link coloring OFF on input line 5793.
+Package hyperref Info: Link coloring with OCG OFF on input line 5798.
+Package hyperref Info: PDF/A mode OFF on input line 5803.
+LaTeX Info: Redefining \ref on input line 5843.
+LaTeX Info: Redefining \pageref on input line 5847.
 \Hy@abspage=\count123
 
 
@@ -424,7 +430,7 @@ Package hyperref Message: Stopped early.
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
 \Fld@listcount=\count124
 \c@bookmark@seq@number=\count125
 
@@ -437,21 +443,21 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package: beamerbaserequires 2010/05/01  (rcs-revision efa082c6111d)
 
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasecompatibility.sty
-Package: beamerbasecompatibility 2012/05/01  (rcs-revision 67c48b3b652d)
+Package: beamerbasecompatibility 2010/07/12  (rcs-revision 6648c3177e4e)
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasefont.sty
-Package: beamerbasefont 2012/09/19  (rcs-revision 733629cd0c6c)
+Package: beamerbasefont 2010/05/10  (rcs-revision cd36e8a33c6b)
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
+Package: amssymb 2009/06/22 v3.00
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \@emptytoks=\toks23
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 )))
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasetranslator.sty
 Package: beamerbasetranslator 2010/06/11  (rcs-revision 85fd1cc7fc42)
@@ -461,22 +467,22 @@ Package: translator 2010/06/12 ver 1.10
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/translator-language-mappings
 .tex))) (/usr/share/texmf/tex/latex/beamer/base/beamerbasemisc.sty
-Package: beamerbasemisc 2012/02/24  (rcs-revision 2ff5461be705)
+Package: beamerbasemisc 2010/06/06  (rcs-revision bff0a9294b45)
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasetwoscreens.sty
 Package: beamerbasetwoscreens 2010/05/01  (rcs-revision efa082c6111d)
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseoverlay.sty
-Package: beamerbaseoverlay 2012/11/11  (rcs-revision 6afbc49b1109)
+Package: beamerbaseoverlay 2010/05/07  (rcs-revision 5584dad462a9)
 \beamer@argscount=\count126
 \beamer@lastskipcover=\skip44
 \beamer@trivlistdepth=\count127
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasetitle.sty
-Package: beamerbasetitle 2010/09/21  (rcs-revision f0446ed0b6ae)
+Package: beamerbasetitle 2010/06/12  (rcs-revision 717e481ca47a)
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasesection.sty
-Package: beamerbasesection 2012/11/11  (rcs-revision 0056eef6f17f)
+Package: beamerbasesection 2010/06/17  (rcs-revision e0d9401bb743)
 \c@lecture=\count128
 \c@part=\count129
 \c@section=\count130
@@ -484,36 +490,35 @@ Package: beamerbasesection 2012/11/11  (rcs-revision 0056eef6f17f)
 \c@subsubsection=\count132
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseframe.sty
-Package: beamerbaseframe 2012/09/13  (rcs-revision dcd846607320)
+Package: beamerbaseframe 2010/06/06  (rcs-revision bff0a9294b45)
 \beamer@framebox=\box40
 \beamer@frametitlebox=\box41
 \beamer@zoombox=\box42
 \beamer@zoomcount=\count133
 \beamer@zoomframecount=\count134
-\beamer@frametextheight=\dimen165
+\beamer@frametextheight=\dimen164
 \c@subsectionslide=\count135
 \beamer@frametopskip=\skip45
 \beamer@framebottomskip=\skip46
 \beamer@frametopskipautobreak=\skip47
 \beamer@framebottomskipautobreak=\skip48
 \beamer@envbody=\toks24
-\framewidth=\dimen166
 \c@framenumber=\count136
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseverbatim.sty
-Package: beamerbaseverbatim 2012/08/30  (rcs-revision dfdb135076b3)
+Package: beamerbaseverbatim 2010/05/01  (rcs-revision efa082c6111d)
 \beamer@verbatimfileout=\write4
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseframesize.sty
-Package: beamerbaseframesize 2011/09/12  (rcs-revision 70f9d8411e54)
+Package: beamerbaseframesize 2010/06/27  (rcs-revision 6baa2d92e6f1)
 \beamer@splitbox=\box43
 \beamer@autobreakcount=\count137
-\beamer@autobreaklastheight=\dimen167
+\beamer@autobreaklastheight=\dimen165
 \beamer@frametitletoks=\toks25
 \beamer@framesubtitletoks=\toks26
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseframecomponents.sty
-Package: beamerbaseframecomponents 2012/09/13  (rcs-revision dcd846607320)
+Package: beamerbaseframecomponents 2010/07/12  (rcs-revision 09e82992d9b1)
 \beamer@footins=\box44
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasecolor.sty
@@ -524,31 +529,31 @@ Package: beamerbasenotes 2010/05/01  (rcs-revision efa082c6111d)
 \beamer@frameboxcopy=\box45
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasetoc.sty
-Package: beamerbasetoc 2012/10/02  (rcs-revision 5ed0f4010e8a)
+Package: beamerbasetoc 2010/06/11  (rcs-revision 242ecaa6783b)
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasetemplates.sty
 Package: beamerbasetemplates 2010/05/01  (rcs-revision efa082c6111d)
 \beamer@sbttoks=\toks27
 
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseauxtemplates.sty
-Package: beamerbaseauxtemplates 2012/05/01  (rcs-revision 67c48b3b652d)
+Package: beamerbaseauxtemplates 2010/05/01  (rcs-revision efa082c6111d)
 
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseboxes.sty
-Package: beamerbaseboxes 2012/05/13  (rcs-revision 56972908a390)
+Package: beamerbaseboxes 2010/05/01  (rcs-revision efa082c6111d)
 \bmb@box=\box46
 \bmb@colorbox=\box47
 \bmb@boxshadow=\box48
 \bmb@boxshadowball=\box49
 \bmb@boxshadowballlarge=\box50
-\bmb@temp=\dimen168
-\bmb@dima=\dimen169
-\bmb@dimb=\dimen170
-\bmb@prevheight=\dimen171
+\bmb@temp=\dimen166
+\bmb@dima=\dimen167
+\bmb@dimb=\dimen168
+\bmb@prevheight=\dimen169
 )
-\beamer@blockheadheight=\dimen172
+\beamer@blockheadheight=\dimen170
 ))
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaselocalstructure.sty
-Package: beamerbaselocalstructure 2012/11/13  (rcs-revision ddfba79dac19)
+Package: beamerbaselocalstructure 2010/06/01  (rcs-revision 81f9e33f7cc2)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
@@ -560,14 +565,13 @@ Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \belowcaptionskip=\skip50
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasenavigation.sty
-Package: beamerbasenavigation 2012/04/03  (rcs-revision 42a0f21a412d)
-\beamer@section@min@dim=\dimen173
+Package: beamerbasenavigation 2010/05/01  (rcs-revision efa082c6111d)
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasetheorems.sty
 Package: beamerbasetheorems 2010/06/06  (rcs-revision 7e7cc5e53e9d)
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
+Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
@@ -577,30 +581,30 @@ Package: amstext 2000/06/29 v2.01
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks29
-\ex@=\dimen174
+\ex@=\dimen171
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen175
+\pmbraise@=\dimen172
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count140
-LaTeX Info: Redefining \frac on input line 210.
+LaTeX Info: Redefining \frac on input line 211.
 \uproot@=\count141
 \leftroot@=\count142
-LaTeX Info: Redefining \overline on input line 306.
+LaTeX Info: Redefining \overline on input line 307.
 \classnum@=\count143
 \DOTSCASE@=\count144
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box51
 \strutbox@=\box52
-\big@size=\dimen176
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\big@size=\dimen173
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \macc@depth=\count145
 \c@MaxMatrixCols=\count146
 \dotsspace@=\muskip11
@@ -611,21 +615,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \column@=\count150
 \maxfields@=\count151
 \andhelp@=\toks31
-\eqnshift@=\dimen177
-\alignsep@=\dimen178
-\tagshift@=\dimen179
-\tagwidth@=\dimen180
-\totwidth@=\dimen181
-\lineht@=\dimen182
+\eqnshift@=\dimen174
+\alignsep@=\dimen175
+\tagshift@=\dimen176
+\tagwidth@=\dimen177
+\totwidth@=\dimen178
+\lineht@=\dimen179
 \@envbody=\toks32
 \multlinegap=\skip52
 \multlinetaggap=\skip53
 \mathdisplay@stack=\toks33
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2004/08/06 v2.20
+Package: amsthm 2009/07/02 v2.20.1
 \thm@style=\toks34
 \thm@bodyfont=\toks35
 \thm@headfont=\toks36
@@ -653,13 +657,13 @@ Package: beamercolorthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
 )
 (/usr/share/texmf/tex/latex/beamer/base/themes/inner/beamerinnerthemedefault.st
 y
-Package: beamerinnerthemedefault 2012/05/01  (rcs-revision 67c48b3b652d)
-\beamer@dima=\dimen183
-\beamer@dimb=\dimen184
+Package: beamerinnerthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+\beamer@dima=\dimen180
+\beamer@dimb=\dimen181
 )
 (/usr/share/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemedefault.st
 y
-Package: beamerouterthemedefault 2012/10/02  (rcs-revision 5ed0f4010e8a)
+Package: beamerouterthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
 ))) (./beamerthemeerlangen.sty
 Package: beamerthemeerlangen 2012/09/01
 
@@ -676,8 +680,8 @@ File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 )
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen185
-\pgf@nodesepend=\dimen186
+\pgf@nodesepstart=\dimen182
+\pgf@nodesepend=\dimen183
 )
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
@@ -687,8 +691,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
 (/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen187
-\pgffor@skip=\dimen188
+\pgffor@iter=\dimen184
+\pgffor@skip=\dimen185
 \pgffor@stack=\toks40
 \pgffor@toks=\toks41
 ))
@@ -698,14 +702,14 @@ Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \pgf@plot@mark@count=\count153
-\pgfplotmarksize=\dimen189
+\pgfplotmarksize=\dimen186
 )
-\tikz@lastx=\dimen190
-\tikz@lasty=\dimen191
-\tikz@lastxsaved=\dimen192
-\tikz@lastysaved=\dimen193
-\tikzleveldistance=\dimen194
-\tikzsiblingdistance=\dimen195
+\tikz@lastx=\dimen187
+\tikz@lasty=\dimen188
+\tikz@lastxsaved=\dimen189
+\tikz@lastysaved=\dimen190
+\tikzleveldistance=\dimen191
+\tikzsiblingdistance=\dimen192
 \tikz@figbox=\box54
 \tikz@tempbox=\box55
 \tikztreelevel=\count154
@@ -728,8 +732,8 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count162
 \calc@Bcount=\count163
-\calc@Adimen=\dimen196
-\calc@Bdimen=\dimen197
+\calc@Adimen=\dimen193
+\calc@Bdimen=\dimen194
 \calc@Askip=\skip57
 \calc@Bskip=\skip58
 LaTeX Info: Redefining \setlength on input line 76.
@@ -739,18 +743,16 @@ LaTeX Info: Redefining \addtolength on input line 77.
 )
 (./appendixnumberbeamer.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen198
-\captionmargin@=\dimen199
-\captionwidth=\dimen200
-\caption@tempdima=\dimen201
-\caption@indent=\dimen202
-\caption@parindent=\dimen203
-\caption@hangindent=\dimen204
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+\captionmargin=\dimen195
+\captionmargin@=\dimen196
+\captionwidth=\dimen197
+\caption@indent=\dimen198
+\caption@parindent=\dimen199
+\caption@hangindent=\dimen200
 )
 \c@ContinuedFloat=\count165
 Package caption Info: beamer document class.
@@ -768,24 +770,24 @@ Package: beamerinnerthemecircles 2010/06/17  (rcs-revision d02a7cf4d8ae)
 (/usr/share/texmf/tex/latex/beamer/base/themes/outer/beamerouterthememiniframes
 .sty
 Package: beamerouterthememiniframes 2010/06/17  (rcs-revision d02a7cf4d8ae)
-) (./beamercolorthemeerlangen.sty)) (./presentation.aux (./front.aux)
-(./introduction.aux) (./solution.aux) (./results.aux) (./conclusion.aux))
-\openout1 = `presentation.aux'.
+) (./beamercolorthemeerlangen.sty)) (./example.aux (./introduction.aux)
+(./solution.aux) (./results.aux) (./conclusion.aux))
+\openout1 = `example.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -824,13 +826,13 @@ LaTeX Font Info:    ... okay on input line 14.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count166
-\scratchdimen=\dimen205
+\scratchdimen=\dimen201
 \scratchbox=\box56
 \nofMPsegments=\count167
 \nofMParguments=\count168
 \everyMPshowfont=\toks42
 \MPscratchCnt=\count169
-\MPscratchDim=\dimen206
+\MPscratchDim=\dimen202
 \MPnumerator=\count170
 \makeMPintoPDFobject=\count171
 \everyMPtoPDFconversion=\toks43
@@ -851,66 +853,66 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring OFF on input line 14.
+Package hyperref Info: Link coloring OFF on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count172
 )
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
-LaTeX Info: Redefining \nameref on input line 14.
+LaTeX Info: Redefining \ref on input line 10.
+LaTeX Info: Redefining \pageref on input line 10.
+LaTeX Info: Redefining \nameref on input line 10.
 
-(./presentation.out) (./presentation.out)
+(./example.out) (./example.out)
 \@outlinefile=\write5
-\openout5 = `presentation.out'.
+\openout5 = `example.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 14.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 10.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 14.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 10.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 14.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 14.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 14.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 14.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 10.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 14.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 14.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 14.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 10.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 14.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 14.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 14.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 10.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 14.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 14.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 10.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 14.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 10.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 14.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 14.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 14.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 14.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 14.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 14.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 10.
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
 onary/translator-basic-dictionary-English.dict
@@ -936,47 +938,43 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 14.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (./presentation.nav)
-LaTeX Font Info:    Try loading font information for U+msa on input line 14.
+ (./example.nav)
+LaTeX Font Info:    Try loading font information for U+msa on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 14.
+LaTeX Font Info:    Try loading font information for U+msb on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-Overfull \hbox (100.59328pt too wide) detected at line 14
+Overfull \hbox (100.59328pt too wide) detected at line 10
  [] [] [] [] [] [] [] 
  []
 
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 18.
+(hyperref)                setting the option has no effect on input line 14.
 
-\openout2 = `front.aux'.
-
-(./front.tex <images/titlepage2.pdf, id=35, 692.3466pt x 517.45322pt>
+<images/titlepage2.pdf, id=33, 692.3466pt x 517.45322pt>
 File: images/titlepage2.pdf Graphic file (type pdf)
 
 <use images/titlepage2.pdf>
-Package pdftex.def Info: images/titlepage2.pdf used on input line 31.
+Package pdftex.def Info: images/titlepage2.pdf used on input line 49.
 (pdftex.def)             Requested size: 367.8353pt x 274.91212pt.
  [1
-
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/titlepage2.pdf
 
 pdfTeX warning: pdflatex (file ./images/titlepage2.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
->] (./presentation.toc)
+>] (./example.toc)
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 35.
+(Font)              size <5> substituted on input line 53.
 
 
 Overfull \hbox (100.59328pt too wide) has occurred while \output is active
@@ -985,7 +983,7 @@ Overfull \hbox (100.59328pt too wide) has occurred while \output is active
 
 [2
 
-])
+]
 \openout2 = `introduction.aux'.
 
  (./introduction.tex
@@ -1004,7 +1002,6 @@ Overfull \hbox (100.59328pt too wide) has occurred while \output is active
  []
 
 [3
-
 
 
 ]
@@ -1035,20 +1032,6 @@ Overfull \hbox (100.59328pt too wide) has occurred while \output is active
 
 [7
 
-]
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[8
-
-]
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[9
-
 ])
 \openout2 = `solution.aux'.
 
@@ -1057,9 +1040,23 @@ Overfull \hbox (100.59328pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] 
  []
 
+[8
+
+
+
+]
+Overfull \hbox (100.59328pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[9
+
+]
+Overfull \hbox (100.59328pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
 [10
-
-
 
 ]
 Overfull \hbox (100.59328pt too wide) has occurred while \output is active
@@ -1160,13 +1157,52 @@ Overfull \hbox (100.59328pt too wide) has occurred while \output is active
 [24
 
 ]
+\openout4 = `example.vrb'.
+
+ (./example.vrb
+Overfull \hbox (20.38533pt too wide) in paragraph at lines 12--12
+[]\OT1/cmtt/m/n/10.95 people who know Java                           -- English
+[] 
+ []
+
+
+Overfull \hbox (20.38533pt too wide) in paragraph at lines 13--13
+[]\OT1/cmtt/m/n/10.95 personer som kan Java                          -- Swedish
+[] 
+ []
+
+
+Overfull \hbox (3.13927pt too wide) in paragraph at lines 14--14
+[]\OT1/cmtt/m/n/10.95 q=object_type : Person AND expertise : Java    -- Solr[] 
+
+ []
+
+)
 Overfull \hbox (100.59328pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] 
  []
 
 [25
 
-]
+] (./example.vrb
+Overfull \hbox (20.38533pt too wide) in paragraph at lines 12--12
+[]\OT1/cmtt/m/n/10.95 people who know Java                           -- English
+[] 
+ []
+
+
+Overfull \hbox (20.38533pt too wide) in paragraph at lines 13--13
+[]\OT1/cmtt/m/n/10.95 personer som kan Java                          -- Swedish
+[] 
+ []
+
+
+Overfull \hbox (3.13927pt too wide) in paragraph at lines 14--14
+[]\OT1/cmtt/m/n/10.95 q=object_type : Person AND expertise : Java    -- Solr[] 
+
+ []
+
+)
 Overfull \hbox (100.59328pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] 
  []
@@ -1174,6 +1210,15 @@ Overfull \hbox (100.59328pt too wide) has occurred while \output is active
 [26
 
 ]
+\openout4 = `example.vrb'.
+
+ (./example.vrb
+Overfull \hbox (14.63664pt too wide) in paragraph at lines 11--11
+[]    \OT1/cmtt/m/n/10.95 MkInstruction : Subject -> Relation -> Instruction ;[
+] 
+ []
+
+)
 Overfull \hbox (100.59328pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] 
  []
@@ -1181,6 +1226,9 @@ Overfull \hbox (100.59328pt too wide) has occurred while \output is active
 [27
 
 ]
+\openout4 = `example.vrb'.
+
+ (./example.vrb)
 Overfull \hbox (100.59328pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] 
  []
@@ -1188,6 +1236,15 @@ Overfull \hbox (100.59328pt too wide) has occurred while \output is active
 [28
 
 ]
+\openout4 = `example.vrb'.
+
+ (./example.vrb
+Overfull \hbox (20.38533pt too wide) in paragraph at lines 13--13
+[]                   \OT1/cmtt/m/n/10.95 "q=" ++ subject ++ "AND" ++ relation ;
+[] 
+ []
+
+)
 Overfull \hbox (100.59328pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] 
  []
@@ -1195,718 +1252,49 @@ Overfull \hbox (100.59328pt too wide) has occurred while \output is active
 [29
 
 ]
+\openout4 = `example.vrb'.
+
+ (./example.vrb)
 Overfull \hbox (100.59328pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] 
  []
 
 [30
 
-]
+] (./example.vrb)
 Overfull \hbox (100.59328pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] 
  []
 
 [31
 
-]
+] (./example.vrb)
 Overfull \hbox (100.59328pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] 
  []
 
 [32
 
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb
-Overfull \hbox (20.38533pt too wide) in paragraph at lines 16--16
-[]\OT1/cmtt/m/n/10.95 people who know Java                           -- English
-[] 
- []
-
-
-Overfull \hbox (20.38533pt too wide) in paragraph at lines 17--17
-[]\OT1/cmtt/m/n/10.95 personer som kan Java                          -- Swedish
-[] 
- []
-
-
-Overfull \hbox (3.13927pt too wide) in paragraph at lines 18--18
-[]\OT1/cmtt/m/n/10.95 q=object_type : Person AND expertise : Java    -- Solr[] 
-
- []
-
-)
+] (./example.vrb)
 Overfull \hbox (100.59328pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] 
  []
 
 [33
 
-] (./presentation.vrb
-Overfull \hbox (20.38533pt too wide) in paragraph at lines 16--16
-[]\OT1/cmtt/m/n/10.95 people who know Java                           -- English
-[] 
- []
+])
+\openout2 = `results.aux'.
 
-
-Overfull \hbox (20.38533pt too wide) in paragraph at lines 17--17
-[]\OT1/cmtt/m/n/10.95 personer som kan Java                          -- Swedish
-[] 
- []
-
-
-Overfull \hbox (3.13927pt too wide) in paragraph at lines 18--18
-[]\OT1/cmtt/m/n/10.95 q=object_type : Person AND expertise : Java    -- Solr[] 
-
- []
-
-)
+ (./results.tex
 Overfull \hbox (100.59328pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] 
  []
 
 [34
 
-]
-\openout4 = `presentation.vrb'.
 
- (./presentation.vrb
-Overfull \hbox (14.63664pt too wide) in paragraph at lines 14--14
-[]    \OT1/cmtt/m/n/10.95 MkInstruction : Subject -> Relation -> Instruction ;[
-] 
- []
-
-)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[35
-
-] (./presentation.vrb
-Overfull \hbox (14.63664pt too wide) in paragraph at lines 14--14
-[]    \OT1/cmtt/m/n/10.95 MkInstruction : Subject -> Relation -> Instruction ;[
-] 
- []
-
-)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[36
-
-] (./presentation.vrb
-Overfull \hbox (14.63664pt too wide) in paragraph at lines 14--14
-[]    \OT1/cmtt/m/n/10.95 MkInstruction : Subject -> Relation -> Instruction ;[
-] 
- []
-
-)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[37
-
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[38
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[39
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[40
-
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb
-Overfull \hbox (20.38533pt too wide) in paragraph at lines 15--15
-[]                   []\OT1/cmtt/m/n/10.95 "q="[] ++ subject ++ []"AND"[] ++ re
-lation ;[] 
- []
-
-)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[41
-
-] (./presentation.vrb
-Overfull \hbox (20.38533pt too wide) in paragraph at lines 15--15
-[]                   []\OT1/cmtt/m/n/10.95 "q="[] ++ subject ++ []"AND"[] ++ re
-lation ;[] 
- []
-
-)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[42
-
-] (./presentation.vrb
-Overfull \hbox (20.38533pt too wide) in paragraph at lines 15--15
-[]                   []\OT1/cmtt/m/n/10.95 "q="[] ++ subject ++ []"AND"[] ++ re
-lation ;[] 
- []
-
-)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[43
-
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[44
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[45
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[46
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[47
-
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[48
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[49
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[50
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[51
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[52
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[53
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[54
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[55
-
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb
-Overfull \hbox (26.13402pt too wide) in paragraph at lines 16--16
-[]            \OT1/cmtt/m/n/10.95 mkUtt (mkNP aPl_Det (mkCN subject relation)) 
-;[] 
- []
-
-
-Overfull \hbox (26.13402pt too wide) in paragraph at lines 16--16
-[]   \OT1/cmtt/m/n/10.95 Know object = mkRS' (mkVP (mkV2 (mkV []"know"[])) obje
-ct) ;[] 
- []
-
-
-Overfull \hbox (20.38533pt too wide) in paragraph at lines 18--18
-[]     \OT1/cmtt/m/n/10.95 mkRS' : []VP[] -> []RS[] = \vp -> mkRS (mkRCl which_
-RP vp) ;[] 
- []
-
-)
-Overfull \vbox (11.61101pt too high) detected at line 201
- []
-
-
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[56
-
-] (./presentation.vrb
-Overfull \hbox (26.13402pt too wide) in paragraph at lines 16--16
-[]            \OT1/cmtt/m/n/10.95 mkUtt (mkNP aPl_Det (mkCN subject relation)) 
-;[] 
- []
-
-
-Overfull \hbox (26.13402pt too wide) in paragraph at lines 16--16
-[]   \OT1/cmtt/m/n/10.95 Know object = mkRS' (mkVP (mkV2 (mkV []"know"[])) obje
-ct) ;[] 
- []
-
-
-Overfull \hbox (20.38533pt too wide) in paragraph at lines 18--18
-[]     \OT1/cmtt/m/n/10.95 mkRS' : []VP[] -> []RS[] = \vp -> mkRS (mkRCl which_
-RP vp) ;[] 
- []
-
-)
-Overfull \vbox (11.61101pt too high) detected at line 201
- []
-
-
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[57
-
-] (./presentation.vrb
-Overfull \hbox (26.13402pt too wide) in paragraph at lines 16--16
-[]            \OT1/cmtt/m/n/10.95 mkUtt (mkNP aPl_Det (mkCN subject relation)) 
-;[] 
- []
-
-
-Overfull \hbox (26.13402pt too wide) in paragraph at lines 16--16
-[]   \OT1/cmtt/m/n/10.95 Know object = mkRS' (mkVP (mkV2 (mkV []"know"[])) obje
-ct) ;[] 
- []
-
-
-Overfull \hbox (20.38533pt too wide) in paragraph at lines 18--18
-[]     \OT1/cmtt/m/n/10.95 mkRS' : []VP[] -> []RS[] = \vp -> mkRS (mkRCl which_
-RP vp) ;[] 
- []
-
-)
-Overfull \vbox (11.61101pt too high) detected at line 201
- []
-
-
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[58
-
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb
-Overfull \hbox (26.13402pt too wide) in paragraph at lines 15--15
-[]            \OT1/cmtt/m/n/10.95 mkUtt (mkNP aPl_Det (mkCN subject relation)) 
-;[] 
- []
-
-
-Overfull \hbox (20.38533pt too wide) in paragraph at lines 15--15
-[]   \OT1/cmtt/m/n/10.95 Know object = mkRS' (mkVP (mkV2 (mkV []"kan"[]) object
-)) ;[] 
- []
-
-
-Overfull \hbox (20.38533pt too wide) in paragraph at lines 17--17
-[]     \OT1/cmtt/m/n/10.95 mkRS' : []VP[] -> []RS[] = \vp -> mkRS (mkRCl which_
-RP vp) ;[] 
- []
-
-)
-Overfull \vbox (11.61101pt too high) detected at line 222
- []
-
-
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[59
-
-]
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[60
-
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[61
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[62
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[63
-
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[64
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[65
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[66
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[67
-
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb
-Package epstopdf Info: Source file: <./category-mapping.eps>
-(epstopdf)                    date: 2014-08-11 15:04:37
-(epstopdf)                    size: 28462 bytes
-(epstopdf)             Output file: <./category-mapping-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-11 15:14:28
-(epstopdf)                    size: 13891 bytes
-(epstopdf)             Command: <epstopdf --outfile=./category-mapping-eps-conv
-erted-to.pdf ./category-mapping.eps>
-(epstopdf)             \includegraphics on input line 2.
-Package epstopdf Info: Output file is already uptodate.
-
-<./category-mapping-eps-converted-to.pdf, id=741, 784.9325pt x 305.14pt>
-File: ./category-mapping-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ./category-mapping-eps-converted-to.pdf>
-Package pdftex.def Info: ./category-mapping-eps-converted-to.pdf used on input 
-line 2.
-(pdftex.def)             Requested size: 313.96744pt x 122.05382pt.
-)
-Overfull \hbox (6.67757pt too wide) in paragraph at lines 2--281
-[][]  
- []
-
-
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[68
-
- <./category-mapping-eps-converted-to.pdf>]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[69
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[70
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[71
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[72
-
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[73
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[74
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[75
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[76
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[77
-
-] (./presentation.vrb
-Overfull \hbox (2.45743pt too wide) in paragraph at lines 24--24
-[]\OT1/cmtt/m/n/10 InstrucExternal Customer (UseExt (MkObject (MkSymb []"Foo"[]
-)))[] 
- []
-
-
-Overfull \hbox (2.45743pt too wide) in paragraph at lines 24--24
-[]\OT1/cmtt/m/n/10 InstrucInternal People (WorkWith (MkObject (MkSymb []"Foo"[]
-)))[] 
- []
-
-)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[78
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[79
-
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[80
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[81
-
-] (./presentation.vrb
-Overfull \hbox (18.73134pt too wide) in paragraph at lines 33--33
-[]\OT1/cmtt/m/n/9 InstrucInternal People (WorkWith ([]MkOrganization[] (MkSymb 
-[]"Organi..[])))[] 
- []
-
-)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[82
-
-] (./presentation.vrb)
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[83
-
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb)
-Overfull \vbox (5.7726pt too high) detected at line 410
- []
-
-
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[84
-
-] (./presentation.vrb)
-Overfull \vbox (5.7726pt too high) detected at line 410
- []
-
-
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[85
-
-] (./presentation.vrb)
-Overfull \vbox (5.7726pt too high) detected at line 410
- []
-
-
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[86
-
-] (./presentation.vrb)
-Overfull \vbox (5.7726pt too high) detected at line 410
- []
-
-
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[87
-
-] (./presentation.vrb)
-Overfull \vbox (5.7726pt too high) detected at line 410
- []
-
-
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[88
 
 ])
-\openout2 = `results.aux'.
-
- (./results.tex <./images/x11.png, id=960, 288.17662pt x 235.78087pt>
-File: ./images/x11.png Graphic file (type png)
-
-<use ./images/x11.png>
-Package pdftex.def Info: ./images/x11.png used on input line 7.
-(pdftex.def)             Requested size: 172.90729pt x 141.46959pt.
-
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[89
-
-
-
- <./images/x11.png>]
-<./images/graph.png, id=970, 288.17662pt x 235.78087pt>
-File: ./images/graph.png Graphic file (type png)
-
-<use ./images/graph.png>
-Package pdftex.def Info: ./images/graph.png used on input line 7.
-(pdftex.def)             Requested size: 172.90729pt x 141.46959pt.
-
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[90
-
- <./images/graph.png>])
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
@@ -1914,146 +1302,27 @@ Overfull \hbox (100.59328pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] 
  []
 
-[91
+[35
 
 
-
-]
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[92
-
-]
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[93
-
-]
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[94
-
-]
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[95
-
-]
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[96
-
-]
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[97
-
-]
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[98
-
-]
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[99
-
-]
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[100
-
-]
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[101
-
-]
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[102
-
-]
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[103
-
-]
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[104
-
-]
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[105
-
-]
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[106
-
-]
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[107
-
-]
-Overfull \hbox (100.59328pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[108
 
 ])
 \tf@nav=\write6
-\openout6 = `presentation.nav'.
+\openout6 = `example.nav'.
 
 \tf@toc=\write7
-\openout7 = `presentation.toc'.
+\openout7 = `example.toc'.
 
 \tf@snm=\write8
-\openout8 = `presentation.snm'.
+\openout8 = `example.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 33.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 33.
- (./presentation.aux (./front.aux) (./introduction.aux) (./solution.aux)
-(./results.aux) (./conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 33.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 33.
-Package rerunfilecheck Info: File `presentation.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 63.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
+ (./example.aux (./introduction.aux) (./solution.aux) (./results.aux)
+(./conclusion.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 63.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 63.
+Package rerunfilecheck Info: File `example.out' has not changed.
 (rerunfilecheck)             Checksum: 13CFBE95E4EBAE5717A02DE2282067C1;202.
 
 
@@ -2063,16 +1332,16 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 33.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 63.
  ) 
 Here is how much of TeX's memory you used:
- 19360 strings out of 493304
- 363141 string characters out of 6139872
- 444789 words of memory out of 5000000
- 22006 multiletter control sequences out of 15000+600000
- 13824 words of font info for 52 fonts, out of 8000000 for 9000
+ 18873 strings out of 493485
+ 355685 string characters out of 3143526
+ 437687 words of memory out of 3000000
+ 21623 multiletter control sequences out of 15000+200000
+ 13845 words of font info for 51 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 52i,17n,60p,401b,689s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,17n,60p,396b,689s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texl
@@ -2081,12 +1350,11 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmtt9.pfb>
-Output written on presentation.pdf (108 pages, 321209 bytes).
+blic/amsfonts/cm/cmtt10.pfb>
+Output written on example.pdf (35 pages, 149906 bytes).
 PDF statistics:
- 1253 PDF objects out of 1440 (max. 8388607)
- 1101 compressed objects within 12 object streams
- 220 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 457 PDF objects out of 1000 (max. 8388607)
+ 393 compressed objects within 4 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

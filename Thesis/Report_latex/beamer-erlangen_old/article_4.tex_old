@@ -1,0 +1,174 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Arsclassica Article
+% LaTeX Template
+% Version 1.1 (10/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Lorenzo Pantieri (http://www.lorenzopantieri.net) with extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+10pt, % Main document font size
+a4paper, % Paper type, use 'letterpaper' for US Letter paper
+oneside, % One page layout (no page indentation)
+%twoside, % Two page layout (page indentation for binding and different headers)
+headinclude,footinclude, % Extra spacing for the header and footer
+BCOR5mm, % Binding correction
+]{scrartcl}
+
+\input{structure.tex} % Include the structure.tex file which specified the document structure and layout
+
+\hyphenation{Fortran hy-phen-ation} % Specify custom hyphenation points in words with dashes where you would like hyphenation to occur, or alternatively, don't put any dashes in a word to stop hyphenation altogether
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND AUTHOR(S)
+%----------------------------------------------------------------------------------------
+
+\title{\normalfont\spacedallcaps{Presentation content}} % The article title
+
+\author{\spacedlowsmallcaps{Martin Agfjord}} % The article author(s) - author affiliations need to be specified in the AUTHOR AFFILIATIONS block
+
+\date{} % An optional date to appear under the author(s)
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	HEADERS
+%----------------------------------------------------------------------------------------
+
+\renewcommand{\sectionmark}[1]{\markright{\spacedlowsmallcaps{#1}}} % The header for all pages (oneside) or for even pages (twoside)
+%\renewcommand{\subsectionmark}[1]{\markright{\thesubsection~#1}} % Uncomment when using the twoside option - this modifies the header on odd pages
+\lehead{\mbox{\llap{\small\thepage\kern1em\color{halfgray} \vline}\color{halfgray}\hspace{0.5em}\rightmark\hfil}} % The header style
+
+\pagestyle{scrheadings} % Enable the headers specified in this block
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS & LISTS OF FIGURES AND TABLES
+%----------------------------------------------------------------------------------------
+
+\maketitle % Print the title/author/date block
+
+\setcounter{tocdepth}{2} % Set the depth of the table of contents to show sections and subsections only
+
+\tableofcontents % Print the table of contents
+
+\newpage % Start the article content on the second page, remove this if you have a longer abstract that goes onto the second page
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+\section{First page and outline}
+Welcome to my masters project presentation! My name is Martin Agfjord and my project is about translating natural language sentences into machine readable instructions.
+\subsection{Outline}
+I'll first introduce the problem that we want to solve. Then I'll go through a solution to the problem, which is the largest part of the presentation. Then I'll show some results from the solution. Lastly, I'll go through what I can conclude from this work. I'll also talk a bit about some future work.
+\section{Introduction \& problem description}
+If a user wants to tell give a computer an instruction through a graphical user interface, it will probably use graphical elements like text fields, checkboxes and drop-down menus. In this project, we introduce an alternative interface, an interface which allows the user to write an instruction in a natural language.
+\newline
+\newline
+This instruction is then translated into a machine readable language. We have chosen to use Solr query language as target language. The reason is because I have worked in close collaboration with a software development company called Findwise, and they frequently use Solr.
+\newline
+\newline
+We need to have some kind of environment in order to define some instructions, therefore, we assume that we build this system for a software development company and the instructions are used to obtain information their intranet. In fact, this project has gotten much inspiration from Findwise's intranet. This project only focus on a few instructions, because of limited time.
+
+\subsection{Interface definition}
+We assume that it is possible to obtain information of people's skills in the intranet, and the instruction \texttt{'people who know Java'} shall obtain a list of all persons that know the programming language Java. It has been said that novice users usually simply write what they want when searching on the web, 
+\newline
+\newline
+However, expert users usually just type keywords like \texttt{people know java}. We want to design an application that is suffient for both novice and expert users.
+
+\section{Solution}
+Query languages and machine languages in general require precise syntax, which means a query cannot be interpreted if one character is in the wrong place in a query.
+\newline
+\newline
+When translating, we want to map a natural language to Solr query language, how can this be achieved when also preserving precise syntax?
+\newline
+\newline
+We use a grammar to solve this problem.
+
+\subsection{Translation with a grammar}
+So what is a grammar? In loose terms it is structured production rules for strings.
+\newline
+\newline
+The production rules describe how to form strings, in our case combinations of \emph{words} that are valid in a formal language.
+\newline
+\newline
+If we know which rules that are used to create a a specific sentence in one language, we can use the same rules to create a sentence in another language that represents the same information.
+\newline
+\newline
+It is not trivial to develop a grammar, so we make use of Grammatical Framework when building grammars.
+
+\subsection{Introducing Grammatical Framework (GF)}
+GF is a development platform for natural languages.
+\newline
+\newline
+Grammars that can be used with GF are written in the GF programming language, which is a functional programming language.
+\newline
+\newline
+This language is specifically designed for creating natural language grammars.
+\newline
+\newline
+One of GFs powers is that it separates abstract and concrete syntax in the same sense as programming languages.
+\newline
+\newline
+The abstract syntax captures the logic of a sentence. Or in other words, it captures the meaning of a sentence. This is achieved by using a hieratical tree structure.
+\newline
+\newline
+The concrete syntax expresses how an abstract syntax tree looks like a string.
+\newline
+\newline
+Compilers also uses abstract and concrete syntax.
+\newline
+\newline
+The programmer writes source code in concrete syntax
+\newline
+\newline
+The compiler translates the concrete syntax into an abstract syntax tree
+\newline
+\newline
+The compiler can then manipulate the abstract syntax tree.
+
+\subsection{A simple example}
+Here we can see an example of an abstract syntax tree which I've developed for this presentation. This abstract syntax tree captures the meaning of the sentence \texttt{people who know Java}. This is my way of representing it, it can be represented in many other different ways.
+\newline
+\newline
+We also have three concrete syntaxes that represents this abstract syntax as strings. The first two are natural languages, while the third is a representation in Solr query language in our environment.
+
+In order to represent this abstract syntax in a concrete syntax, one combines the function \texttt{People} with the function \texttt{Know}, however the abstract syntax leaves the implementation to the concrete syntax, so two concrete syntaxes can therefore implement the same function in different ways. This can be seen by looking at the concrete syntaxes. While we don't know how these concrete syntaxes are implemented, a reasonable assumption is that the function \texttt{People} is implemented as \texttt{"personer"} in Swedish and as \texttt{"people"} in English.
+
+\subsection{GF implementation: Abstract syntax}
+I will now show how the example I just described can be implemented in GF. When developing a grammar in GF, one always starts with the abstract syntax to define the logic.
+\newline
+\newline
+We start by defining our categories here in green. A category in GF is the same as a data type.
+\newline
+\newline
+We then proceed to define how one can create an instruction. An instruction is created by executing the function \texttt{MkInstruction} with two arguments, one of the type \texttt{Subject} and one of the type \texttt{Relation}. The function can then output a value of the type Instruction.
+
+A value of the type subject can be obtained by executing the function \texttt{People} with no arguments. A value of the type \texttt{Relation} can be obtained by executing the function \texttt{Know} with an argument of the type \texttt{Object}. Lastly, a value of the type \texttt{Object} can be obtained by executing the function \texttt{Java} with no arguments.
+
+\subsection{GF implementation: English concrete syntax}
+We will now implement a concrete syntax for English. We define all categories to be strings. The function implementations is done by concatenating strings. In MkInstruction we concatenate the subject argument with the string \texttt{who}, and we then concatenate the resulting string with the relation argument.
+
+The function \texttt{People} is implemented as the string "people". Know is implemented by concatenating the string "know" with the object argument. Java is implemented as the string "Java".
+
+\subsection{GF implementation: Solr concrete syntax}
+We will also show how one can implement the concrete syntax for Solr query language. Similarly as with the concrete syntax for English we define all categories to be strings.
+\newline
+\newline
+
+\end{document}

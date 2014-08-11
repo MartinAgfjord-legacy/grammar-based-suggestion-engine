@@ -277,9 +277,28 @@ lin
 \end{frame}
 
 \begin{frame}[fragile]{Extending the grammar: More instructions}
-\includegraphics[scale=0.4,keepaspectratio,valign=t]{./category-mapping.eps}
-\end{frame}
+\begin{itemize}
+\item Resolved by adding more categories (types)
+\end{itemize}
 
+\vspace{-4mm}\begin{semiverbatim}\small
+cat \textcolor{ForestGreen}{
+  Internal ; External ; Resource ;
+  InternalRelation ; ExternalRelation ; ResourceRelation ; }\pause
+fun \textcolor{Blue}{
+  People   : Internal ;
+  Customer : External ;
+  Project  : Resource ; }\pause
+  \textcolor{Type}{
+  Know     : Object -> InternalRelation ;
+  UseExt   : Object -> ExternalRelation ;
+  UseRes   : Object -> ResourceRelation ;}\pause
+  \textcolor{String}{
+  InstrucInternal : Internal -> InternalRelation -> Instruction ;
+  InstrucExternal : External -> ExternalRelation -> Instruction ;
+  InstrucResource : Resource -> ResourceRelation -> Instruction ; }
+\end{semiverbatim}
+\end{frame}
 %###################################
 %                  EXTENDING THE GRAMMAR:
 %                  BOOLEAN OPERATORS
