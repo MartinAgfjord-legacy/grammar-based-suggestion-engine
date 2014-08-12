@@ -51,8 +51,10 @@
            \item Separates abstract and concrete syntax \pause
            \begin{itemize}
               \item Abstract syntax represents the semantics of a sentence \pause
+              \begin{itemize} \item[] \texttt{((Student Def Plural) Is Here)}\pause \end{itemize}
               % It is a tree!
-              \item Concrete syntax represents the semantics as a string
+              \item Concrete syntax represents the semantics as a string\pause 
+              \begin{itemize} \item[] The students are here \end{itemize}
            \end{itemize}\pause
          \end{itemize}
          
@@ -90,12 +92,28 @@ q=object_type : Person AND expertise : Java    -- Solr
 \begin{frame}[fragile]{GF implementation: Abstract syntax}\pause
 \begin{semiverbatim}
 abstract Instrucs = \{
+\only<2>{
   cat \textcolor{ForestGreen}{
-    Instruction 
+    Instruction ;
     Subject ;
     Relation ;
-    Object ; }\pause
-  fun \textcolor{Blue}{
+    Object ; 
+    }\pause
+}\only<3>{
+  cat \textcolor{ForestGreen}{
+    Instruction ;
+    Subject ;
+    Relation ;
+    Object ; 
+    }
+}\only<4>{
+  cat
+    \textcolor{ForestGreen}{Instruction ;}              MkInstruction
+    \textcolor{ForestGreen}{Subject ;}                 /             \\
+    \textcolor{ForestGreen}{Relation ;}            People           Know
+    \textcolor{ForestGreen}{Object ;}                                 |
+                                           Java
+} fun \textcolor{Blue}{
     MkInstruction : Subject -> Relation -> Instruction ;
     People : Subject ;
     Know : Object -> Relation ;
@@ -107,17 +125,79 @@ abstract Instrucs = \{
 \begin{frame}[fragile]{GF implementation: English concrete syntax}\pause
 \begin{semiverbatim}
 concrete InstrucsEng of Instrucs = \{
+\only<2>{
   lincat \textcolor{ForestGreen}{
-    Instruction = \textcolor{Type}{Str} ;
-    Subject = \textcolor{Type}{Str} ;
-    Relation = \textcolor{Type}{Str} ;
-    Object = \textcolor{Type}{Str} ; }\pause
+    \textcolor{ForestGreen}{Instruction = \textcolor{String}{Str}} ;
+    \textcolor{ForestGreen}{Subject = \textcolor{String}{Str} ;}
+    \textcolor{ForestGreen}{Relation = \textcolor{String}{Str} ;}
+    \textcolor{ForestGreen}{Object = \textcolor{String}{Str} ;}
+    }}\pause \only<3>{
+  lincat \textcolor{ForestGreen}{
+    \textcolor{ForestGreen}{Instruction = \textcolor{String}{Str}} ;
+    \textcolor{ForestGreen}{Subject = \textcolor{String}{Str} ;}
+    \textcolor{ForestGreen}{Relation = \textcolor{String}{Str} ;}
+    \textcolor{ForestGreen}{Object = \textcolor{String}{Str} ;}
+    }} \only<4->{
+  lincat
+    \textcolor{ForestGreen}{Instruction = \textcolor{String}{Str} ;}        MkInstruction
+    \textcolor{ForestGreen}{Subject = \textcolor{String}{Str} ;}           /             \\
+    \textcolor{ForestGreen}{Relation = \textcolor{String}{Str} ;}      People           Know
+    \textcolor{ForestGreen}{Object = \textcolor{String}{Str} ;}                           |
+                                           Java} \only<2>{
   lin \textcolor{Blue}{
     MkInstruction subject relation = 
                    subject ++ \textcolor{String}{"who"} ++ relation ;
-    People = \textcolor{String}{"people"} ;
+    People = \textcolor{String}{\textcolor{String}{"people"}} ;
     Know object = \textcolor{String}{"know"} ++ object ;
-    Java = \textcolor{String}{"Java"} ; }
+    Java = \textcolor{String}{\textcolor{String}{"Java"}} ; }} \only<3>{
+  lin \textcolor{Blue}{
+    MkInstruction subject relation = 
+                   subject ++ \textcolor{String}{"who"} ++ relation ;
+    People = \textcolor{String}{\textcolor{String}{"people"}} ;
+    Know object = \textcolor{String}{"know"} ++ object ;
+    Java = \textcolor{String}{\textcolor{String}{"Java"}} ; }} \only<4>{
+  lin \textcolor{Blue}{
+    MkInstruction subject relation = 
+                   subject ++ \textcolor{String}{"who"} ++ relation ;
+    People = \textcolor{String}{\textcolor{String}{"people"}} ;
+    Know object = \textcolor{String}{"know"} ++ object ;
+    Java = \textcolor{String}{\textcolor{String}{"Java"}} ; }} \only<5>{
+  lin \textcolor{Blue}{
+    MkInstruction \textcolor{String}{"people"} relation = 
+                   \textcolor{String}{"people"} ++ \textcolor{String}{"who"} ++ relation ;
+    People = \textcolor{String}{\textcolor{String}{"people"}} ;
+    Know object = \textcolor{String}{"know"} ++ object ;
+    Java = \textcolor{String}{\textcolor{String}{"Java"}} ; }} \only<6>{
+  lin \textcolor{Blue}{
+    MkInstruction \textcolor{String}{"people"} relation = 
+                   \textcolor{String}{"people who"} ++ relation ;
+    People = \textcolor{String}{\textcolor{String}{"people"}} ;
+    Know object = \textcolor{String}{"know"} ++ object ;
+    Java = \textcolor{String}{\textcolor{String}{"Java"}} ; }} \only<7>{
+  lin \textcolor{Blue}{
+    MkInstruction \textcolor{String}{"people"} relation = 
+                   \textcolor{String}{"people who"} ++ relation ;
+    People = \textcolor{String}{\textcolor{String}{"people"}} ;
+    Know \textcolor{String}{"Java"} = \textcolor{String}{"know"} ++ \textcolor{String}{"Java"} ;
+    Java = \textcolor{String}{\textcolor{String}{"Java"}} ; }} \only<8>{
+  lin \textcolor{Blue}{
+    MkInstruction \textcolor{String}{"people"} relation = 
+                   \textcolor{String}{"people who"} ++ relation ;
+    People = \textcolor{String}{\textcolor{String}{"people"}} ;
+    Know \textcolor{String}{"Java"} = \textcolor{String}{"know Java"} ;
+    Java = \textcolor{String}{\textcolor{String}{"Java"}} ; }} \only<9>{
+  lin \textcolor{Blue}{
+    MkInstruction \textcolor{String}{"people"} \textcolor{String}{"know Java"} = 
+                   \textcolor{String}{"people who"} ++ \textcolor{String}{"know Java"} ;
+    People = \textcolor{String}{\textcolor{String}{"people"}} ;
+    Know \textcolor{String}{"Java"} = \textcolor{String}{"know Java"} ;
+    Java = \textcolor{String}{\textcolor{String}{"Java"}} ; }} \only<10>{
+  lin \textcolor{Blue}{
+    MkInstruction \textcolor{String}{"people"} \textcolor{String}{"know Java"} = 
+                   \textcolor{String}{"people who know Java"} ;
+    People = \textcolor{String}{\textcolor{String}{"people"}} ;
+    Know \textcolor{String}{"Java"} = \textcolor{String}{"know Java"} ;
+    Java = \textcolor{String}{\textcolor{String}{"Java"}} ; }} 
 \}
 \end{semiverbatim}
 \end{frame}
@@ -125,17 +205,85 @@ concrete InstrucsEng of Instrucs = \{
 \begin{frame}[fragile]{GF implementation: Solr concrete syntax}\pause
 \begin{semiverbatim}
 concrete InstrucsEng of Instrucs = \{
+\only<2>{
   lincat \textcolor{ForestGreen}{
-    Instruction = \textcolor{Type}{Str} ;
-    Subject = \textcolor{Type}{Str} ;
-    Relation = \textcolor{Type}{Str} ;
-    Object = \textcolor{Type}{Str} ;}\pause
+    \textcolor{ForestGreen}{Instruction = \textcolor{String}{Str}} ;
+    \textcolor{ForestGreen}{Subject = \textcolor{String}{Str} ;}
+    \textcolor{ForestGreen}{Relation = \textcolor{String}{Str} ;}
+    \textcolor{ForestGreen}{Object = \textcolor{String}{Str} ;}
+    }}\pause \only<3>{
+  lincat \textcolor{ForestGreen}{
+    \textcolor{ForestGreen}{Instruction = \textcolor{String}{Str}} ;
+    \textcolor{ForestGreen}{Subject = \textcolor{String}{Str} ;}
+    \textcolor{ForestGreen}{Relation = \textcolor{String}{Str} ;}
+    \textcolor{ForestGreen}{Object = \textcolor{String}{Str} ;}
+    }} \only<4->{
+  lincat
+    \textcolor{ForestGreen}{Instruction = \textcolor{String}{Str}} ;        MkInstruction
+    \textcolor{ForestGreen}{Subject = \textcolor{String}{Str} ;}           /             \\
+    \textcolor{ForestGreen}{Relation = \textcolor{String}{Str} ;}      People           Know
+    \textcolor{ForestGreen}{Object = \textcolor{String}{Str} ;}                           |
+                                           Java} \only<2>{
   lin \textcolor{Blue}{
-    MkInstruction subject relation = 
-                   \textcolor{String}{"q="} ++ subject ++ \textcolor{String}{"AND"} ++ relation ;
-    People = \textcolor{String}{"object_type : Person"} ;
-    Know object = \textcolor{String}{"expertise : "} ++ object ;
-    Java = \textcolor{String}{"Java"} ; }
+  MkInstruction subject relation = 
+          \textcolor{String}{"q="} ++ subject ++ \textcolor{String}{"AND"} ++ relation ;
+  People = \textcolor{String}{\textcolor{String}{"object_type : Person"}} ;
+  Know object = \textcolor{String}{"expertise :"} ++ object ;
+  Java = \textcolor{String}{\textcolor{String}{"Java"}} ; }} \only<3>{
+  lin \textcolor{Blue}{
+  MkInstruction subject relation = 
+      \textcolor{String}{"q="} ++ subject ++ \textcolor{String}{"AND"} ++ relation ;
+  People = \textcolor{String}{\textcolor{String}{"object_type : Person"}} ;
+  Know object = \textcolor{String}{"expertise :"} ++ object ;
+  Java = \textcolor{String}{\textcolor{String}{"Java"}} ; }} \only<4>{
+  lin \textcolor{Blue}{
+  MkInstruction subject relation = 
+      \textcolor{String}{"q="} ++ subject ++ \textcolor{String}{"AND"} ++ relation ;
+  People = \textcolor{String}{\textcolor{String}{"object_type : Person"}} ;
+  Know object = \textcolor{String}{"expertise :"} ++ object ;
+  Java = \textcolor{String}{\textcolor{String}{"Java"}} ; }} \only<5>{
+  lin \textcolor{Blue}{
+  MkInstruction \textcolor{String}{"object_type : Person"} relation = 
+      \textcolor{String}{"q="} ++ \textcolor{String}{"object_type : Person"} ++ \textcolor{String}{"AND"} ++ relation ;
+  People = \textcolor{String}{\textcolor{String}{"object_type : Person"}} ;
+  Know object = \textcolor{String}{"expertise :"} ++ object ;
+  Java = \textcolor{String}{\textcolor{String}{"Java"}} ; }} \only<6>{
+  lin \textcolor{Blue}{
+  MkInstruction \textcolor{String}{"object_type : Person"} relation = 
+      \textcolor{String}{"q= object_type : Person"} ++ \textcolor{String}{"AND"} ++ relation ;
+  People = \textcolor{String}{\textcolor{String}{"object_type : Person"}} ;
+  Know object = \textcolor{String}{"expertise :"} ++ object ;
+  Java = \textcolor{String}{\textcolor{String}{"Java"}} ; }} \only<7>{
+  lin \textcolor{Blue}{
+  MkInstruction \textcolor{String}{"object_type : Person"} relation = 
+      \textcolor{String}{"q= object_type : Person AND"} ++ relation ;
+  People = \textcolor{String}{\textcolor{String}{"object_type : Person"}} ;
+  Know object = \textcolor{String}{"expertise :"} ++ object ;
+  Java = \textcolor{String}{\textcolor{String}{"Java"}} ; }} \only<8>{
+  lin \textcolor{Blue}{
+  MkInstruction \textcolor{String}{"object_type : Person"} relation = 
+      \textcolor{String}{"q= object_type : Person AND"} ++ relation ;
+  People = \textcolor{String}{\textcolor{String}{"object_type : Person"}} ;
+  Know \textcolor{String}{"Java"} = \textcolor{String}{"expertise :"} ++ \textcolor{String}{"Java"} ;
+  Java = \textcolor{String}{\textcolor{String}{"Java"}} ; }} \only<9>{
+  lin \textcolor{Blue}{
+  MkInstruction \textcolor{String}{"object_type : Person"} relation = 
+      \textcolor{String}{"q= object_type : Person AND"} ++ relation ;
+  People = \textcolor{String}{\textcolor{String}{"object_type : Person"}} ;
+  Know \textcolor{String}{"Java"} = \textcolor{String}{"expertise : Java"} ;
+  Java = \textcolor{String}{\textcolor{String}{"Java"}} ; }} \only<10>{
+  lin \textcolor{Blue}{
+  MkInstruction \textcolor{String}{"object_type : Person"} \textcolor{String}{"expertise : Java"}= 
+      \textcolor{String}{"q= object_type : Person AND"} ++ \textcolor{String}{"expertise : Java"} ;
+  People = \textcolor{String}{\textcolor{String}{"object_type : Person"}} ;
+  Know \textcolor{String}{"Java"} = \textcolor{String}{"expertise : Java"} ;
+  Java = \textcolor{String}{\textcolor{String}{"Java"}} ; }} \only<11>{
+  lin \textcolor{Blue}{
+  MkInstruction \textcolor{String}{"object_type : Person"} \textcolor{String}{"expertise : Java"}= 
+      \textcolor{String}{"q= object_type : Person AND expertise : Java"} ;
+  People = \textcolor{String}{\textcolor{String}{"object_type : Person"}} ;
+  Know \textcolor{String}{"Java"} = \textcolor{String}{"expertise : Java"} ;
+  Java = \textcolor{String}{\textcolor{String}{"Java"}} ; }} 
 \}
 \end{semiverbatim}
 \end{frame}
@@ -146,7 +294,7 @@ GF + Abstract syntax + Concrete syntax = \pause
 \newline
 \textbf{Parser}
 \begin{semiverbatim}
-> parse -lang=InstrucsEng \textcolor{String}{"people who know Java"}
+> parse -lang=InstrucsEng \textcolor{String}{\textcolor{String}{"people who know Java"}}
 MkInstruction People (Know Java)
 \end{semiverbatim} \pause
 \textbf{Linearizer}
@@ -191,9 +339,9 @@ concrete InstrucsEng of Instrucs = {
   lin \textcolor{Blue}{
    MkInstruction subject relation = 
             mkUtt (mkNP aPl_Det (mkCN subject relation)) ;
-   People = mkN \textcolor{String}{"person" "people"} ;
+   People = mkN \textcolor{String}{"person" \textcolor{String}{"people"}} ;
    Know object = mkRS' (mkVP (mkV2 (mkV \textcolor{String}{"know"})) object) ;
-   Java = mkNP (mkPN \textcolor{String}{"Java"}) ; }
+   Java = mkNP (mkPN \textcolor{String}{\textcolor{String}{"Java"}}) ; }
   oper
      mkRS' : \textcolor{Type}{VP} -> \textcolor{Type}{RS} = \\vp -> mkRS (mkRCl which_RP vp) ;
 }
@@ -214,7 +362,7 @@ concrete InstrucsEng of Instrucs = {
             mkUtt (mkNP aPl_Det (mkCN subject relation)) ;
    People = mkN \textcolor{String}{"person" "personer"} ;
    Know object = mkRS' (mkVP (mkV2 (mkV \textcolor{String}{"kan"}) object)) ;
-   Java = mkNP (mkPN \textcolor{String}{"Java"}) ; }
+   Java = mkNP (mkPN \textcolor{String}{\textcolor{String}{"Java"}}) ; }
   oper
      mkRS' : \textcolor{Type}{VP} -> \textcolor{Type}{RS} = \\vp -> mkRS (mkRCl which_RP vp) ;
 }
@@ -238,7 +386,7 @@ concrete InstrucsEng of Instrucs = {
 fun
   \textcolor{Blue}{Java : Object ; }
 lin
-  \textcolor{Blue}{Java = \textcolor{String}{"Java"} ; }
+  \textcolor{Blue}{Java = \textcolor{String}{\textcolor{String}{"Java"}} ; }
 \end{semiverbatim}\pause
 
 \texttt{===>}
@@ -256,8 +404,7 @@ lin
 %###################################
 \begin{frame}[fragile]{Extending the grammar: More instructions}
 \begin{itemize}
-\item Extend grammar to support more instructions\pause
-\item Support \textbf{valid} sentences regarding \emph{customers}, \emph{people} and \emph{projects}:\pause
+\item Extend grammar to support more instructions:\pause
 \end{itemize}
   \vspace{-4mm}\begin{itemize}
     \item[] \texttt{people who know Java}
@@ -266,18 +413,6 @@ lin
     \item[] \texttt{customers who use Solr}
     \item[] \texttt{projects who use Solr}
   \end{itemize}\pause
-  \begin{itemize}
-    \item Not support invalid sentences, for instance:
-  \end{itemize}
-   \vspace{-4mm}\begin{itemize}
-    \item[] \texttt{projects who work in London}
-    \item[] \texttt{people who use Solr}
-    \item[] \texttt{customers who work with Unicef}
-  \end{itemize}
-\end{frame}
-
-\begin{frame}[fragile]{Extending the grammar: More instructions}
-\includegraphics[scale=0.4,keepaspectratio,valign=t]{./category-mapping.eps}
 \end{frame}
 
 %###################################
@@ -287,20 +422,9 @@ lin
 \begin{frame}[fragile]{Extending the grammar: Boolean operators}\pause
 \begin{itemize}
   \item Extend grammar to support boolean operators
-  \item \texttt{people who know Java and Python} \pause
-  \item \texttt{people who know Java or work in London} \pause
+  \item \texttt{people who know Java or Python} \pause
+  \item \texttt{people who know Haskell and work in London} \pause
 \end{itemize}
-\begin{semiverbatim}
-fun \textcolor{Blue}{
-  And : Object -> Object -> Object ;
-  Or : Object -> Object -> Object ;}
-\end{semiverbatim}
-
-\begin{semiverbatim}
-lin\textcolor{Blue}{
-  And o1 o2 = o1 ++ \textcolor{String}{"and"} ++ o2 ;
-  Or o1 o2 = o1 ++ \textcolor{String}{"or"} ++ o2 ;}
-\end{semiverbatim}
 \end{frame}
 %###################################
 %                  SUGGESTION ENGINE:

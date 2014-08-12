@@ -2,17 +2,17 @@
 % Abstract
 %*******************************************************
 %\renewcommand{\abstractname}{Abstract}
+%\setcounter{page}{}
 \pdfbookmark[1]{Abstract}{Abstract}
 \begingroup
 \let\clearpage\relax
 \let\cleardoublepage\relax
 \let\cleardoublepage\relax
-
 \chapter*{Abstract}
 In this thesis we investigate how we can develop an application which can translate sentences formulated in natural languages (English and Swedish) into a query language. We also build a suggestion engine which offers suggestions to a user based on a partial or invalid sentence. The purpose of the suggestion engine is to help the user to find valid sentences that the application can translate.
 \newline
 \newline
-We implement the translation by using a computational grammar. The grammar is developed by using \emph{Grammatical Framework}, which is a development platform for building natural language grammars. We take two approaches on building the natural language parts of the grammar. The first is concatenation of strings and the second is by using the \emph{GF Resource Grammar Library}. The query part is implemented with concatenation of strings.
+We implement the translation by using a computational grammar. The grammar is developed by using \emph{Grammatical Framework (GF)}, which is a development platform for building natural language grammars. We take two approaches on building the natural language parts of the grammar. The first is concatenation of strings and the second is by using the \emph{GF Resource Grammar Library}. The query part is implemented with concatenation of strings.
 \newline
 \newline
 The results show that it is more suitable to develop the natural language parts of the grammar by concatenating strings but only if the developer has good knowledge of the natural language. By concatenating strings, we can map all sorts of ungrammatical sentences to a grammatical sentence which is not possible with the GF Resource grammar library. This mapping makes the suggestion engine more powerful.
