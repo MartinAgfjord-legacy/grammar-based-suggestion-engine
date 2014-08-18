@@ -1,42 +1,13 @@
 \section{Solution} 
 \begin{frame}{Solution} \pause
   \begin{itemize}
-    \item Precise translation \pause
-    \item Need mapping from natural language to query language \pause
-      \begin{itemize}
-        \item Use a grammar
-      \end{itemize}
+    \item Extract semantics from sentences \pause
+    \item Parse strings into a known data structure \pause
+    \item Use a grammar to define the data structure and rules for strings
   \end{itemize}
   
 \end{frame}
 
-\begin{frame}{Translation with a grammar} 
-         \begin{itemize}
-		   \item Structured rules for strings \pause
-           \item Example: Is/Are rule \pause
-           \begin{itemize}
-             \item The students \textcolor{String}{are} here
-             \item The student \textcolor{String}{is} here \pause
-           \end{itemize}             
-           \item Swedish
-           \begin{itemize}
-             \item Studenterna \textcolor{String}{{\"a}r} h{\"a}r
-             \item Studenten \textcolor{String}{{\"a}r} h{\"a}r \pause
-           \end{itemize}\pause
-           \item Use the rules to extract the semantics of a sentence\pause
-           \begin{itemize}
-             \item Studenterna {\"a}r h{\"a}r
-             \newline         \texttt{===> ((Student Def Plural) Is Here)}\pause
-           \end{itemize}
-           \item Use the rules again to produce a sentence \pause
-           \begin{itemize}
-             \item \texttt{((Student Def Plural) Is Here) \newline===>} The students are here \pause
-           \end{itemize}
-         \end{itemize}
-           \begin{block}{How can we build a grammar to translate sentences?}
-              We will use Grammatical Framework (GF)
-         \end{block}
-\end{frame}
 %###################################
 %                     GF INTRODUCTION
 %###################################
@@ -44,17 +15,15 @@
          \begin{itemize}
            \item Open source development platform for natural languages \pause
            \begin{itemize}
+              \item Designed for creating natural language grammars\pause
               \item Functional programming language \pause
-              \item Designed for creating natural language grammars
                %specifically designed for writing grammars.
-           \end{itemize}\pause
+           \end{itemize}
            \item Separates abstract and concrete syntax \pause
            \begin{itemize}
-              \item Abstract syntax represents the semantics of a sentence \pause
-              \begin{itemize} \item[] \texttt{((Student Def Plural) Is Here)}\pause \end{itemize}
+              \item Abstract syntax (tree) represents the semantics of a sentence \pause
               % It is a tree!
               \item Concrete syntax represents the semantics as a string\pause 
-              \begin{itemize} \item[] The students are here \end{itemize}
            \end{itemize}\pause
          \end{itemize}
          
@@ -68,24 +37,31 @@
          
 \end{frame}
 
-\begin{frame}[fragile]{A simple example}
+\begin{frame}[fragile]{A simple example}\pause
 \textbf{Abstract syntax}
 \begin{semiverbatim}
-Instruction People (Know Java)
-
-    Instruction
+\only<2-3>{    Instruction
    /           \\
 People        Know
                 |
-              Java
-\end{semiverbatim}\pause
+              Java\pause
 
+Instruction People (Know Java)\pause}\only<4-5>{    Instruction
+   /           \\
+People        Know        Instruction\textcolor{Blue}{(}People\textcolor{Blue}{()},
+                |                     Know\textcolor{Blue}{(}Java\textcolor{Blue}{()))};
+              Java                   
 
-\textbf{Concrete syntaxes}
-\begin{semiverbatim}
+Instruction People (Know Java)}\pause
+\end{semiverbatim}
+
+\only<1-4>{\textbf{\textcolor{White}{Concrete syntaxes}}}\only<5>{\textbf{Concrete syntaxes}}
+\begin{semiverbatim}\only<1-4>{\textcolor{White}{people who know Java                           -- English
+personer som kan Java                          -- Swedish
+q=object_type : Person AND expertise : Java    -- Solr}}\only<5>{
 people who know Java                           -- English
 personer som kan Java                          -- Swedish
-q=object_type : Person AND expertise : Java    -- Solr
+q=object_type : Person AND expertise : Java    -- Solr}
 \end{semiverbatim}
 \end{frame}
 
