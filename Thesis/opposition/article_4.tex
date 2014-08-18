@@ -31,37 +31,63 @@ BCOR5mm, % Binding correction
 \section*{Overall}
 Presentation -
 \newline
-Report - Well written, Interesting problem and solution. Many positive effects of using Decision Tree over other approaches.
-
+Report - Well written, Interesting problem and solution.
+I think you have solved the problem in an intuitive and elegant way by combining different services in order to give informative notifications to the user.
 \section*{Evaluation}
 Title - Clear and well describing
 
 \section*{Recommendations}
 \subsection*{Layout}
-\subsubsection*{3.1 Problem Description}
-About section \emph{3.1 Problem Description}. You describe the problem you want to solve which is crucial for a thesis. I think that this section does not belong in a chapter about \emph{Design and Implementation}. My recommendation is to move the section to the introduction. The section will then be a better hook to catch an interested reader early.
+
+The thesis is divided into six chapters, Introduction, Related Work, Design and Implementation, Testing and Discussion, Conclusion and Future Work. A person with experience from technical reports like myself can easily find what it wants in the thesis because of the structure.
 \newline
-An alternative approach is change the section name to \emph{Requirements specification} or \emph{Design summary} or similar.
+\newline
+I do however have one recommendation about reorganizing the thesis. You introduce the concept of the connected car and describe what other companies have done previously. Then you describe what you are going to do in your thesis, but without describing the problem that you want to solve. I recommend you to include a problem description in the introduction chapter.
+\newline
+\newline
+In fact, you already have a section about this in the chapter \emph{Design and Implementation}. This section is better suited in the introduction in order to catch an interested reader early.
+
 \subsection*{Decision Tree}
-Include section about how machine learning works in general and describe the machine learning terms you are using in the thesis, e.g. (statistical) classification, train-data, test-data.
+When I read the section about Decision Tree, I had problem understanding how it works. However, after looking at the visual example presented 8 pages later, it was perfectly clear to me. I recommend you to move this example to the section where you first describe Decition Tree. Or maybe you have a specific reason why you included the visual example later?
+
+\subsection*{ID3}
+I also had some problems  understanding why the ID3-algorithm works, I had to read the section multiple times. I recommend a more detailed description, preferably with an example. I often find it easier to understand an algorithm if I can compare the text description with the algorithm in pseudocode. You include an algorithm which generates a desicion tree 6 pages later, but it is unclear wheater this is the ID3-algorithm or not. 
 \newline
 \newline
-I had some problem understanding how a Decision Tree works. You describe (in related work) that one of the powers of Decision Tree is that it can be represented in a tree, and a tree can easily be visualised in order to give an example.
-\newline
-\newline
-I also had a hard time understanding why the ID3-algorithm works, I have however not taken courses in statistics and machine learning so it might be the reason. I do recommend a more detailed description, preferably with an example.
+You describe \emph{why} the ID3-algorithm works after you described \emph{how} it works. This is the part I found most confusing, probably because I do not have much background within probability theory and machine learning. A general introduction to machine learning would be useful, where you describe how machine learning build up a model based on training data and you can describe each term by term like, training data, test data, classification, class, gain-function. 
+
+Here is a list of recommendations:
+\begin{itemize}
+    \item The first thing you want to describe is that this is an algorithm which creates a decision tree. It feels like you assume the reader knows this.
+    \item Include a figure with the pseudocode of ID3, and talk about how the pseudocode works, rather than describing the algorithm with only words.
+    \item What is \textbf{entropy theory}? What is \textbf{disorder} in a data set? Elaborate on these two terms.
+    \item What is an information-based method?
+    \item I find it hard to understand \emph{why} ID3 works (page 11). There are some terms and variables used that I understand come from statistics and machine learning. Include a general introduction to machine learning and probability.
+\end{itemize}
+
 \subsubsection*{Training- and testdata}
 Overall, you describe your design and testing with data very carefully, but I miss a description of how the training and test data was decided. Without this description, one can make the very bad assumption that you tested on the same data as you trained on which would yield unreliable results.
+
+\section*{Questions}
+\subsection*{Design and Implementation}
+You describe that if there is logs that a driver has been starting trips at 8:30, 9:01 and 16:59, then the possible times to push notification will be 8:00, 9:00 and 16:00. Why do you have this rule? Is it not possible to send the notification 30 minutes earlier or an hour? Rather than sending the notification to the closest previous hour.
+
 \section*{Details}
 \subsection*{Typos}
+
+\subsubsection*{Abstract}
+can achieve higher 75\% -> can achieve higher than 75\%
 \subsubsection*{Introduction}
 Page 1. helps from Ericsson -> help from Ericsson
 \subsubsection*{Related Work}
 Page 3. faster than human -> faster than a human
 \newline
 Page 3. more precisely and helping avoid -> more precise and helps to avoid
-\newline
 
+\subsubsection*{Design and Implementation}
+Page 15. recursive function recursively -> recursive function which recursively
+\newline
+Page 19. 9:01 and16:59 -> 9:01 and 16:59
 
 \subsection*{Misunderstandings / Unclear}
 \subsubsection*{Related Work}
