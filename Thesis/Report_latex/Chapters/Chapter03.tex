@@ -34,7 +34,7 @@ GF has the power to suggest valid words of an incomplete sentence by using incre
 
 However, this method does not support the use of only keywords, since one cannot start a sentence with for example the word \emph{Java}. It is also inflexible as it does not support the use of words outside the grammar. For example, in the sentence \texttt{all people who know Java}, the parser would not be able to parse the word \emph{all}.
 
-This thesis takes a different approach on a suggestion engine. Instead of suggesting one word at a time, one can suggest a whole sentence based on what the user has typed so far. This is achieved by generating all possible sentences (up to a certain size) that the application can translate and indexing them in Apache Solr. This makes it very easy to search on matching sentences, we also gain powerful techniques such as approximate string matching. \cite{bialecki:2012}[p. 22]
+This thesis takes a different approach on a suggestion engine. Instead of suggesting one word at a time, one can suggest a whole sentence based on what the user has typed so far. This is achieved by generating all possible sentences (up to a certain size) that the application can translate and index them in Apache Solr. This makes it very easy to search on matching sentences, we also gain powerful techniques such as approximate string matching. \cite{bialecki:2012}[p. 22]
 \newline
 \newline
 By using this approach, if a user types a sentence in the application, it will search in the index on instructions related to the string and will retrieve the most relevant instructions.
@@ -43,16 +43,16 @@ As the suggestion engine uses a search platform, it is possible to type any word
 
 \hiddensubsection{Runtime environment}
 The chosen programming language for this project is Java. The main reason is because it is Findwise's primary programming language. It is also very well known among many companies in the world.
-Many professional Java-developers adopts a specific development platform, Java Enterprise Edition (Java EE) \cite{javaee}. This platform provides many libraries that can be scaled to work in an enterprise environment. This project also adopts Java EE.
+Many professional Java-developers adopt a specific development platform, Java Enterprise Edition (Java EE) \cite{javaee}. This platform provides many libraries that can be scaled to work in an enterprise environment. This project also adopts Java EE.
 
 \hiddensubsection{Handling dependencies}
-A typical Java EE project make use of several libraries, in computer science terms we say that a project can have other libraries as \emph{dependencies}. It is not unusual that these libraries also have their own dependencies. Larger projects can therefore have a lot of dependencies, so many that it becomes hard to keep track of them. This project make use of an open source tool called Apache Maven \cite{books/daglib/0021697} to handle dependencies. One simply list all libraries the project shall have access to, then Maven will automatically fetch them and their dependencies. This also makes the application more flexible, as it do not have to include the needed libraries in the application.
+A typical Java EE project makes use of several libraries, in computer science terms we say that a project can have other libraries as \emph{dependencies}. It is not unusual that these libraries also have their own dependencies. Larger projects can therefore have a lot of dependencies, so many that it becomes hard to keep track of them. This project makes use of an open source tool called Apache Maven \cite{books/daglib/0021697} to handle dependencies. One simply lists all libraries the project shall have access to, then Maven will automatically fetch them and their dependencies. This also makes the application more flexible, as it do not have to include the needed libraries in the application.
 
 \hiddensubsection{Input and output presentation}
 Besides handling translation and suggestions, the application also needs to handle input and present its results in some way. This application takes input and presents output by using a web GUI\footnote{\url{http://en.wikipedia.org/wiki/Graphical_user_interface}}.
 
 \hiddensubsection{Information flow}
-This section aims to describe how the information flows in the application when a user starts by typing words in the input field and then obtain relevant data.
+This section aims to describe how the information flows in the application when a user starts by typing words in the input field and then obtains relevant data.
 \newline
 \newline
 A JavaScript-listener is active on the input field. When a user starts typing into the input field, the listerner will send the input to a the Java-application which will run the suggestion algorithm on the input. The suggestion algorithm is making multiple requests to the Solr index in order to obtain suggestions. The suggestions are sent back to the user and are presented by using JavaScript.
@@ -523,7 +523,7 @@ When normally linearizing an abstract syntax tree in the GF-shell always gets ju
 \newline
 GF adopts the pipe symbol to express that two elements are semantically equivalent. The following sections describes how the pipe symbol can be used to further extend the grammar.
 
-We extend the grammar to treat a subject in singular form the same as a subject in plural form. I.e. the sentences \emph{a person which knows Java} is the same as \emph{people who know Java}. As we treat them equivalent, they will have the same abstract syntax tree, and this tree will linearize to only one Solr query, hence if we translate \emph{a person who knows Java} into Solr, we will obtain a query that retrieves multiple results. The implementation of this extension is achieved by modifying the operation \texttt{mkI} (defined in \autoref{. The reason why the plural version is chosen as the preferable sentence is because \texttt{aPl\_Det} is listed before \texttt{aSg\_Det}.
+We extend the grammar to treat a subject in singular form the same as a subject in plural form. I.e. the sentences \emph{a person which knows Java} is the same as \emph{people who know Java}. As we treat them equivalent, they will have the same abstract syntax tree, and this tree will linearize to only one Solr query, hence if we translate \emph{a person who knows Java} into Solr, we will obtain a query that retrieves multiple results. The implementation of this extension is achieved by modifying the operation \texttt{mkI} (defined in \autoref{fig:rgl-new-instructions}). The modification can be seen in \autoref{fig:mkI-modification}. The reason why the plural version is chosen as the preferable sentence is because \texttt{aPl\_Det} is listed before \texttt{aSg\_Det}.
 
 \begin{figure}[H]
 \begin{code}
@@ -531,7 +531,7 @@ oper
   mkI : N -> RS -> Utt = \noun_N,rs_RS -> mkUtt (mkNP (aPl_Det | aSg_Det)
                              (mkCN noun_N rs_RS)) ;
 \end{code}
-\caption{Treating singular form equivalent to plural form\label{fig:linearize-using-list}}
+\caption{Treating singular form equivalent to plural form\label{fig:mkI-modification}}
 \end{figure}
 The second extension is to add support of the word \emph{that} so we can express sentences like \emph{people that know Java}. This is achieved by moving the relative pronoun from the concrete syntax to the lexicon and adding support of multiple relative pronouns by using the variance function. \autoref{fig:add-lexicon-interface} shows how we define a new constant operation which will provide the concrete syntaxes with a relative pronoun.
 
@@ -560,7 +560,7 @@ instance LexInstrucsEng of LexInstrucs = open Prelude, SyntaxEng,
 \caption{Defining the new relative pronoun in English\label{fig:add-lexicon-english}}
 \end{figure}
 
-It is not possible to express the relative pronoun in more than one way in Swedish, so we let the new operatoin be implemented to return \texttt{which\_RP}.
+It is not possible to express the relative pronoun in more than one way in Swedish, so we let the new operation be implemented to return \texttt{which\_RP}.
 
 \begin{figure}[H]
 \begin{code}

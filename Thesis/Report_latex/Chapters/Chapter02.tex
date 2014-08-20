@@ -1,5 +1,5 @@
 \chapter{A simple grammar}\label{ch:simple-grammar}
-This chapter presents an example of how GF can be used to create a grammar that can translate the sentence \emph{people who know Java} into Apache Solr query language and vice verca. Apache Solr is a search platform based on Apache Lucene. \cite{kuc2011apache}
+This chapter presents an example of how GF can be used to create a grammar that can translate the sentence \emph{people who know Java} into Apache Solr query language and vice verca. Apache Solr is a search platform based on Apache Lucene \cite{kuc2011apache}.
 
 \section{Abstract syntax}
 To model the meaning of a sentence, GF adopts the use of functions and \emph{categories}. A category (\texttt{cat}) in GF is the same as a data type. We start by listing the categories we need, as seen in \autoref{fig:abstract-syntax} on lines 3-7. We then define the values that our data types can take. This is achieved by using functions. The functions in an abstract syntax are usually not implemented, we can therefore only see the function declarations. The reason is because we only want to model the semantics at the abstract level. How the semantics are implemented in a specific language is irrelevant, because we want to keep the abstract syntax as language independent as possible in order to make it easier to develop concrete syntaxes.

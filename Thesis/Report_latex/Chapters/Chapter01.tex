@@ -36,13 +36,13 @@ Query languages require precise syntax, we therefore need precise translation fr
 We will in this thesis to use a computational grammar to extract the semantics from a natural language sentence. We are then going to use the semantics to produce a query string in a query language.
 \newline
 \newline
-There exists different grammar formalisms where attribute grammars \cite{knuth:1968} and context-free grammars \cite{Hopcroft:1990:IAT:574901}[pp. 77-106] (along with the Backus Naur Form (BNF) \cite{backus} notation) are the two most well-known. These two are mostly used for formally describing programming languages.
+There exists different grammar formalisms where attribute grammars \cite{knuth:1968} and context-free grammars \cite{Hopcroft:1990:IAT:574901}[pp. 77-106] (along with the Backus Naur Form (BNF) \cite{Knuth:1964:BNF:355588.365140} notation) are the two most well-known. These two are mostly used for formally describing programming languages.
 \newline
 \newline
 In this thesis, we will use the \emph{Grammatical Framework (GF)} which is another grammar formalism \cite{ranta:2004} based on Martin-Löf's type theory \cite{Martin-lof}. GF is specifically designed for building grammars for natural languages.
 \newline
 \newline
-A grammar defined by GF is a set of structural rules which decide how words can be created and be combined into clauses and phrases. By expressing how words can be combined into an instruction in one language one can also use the same logic to express how the same instruction can be produced in another language. A \emph{multilingual} grammar is a special type of grammar which can translate between two or more languages. We will describe GF more in detail in \autoref{sec:gf}
+A grammar defined by GF is a set of structural rules which decide how words can be created and be combined into clauses and phrases. By expressing how words can be combined into an instruction in one language one can also use the same logic to express how the same instruction can be produced in another language. A \emph{multilingual} grammar is a special type of grammar which can translate between two or more languages. We will describe GF more in detail in \autoref{sec:gf}.
 
 \section{Related work}
 This section presents two important projects that this project has been based on.
@@ -52,10 +52,10 @@ Facebook graph search \cite{unicorn} is a search engine which consists of a user
 
 The natural language that can be understood by Facebook Graph Search is represented by a weighted context free grammar (WCFG) \cite{li:2013}. The grammar consists of a set of production rules which are used to extract one or more semantic parse trees from a natural language sentence. The parse tree(s) represent the \emph{meaning} of the sentence in a semantic way. This tree can be sent to Unicorn, which is a software for retrieving information from Facebook's social graph. \cite{unicorn}
 
-\hiddensubsubsection{Entity recognition}
+\subsubsection*{Entity recognition}
 Facebook's grammar also supports entity recognition, which means that the grammar tries to find the suitable \emph{type} of a word if it thinks that it represents an object in the social graph. For example, if the user types \emph{people who live in San Fransisco} then the grammar can with high confidence express that \emph{San Fransisco} is an object of the type \emph{Location}. This is achieved by using n-gram based language models in order to obtain the type with the highest probability.
 
-\hiddensubsubsection{Lexical analysis}
+\subsubsection*{Lexical analysis}
 Synonyms are supported by the grammar. Synonyms could be words or phrases. For example the phrase \emph{people who like surfing} has the synonyms \emph{people who surf} and \emph{surfers}. They are defined to have equivalent semantics.
 \newline
 \newline
