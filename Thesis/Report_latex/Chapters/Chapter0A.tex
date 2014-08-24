@@ -115,7 +115,7 @@ In addition, one more directory is also needed by the project to build properly.
 
 The project also needs another flag in order to build properly. In the \texttt{Properties}-window, click on \texttt{Miscellaneous} below \texttt{GCC C Compiler}. Add \texttt{-fPIC} to the text field next to \texttt{Other flags}. Click on \texttt{Ok} to save the settings.
 
-You can now build the project by choosing \texttt{Project} > \texttt{Build Project} in the menu. If everything went well you shall have generated a file \texttt{libjpgf.so} in \texttt{Release (posix)/} . You can check that the dependencies of \texttt{libjpgf.so} is fulfilled (i.e. it finds the C-runtime) by executing the following in a terminal
+You can now build the project by choosing \texttt{Project} > \texttt{Build Project} in the menu. If everything went well you shall have generated a file \texttt{libjpgf.so} in \texttt{Release (posix)/}. You can check that the dependencies of \texttt{libjpgf.so} is fulfilled (i.e. it finds the C-runtime) by executing the following in a terminal
 
 \begin{terminal}
 $ ldd libjpgf.so

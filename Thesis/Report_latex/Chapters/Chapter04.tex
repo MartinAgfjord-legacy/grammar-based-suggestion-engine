@@ -6,10 +6,10 @@ This chapter presents results from the end application.
 \section{Translations}
 We begin by demonstrating how a few sentences are parsed into an abstract syntax which is linearized into all possible concrete syntaxes. The input is shown in the first box in each figure (with input language as a comment) and the result in second (larger) box. The result of a translation is JSON-data, given by the application.
 
-The solr linearization which is a clickable hyper-link in the web application. This link leads to an actual execution of a HTTP-GET request to the Solr engine. All such links leads to a Solr result which correctly filters data depending on the query. This data is however omitted from the results as the actual translations (and suggestions) are the main results of this project.
+The solr linearization of each abstract syntax tree is a clickable hyper-link in the web application. This link leads to an actual execution of a HTTP-GET request to the Solr engine. All such links leads to a Solr result which correctly filters data depending on the query. This data is however omitted from the results as the actual translations (and suggestions) are the main results of this project.
 \newline
 \newline
-The first five figures shows the simplest translations. They include all subjects and all types of names. Each one contains a subject, one verb and one name of a certain type.
+The first five figures shows the simplest translations. They include all subjects and all types of names. Each one contains one subject, one verb and one name of a certain type.
 
 \newpage
 \autoref{fig:result1} shows that the word \texttt{Java} is of the type \texttt{Skill}.
@@ -356,7 +356,7 @@ The next four figures shows how it is possible to retreive suggestions based on 
 \caption{Synonyms based on a synonym by using EnglishRGL or EnglishConcat\label{fig:persons}}
 \end{figure}
 
-Also \autoref{fig:that} shows how we can get suggestions based on a synonym. Both EnglishRGL and EnglishConcat gives suggestions based on the word \emph{that}.
+Also \autoref{fig:that} shows how we can get suggestions based on another synonym. Both EnglishRGL and EnglishConcat gives suggestions based on the word \emph{that}.
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/that.png}

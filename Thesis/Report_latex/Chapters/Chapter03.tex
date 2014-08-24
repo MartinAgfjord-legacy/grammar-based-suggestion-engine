@@ -34,7 +34,7 @@ GF has the power to suggest valid words of an incomplete sentence by using incre
 
 However, this method does not support the use of only keywords, since one cannot start a sentence with for example the word \emph{Java}. It is also inflexible as it does not support the use of words outside the grammar. For example, in the sentence \texttt{all people who know Java}, the parser would not be able to parse the word \emph{all}.
 
-This thesis takes a different approach on a suggestion engine. Instead of suggesting one word at a time, one can suggest a whole sentence based on what the user has typed so far. This is achieved by generating all possible sentences (up to a certain size) that the application can translate and index them in Apache Solr. This makes it very easy to search on matching sentences, we also gain powerful techniques such as approximate string matching. \cite{bialecki:2012}[p. 22]
+This thesis takes a different approach on a suggestion engine. Instead of suggesting one word at a time, one can suggest a whole sentence based on what the user has typed so far. This is achieved by generating all possible sentences that the application can translate (up to a certain size) and index them in Apache Solr. This makes it very easy to search on matching sentences, we also gain powerful techniques such as approximate string matching \cite{bialecki:2012}[p. 22].
 \newline
 \newline
 By using this approach, if a user types a sentence in the application, it will search in the index on instructions related to the string and will retrieve the most relevant instructions.
@@ -52,10 +52,10 @@ A typical Java EE project makes use of several libraries, in computer science te
 Besides handling translation and suggestions, the application also needs to handle input and present its results in some way. This application takes input and presents output by using a web GUI\footnote{\url{http://en.wikipedia.org/wiki/Graphical_user_interface}}.
 
 \hiddensubsection{Information flow}
-This section aims to describe how the information flows in the application when a user starts by typing words in the input field and then obtains relevant data.
+This section aims to describe how the information flows in the application when a user starts to type words in the input field and then obtains relevant data.
 \newline
 \newline
-A JavaScript-listener is active on the input field. When a user starts typing into the input field, the listerner will send the input to a the Java-application which will run the suggestion algorithm on the input. The suggestion algorithm is making multiple requests to the Solr index in order to obtain suggestions. The suggestions are sent back to the user and are presented by using JavaScript.
+A JavaScript-listener is active on the input field. When a user types letters into the input field, the listener will send the input to a the Java-application which will run the suggestion algorithm on the input. The suggestion algorithm is making multiple requests to the Solr index in order to obtain suggestions. The suggestions are sent back to the user and are presented by using JavaScript.
 
 If a user chooses to translate a sentence (by pushing enter while focusing on the input field), another JavaScript function will be executed which sends the phrase or sentence to the Java application. This sentence is parsed into one or multiple abstract syntax trees by using PGF \cite{angelov:2011}[p. 14]. The resulting abstract syntax tree(s) are linearized into all possible concrete syntaxes and returned to the web application. The web application present the result to the user. 
 
@@ -129,7 +129,7 @@ fun
 \caption{Abstract syntax with new categories and functions for subjects}
 \end{figure}
 
-In addition to adding new subject categories, three new categories for relations are also introduced: \texttt{InternalRelation}, \texttt{ExternalRelation} and \texttt{ResourceRelation} (\texttt{Relation} is removed). The idea is to link subject values to the correct relation types. For instance, we link a value of the type \texttt{Internal} with a value of type \texttt{InternalRelation}.
+In addition to adding new subject categories, three new categories for relations are also introduced: \texttt{InternalRelation}, \texttt{ExternalRelation} and \texttt{ResourceRelation} (\texttt{Relation} is removed). The idea is to link subject types to the correct relation types. For instance, we link a value of the type \texttt{Internal} with a value of type \texttt{InternalRelation}.
 
 All relation functions are changed to return the correct type. For example, \texttt{Know} is changed to return a value of the type \texttt{InternalRelation}. This means that only \texttt{People} can be used together with \texttt{Know}, as desired. The new relation implementations can be seen in \autoref{fig:newrelations}.
 
@@ -397,7 +397,7 @@ InstrucResource Project (UseRes (MkObject (MkSymb "Foo")))
 \autoref{fig:gf-shell-generate-trees} shows 5 trees, but there exists many more trees.\marginpar{Actually, there exists infinitely many trees, as we have recursive functions in the abstract syntax.} The reason GF only generates 5 trees is because the default depth setting is 4. If we increase the depth we will obtain more trees, as it then will include trees containing boolean operators. By increasing the max depth to 5, GF will generate 36 trees. With depth 6, GF will generate 321 trees.
 \newline
 \newline
-It is often good to visualize trees to understand them better. \autoref{fig:asts-depths2} shows two abstract syntax trees, the first one with depth 4 and the second with depth 5. One can easily see that the former has maximum 4 edges between root and leaf by counting the edges between \texttt{InstrucInternal} and \texttt{\"Foo\"}, and the latter has maximum 5 edges between root and leaf.
+It is often good to visualize trees to understand them better. \autoref{fig:asts-depths2} shows two abstract syntax trees, the first one with depth 4 and the second with depth 5. One can easily see that the former has maximum 4 edges between root and leaf by counting the edges between \texttt{InstrucInternal} and \texttt{"Foo"}, and the latter has maximum 5 edges between root and leaf.
 
 \begin{figure}[H]
 \includegraphics[scale=0.6,keepaspectratio,valign=t]{./gfx/depth4}
@@ -546,7 +546,7 @@ interface LexInstrucs = open Syntax in {
 \caption{Adding a new relative pronoun to the lexicon interface\label{fig:add-lexicon-interface}}
 \end{figure}
 
-We den implement the constant operation we just defined. In English, we use the variance function to allow both \texttt{which\_RP} and \texttt{that\_RP}.
+We then implement the constant operation we just defined. In English, we use the variance function to allow both \texttt{which\_RP} and \texttt{that\_RP}.
 
 \begin{figure}[H]
 \begin{code}
