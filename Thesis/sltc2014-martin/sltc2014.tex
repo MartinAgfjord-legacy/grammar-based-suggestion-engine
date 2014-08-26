@@ -18,15 +18,34 @@
 \maketitleabstract
 
 \section{Introduction}
+An alternative approach on building a user friendly interface for a database is  natural language translation. This method has been used before by Facebook \cite{li:2013} in their graph search application, which adopts a grammar to translate structured sentences into machine readable syntax. This paper describes how a similar application can be developed by creating a grammar with \emph{Grammatical Framework (GF)} \cite{ranta:2013} and using \emph{Apache Solr} \cite{kuc:2011} to give relevant suggestions of valid sentences based on keywords or a partial sentence.
+\newline
+\newline
+In order to articulate any sentences we assume this application will be used by a software development company which has a Solr index with the entities \emph{Customers, People} and \emph{Projects}. An example of a valid sentence in this environment is \texttt{people who know Java}, which when executed will instruct the Solr index to retrieve all documents where the field \texttt{object\_type} has the value \texttt{person} and the \texttt{KNOWS}-field contains the value \texttt{Java}. While translations like this allows the user to express queries in a natural language, it is not very likely that the user will be able to use the system without any knowledge of the translations it support. We will therefore use a suggestion engine which purpose is to help the user to find valid sentences based on partial input.
+
+\section{Grammatical Framework}
+GF is an open source development platform for natural languages which is specifically designed for creating natural language grammars. GF adopts the use of abstract and concrete syntax much like compilers do. The abstract syntax represents the \emph{semantics} of a sentence and the concrete syntax represents how the semantics looks like a string in a language. 
+
+An abstract syntax usually consists of unimplemented functions which can be combined to form an abstract syntax tree (AST). A concrete syntax implements the unimplemented functions to represent the semantics. An AST can be \emph{linearized} into a string by executing the functions in a concrete syntax. Conversely, a string can be parsed into an AST by dividing the string into functions.
 
 \section{Defining the grammar in GF}
+We define functions to represent \emph{subjects, predicates} and \emph{objects}. In addition, we also define rules which combines these values into sentences. For example, the sentence \texttt{customers who use Solr} is splitted into the AST \texttt{MkInstruction Customer (Use (MkModule "Solr"))} by the grammar. This AST will be linearized into \texttt{select?q=object\_type : Organization AND USES : ( Solr )} by using the concrete syntax for Solr. We make use of arbitrary names in order to let the objects of each sentence take any string.
 
-\section{Generation of sentences}
+In addition, we also have functions for boolean operators in the grammar. There are two cases where we allow boolean operators. The first is in between two arbitrary names, e.g. \texttt{Java \textbf{or} Haskell}. The second case is in between two combinations of a predicate and an object, e.g. \texttt{know Java \textbf{and} work in London}. Boolean operators are easily implemented in Solr syntax since it is natural to use them in a query language.
 
+\section{Suggestion Engine}
+The grammar can translate sentences from English into Solr query language and offers suggestions of words by using incremental parsing \cite{krasimir}. However, suggestion of words can only be used for the next accepted word of a sentence and can therefore not be used for suggestions on an invalid partial sentence or keywords.
+
+Apache Solr offers functions which approximate how similar a string is to strings stored in the Solr cores. It makes therefore sense to use Solr to match a partial sentence or only keywords into natural language sentences defined by our grammar. We generate all defined sentences and store them in a Solr core.
+
+\subsection{Generation of sentences}
+GF offers a \emph{generator} which can generate all AST's. We generate all AST's up to a certain depth (number of edges from root to leaf) as we have infinitely many AST's because of the recursive boolean functions. As we use arbitrary strings in our grammar, GF will put \emph{Foo} in an AST when it expects a name. We will therefore generate sentences like MkInstruction People (Know (MkSkill "Foo" which linearizes into \texttt{people who know Foo}. This linearization would not be very helpful as a suggestion to a user since \texttt{Foo} is not a programming language.  
 \section{Apache Solr as storage and suggestion engine}
 
 \section{Conclusions}
 
-\include*{bibliography}
+\bibliographystyle{sltc2014}
+%\bibliography{sltc2014} 
 
+\include*{bibliography}
 \end{document}
