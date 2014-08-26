@@ -7,7 +7,7 @@ The results are overall very positive. We have managed to build a system which c
 \section{Comparison of the RGL and simple concatenation}\label{sec:comparison}
 We developed a concrete syntax for English by using the RGL (EngRGL) and one for English by concatenating strings (EngConcat). EngRGL is without doubt the most complex and least intuitive if the reader has no prior knowledge of the RGL. Conversely, EngConcat is very instuitive and straight forward for any reader with basic knowledge of programming. The two syntaxes supports equally many abstract syntax trees, but as we have added more variations of linearizations to EngConcat, it is possible to represent a few abstract syntax trees in more ways in EngConcat than in EngRGL. One example is \emph{people who know Java and work in London} which we could not express by using the RGL. We had to content  ourselves with the sentence \emph{people who know Java and \textbf{who} work in London}.
 
-\hiddensubsection{Support of ungrammatical sentences}
+\hiddensubsection{Support for ungrammatical sentences}
 Concatenation of strings make it possible to create all kind of different (and strange) linearizations with the variance function. For instance, we can mix singular words with plural words and make it possible to map sentences expressed in bad grammar into a correct suggestion. One example is \emph{people \textbf{which knows} Java} where the correct representation is \emph{people who know Java}, but it is very clear that we should treat them semantically equivalent.
 
 By doing so, users with little knowledge of writing in English have a higher probability of finding the correct sentence by using this approach. This technique is not supported by the RGL.

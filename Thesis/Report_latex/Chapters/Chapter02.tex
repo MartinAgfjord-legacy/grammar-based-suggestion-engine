@@ -72,7 +72,7 @@ The final step in this example is to linearize the same abstract syntax into Sol
   different. \texttt{People} returns 
   \texttt{"object\_type : Person"}, we assume that 
   the Solr-schema has a field with the name \texttt{object\_type} which represents 
-  the type of a document. Similarly, we make another assumption about \texttt{Know}. \texttt{MkInstruction} is also implemented differently, here we can see that the result is going to be a query string\footnote{\url{http://en.wikipedia.org/wiki/Query\_string}} by looking at the first part \texttt{"q="} which is prepended on the subject. We then append \texttt{"AND"} together with \texttt{relation} in order to create a valid Solr query.
+  the type of a document. Similarly, we make another assumption about \texttt{Know}. \texttt{MkInstruction} is also implemented differently, here we can see that the result is going to be a query string\marginpar{A query string is a part of a URL, e.g. foo.com?\textbf{q=name}} by looking at the first part \texttt{"q="} which is prepended on the subject. We then append \texttt{"AND"} together with \texttt{relation} in order to create a valid Solr query.
 
 \begin{figure}[H]
 \begin{code}
@@ -152,7 +152,7 @@ q= object_type : Person AND expertise : Java
 \caption{Linearize an abstract syntax tree\label{fig:linearization}}
 \end{figure}
 
-Finally, a string can be translated from one concrete syntax into another. Here we translate from \texttt{InstrucsEng} into \texttt{InstrucsSolr}. We use a \emph{pipeline}\footnote{\url{http://en.wikipedia.org/wiki/Pipeline_(Unix)}} to pass the result of the parsing as an argument to the linearizing function. Note how we use \texttt{p} instead of \texttt{parse} and \texttt{l} instead of \texttt{linearize}. They are just shorthands of their longer representations.
+Finally, a string can be translated from one concrete syntax into another. Here we translate from \texttt{InstrucsEng} into \texttt{InstrucsSolr}. We use a \emph{pipeline} to pass the result of the parsing as an argument to the linearizing function. Note how we use \texttt{p} instead of \texttt{parse} and \texttt{l} instead of \texttt{linearize}. They are just shorthands of their longer representations.
 
 \begin{figure}[H]
 \begin{terminal}
@@ -167,7 +167,7 @@ q= object_type : Person AND expertise : Java
 The previous example is fairly easy to understand, but it also make use of English, a well-known natural language. It is much harder to create a concrete syntax that implements a lesser known natural language by using concatenation. Even though a user might know correct translation of the individual words to use, she might not know how to use them in a grammatically correct sentence. It is often the case that if one directly translates a sentence, i.e. just translate each word by word, one ends up in a grammatically incorrect sentence.
 \newline
 \newline
-The GF Resource Grammar Library \cite{gf-rgl} is a set of grammars which implements the morphology and basic syntax of currently 29 languages \cite{gf-rgl-synopsis}. In other words, it contains functions and categories which describes the structure of natural languages. One can therefore create values of specific types from the words of a sentence and then combine the words by using functions in order to create a grammatically correct phrase or sentence. We say that a developer does only need to have knowledge of her \emph{domain}, i.e. the individual words to use, and does not have any specific linguistic knowledge of the natural language.
+The GF Resource Grammar Library (RGL) \cite{gf-rgl} is a set of grammars which implements the morphology and basic syntax of currently 29 languages \cite{gf-rgl-synopsis}. In other words, it contains functions and categories which describes the structure of natural languages. One can therefore create values of specific types from the words of a sentence and then combine the words by using functions in order to create a grammatically correct phrase or sentence. We say that a developer does only need to have knowledge of her \emph{domain}, i.e. the individual words to use, and does not have any specific linguistic knowledge of the natural language.
 
 \subsection*{Example usage of the RGL in a grammar}
 
@@ -265,7 +265,7 @@ instance LexInstrucsEng of LexInstrucs = open SyntaxEng, ParadigmsEng in {
 \caption{Lexicon instantiation of English \label{fig:english-lexicon}}
 \end{figure}
 
-\autoref{fig:swedish-lexicon} shows another instance of \texttt{LexInstrucs}, the lexicon for Swedish. \marginpar{The definition of \texttt{know_V2} is taken from StructuralSwe.gf in the RGL}
+\autoref{fig:swedish-lexicon} shows another instance of \texttt{LexInstrucs}, the lexicon for Swedish. \marginpar{The definition of \texttt{know\_V2} is taken from StructuralSwe.gf in the RGL}
 
 \begin{figure}[H]
 \begin{code}
