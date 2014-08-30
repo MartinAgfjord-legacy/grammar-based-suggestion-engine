@@ -6,6 +6,14 @@
 
 \title{Grammar-based suggestion engine with keyword search}
 
+\name{Martin Agfjor\documentclass[10pt, a4paper]{article}
+\usepackage{sltc2014}
+%\usepackage{newclude}
+\usepackage{graphicx,fixltx2e,dblfloatfix,caption,afterpage}
+\usepackage{multicol}
+
+\title{Grammar-based suggestion engine with keyword search}
+
 \name{Martin Agfjord, Krasimir Angelov, Per Fredelius, Svetoslav Marinov} 
 
 \address{University of Gothenburg, Findwise AB\\
@@ -15,11 +23,6 @@
 
 \maketitleabstract
 
-\begin{figure*}[!b]
-\centering
-\includegraphics[scale=0.67]{./java-london.png}
-\caption{Web interface with suggestions based on the keywords \texttt{java and london} \label{figure}}
-\end{figure*}
 
 \section{Introduction}
 An alternative approach to building a user friendly interface for 
@@ -30,8 +33,7 @@ structured sentences into machine readable syntax. This paper describes
 how a similar application can be developed by creating a grammar 
 with \emph{Grammatical Framework (GF)} \cite{ranta:2011} and 
 by using \emph{Apache Solr} \cite{kuc:2011} to give relevant suggestions of valid sentences based on keywords or a partial sentence.
-\newline
-\newline
+
 We assume this application will be used by a software development 
 company which has a Solr index with the entities \emph{Customers, People} 
 and \emph{Projects}. An example of a valid sentence in this environment is \texttt{people who know Java}, which when executed will instruct the Solr index to retrieve all documents where the field \texttt{object\_type} has the value \texttt{person} and the \texttt{KNOWS}-field contains the value \texttt{Java}. 
@@ -62,12 +64,17 @@ The abstract syntax of the grammar defines functions representing
 \emph{subjects, predicates} and \emph{objects}. The concrete
 syntax defines rules which combines those into sentences. 
 For example, the sentence \texttt{customers who use Solr} is represented
-with the tree: \texttt{MkInstruction Customer (Use (MkObject "Solr"))}.
+with the tree: 
+\newline
+\texttt{MkInstruction Customer (Use (MkObject "Solr"))}.
 Here \texttt{"Solr"} can be an arbitrary name. This lets the sentence
-to refer to any database object, and the objects do not have to be defined by the grammar.
+refer to any database object, and the objects do not have to be defined by the grammar.
 Since it is possible for multiple concrete syntaxes to share the
 same abstract syntax, the above AST can also be linearized as
-a Solr query: \texttt{select?q=object\_type : Organization AND USES : ( Solr )}.
+a Solr query:
+\newline
+\texttt{select?q=object\_type : Organization }
+\hspace*{5.4cc}\texttt{AND USES : ( Solr )}.
 
 The grammar supports a number of different instructions relating customers, 
 people, projects, organizations, locations, program modules and skills.
@@ -78,7 +85,7 @@ The first is in between two arbitrary names, e.g.
 two combinations of a predicate and an object, 
 e.g. \texttt{know Java \textbf{and} work in London}. Boolean operators 
 are easily implementable in Solr syntax since it is natural to use them
-in a query language. However, they cause ambiguities in natural language.
+in a query language. However, they cause ambiguities in the natural languages.
 In case of ambiguous question, we generate and execute both queries.
 
 \section{Suggestion Engine}
@@ -92,12 +99,12 @@ on an invalid partial sentence or on keywords.
 Apache Solr offers functions which approximate how similar a string 
 is to strings stored in a Solr index \cite{kuc:2011}. 
 It makes therefore sense to use Solr for fuzzy matching of 
-a partial sentence or set of keywords into natural language sentence
+a partial sentence or set of keywords into natural language sentences
 defined by the grammar.
 
 \subsection{Generation of sentences}
 GF offers a \emph{generator} which can do exhaustive generation of
-all AST for a given syntactic category. We generate all trees up to 
+all AST's for a given syntactic category. We generate all trees up to 
 a certain depth. The limitation is needed because we have infinitely 
 many trees due to the recursive boolean functions. Since the trees also
 contain arbitrary names, GF will use  \texttt{"Foo"} in an AST 
@@ -105,6 +112,12 @@ when it expects a name. We will therefore generate AST's like
 \texttt{MkInstruction People (WorkIn (MkObject "Foo"))} which linearizes 
 into \texttt{people who work in Foo}. This linearization will not 
 be very helpful as a suggestion to a user since \texttt{Foo} is not a location.
+
+\begin{figure*}[!h]
+\centering
+\includegraphics[scale=0.95]{./java-london.png}
+\caption{Web interface with suggestions based on the keywords \texttt{java and london} \label{figure}}
+\end{figure*}
 
 A solution is to replace \texttt{Foo} with a relevant name 
 before presenting the suggestion to a user (we assume all names exists 
@@ -116,19 +129,19 @@ In order to make distinctions between different names we introduce \emph{name ty
 The English linearization of the previous AST will however still not contain anything about the type, since the linearization of the AST \texttt{MkSkill "Foo"} is \texttt{Foo}. To preserve the type of each name, we post-process each AST and replace \texttt{"Foo"} with the actual type and an index, in this example \texttt{"Location0"}.
 
 \subsection{Suggestion retrieval}
- We generate sentences as described in the previous section and store them in a Solr index. This section describes how we take an input from the user and present relevant suggestions based on the input. This method is rather na\"{\i}ve and can definitely be better.
+ We generate sentences as described in the previous section and store them in a Solr index. This section describes how we take an input from the user and present relevant suggestions based on the input. While the method is rather na\"{\i}ve and can definitely be improved, it proves very efficient.
 
- We split an input on words and check if each word is a name by asking the Solr index which contains all names (and their types). If a word is a name, we replace it in the input with its type plus an index. For example, the sentence \texttt{people java} will be changed into \texttt{people Skill0}. We fetch the five most similar sentences from the Solr index by using Solr's query interface. In this example, the first result is the sentence \texttt{people who know Skill0}. Finally, we change back Skill0 into \texttt{Java} in each sentence.
+ We split the input into words and check if each word is a name by asking the Solr index which contains all names (and their types). If a word is a name, we replace it in the input with its type. For example, the sentence \texttt{people java} will be changed into \texttt{people Skill0}. We fetch the five most similar sentences from the Solr index by using Solr's query interface. In this example, the first result is the sentence \texttt{people who know Skill0}. Finally, we change back Skill0 into \texttt{Java} in each sentence.
 
 \section{Conclusions}
-The results from Agfjord, 2014 show that this method for building 
+The results from \cite{agfjord:2014} show that this method for building 
 a natural language interface makes it possible to translate from 
-natural language into a query language. We do not see any limitation to other query languages, rather, any machine readable language could be used in place of Solr query language.
+natural language into a query language. We do not see any limitation with respect to the latter. Thus any machine readable language could be used instead of  the Solr query syntax.
 
 We found out it was easy to develop a translation service by using GF. 
 It is also easy to extend the grammar with more sentences. 
-In addition, it was simple to map \emph{ungrammatical} sentences into 
-grammatically correct sentences. This made the suggestion engine more powerful.
+In addition, by mapping \emph{ungrammatical} sentences into 
+grammatically correct ones we made the suggestion engine more powerful.
 
 The suggestion engine is fast and scalable, 
 as the Solr index only needs to store one sentence per AST for 
@@ -138,17 +151,19 @@ by using only keywords. If a keyword is a name, then the application
 will recognize the type of the name and it will correctly use it 
 with appropriate sentences.
 
-However, there is still some functionality left to implement in 
-the suggestion engine. One thing is a heuristic for which names 
-that are relevant if no names exists in the input. 
-Another improvement is to remove sentences with 
+Further improvements can be done to 
+%However, there is still some functionality left to implement in 
+the suggestion engine, such as heuristics for which names 
+are relevant if no names exists in the input. 
+Another optimization is to remove sentences with 
 the same meaning as another sentence in the index. An example 
 can be seen in Figure 1 where suggestions 1 and 2 have the same meaning but do not share the same AST.
 
-The suggestion engine can be used together with speech recognition software. 
-One first translates speech into a string, which is then passed to the suggestion engine. Speech strings are often not exactly correct, but this is not an issue as we map the input to the most relevant sentence. In addition, since Solr has built in string approximation functions, we can use them on individual words to allow misspelled or similar words to represent defined words in sentences.
+The suggestion engine can easily be used together with speech recognition software. Speech recognition is error-prone when converting spoken input to text string. However, if we use Solr's built-in string approximation functions we can map the input to the most relevant sentence.
 
-By realizing speech to machine readable syntax translation we open up doors to many new applications such as interfaces for cars and other devices which has limited keyboard interaction.
+%One first translates speech into a string, which is then passed to the suggestion engine. Speech strings are often not exactly correct, but this is not an issue as we map the input to the most relevant sentence. In addition, since Solr has built in string approximation functions, we can use them on individual words to allow misspelled or similar words to represent defined words in sentences.
+
+By transforming speech to machine readable syntax we open up doors to many new applications such as interfaces for cars and other devices which have limited keyboard interaction.
 
 \bibliographystyle{sltc2014}
 
@@ -186,7 +201,7 @@ Linguistics}.
 M.~Agfjord.
 \newblock 2014.
 \newblock {{\em Grammar-based suggestion engine with keyword search}}.
-\newblock URL: http://thesis.agfjord.com/thesis.pdf [Online; accessed 28-August-2014].
+\newblock URL: http://thesis.agfjord.se/thesis.pdf [Online; accessed 28-August-2014].
 
 \end{thebibliography}
 
