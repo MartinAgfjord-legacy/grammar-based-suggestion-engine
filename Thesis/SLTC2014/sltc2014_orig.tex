@@ -1,0 +1,137 @@
+\documentclass[10pt, a4paper]{article}
+\usepackage{sltc2014}
+
+\title{Grammar-based suggestion engine with keyword search}
+
+
+\name{Martin Agfjord, Krasimir Angelov, Per Fredelius, Svetoslav Marinov} 
+
+\address{ University of Gothenburg, Findwise \\
+               Address1, Address2 \\ 
+               {\tt martin.agfjord@gmail.com, krasimir@chalmers.se}\\ }
+          
+         
+\abstract{An article may include an abstract of 100 to 150 words. If you use an abstract, its heading should be centered using font Times, 10 bold. If not, remove the abstract section.}
+
+\begin{document}
+
+\maketitleabstract
+
+\section{General instructions}
+
+Each submission should be in PDF with up to two pages including references. It should not be shorter than a full page. The submitted PDF files will appear on the conference webpage directly as received. Do not print page numbers!.
+
+The language of the abstract should be English or Swedish.
+
+Papers should not be anonymous for reviewing.
+
+
+\section{Headings}
+
+You may use two levels of headings but not three. The font used for the first-level heading should be Times 12 bold. This is what a level 2 heading looks like:
+
+\subsection{Level 2 heading}
+The format for level 2 headings is basically the same as for level 1 headings. However, the font is Times 11.
+
+When there are more than one paragraph in a section, use indentation.
+
+This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example.
+
+This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example.
+
+This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example.
+
+This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example. This is just an example.
+
+\section{Figures and tables}
+
+
+The submission may have tables and figures. All tables and figures should be centered, they should be numbered in the text and have a caption. Captions for both figures and tables should be placed below the figure of table.
+Table \ref{tab:label1} is an example of a small table that fits in one column.
+
+\begin{table}
+  \centering
+    \begin{tabular}{ l r}
+      \hline
+      {\bf Measure} & {\bf Value}\\ \hline
+      BLEU & 20.85 \\ 
+      NIST & 5.95 \\ 
+      METEOR & 42.62 \\
+      \hline
+    \end{tabular}
+    \caption{The caption of the table}
+    \label{tab:label1}
+\end{table}
+
+
+\subsection{Big tables}
+
+Table \ref{tab:label2} is an example of a big table which extends across both columns.
+
+ \begin{table*}
+ \centering
+ \begin{tabular}{l r c}
+   \hline
+   Measure & Value & Comment \\ \hline
+   BLEU &  20.85 & A very interesting comment \\ 
+   NIST &  5.95 & Some other interesting comment \\ 
+   METEOR & 42.62 & Yet another one \\ 
+   \hline
+ \end{tabular}
+ \caption{The caption of the big table}
+ \label{tab:label2}
+\end{table*}
+
+\section{Footnotes}
+
+Avoid using footnotes.
+
+
+\section{References in text}
+
+All references within the text are placed in parentheses containing the author's surname followed by a comma before the date of publication \cite{w-87}. If the sentence already includes the author's name, then it is only necessary to put the date in parentheses: ``\newcite{w-87} claims that \ldots''. When several works are cited, those references should be separated with a semicolon \cite{w-87,ap-08,s-08}. When the reference has more than three authors, only the name of the first author, followed by et al, appears \cite{m+-08}.
+
+Bibliographical references are listed in alphabetical order at the end of the article. The title of the section, ``References'', will be an unnumbered level 1 heading. The first line of each bibliographical reference is justified to the left of the column, and the rest of the entry is indented. The following examples illustrate the format of the reference section.
+
+
+\section*{Acknowledgements}
+
+The paper may contain an unnumbered acknowledgement section.
+
+\bibliographystyle{sltc2014}
+%\bibliography{sltc2014} 
+
+\begin{thebibliography}{}
+
+\bibitem[\protect\citename{Artstein and Poesio}2008]{ap-08}
+R.~Artstein and M.~Poesio.
+\newblock 2008.
+\newblock Inter-coder agreement for computational linguistics.
+\newblock {\em Computational Linguistics}, 34(4):555--596.
+
+\bibitem[\protect\citename{Megyesi \bgroup et al.\egroup }2008]{m+-08}
+B.~Megyesi, B.~Dahlqvist, E.~Pettersson, S.~Gustafson-Capkov\'a, and J.~Nivre.
+\newblock 2008.
+\newblock Supporting research environment for less explored languages: A case
+  study of {S}wedish and {T}urkish.
+\newblock In J.~Nivre, M.~Dahll\"of, and B.~Megyesi, editors, {\em Resourceful
+  Language Technology: Festschrift in Honor of Anna S\aa{}gvall Hein}, Studia
+  Linguistica Upsaliensia 7, pages 96--110. Acta Universitatis Upsaliensis.
+
+\bibitem[\protect\citename{Stymne}2008]{s-08}
+S.~Stymne.
+\newblock 2008.
+\newblock German compounds in factored statistical machine translation.
+\newblock In A.~Ranta and B.~Nordstr\"om, editors, {\em Proceedings of GoTAL,
+  the 6th Interonational Conference on Natural Language Processing}, pages
+  464–--475, Gothenburg, Sweden. Springer.
+
+\bibitem[\protect\citename{Wierzbicka}1987]{w-87}
+A.~Wierzbicka.
+\newblock 1987.
+\newblock {\em English Speech Act Verbs: A semantic dictionary}.
+\newblock Academic Press, Sidney.
+
+\end{thebibliography}
+
+\end{document}
