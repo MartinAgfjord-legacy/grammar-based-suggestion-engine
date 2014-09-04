@@ -1,5 +1,0 @@
-\beamer@endinputifotherversion {3.10pt}
-\beamer@sectionintoc {1}{Introduction \& problem description}{3}{0}{1}
-\beamer@sectionintoc {2}{Solution}{8}{0}{2}
-\beamer@sectionintoc {3}{Results}{34}{0}{3}
-\beamer@sectionintoc {4}{Conclusion}{35}{0}{4}

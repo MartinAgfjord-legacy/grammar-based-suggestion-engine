@@ -1,5 +1,0 @@
-rm ClassicThesis.aux
-./build
-bibtex ClassicThesis.aux
-./build
-./build

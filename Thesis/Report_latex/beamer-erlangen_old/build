@@ -1,1 +1,0 @@
-pdflatex -synctex=1 -interaction=nonstopmode -shell-escape presentation.tex
