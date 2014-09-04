@@ -1,0 +1,11 @@
+Hi Krasimir,
+
+I have a few questions for you regarding my work.
+
+1. I've use which_RP when I create a relative sentence (mkRS (mkRCl which_RP vp_VP)) ), which_RP does however not work with objects in plural such as "projects", because "projects who use GF" is an incorrect sentence (who shall be which).
+
+1.1 How can I use 'that' instead of 'which'?
+
+2. An AST in my example grammar in the thesis linearizes into three equal strings (page 11 in the new draft). Do you have an idea why? A person with the nickname 'drbean' at #GF @ freenode (irc) told me there existed a bug that caused this problem. I also have a problem with my full grammar, where strings gets parsed into 6 equal ASTs.
+
+3. In my lexicon for Swedish, I have to define the V2 object "know" in Swedish as follows: mkV2 (mkV "kunna" "kan" "kunna" "kunde" "kunnat" "kunna"). I find it strange, because this verb should not be irregular. Is it some problem with the RGL for Swedish?

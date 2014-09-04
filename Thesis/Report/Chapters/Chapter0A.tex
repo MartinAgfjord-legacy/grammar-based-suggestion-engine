@@ -1,0 +1,137 @@
+%********************************************************************
+% Appendix
+%*******************************************************
+% If problems with the headers: get headings in appendix etc. right
+%\markboth{\spacedlowsmallcaps{Appendix}}{\spacedlowsmallcaps{Appendix}}
+\chapter{GF shell and runtime systems}\label{ch:appendix-a}
+This appendix describes how the dependencies of the application can be installed.
+
+\section{GF shell}
+The GF shell \cite{ranta:2011}[p. 31] is the interpreter which can be used together with GF-grammars. The shell is used by the application when generating abstract syntax trees and is therefore needed in order to use the application.
+
+An easy and convenient method of installing GF is by using the Haskell program \texttt{cabal} \cite{Jones_thehaskell}. Cabal is available if the haskell platform \cite{haskell-platform} is installed on a system. The haskell platform can be installed on Debian by executing
+
+\begin{terminal}
+sudo apt-get install haskell-platform
+\end{terminal}
+Run \texttt{'cabal update'} in a shell to download the latest package list from \texttt{hackage.haskell.org}. GF can now be installed by executing:
+
+\begin{terminal}
+$ cabal install gf
+\end{terminal}
+%$
+The GF-binary can now be found in \texttt{\textasciitilde /.cabal/bin/gf}. Append this directory to the path variable:
+
+\begin{terminal}
+export PATH=$PATH:~/.cabal/bin/gf
+\end{terminal}
+%$
+
+Note that \texttt{export} does not set \$PATH permanently, so add the command to \texttt{\textasciitilde /.bashrc} or similar. 
+
+\section{GF runtime systems}
+
+While the GF-shell is a powerful tool, it is not very convenient to interact with when programming an application. Luckily, the creators of GF has thought about this and built embeddable runtime systems for a few programming languages \cite[p. 3]{angelov:2011}. These runtime systems makes it possible to interact with a grammar directly through language specific data types. We have chosen to work with the Java-runtime system in this project.
+
+\hiddensubsection{Portable Grammar Format}
+The GF-shell interacts with grammars by interpreting the GF programming language. This allows us to write our grammars in a simple and convenient syntax. Interpreting the GF programming language directly is however a heavy operation \cite{angelov:2011}[p. 13], especially with larger grammars. This is where the Portable Grammar Format (PGF) \cite{angelov:2011}[p. 14] comes in. PGF is a custom made machine language which is created by compiling a grammar with GF into a PGF-file. The runtime systems works exclusively with PGF-files.
+
+\hiddensubsection{GF libraries}
+In order to use the Java-runtime, we first need to build a few libraries which are used by the runtime system. The Java-runtime system depends on the C-runtime system and a special wrapper between the C- and the Java-runtime. The libraries are platform dependent. There are some some pre-generated libraries in the GF-project, but we have chosen to build the libraries from source in this tutorial. The main reason is because we want to make the project suitable for many architectures. We will start by building and installing the C-libraries. We will then go through how we can build the wrapper library.
+
+\hiddensubsubsection{Building and installing the C-runtime}
+Start by fetching the needed dependencies
+
+\begin{terminal}
+$ sudo apt-get install gcc autoconf libtool
+\end{terminal}
+%$
+Download the latest source code of GF from GitHub.
+
+\begin{terminal}
+$ git clone https://github.com/GrammaticalFramework/GF.git
+\end{terminal}
+%$
+It is also possible to download the project as an archive by visiting the repository url.
+
+You will receive a directory \texttt{GF/}. Change the current working directory to the C-runtime folder.
+
+\begin{terminal}
+$ cd GF/src/runtime/c/
+\end{terminal}
+%$
+Generate a configuration file
+
+\begin{terminal}
+$ autoreconf -i
+\end{terminal}
+%$
+Check that all dependencies are met
+
+\begin{terminal}
+$ ./configure
+\end{terminal}
+%$
+If there exists a dependency that is not fulfilled, try to install an appropriate package using your package-manager.
+
+Build the program
+
+\begin{terminal}
+$ make
+\end{terminal}
+%$
+Install the libraries you just built
+
+\begin{terminal}
+$ sudo make install
+\end{terminal}
+%$
+Make sure the installed libraries are installed into \texttt{/usr/local/lib}. It is crucial that they exists in that directory in order for the program to work.
+
+\hiddensubsection{Building and installing the C to Java wrapper library}
+Start by installing the needed dependency
+
+\begin{terminal}
+$ sudo apt-get install g++
+\end{terminal}
+%$
+The wrapper is built by using a script which is executed in Eclipse \cite{Holzner:2004:EC:2167279}. This step assumes that you have Eclipse installed with the CDT-plugin \cite{eclipse-cdt}. If you don't have Eclipse, you can download it with your package manager, just do not forget to install the CDT-plugin.
+
+Start Eclipse and choose \texttt{File} > \texttt{Import..} in the menu. Choose \texttt{Import Existing Projects into Workspace} and click on the \texttt{Next} button. Select \texttt{Browse...} and navigate to the location where you downloaded GF from GitHub and press enter. Uncheck everything except \texttt{jpgf} and click on \texttt{Finish}. You have now imported the project which can build the Java-runtime system. 
+
+Eclipse need to have pointers to some directories of the Java virtual machine. It is unfortunately not possible to use environment variables in eclipse, so we need therefore to set the values manually.
+
+Right-click on the project and choose \texttt{Properties}. Expand the \texttt{C/C++ Build} menu, click on \texttt{Settings}. Click on \texttt{Includes} which is located below \texttt{GCC C Compiler}. You will see one directory listed in the textbox. You need to check that this directory exists. If not, change it to the correct one. For instance, this tutorial was written using Debian 7 amd64 with Oracle Java 8, hence the correct directory is
+
+\begin{terminal}
+/usr/lib/jvm/java-8-oracle/include
+\end{terminal}
+
+In addition, one more directory is also needed by the project to build properly.
+
+\begin{terminal}
+/usr/lib/jvm/java-8-oracle/include/linux
+\end{terminal}
+
+The project also needs another flag in order to build properly. In the \texttt{Properties}-window, click on \texttt{Miscellaneous} below \texttt{GCC C Compiler}. Add \texttt{-fPIC} to the text field next to \texttt{Other flags}. Click on \texttt{Ok} to save the settings.
+
+You can now build the project by choosing \texttt{Project} > \texttt{Build Project} in the menu. If everything went well you shall have generated a file \texttt{libjpgf.so} in \texttt{Release (posix)/}. You can check that the dependencies of \texttt{libjpgf.so} is fulfilled (i.e. it finds the C-runtime) by executing the following in a terminal
+
+\begin{terminal}
+$ ldd libjpgf.so
+\end{terminal}
+%$
+If you do not see \texttt{'not found'} anywhere in the results, all dependencies are met. However if the C-runtime libraries are missing then \texttt{LD\_LIBRARY\_PATH} is probably not set. This is achieved by executing the following in the terminal:
+
+\begin{terminal}
+$ export LD_LIBRARY_PATH=/usr/local/lib
+\end{terminal}
+%$
+This is only a one time setting and the variable will not exist for the next terminal session. This is however not a problem, since the libraries will be used by Apache Tomcat which will set the variable at startup.
+
+Finish the tutorial by moving the wrapper library to the correct location.
+
+\begin{terminal}
+$ mv libjpgf.so /usr/local/lib
+\end{terminal}
+%$

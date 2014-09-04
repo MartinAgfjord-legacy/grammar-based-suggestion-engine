@@ -1,0 +1,463 @@
+% ****************************************************************************************************
+% classicthesis-config.tex 
+% formerly known as loadpackages.sty, classicthesis-ldpkg.sty, and classicthesis-preamble.sty 
+% Use it at the beginning of your ClassicThesis.tex, or as a LaTeX Preamble 
+% in your ClassicThesis.{tex,lyx} with \input{classicthesis-config}
+% ****************************************************************************************************  
+% If you like the classicthesis, then I would appreciate a postcard. 
+% My address can be found in the file ClassicThesis.pdf. A collection 
+% of the postcards I received so far is available online at 
+% http://postcards.miede.de
+% ****************************************************************************************************
+
+% ****************************************************************************************************
+% 1. Configure classicthesis for your needs here, e.g., remove "drafting" below 
+% in order to deactivate the time-stamp on the pages
+% ****************************************************************************************************
+\PassOptionsToPackage{eulerchapternumbers,listings,%drafting
+				 pdfspacing,%floatperchapter,%linedheaders,%
+				 subfig,beramono,eulermath,parts}{classicthesis}										
+% ********************************************************************
+% Available options for classicthesis.sty 
+% (see ClassicThesis.pdf for more information):
+% drafting
+% parts nochapters linedheaders
+% eulerchapternumbers beramono eulermath pdfspacing minionprospacing
+% tocaligned dottedtoc manychapters
+% listings floatperchapter subfig
+% ********************************************************************
+
+% ********************************************************************
+% Triggers for this config
+% ******************************************************************** 
+\usepackage{ifthen}
+\newboolean{enable-backrefs} % enable backrefs in the bibliography
+\setboolean{enable-backrefs}{true} % true false
+% ****************************************************************************************************
+
+
+% ****************************************************************************************************
+% 2. Personal data and user ad-hoc commands
+% ****************************************************************************************************
+\newcommand{\myTitle}{Translating natural language sentences into machine readable instructions\xspace}
+%\newcommand{\mySubtitle}{An Homage to The Elements of Typographic Style\xspace}
+\newcommand{\myDegree}{Master of Science in Computer Science\xspace}
+\newcommand{\myName}{Martin Agfjord\xspace}
+\newcommand{\mySupervisor}{Krasimir Angelov\xspace}
+\newcommand{\myDepartment}{Department of Computer Science and Engineering\xspace}
+\newcommand{\myUni}{University of Gothenburg\xspace}
+\newcommand{\myLocation}{Gothenburg\xspace}
+\newcommand{\myTime}{August 2014\xspace}
+\newcommand{\myVersion}{version 1.0\xspace}
+
+% ********************************************************************
+% Setup, finetuning, and useful commands
+% ********************************************************************
+\newcounter{dummy} % necessary for correct hyperlinks (to index, bib, etc.)
+\newlength{\abcd} % for ab..z string length calculation
+\providecommand{\mLyX}{L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
+\newcommand{\ie}{i.\,e.}
+\newcommand{\Ie}{I.\,e.}
+\newcommand{\eg}{e.\,g.}
+\newcommand{\Eg}{E.\,g.} 
+% ****************************************************************************************************
+
+
+% ****************************************************************************************************
+% 3. Loading some handy packages
+% ****************************************************************************************************
+% ******************************************************************** 
+% Packages with options that might require adjustments
+% ******************************************************************** 
+%\PassOptionsToPackage{utf8}{inputenc}	% latin9 (ISO-8859-9) = latin1+"Euro sign"
+\usepackage[utf8]{inputenc}	
+%\PassOptionsToPackage{swedish}{babel}   % change this to your language(s)
+% Spanish languages need extra options in order to work with this template
+%\PassOptionsToPackage{spanish,es-lcroman}{babel}
+ \usepackage[swedish]{babel}
+
+\PassOptionsToPackage{square,numbers}{natbib}
+\usepackage{natbib}
+\PassOptionsToPackage{fleqn}{amsmath}		% math environments and more by the AMS 
+ \usepackage{amsmath}
+
+%\newunicodechar{00E4}{ä}
+% ******************************************************************** 
+% General useful packages
+% ******************************************************************** 
+%\PassOptionsToPackage{T1}{fontenc} % T2A for cyrillics
+	\usepackage[T1]{fontenc}
+\usepackage{textcomp} % fix warning with missing font shapes 
+\usepackage{xspace} % to get the spacing after macros right  
+\usepackage{mparhack} % get marginpar right
+\usepackage{fixltx2e} % fixes some LaTeX stuff 
+\PassOptionsToPackage{printonlyused,smaller}{acronym}
+	\usepackage{acronym} % nice macros for handling all acronyms in the thesis
+%\renewcommand*{\acsfont}[1]{\textssc{#1}} % for MinionPro
+\renewcommand{\bflabel}[1]{{#1}\hfill} % fix the list of acronyms
+% ****************************************************************************************************
+
+
+% ****************************************************************************************************
+% 4. Setup floats: tables, (sub)figures, and captions
+% ****************************************************************************************************
+\usepackage{tabularx} % better tables
+	\setlength{\extrarowheight}{3pt} % increase table row height
+\newcommand{\tableheadline}[1]{\multicolumn{1}{c}{\spacedlowsmallcaps{#1}}}
+\newcommand{\myfloatalign}{\centering} % to be used with each float for alignment
+\usepackage{caption}
+\captionsetup{format=hang,font=small}
+\usepackage{subfig}  
+% ****************************************************************************************************
+
+
+% ****************************************************************************************************
+% 5. Setup code listings
+% ****************************************************************************************************
+\usepackage{listings} 
+%\lstset{emph={trueIndex,root},emphstyle=\color{BlueViolet}}%\underbar} % for special keywords
+\lstset{language=[LaTeX]Tex,%C++,
+    keywordstyle=\color{RoyalBlue},%\bfseries,
+    basicstyle=\small\ttfamily,
+    %identifierstyle=\color{NavyBlue},
+    commentstyle=\color{Green}\ttfamily,
+    stringstyle=\rmfamily,
+    numbers=none,%left,%
+    numberstyle=\scriptsize,%\tiny
+    stepnumber=5,
+    numbersep=8pt,
+    showstringspaces=false,
+    breaklines=true,
+    frameround=ftff,
+    frame=single,
+    belowcaptionskip=.75\baselineskip
+    %frame=L
+} 
+% ****************************************************************************************************    		   
+
+
+% ****************************************************************************************************
+% 6. PDFLaTeX, hyperreferences and citation backreferences
+% ****************************************************************************************************
+% ********************************************************************
+% Using PDFLaTeX
+% ********************************************************************
+\PassOptionsToPackage{pdftex,hyperfootnotes=false,pdfpagelabels}{hyperref}
+	\usepackage{hyperref}  % backref linktocpage pagebackref
+\pdfcompresslevel=9
+\pdfadjustspacing=1 
+\PassOptionsToPackage{pdftex}{graphicx}
+	\usepackage{graphicx} 
+
+% ********************************************************************
+% Setup the style of the backrefs from the bibliography
+% (translate the options to any language you use)
+% ********************************************************************
+\newcommand{\backrefnotcitedstring}{\relax}%(Not cited.)
+\newcommand{\backrefcitedsinglestring}[1]{(Cited on page~#1.)}
+\newcommand{\backrefcitedmultistring}[1]{(Cited on pages~#1.)}
+\ifthenelse{\boolean{enable-backrefs}}%
+{%
+		\PassOptionsToPackage{hyperpageref}{backref}
+		\usepackage{backref} % to be loaded after hyperref package 
+		   \renewcommand{\backreftwosep}{ and~} % separate 2 pages
+		   \renewcommand{\backreflastsep}{, and~} % separate last of longer list
+		   \renewcommand*{\backref}[1]{}  % disable standard
+		   \renewcommand*{\backrefalt}[4]{% detailed backref
+		      \ifcase #1 %
+		         \backrefnotcitedstring%
+		      \or%
+		         \backrefcitedsinglestring{#2}%
+		      \else%
+		         \backrefcitedmultistring{#2}%
+		      \fi}%
+}{\relax}    
+
+% ********************************************************************
+% Hyperreferences
+% ********************************************************************
+\hypersetup{%
+    %draft,	% = no hyperlinking at all (useful in b/w printouts)
+    colorlinks=true, linktocpage=true, pdfstartpage=3, pdfstartview=FitV,%
+    % uncomment the following line if you want to have black links (e.g., for printing)
+    %colorlinks=false, linktocpage=false, pdfborder={0 0 0}, pdfstartpage=3, pdfstartview=FitV,% 
+    breaklinks=true, pdfpagemode=UseNone, pageanchor=true, pdfpagemode=UseOutlines,%
+    plainpages=false, bookmarksnumbered, bookmarksopen=true, bookmarksopenlevel=1,%
+    hypertexnames=true, pdfhighlight=/O,%nesting=true,%frenchlinks,%
+    urlcolor=webbrown, linkcolor=RoyalBlue, citecolor=webgreen, %pagecolor=RoyalBlue,%
+    %urlcolor=Black, linkcolor=Black, citecolor=Black, %pagecolor=Black,%
+    pdftitle={\myTitle},%
+    pdfauthor={\textcopyright\ \myName, \myUni},%
+    pdfsubject={Natural Language Processing (NLP)},%
+    pdfkeywords={Grammar, Grammatical Framework, GF, Natural language, Query
+language, Translation, Suggestion engine, Apache, Solr, Lucene, Tomcat, Maven,
+Java EE, Functional programming},%
+    pdfcreator={pdfLaTeX},%
+    pdfproducer={LaTeX with hyperref and classicthesis}%
+}   
+%\hypersetup{tex4ht}
+
+
+% ********************************************************************
+% Setup autoreferences
+% ********************************************************************
+% There are some issues regarding autorefnames
+% http://www.ureader.de/msg/136221647.aspx
+% http://www.tex.ac.uk/cgi-bin/texfaq2html?label=latexwords
+% you have to redefine the makros for the 
+% language you use, e.g., american, ngerman
+% (as chosen when loading babel/AtBeginDocument)
+% ********************************************************************
+\makeatletter
+\@ifpackageloaded{babel}%
+    {%
+       \addto\extrasamerican{%
+					\renewcommand*{\figureautorefname}{Figure}%
+					\renewcommand*{\tableautorefname}{Table}%
+					\renewcommand*{\partautorefname}{Part}%
+					\renewcommand*{\chapterautorefname}{Chapter}%
+					\renewcommand*{\sectionautorefname}{Section}%
+					\renewcommand*{\subsectionautorefname}{Section}%
+					\renewcommand*{\subsubsectionautorefname}{Section}% 	
+				}%
+       \addto\extrasngerman{% 
+					\renewcommand*{\paragraphautorefname}{Absatz}%
+					\renewcommand*{\subparagraphautorefname}{Unterabsatz}%
+					\renewcommand*{\footnoteautorefname}{Fu\"snote}%
+					\renewcommand*{\FancyVerbLineautorefname}{Zeile}%
+					\renewcommand*{\theoremautorefname}{Theorem}%
+					\renewcommand*{\appendixautorefname}{Anhang}%
+					\renewcommand*{\equationautorefname}{Gleichung}%        
+					\renewcommand*{\itemautorefname}{Punkt}%
+				}%	
+			% Fix to getting autorefs for subfigures right (thanks to Belinda Vogt for changing the definition)
+			\providecommand{\subfigureautorefname}{\figureautorefname}%  			
+    }{\relax}
+\makeatother
+
+
+% ****************************************************************************************************
+% 7. Last calls before the bar closes
+% ****************************************************************************************************
+% ********************************************************************
+% Development Stuff
+% ********************************************************************
+\listfiles
+%\PassOptionsToPackage{l2tabu,orthodox,abort}{nag}
+%	\usepackage{nag}
+%\PassOptionsToPackage{warning, all}{onlyamsmath}
+%	\usepackage{onlyamsmath}
+
+% ********************************************************************
+% Last, but not least...
+% ********************************************************************
+\usepackage{classicthesis} 
+% ****************************************************************************************************
+
+
+% ****************************************************************************************************
+% 8. Further adjustments (experimental)
+% ****************************************************************************************************
+% ********************************************************************
+% Changing the text area
+% ********************************************************************
+%\linespread{1.05} % a bit more for Palatino
+%\areaset[current]{312pt}{761pt} % 686 (factor 2.2) + 33 head + 42 head \the\footskip
+%\setlength{\marginparwidth}{7em}%
+%\setlength{\marginparsep}{2em}%
+
+% ********************************************************************
+% Using different fonts
+% ********************************************************************
+%\usepackage[oldstylenums]{kpfonts} % oldstyle notextcomp
+%\usepackage[osf]{libertine}
+%\usepackage{hfoldsty} % Computer Modern with osf
+%\usepackage[light,condensed,math]{iwona}
+%\renewcommand{\sfdefault}{iwona}
+%\usepackage{lmodern} % <-- no osf support :-(
+%\usepackage[urw-garamond]{mathdesign} <-- no osf support :-(
+% ****************************************************************************************************
+
+% *********************************************************************
+% Syntax highlighting
+% *********************************************************************
+% \usepackage{fontspec}
+\usepackage{minted}
+
+%
+% Fix to support extended characters in minted with combination of pdfTeX
+% http://tex.stackexchange.com/questions/19781/using-package-minted-with-non-english-characters
+%
+
+\makeatletter
+\newcommand{\minted@write@detok}[1]{%
+  \immediate\write\FV@OutFile{\detokenize{#1}}}%
+
+% Blank page
+\newcommand*{\blankpage}{%
+  \begingroup
+    \setlength{\topskip}{0pt}%
+    \setlength{\parskip}{0pt}%
+    \vspace*{\fill}%
+    \centering
+    \nointerlineskip % suppresses partial \baselineskip above text
+    This page is intentionally left (almost) blank.\par
+    \thispagestyle{empty}
+    \setcounter{page}{}
+    \vspace{\fill}%
+  \endgroup
+  % \showlists
+}
+
+\newcommand{\minted@FVB@VerbatimOut}[1]{%
+  \@bsphack
+  \begingroup
+    \FV@UseKeyValues
+    \FV@DefineWhiteSpace
+    \def\FV@Space{\space}%
+    \FV@DefineTabOut
+    %\def\FV@ProcessLine{\immediate\write\FV@OutFile}% %Old, non-Unicode version
+    \let\FV@ProcessLine\minted@write@detok %Patch for Unicode
+    \immediate\openout\FV@OutFile #1\relax
+    \let\FV@FontScanPrep\relax
+%% DG/SR modification begin - May. 18, 1998 (to avoid problems with ligatures)
+    \let\@noligs\relax
+%% DG/SR modification end
+    \FV@Scan}
+    \let\FVB@VerbatimOut\minted@FVB@VerbatimOut
+
+\renewcommand\minted@savecode[1]{
+  \immediate\openout\minted@code\jobname.pyg
+  \immediate\write\minted@code{\expandafter\detokenize\expandafter{#1}}%
+  \immediate\closeout\minted@code}
+\makeatother
+
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+\usetikzlibrary{shadings}
+
+\usepackage{etoolbox}
+
+% Code
+\BeforeBeginEnvironment{code}{\begin{tcolorbox}[enhanced,
+width=\linewidth,
+enlarge top by=3pt,enlarge bottom by=3pt,
+enlarge left by=3pt,enlarge right by=3pt,
+frame hidden,boxrule=0pt,top=1mm,bottom=1mm,
+colframe=green!30!black, colbacktitle=green!50!yellow,
+coltitle=black, colback=bg,
+borderline={.1pt}{-0.5pt}{gray, dashed, sharp corners}]}%
+\AfterEndEnvironment{code}{\end{tcolorbox}}
+
+% Terminal
+\BeforeBeginEnvironment{terminal}{\begin{tcolorbox}[enhanced,
+width=\linewidth,
+enlarge top by=3pt,enlarge bottom by=3pt,
+enlarge left by=3pt,enlarge right by=3pt,
+frame hidden,boxrule=0pt,top=1mm,bottom=1mm,
+colframe=green!30!black, colbacktitle=green!50!yellow,
+coltitle=black, colback=bg,
+borderline={.1pt}{-0.5pt}{gray, dashed, sharp corners}]}%
+\AfterEndEnvironment{terminal}{\end{tcolorbox}}
+
+% Java
+\BeforeBeginEnvironment{java-code}{\begin{tcolorbox}[enhanced,
+width=\linewidth,
+enlarge top by=3pt,enlarge bottom by=3pt,
+enlarge left by=3pt,enlarge right by=3pt,
+frame hidden,boxrule=0pt,top=1mm,bottom=1mm,
+colframe=green!30!black, colbacktitle=green!50!yellow,
+coltitle=black, colback=bg,
+borderline={.1pt}{-0.5pt}{gray, dashed, sharp corners}]}%
+\AfterEndEnvironment{java-code}{\end{tcolorbox}}
+
+% Js
+\BeforeBeginEnvironment{js-code}{\begin{tcolorbox}[enhanced,
+width=\linewidth,
+enlarge top by=3pt,enlarge bottom by=3pt,
+enlarge left by=3pt,enlarge right by=3pt,
+frame hidden,boxrule=0pt,top=1mm,bottom=1mm,
+colframe=green!30!black, colbacktitle=green!50!yellow,
+coltitle=black, colback=bg,
+borderline={.1pt}{-0.5pt}{gray, dashed, sharp corners}]}%
+\AfterEndEnvironment{js-code}{\end{tcolorbox}}
+
+% Json
+\BeforeBeginEnvironment{json-normal}{\begin{tcolorbox}[enhanced,
+width=\linewidth,
+enlarge top by=3pt,enlarge bottom by=3pt,
+enlarge left by=3pt,enlarge right by=3pt,
+frame hidden,boxrule=0pt,top=1mm,bottom=1mm,
+colframe=green!30!black, colbacktitle=green!50!yellow,
+coltitle=black, colback=bg,
+borderline={.1pt}{-0.5pt}{gray, dashed, sharp corners}]}%
+\AfterEndEnvironment{json-normal}{\end{tcolorbox}}
+
+% Json
+\BeforeBeginEnvironment{json-small}{\begin{tcolorbox}[enhanced,
+width=\linewidth,
+enlarge top by=3pt,enlarge bottom by=3pt,
+enlarge left by=3pt,enlarge right by=3pt,
+frame hidden,boxrule=0pt,top=1mm,bottom=1mm,
+colframe=green!30!black, colbacktitle=green!50!yellow,
+coltitle=black, colback=bg,
+borderline={.1pt}{-0.5pt}{gray, dashed, sharp corners}]}%
+\AfterEndEnvironment{json-small}{\end{tcolorbox}}
+
+
+% Plaintext
+\BeforeBeginEnvironment{plaintext}{\begin{tcolorbox}[enhanced,
+frame hidden,boxrule=0pt,top=1mm,bottom=0.5mm]}%
+\AfterEndEnvironment{plaintext}{\end{tcolorbox}}%
+
+\definecolor{bg}{HTML}{F2F2F2}
+\newminted[code]{text}{mathescape=true,linenos=true,numbersep=5pt,fontsize=\footnotesize,framesep=10pt}
+\newminted[java-code]{csharp}{linenos=true,numbersep=5pt,fontsize=\footnotesize,framesep=10pt}
+\newminted[js-code]{js}{linenos=true,numbersep=5pt,fontsize=\footnotesize,framesep=10pt}
+\newminted[json-normal]{js}{linenos=true,numbersep=5pt,fontsize=\footnotesize,framesep=10pt}
+\newminted[json-small]{js}{linenos=true,numbersep=5pt,fontsize=\scriptsize,framesep=10pt}
+\newminted[terminal]{text}{linenos=false,numbersep=5pt,fontsize=\footnotesize,framesep=10pt}
+\newminted[plaintext]{text}{linenos=false,numbersep=5pt,fontsize=\footnotesize,framesep=10pt}
+\newminted[bashcode2]{bash}{linenos=true, texcl=true}
+\usepackage{scrhack} % fix warnings when using KOMA with listings package         
+%\setsansfont{Calibri}
+%\setmonofont{Consolas}
+%\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{etoolbox}
+
+% Margin
+\usepackage[left=1.5in,right=1.5in,top=1.5in,bottom=1.5in]{geometry}
+\usepackage[framemethod=default]{mdframed}
+
+%Exact positioning
+\usepackage{float}
+
+%Hyper-links
+\usepackage{hyperref}
+
+%Todo color
+\usepackage{xcolor}
+\newcommand\todo[1]{\textcolor{red}{#1}}
+
+% Centering of graphics
+\usepackage[export]{adjustbox}% http://ctan.org/pkg/adjustbox
+
+%Hidden sections
+\newcommand{\hiddensubsection}[1]{
+    \stepcounter{subsection}
+    \subsection*{\arabic{chapter}.\arabic{section}.\arabic{subsection}\hspace{1em}{#1}}
+}
+
+\newcommand{\hiddensubsubsection}[1]{
+    \stepcounter{subsubsection}
+    \subsubsection*{\arabic{chapter}.\arabic{section}.\arabic{subsection}\hspace{1em}{#1}}
+}
+
+\newcommand{\hiddensubsubsubsection}[1]{
+    \stepcounter{subsubsubsection}
+    \subsubsubsection*{\arabic{chapter}.\arabic{section}.\arabic{subsection}\hspace{1em}{#1}}
+}
+
+% Include pdfs
+\usepackage{pdfpages}

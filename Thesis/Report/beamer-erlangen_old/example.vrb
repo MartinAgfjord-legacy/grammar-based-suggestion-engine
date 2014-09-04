@@ -1,0 +1,9 @@
+\frametitle {GF implementation: Translation}GF + Abstract syntax + Concrete syntax = \pause
+\begin{itemize}
+\item Parser\pause
+\item Linearizer\pause
+\item Generator
+\end{itemize}
+\begin{semiverbatim}
+
+\end{semiverbatim}
