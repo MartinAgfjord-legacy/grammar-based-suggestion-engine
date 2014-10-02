@@ -1,0 +1,3 @@
+[submodule "Programming/GF"]
+	path = Programming/GF
+	url = https://github.com/GrammaticalFramework/GF.git
