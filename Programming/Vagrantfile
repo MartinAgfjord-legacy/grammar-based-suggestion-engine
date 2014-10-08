@@ -5,9 +5,13 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.box = "hashicorp/precise32"
+  config.vm.box = "ubuntu/trusty32"
   config.vm.provision :shell, path: "bootstrap.sh"
-
+  config.vm.network :forwarded_port, host: 4567, guest: 8080
+  
+  config.vm.provider "virtualbox" do |v|
+    v.memory = 1024
+  end
   # Possibly avoiding time sync problems
   # config.vm.provider "virtualbox" do |vb|
   #   vb.customize [ "guestproperty", "set", :id, "/VirtualBox/GuestAdd/VBoxService/--timesync-set-threshold", 10000 ]

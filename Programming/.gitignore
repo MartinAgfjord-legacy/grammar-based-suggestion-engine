@@ -1,2 +1,3 @@
 exec/eclipse/*
 .vagrant/*
+bundle/solr-instrucs/*/data

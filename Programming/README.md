@@ -17,5 +17,17 @@ To generate mock data:
 
    vagrant ssh -- /vagrant/gen-data.sh
 
+# TODOs
 
-(TODO find a way to automate download of eclipse in a sane and future proof way. Seriously, why is this hard??)
+- find a way to automate download of eclipse in a sane and future proof way. Seriously, why is this hard??
+
+- DONE Seems that c stuff hasnt been installed properly!
+Problem was insufficiently set lib path (below)
+
+vagrant@precise32:/vagrant/GF/src/runtime/java/Release (posix)$ ldd libjpgf.so
+	linux-gate.so.1 =>  (0xb77b1000)
+	libpgf.so.0 => not found
+	libgu.so.0 => not found
+	libc.so.6 => /lib/i386-linux-gnu/libc.so.6 (0xb75f9000)
+	/lib/ld-linux.so.2 (0xb77b2000)
+
