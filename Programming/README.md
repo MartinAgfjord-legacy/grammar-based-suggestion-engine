@@ -20,6 +20,10 @@ To regenerate mock data:
 
    vagrant ssh -- /vagrant/gen-data.sh
 
+To reset the index:
+
+   vagrant ssh -- /vagrant/reset-index.sh
+
 # TODOs
 
 - Generating mock data seems to take forever / does not terminate. Why?
