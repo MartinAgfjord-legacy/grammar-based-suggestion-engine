@@ -1,9 +1,15 @@
 
 # Using Vagrant for running the demo application
 
-Running with vagrant only has vagrant as prerequisite. All other dependencies should be installed automatically as the vagrant box is initialized using the provisioning script. To run the application stack, install vagrant and then run, in this folder:
+Running with vagrant only has vagrant (and the GF git submodule) as prerequisite. All other dependencies should be installed automatically as the vagrant box is initialized using the provisioning script. 
 
+Firstly, initialize the GF submodule from the git root:
+
+   git submodule init
    git submodule update
+
+Then, to setup the application stack, install vagrant and then run, in this folder:
+
    vagrant up
 
 And then to deploy:
