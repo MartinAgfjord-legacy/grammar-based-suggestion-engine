@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.nio.file.Files;
 import java.util.ArrayList;
@@ -20,6 +21,7 @@ import java.util.Set;
 import java.util.LinkedHashSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import org.apache.commons.io.IOUtils;
 
 import org.apache.solr.client.solrj.SolrServer;
 import org.apache.solr.client.solrj.SolrServerException;
@@ -32,13 +34,14 @@ import org.grammaticalframework.pgf.NercLiteralCallback;
 import org.grammaticalframework.pgf.PGF;
 import org.grammaticalframework.pgf.PGFError;
 import org.grammaticalframework.pgf.ParseError;
+import java.nio.charset.StandardCharsets;
 
 
 public class Grammar {
 
 	private PGF gr;
 	final private String[] nameFuns = new String[]{ "MkSkill", "MkLocation", "MkOrganization", "MkModule" };
-	final private String[] nameCats = new String[]{ "Skill", "Location", "Organization", "Module" };
+	final private String[] nameCats = new String[]{ "Skill", "Location", "Organization", "Module" };    
 	final private Properties prop = new Properties();
 
 	public Grammar(InputStream pgf) {
@@ -188,28 +191,24 @@ public class Grammar {
 	public Set<String> sendGfShellCommands(List<String> commands) throws IOException{
 		// Run 'gf --run' in the correct directory
 		ProcessBuilder pb = new ProcessBuilder("gf", "-literal=Symb", "--run");
-		Map<String, String> env = pb.environment();
+		//Map<String, String> env = pb.environment();
 		pb.directory(new File(prop.get("grammar_dir").toString()));
 		Process p = pb.start();
-		
-		// Send input to gf
-		OutputStreamWriter osw = new OutputStreamWriter(p.getOutputStream());
-		int id= 0;
-		for(String command : commands){
-			osw.write(command + "\n");
-		}
-		osw.close();
-		// Read output from gf
-		BufferedReader br = new BufferedReader(new InputStreamReader(p.getInputStream()));
-		String line;
-		Set<String> result = new LinkedHashSet<String>();
-		while ((line = br.readLine()) != null) {
-			if(!line.isEmpty()){
-				result.add(line);
-			}
-		}
-		br.close();
-		
-		return result;
+        try (OutputStream outputStream = p.getOutputStream()) {
+            IOUtils.writeLines(commands, "\n", outputStream, StandardCharsets.UTF_8);
+        }
+        LinkedHashSet result = new LinkedHashSet();
+        try (InputStream inputStream = p.getInputStream()) {
+            List<String> lines = IOUtils.readLines(inputStream, StandardCharsets.UTF_8);
+            
+            result = new LinkedHashSet();
+            for(String line:lines){
+                if(!line.isEmpty()){
+                    // -- System.out.println(line);
+                    result.add(line);
+                }
+            }
+        }
+        return result;
 	}
 }
