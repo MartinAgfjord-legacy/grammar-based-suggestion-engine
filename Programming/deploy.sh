@@ -6,7 +6,7 @@ source /vagrant/reset-index.sh
 cd /vagrant/bundle/solr-mvn/
 mvn tomcat7:deploy
 
-
+# Why not part of provisioning?
 cd /vagrant/bundle/
 mvn install:install-file -Dfile=org.grammaticalframework.pgf.jar \
     -DgroupId=org.grammaticalframework \

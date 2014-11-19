@@ -80,6 +80,9 @@ public class DataImportNeo4j
 			ResourceIterator<Map<String,Object>> iterator = query("MATCH (n:" + label + ") - [] - () RETURN DISTINCT count(n.name), n.name");
 			List<Map<String,Object>> result = new ArrayList<Map<String,Object>>();
 			while(iterator.hasNext()){
+                // TODO Looks like we are using Maps
+                // for representing an object with two fields? 
+                // I'd go with a custom class instead. Makes later use clearer.
 				Map<String,Object> node = iterator.next();
 				Map<String,Object> map = new HashMap<String,Object>();
 				map.put("name", node.get("n.name"));
