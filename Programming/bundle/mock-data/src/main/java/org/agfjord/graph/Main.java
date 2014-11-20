@@ -78,29 +78,29 @@ public class Main {
 		System.out.format("Successfully generated %d abstract syntax trees\n", asts.size() );
 		solr.deleteAllInstrucs();
 		{
-		List<Set<String>> linearizations = grammar.generateLinearizations(asts, "InstrucsEngRGL.gf", "InstrucsEngRGL");
-		System.out.format("Successfully generated %d English linearizations\n", linearizations.size() );
-		List<Instruction> Instrucs = grammar.createInstrucs(asts, linearizations, "InstrucsEngRGL");
-		System.out.format("Successfully instantiated %d English linearizations\n", Instrucs.size());
-		solr.addInstrucsToSolr(Instrucs);
-		System.out.format("Successfully added English linearizations to solr\n");
-		
-		}
-		{
-		List<Set<String>> linearizations = grammar.generateLinearizations(asts, "InstrucsSweRGL.gf", "InstrucsSweRGL");
-		System.out.format("Successfully generated %d Swedish linearizations\n", linearizations.size() );
-		List<Instruction> Instrucs = grammar.createInstrucs(asts, linearizations, "InstrucsSweRGL");
-		System.out.format("Successfully instantiated %d Swedish linearizations\n", Instrucs.size());
-		solr.addInstrucsToSolr(Instrucs);
-		System.out.format("Successfully added Swedish linearizations to solr\n");
-		}
-		{
-		List<Set<String>> linearizations = grammar.generateLinearizations(asts, "InstrucsEngConcat.gf", "InstrucsEngConcat");
-		System.out.format("Successfully generated %d Concat English linearizations\n", linearizations.size() );
-		List<Instruction> Instrucs = grammar.createInstrucs(asts, linearizations, "InstrucsEngConcat");
-		System.out.format("Successfully instantiated %d Concat English linearizations\n", Instrucs.size());
-		solr.addInstrucsToSolr(Instrucs);
-		System.out.format("Successfully added Concat English linearizations to solr\n");
-		}
+            List<Set<String>> linearizations = grammar.generateLinearizations(asts, "InstrucsEngRGL.gf", "InstrucsEngRGL");
+            System.out.format("Successfully generated %d English linearizations\n", linearizations.size());
+            List<Instruction> Instrucs = grammar.createInstrucs(asts, linearizations, "InstrucsEngRGL");
+            System.out.format("Successfully instantiated %d English linearizations\n", Instrucs.size());
+            solr.addInstrucsToSolr(Instrucs);
+            System.out.format("Successfully added English linearizations to solr\n");
+
+        }
+        {
+            List<Set<String>> linearizations = grammar.generateLinearizations(asts, "InstrucsSweRGL.gf", "InstrucsSweRGL");
+            System.out.format("Successfully generated %d Swedish linearizations\n", linearizations.size());
+            List<Instruction> Instrucs = grammar.createInstrucs(asts, linearizations, "InstrucsSweRGL");
+            System.out.format("Successfully instantiated %d Swedish linearizations\n", Instrucs.size());
+            solr.addInstrucsToSolr(Instrucs);
+            System.out.format("Successfully added Swedish linearizations to solr\n");
+        }
+        {
+            List<Set<String>> linearizations = grammar.generateLinearizations(asts, "InstrucsEngConcat.gf", "InstrucsEngConcat");
+            System.out.format("Successfully generated %d Concat English linearizations\n", linearizations.size());
+            List<Instruction> Instrucs = grammar.createInstrucs(asts, linearizations, "InstrucsEngConcat");
+            System.out.format("Successfully instantiated %d Concat English linearizations\n", Instrucs.size());
+            solr.addInstrucsToSolr(Instrucs);
+            System.out.format("Successfully added Concat English linearizations to solr\n");
+        }
 	}
 }
