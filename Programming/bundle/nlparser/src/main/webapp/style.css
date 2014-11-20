@@ -40,3 +40,14 @@ body { padding: 25px ; }
 #ambiguous_result {
   display: none ;
 }
+#tech_info {
+  display: none;
+}
+
+#search_result {
+    list-style-type: none;
+}
+
+/*.document span {
+    display: block;
+}*/

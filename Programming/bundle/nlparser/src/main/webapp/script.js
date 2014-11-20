@@ -198,6 +198,7 @@ function parse(query){
 
 function fetchResult(solrQuery){
     var successFun = function(response){
+        renderSolrResult(response);
         var str = JSON.stringify(response, undefined, 4);
         //Replace e.g. "ast" : "Direct_Q (MkSymb \"Java\")" with 'ast' : 'Direct_Q (MkSymb "Java")'
         str = str.replace(/\\"/g, '\\');
@@ -206,7 +207,7 @@ function fetchResult(solrQuery){
         html = syntaxHighlight(str);
         console.log(html);
         console.log(response);
-        $("#search_result").empty().append(html);
+        $("#search_result_json").empty().append(html);
     }
     var errFun = function(request, status, error) {
         console.log("Solr request error:");
@@ -214,6 +215,55 @@ function fetchResult(solrQuery){
     };
     
     solrAjaxRequest('/' + solrQuery, successFun, errFun);
+}
+
+
+var DocumentTemplate;
+$(function () {
+    // Compile the document template using underscorejs
+    DocumentTemplate = Handlebars.compile($('#doc_template').html());
+    
+    
+    // Debug testing of a document!
+    $("#search_result").empty()
+            .append(DocumentTemplate({
+                "id": "66",
+                "object_type": "Person",
+                "WORKS_WITH": [
+                    "BRIS",
+                    "Emmaus",
+                    "Röda Korset",
+                    "Djurens Rätt",
+                    "Amnesty",
+                    "Musikhjälpen",
+                    "Radiohjälpen",
+                    "Naturskyddsföreningen",
+                    "Erikshjälpen",
+                    "Unicef"
+                ],
+                "WORKS_IN": [
+                    "Gothenburg",
+                    "Stockholm"
+                ],
+                "name": "Test Person",
+                "KNOWS": [
+                    "Erlang",
+                    "MATLAB",
+                    "Mathematica",
+                    "Lisp",
+                    "ColdFusion"
+                ],
+                "_version_": 1485197488527769600
+            }));
+    
+});
+
+function renderSolrResult (response) {
+    var docs = response.response.docs;
+    $("#search_result").empty().append($.map(docs,function (doc, ix) {
+        
+        return DocumentTemplate(doc);
+    }));
 }
 
 /*
@@ -226,7 +276,6 @@ function getHost(){
     }else {
         return uri.hostname() + ':' + uri.port();
     }
-
 }
 
 /*
@@ -252,6 +301,7 @@ function solrAjaxRequest(path, successFun, errFun){
     $.ajax({
         url: '/solr-instrucs/relations' + path,
         success: successFun,
+        dataType:'json',
         error: errFun
     });
 }

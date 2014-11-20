@@ -6,6 +6,8 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="URI.js"></script>
 <script src="jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
+<script src="underscore.js"></script>
+<script src="handlebars-v2.0.0.js"></script>
 <script src="script.js"></script>
 
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
@@ -19,43 +21,47 @@
   <option value="InstrucsEngRGL">English (RGL)</option>
   <option value="InstrucsSweRGL">Swedish (RGL)</option>
 </select>
+<div id="tech_info">
+    <pre id="ambiguous_result">Ambiguous question, we found the following interpretations:</pre>
+    <pre id="grammar_result"></pre>
+    <pre id="search_result_json"></pre>
+    <a href="grammar/Instrucs.gf.txt">Instrucs.gf</a>
+    <a href="grammar/InstrucsI.gf.txt">InstrucsI.gf</a>
+    <a href="grammar/InstrucsEngRGL.gf.txt">InstrucsEngRGL.gf</a>
+    <a href="grammar/InstrucsEngConcat.gf.txt">InstrucsConcat.gf</a>
+    <a href="grammar/InstrucsSweRGL.gf.txt">InstrucsSweRGL.gf</a>
+    <a href="grammar/InstrucsSolr.gf.txt">InstrucsSolr.gf</a>
+    <a href="grammar/LexInstrucs.gf.txt">LexInstrucs.gf</a>
+    <a href="grammar/LexInstrucsEng.gf.txt">LexInstrucsEng.gf</a>
+    <a href="grammar/LexInstrucsSwe.gf.txt">LexInstrucsSwe.gf</a>
+</div>
+<ul id="search_result">
+    
+</ul>
+
+<script id="doc_template" type="text/x-handlebars-template">
+    <li class="document" class="media">
+        <h2 class="title">{{name}}</h2>
+        <div class="media-body">
+            {{#if WORKS_IN}}<div><em>Plats:</em> {{WORKS_IN}}</div>{{/if}}
+            {{#if KNOWS}}<div><em>Kunskap:</em> {{KNOWS}}</div>{{/if}}USES
+            {{#if WORKS_WITH}}<div><em>Kunder:</em> {{WORKS_WITH}}</div>{{/if}}
+            {{#if USES}}<div><em>Använder:</em> {{USES}}</div>{{/if}}
+        </div>
+    </li>
+</script>
 <!--
-<div class="btn-group group">
-  <button type="button" class="btn btn-success question">which persons know Java ?</button>
-</div>
-<div class="btn-group group">
-  <button type="button" class="btn btn-warning question">project which uses Solr .</button>
-</div>
-<div class="btn-group group">
-  <button type="button" class="btn btn-success question">persons who have worked in Gothenburg .</button>
-</div>
-<div class="btn-group group">
-    <button type="button" class="btn btn-warning question">person which has worked with Solr .</button>
-</div>
-<div class="btn-group group">
-    <button type="button" class="btn btn-warning question">which customers use Our Generic Gui ?</button>
-</div>
-<div class="btn-group group">
-    <button type="button" class="btn btn-success question">which person knows Python and JavaScript ?</button>
-</div>
-<div class="btn-group group">
-    <button type="button" class="btn btn-success question">persons who have worked in Gothenburg or Stockholm and Malmo .</button>
-</div>
-<div class="btn-group group">
-    <button type="button" class="btn btn-success question">which projects are using Solr ?</button>
-</div>
+
+<script id="entry-template" type="text/x-handlebars-template">
+  template content
+</script>
+/*$('<li></li>').addClass('media').append(
+                $('<div></div>').addClass('media-body')
+                .append([
+                    $('<span></span>').text(doc.name),
+                    $('<span></span>').text("KNOWS: "+doc.KNOWS),
+                    $('<span></span>').text("KNOWS: "+doc.KNOWS),
+                ]));*/
 -->
-<pre id="ambiguous_result">Ambiguous question, we found the following interpretations:</pre>
-<pre id="grammar_result"></pre>
-<pre id="search_result"></pre>
-<a href="grammar/Instrucs.gf.txt">Instrucs.gf</a>
-<a href="grammar/InstrucsI.gf.txt">InstrucsI.gf</a>
-<a href="grammar/InstrucsEngRGL.gf.txt">InstrucsEngRGL.gf</a>
-<a href="grammar/InstrucsEngConcat.gf.txt">InstrucsConcat.gf</a>
-<a href="grammar/InstrucsSweRGL.gf.txt">InstrucsSweRGL.gf</a>
-<a href="grammar/InstrucsSolr.gf.txt">InstrucsSolr.gf</a>
-<a href="grammar/LexInstrucs.gf.txt">LexInstrucs.gf</a>
-<a href="grammar/LexInstrucsEng.gf.txt">LexInstrucsEng.gf</a>
-<a href="grammar/LexInstrucsSwe.gf.txt">LexInstrucsSwe.gf</a>
 </body>
 </html>
