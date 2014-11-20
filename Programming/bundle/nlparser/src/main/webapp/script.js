@@ -171,12 +171,12 @@ function parse(query){
                         if(this.language == 'InstrucsSolr'){
                             solrQuery = this.query.replace(/ /g,'+');
                             this.query = '<a href="' + '/solr-instrucs/relations/' + solrQuery + '">' + this.query + '</a>';
-                            //if(!fetchedResult){
-                              //  $("#ast" + i).css('font-weight','bold');
-                                //$("#ast" + i).append(' (this was executed)')
-                                //fetchResult(solrQuery);
-                                //fetchedResult = true;
-                            //}
+                            if(!fetchedResult){
+                                $("#ast" + i).css('font-weight','bold');
+                                $("#ast" + i).append(' (this was executed)')
+                                fetchResult(solrQuery);
+                                fetchedResult = true;
+                            }
                         }
                     });
                     i++;
@@ -208,8 +208,12 @@ function fetchResult(solrQuery){
         console.log(response);
         $("#search_result").empty().append(html);
     }
-    var errFun = function(request, status, error) {};
-    ajaxRequest2('solr' + '/' + solrQuery, successFun, errFun);
+    var errFun = function(request, status, error) {
+        console.log("Solr request error:");
+        console.log(error);
+    };
+    
+    solrAjaxRequest('/' + solrQuery, successFun, errFun);
 }
 
 /*
@@ -244,15 +248,9 @@ function ajaxRequest(path, query, language, successFun, errFun){
     });
 }
 
-function ajaxRequest2(path, successFun, errFun){
-    var host = getHost();
+function solrAjaxRequest(path, successFun, errFun){
     $.ajax({
-        url: 'http://' + host + '/nlparser/api/' + path,
-        jsonp: "callback",
-        dataType: "jsonp",
-        data: {
-            format: "jsonp"
-        },
+        url: '/solr-instrucs/relations' + path,
         success: successFun,
         error: errFun
     });
