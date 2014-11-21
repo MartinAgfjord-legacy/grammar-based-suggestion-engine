@@ -1,6 +1,7 @@
 exec/eclipse/*
 .vagrant/*
-./bundle/solr-instrucs/*/data*
+/bundle/solr-instrucs/*/data
+/bundle/solr-instrucs/*/data*
 *.gfo
 *.pgf
 *.log
