@@ -44,7 +44,7 @@
         <h2 class="title">{{name}}</h2>
         <div class="media-body">
             {{#if WORKS_IN}}<div><em>Plats:</em> {{WORKS_IN}}</div>{{/if}}
-            {{#if KNOWS}}<div><em>Kunskap:</em> {{KNOWS}}</div>{{/if}}USES
+            {{#if KNOWS}}<div><em>Kunskap:</em> {{KNOWS}}</div>{{/if}}
             {{#if WORKS_WITH}}<div><em>Kunder:</em> {{WORKS_WITH}}</div>{{/if}}
             {{#if USES}}<div><em>Använder:</em> {{USES}}</div>{{/if}}
         </div>
