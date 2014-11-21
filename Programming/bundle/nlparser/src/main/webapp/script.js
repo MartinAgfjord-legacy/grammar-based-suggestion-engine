@@ -225,7 +225,7 @@ $(function () {
     
     
     // Debug testing of a document!
-    $("#search_result").empty()
+    /*$("#search_result").empty()
             .append(DocumentTemplate({
                 "id": "66",
                 "object_type": "Person",
@@ -254,7 +254,7 @@ $(function () {
                     "ColdFusion"
                 ],
                 "_version_": 1485197488527769600
-            }));
+            }));*/
     
 });
 
