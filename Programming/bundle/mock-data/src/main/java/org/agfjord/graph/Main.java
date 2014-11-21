@@ -1,18 +1,11 @@
 package org.agfjord.graph;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
-import java.net.URISyntaxException;
 import java.net.URL;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
 import org.apache.solr.client.solrj.SolrServerException;
-import org.grammaticalframework.pgf.Expr;
-import org.grammaticalframework.pgf.ExprProb;
 import org.grammaticalframework.pgf.ParseError;
 
 public class Main {

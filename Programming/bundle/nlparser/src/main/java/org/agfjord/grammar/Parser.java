@@ -1,16 +1,11 @@
 package org.agfjord.grammar;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -20,7 +15,6 @@ import java.util.Set;
 import java.util.TreeSet;
 
 import org.agfjord.domain.AbstractSyntaxTree;
-import org.agfjord.domain.CompletionWord;
 import org.agfjord.domain.Query;
 import org.agfjord.server.result.NameResult;
 import org.agfjord.server.result.Question;
@@ -31,19 +25,16 @@ import org.apache.solr.client.solrj.SolrQuery.SortClause;
 import org.apache.solr.client.solrj.SolrServer;
 import org.apache.solr.client.solrj.SolrServerException;
 import org.apache.solr.client.solrj.impl.HttpSolrServer;
-import org.apache.solr.client.solrj.response.FacetField.Count;
 import org.apache.solr.client.solrj.response.QueryResponse;
 import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrDocumentList;
 import org.grammaticalframework.pgf.Concr;
-import org.grammaticalframework.pgf.Expr;
 import org.grammaticalframework.pgf.ExprProb;
 import org.grammaticalframework.pgf.NercLiteralCallback;
 import org.grammaticalframework.pgf.PGF;
 import org.grammaticalframework.pgf.PGFError;
 import org.grammaticalframework.pgf.ParseError;
 
-import com.google.gson.Gson;
 
 public class Parser {
 

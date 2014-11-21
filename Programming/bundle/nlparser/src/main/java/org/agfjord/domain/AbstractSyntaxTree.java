@@ -1,6 +1,5 @@
 package org.agfjord.domain;
 
-import java.util.List;
 import java.util.Set;
 
 public class AbstractSyntaxTree {

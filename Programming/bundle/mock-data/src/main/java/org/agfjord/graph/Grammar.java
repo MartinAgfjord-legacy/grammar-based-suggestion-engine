@@ -1,14 +1,9 @@
 package org.agfjord.graph;
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.io.OutputStream;
-import java.io.OutputStreamWriter;
-import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -23,17 +18,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.apache.commons.io.IOUtils;
 
-import org.apache.solr.client.solrj.SolrServer;
-import org.apache.solr.client.solrj.SolrServerException;
-import org.apache.solr.client.solrj.impl.HttpSolrServer;
-import org.apache.solr.common.SolrInputDocument;
-import org.grammaticalframework.pgf.Concr;
-import org.grammaticalframework.pgf.Expr;
-import org.grammaticalframework.pgf.ExprProb;
-import org.grammaticalframework.pgf.NercLiteralCallback;
 import org.grammaticalframework.pgf.PGF;
 import org.grammaticalframework.pgf.PGFError;
-import org.grammaticalframework.pgf.ParseError;
 import java.nio.charset.StandardCharsets;
 
 
