@@ -2,11 +2,11 @@
 set -e
 
 echo "[reset-index.sh] removing solr data folders"
-rm -r /vagrant/bundle/solr-instrucs/names/data
-rm -r /vagrant/bundle/solr-instrucs/trees/data
-rm -r /vagrant/bundle/solr-instrucs/relations/data
+rm -rf /vagrant/bundle/solr-instrucs/names/data
+rm -rf /vagrant/bundle/solr-instrucs/trees/data
+rm -rf /vagrant/bundle/solr-instrucs/relations/data
 
-rm -r /home/vagrant/indexes
+rm -rf /home/vagrant/indexes
 
 # tomcat7 needs to own the index folders
 # but chown:ing doesn't work in the shared folder (/vagrant)
