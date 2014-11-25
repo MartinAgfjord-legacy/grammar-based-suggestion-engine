@@ -13,11 +13,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.Scanner;
-import java.util.Set;
-import java.util.TreeSet;
-import java.util.regex.Pattern;
-
-import org.agfjord.domain.AbstractSyntaxTree;
 import org.agfjord.domain.Query;
 import org.agfjord.server.result.NameResult;
 import org.agfjord.server.result.Question;
@@ -39,10 +34,12 @@ import org.grammaticalframework.pgf.PGF;
 import org.grammaticalframework.pgf.PGFError;
 import org.grammaticalframework.pgf.ParseError;
 
-
+/*
+ Authors: Martin Agfjord, Per Fredelius
+*/
 public class Parser {
 
-	private PGF gr;
+	//private PGF gr;
 	private SolrServer treesServer = new HttpSolrServer("http://localhost:8080/solr-instrucs/trees");
 	private SolrServer namesServer = new HttpSolrServer("http://localhost:8080/solr-instrucs/names");
 	final private Properties prop = new Properties();
@@ -70,9 +67,6 @@ public class Parser {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		gr.getLanguages().get("InstrucsEngRGL").addLiteral("Symb", new NercLiteralCallback());
-		gr.getLanguages().get("InstrucsEngConcat").addLiteral("Symb", new NercLiteralCallback());
-		gr.getLanguages().get("InstrucsSweRGL").addLiteral("Symb", new NercLiteralCallback());
 	}
 
 	public String closestQuestion(String nlQuestion){
@@ -124,7 +118,6 @@ public class Parser {
 	
 	Comparator<Query> comparator = new Comparator<Query>(){
         public int compare(Query a, Query b){
-//        	return 1;
             return a.getLanguage().compareTo(b.getLanguage());
         }
     };
@@ -224,7 +217,23 @@ public class Parser {
 		}
 		return nlQuestion;
 	}
-    public List<Question> completeSentence2(String nlQuestion, String parseLang) throws SolrServerException{
+    
+    /**
+	 * Complete a string into a valid question. Psuedocode of the algorithm:
+	 * 1. Determine the words of the string which are names
+	 * 2. Replace those names with their type in the index, e.g. Java ==> Skill0
+	 * 3. Ask the index of questions similar to the string
+	 * 4. Change the types back into their names (not the original if misspelled)
+	 * 5. If the question consists of more names than what is inputed, ask index
+	 *    of more names and add them to the question
+	 * 6. Return all questions
+	 * 
+	 * @param nlQuestion - A question in a natural language
+	 * @param parseLang - A natural language
+	 * @return Valid questions
+	 * @throws SolrServerException
+	 */
+    public List<Question> completeSentenceBreadthFirst(String nlQuestion, String parseLang) throws SolrServerException{
         List<Question> questions = new ArrayList<Question>();
         
         SolrQuery treesQuery = new SolrQuery();
@@ -315,6 +324,7 @@ public class Parser {
         return namesNotInQuestion;
     }
 
+    
     public List<Question> createSuggestionsForLinearization(
             Map<String, List<NameResult>> namesInQuestion, 
             TreeResult templateLinearizationDoc,
@@ -371,54 +381,6 @@ public class Parser {
                 }
             }
         }
-        /*Map<String,Integer> placeholderCount = getNumberOfFreePlaceholders(namesNotInQuestion);
-
-        
-        Map<String,List<NameResult>> namesNotInQuestionShifted = cloneNamesMap(namesInQuestion);
-        for (int j = 0; j < numberOfPermutations(placeholderCount); j++){
-            String suggestion = linearization;
-            for(String nameType : namesNotInQuestionShifted.keySet()){
-                List<NameResult> namesNotInQuestionShiftedT = namesNotInQuestionShifted.get(nameType);
-                
-                for (int i = 0; i < placeholderCount.get(nameType); i++) {
-                    String nameNotInQuestionT = namesNotInQuestionShiftedT.get(i).getName();
-                    suggestion = suggestion.replace(nameType+i, nameNotInQuestionT);
-                }
-            }
-            Question question = new Question();
-            question.setLinearizations(new ArrayList<>(Arrays.asList(suggestion)));
-            suggestions.add(question);
-            namesNotInQuestionShifted = shiftAllOnce(namesNotInQuestionShifted);
-        }*/
-        /*// Create suggestions by filling the linearization using not yet used names
-        for(String nameType : namesNotInQuestion.keySet()){
-            
-            List<NameResult> namesNotInQuestionT
-                    = namesNotInQuestion.get(nameType);
-            
-            List<NameResult> namesNotInQuestionTShifted = namesNotInQuestionT;
-            for (int i = 0; i < namesNotInQuestionT.size(); i++) {
-                
-                
-                String suggestion = linearization;
-                for (int j = 0; j < namesNotInQuestionT.size(); j++) {
-                    NameResult nameNotInQuestionTShifted = namesNotInQuestionTShifted.get(j);
-                    suggestion = suggestion.replace(nameNotInQuestionTShifted.getType()+j, nameNotInQuestionTShifted.getName());
-                }
-                Question question = new Question();
-                question.setLinearizations(new ArrayList<>(Arrays.asList(suggestion)));
-                suggestions.add(question);
-                
-                // We shift the list of suggestion one step to produce a new ordering
-                namesNotInQuestionTShifted = shiftOnce(namesNotInQuestionTShifted);
-                
-                // There should be one suggestion per shift
-                // But for each suggestion we need to iterate
-                // through all types. Therefore the type iteration must be
-                // the innermost iteration. And so we need to shift all lists '
-                // of typed names outside the type iteration.
-            }
-        }*/
         return suggestions;
     }
 
@@ -453,7 +415,7 @@ public class Parser {
 	 * @return Valid questions
 	 * @throws SolrServerException
 	 */
-	public List<Question> completeSentence(String nlQuestion, String parseLang) throws SolrServerException{
+	public List<Question> completeSentenceDepthFirst(String nlQuestion, String parseLang) throws SolrServerException{
 		SolrQuery treesQuery = new SolrQuery();
 		SolrQuery namesQuery = new SolrQuery();
 		namesQuery.addSort("score", ORDER.desc);
@@ -560,42 +522,6 @@ public class Parser {
 		return list;
 	}
 
-//	public Set<CompletionWord> completeQuery(String question, String parseLang) throws ParseError {
-//		Concr lang = gr.getLanguages().get(parseLang);
-//		String toComplete = "";
-//		String[] words = question.split("\\s+");
-//		//If last char is not whitespace
-//		if(question.length() > 0 && question.charAt(question.length()-1) != ' '){ 
-//			//Split words on whitespace
-//			StringBuilder partialQuestion = new StringBuilder();
-//			for(int i=0; i < words.length-1; i++){
-//				partialQuestion.append(words[i] + " ");
-//			}
-//			question = partialQuestion.toString();
-//			toComplete = words[words.length-1];
-//		}
-//
-//		Set<CompletionWord> tokens = new HashSet<CompletionWord>();
-//		for (TokenProb tp : lang.complete(gr.getStartCat(), question, toComplete)) {
-//			boolean partial = false;
-//			if(!toComplete.equals("")){
-//				partial = tp.getToken().contains(toComplete);
-//				//Omit to suggest the word to complete
-//				if(tp.getToken().equals(toComplete)){
-//					continue ;
-//				}
-//			}
-//			tokens.add(new CompletionWord(partial, tp.getToken()));
-//		}
-//		//If list only contains the last word or is empty
-//		if(tokens.size() <= 1){
-//			//Also predict next word
-//			for (TokenProb tp : lang.complete(gr.getStartCat(), question + toComplete + " ", "")) {
-//				tokens.add(new CompletionWord(false, tp.getToken()));
-//			}
-//		}
-//		return tokens;
-//	}
 
     /**
      * Shift the elements of a list once to the left and append the 

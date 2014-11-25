@@ -84,25 +84,26 @@ public class JSONService {
 //		return  callback + "(" + gson.toJson(p.completeQuery(question, "QuestionsEng")) + ")";
 //	}
 	
+    // Old method for completion
 	@GET
+	@Path("/completeSentenceDepthFirst")
+	@Produces(MediaType.APPLICATION_JSON)
+	public String completeSentenceDepthFirst(@QueryParam("q") String question, 
+			@QueryParam("callback") String callback, @QueryParam ("lang") String language) throws SolrServerException, IOException, ParseError {
+        Parser p = new Parser();
+		Gson gson = new Gson();
+		return  callback + "(" + gson.toJson(p.completeSentenceDepthFirst(question, language)) + ")";
+	}
+    
+    // New completion method
+    @GET
 	@Path("/completeSentence")
 	@Produces(MediaType.APPLICATION_JSON)
 	public String completeSentence(@QueryParam("q") String question, 
 			@QueryParam("callback") String callback, @QueryParam ("lang") String language) throws SolrServerException, IOException, ParseError {
         Parser p = new Parser();
 		Gson gson = new Gson();
-		return  callback + "(" + gson.toJson(p.completeSentence(question, language)) + ")";
-	}
-    
-    // New completion in dev
-    @GET
-	@Path("/completeSentence2")
-	@Produces(MediaType.APPLICATION_JSON)
-	public String completeSentence2(@QueryParam("q") String question, 
-			@QueryParam("callback") String callback, @QueryParam ("lang") String language) throws SolrServerException, IOException, ParseError {
-        Parser p = new Parser();
-		Gson gson = new Gson();
-		return  callback + "(" + gson.toJson(p.completeSentence2(question, language)) + ")";
+		return  callback + "(" + gson.toJson(p.completeSentenceBreadthFirst(question, language)) + ")";
 	}
 	
 	@POST
