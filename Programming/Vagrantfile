@@ -8,6 +8,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "ubuntu/trusty32"
   config.vm.provision :shell, path: "bootstrap.sh"
   config.vm.network :forwarded_port, host: 4567, guest: 8080
+  # Using 8081 for debug jetty instance 
+  config.vm.network :forwarded_port, host: 45678, guest: 8081
   config.vm.network :forwarded_port, host: 1044, guest: 1044
   
   config.vm.provider "virtualbox" do |v|

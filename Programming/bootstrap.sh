@@ -64,6 +64,7 @@ cabal install gf
 echo "[bootstrap.sh] Making utility scripts executable"
 chmod +x /vagrant/deploy.sh
 chmod +x /vagrant/gen-data.sh
+chmod +x /vagrant/dev-nlparser.sh
 chmod +x /vagrant/reset-index.sh
 
 
