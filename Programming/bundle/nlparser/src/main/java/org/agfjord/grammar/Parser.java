@@ -342,7 +342,9 @@ public class Parser {
         }
         
         // How many placeholders for each type remain?
-        Map<String,Integer> placeholderCount = getNumberOfFreePlaceholders(namesNotInQuestion);
+        Map<String,Integer> placeholderCount = getNumberOfFreePlaceholders(
+                templateLinearizationDoc,
+                namesInQuestion);
         int totalPlaceHolderCount = 0;
         for(Integer placeholderCount_:placeholderCount.values()){
             totalPlaceHolderCount+=placeholderCount_;
@@ -609,14 +611,14 @@ public class Parser {
         return shiftedList;
     }
 
-    private Map<String, Integer> getNumberOfFreePlaceholders(Map<String, List<NameResult>> namesNotInQuestion) {
+    private Map<String, Integer> getNumberOfFreePlaceholders(
+            TreeResult templateLinearizationDoc,
+            Map<String, List<NameResult>> namesInQuestion) {
         HashMap<String, Integer> placeHolderCount = new HashMap<String, Integer>();
-        for(String nameType : namesNotInQuestion.keySet()){
-            if(namesNotInQuestion.get(nameType).size()>0){
-                placeHolderCount.put(nameType, namesNotInQuestion.get(nameType).size()-nr_of_additional_suggestions);
-            } else {
-                placeHolderCount.put(nameType, 0);
-            }
+        for(String nameType : namesInQuestion.keySet()){
+            placeHolderCount.put(nameType, 
+                    templateLinearizationDoc.getNameCounts().get(nameType+"_i")
+                        - namesInQuestion.get(nameType).size());
         }
         return placeHolderCount;
     }
