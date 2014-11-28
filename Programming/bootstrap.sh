@@ -20,7 +20,7 @@ update-java-alternatives -s java-1.7.0-openjdk-i386
 echo "[bootstrap.sh] Building and installing GF C runtime"
 cd /vagrant/GF/src/runtime/c/
 autoreconf -i
-./configure
+./configure --enable-shared
 make
 make install
 # Workaround for Makefile above not copying headers properly.

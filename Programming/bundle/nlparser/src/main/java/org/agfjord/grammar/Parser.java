@@ -3,6 +3,7 @@ package org.agfjord.grammar;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URL;
+import java.lang.IllegalStateException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -13,6 +14,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeSet;
+import org.agfjord.domain.AbstractSyntaxTree;
 import org.agfjord.domain.Query;
 import org.agfjord.server.result.NameResult;
 import org.agfjord.server.result.Question;
@@ -39,9 +43,10 @@ import org.grammaticalframework.pgf.ParseError;
 */
 public class Parser {
 
-	//private PGF gr;
-	private SolrServer treesServer = new HttpSolrServer("http://localhost:8080/solr-instrucs/trees");
-	private SolrServer namesServer = new HttpSolrServer("http://localhost:8080/solr-instrucs/names");
+	private PGF gr;
+    String solr_url; 
+	private SolrServer treesServer;
+	private SolrServer namesServer;
 	final private Properties prop = new Properties();
     
     // Maximum nr of variants on the Abs trees
@@ -52,6 +57,13 @@ public class Parser {
 			Parser.class.getName());
 
 	public Parser() throws SolrServerException, FileNotFoundException {
+        solr_url = System.getProperty("solr.base.url");
+        if(null==solr_url){
+            throw new IllegalStateException("Could not initialize parser: solr.base.url variable was not set!");
+        }
+        treesServer = new HttpSolrServer(solr_url+"/trees");
+        namesServer = new HttpSolrServer(solr_url+"/names");
+        
 		try {
 			URL url = this.getClass().getClassLoader().getResource("Instrucs.pgf");
 			gr = PGF.readPGF(url.openStream());
@@ -67,6 +79,9 @@ public class Parser {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		gr.getLanguages().get("InstrucsEngRGL").addLiteral("Symb", new NercLiteralCallback());
+		gr.getLanguages().get("InstrucsEngConcat").addLiteral("Symb", new NercLiteralCallback());
+		gr.getLanguages().get("InstrucsSweRGL").addLiteral("Symb", new NercLiteralCallback());
 	}
 
 	public String closestQuestion(String nlQuestion){

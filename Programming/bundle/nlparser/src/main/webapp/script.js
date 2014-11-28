@@ -1,4 +1,6 @@
 
+var AUTOCOMPLETE_MAXLENGTH = 10;
+
 function syntaxHighlight(json) {
     if (typeof json != 'string') {
          json = JSON.stringify(json, undefined, 2);
@@ -42,6 +44,7 @@ function initWordCompletion(){
     $("#input")
       // don't navigate away from the field on tab when selecting an item
       .bind( "keydown", function( event ) {
+          $('#input').removeClass('grammar-search');
         if ( event.keyCode === $.ui.keyCode.TAB &&
             $( this ).data( "ui-autocomplete" ).menu.active ) {
           event.preventDefault();
@@ -53,11 +56,13 @@ function initWordCompletion(){
         autoFocus: true,
         source: function( request, response ) {
           var succFun = function(data) {
-            response( $.map( data, function(item) {
+              var suggestions = $.map( data, function(item) {
               return {
                  label: item.linearizations[0]
-              }
-            }));
+              };
+            })
+            // 
+            response( suggestions.slice(0,AUTOCOMPLETE_MAXLENGTH) );
           };
           ajaxRequest('completeSentence', $('#input').val(), $('#language').val(), succFun, function(){});
         },
@@ -149,6 +154,10 @@ function parse(query){
             var fetchedResult = false;
             if(typeof response.err != 'undefined'){
                html = '<span class="error">An error occurred near the word </span>' + '<span class="error-word">' + response.err + '</span>';
+               $('#input').removeClass('grammar-search');
+                // If not parseable by the grammar,
+                // fallback to regular search
+                fetchResult("select?&defType=edismax&qf=name^2%20WORKS_WITH%20WORKS_IN%20KNOWS&wt=json&q="+query);
             }
             else{
                 /*
@@ -175,6 +184,7 @@ function parse(query){
                                 $("#ast" + i).css('font-weight','bold');
                                 $("#ast" + i).append(' (this was executed)')
                                 fetchResult(solrQuery);
+                                $('#input').addClass('grammar-search');
                                 fetchedResult = true;
                             }
                         }
@@ -191,7 +201,8 @@ function parse(query){
             $('#grammar_result').empty().append(html);
         };
     var errFun = function(request, status, error) {
-            $('#grammar_result').empty().append(status);
+        $('#grammar_result').empty().append(status);
+            
     };
     ajaxRequest('parse', query, $('#language').val(),  successFun, errFun);
 }

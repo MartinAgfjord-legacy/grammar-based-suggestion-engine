@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-source /vagrant/reset-index.sh
+#source /vagrant/reset-index.sh
 
 cd /vagrant/bundle/solr-mvn/
 mvn tomcat7:deploy

@@ -14,7 +14,9 @@
 <link rel="stylesheet" type="text/css" href="jquery-ui-1.10.4.custom/css/smoothness/jquery-ui-1.10.4.custom.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 <body>
-<h2>Natural language parser</h2>
+<div style="float:right; width: 400px;border: gray 1px solid;padding: 10px;">To get started with the demo try writing one or more of the following terms in the search box: <br><br>
+Java, people, customers, projects, copenhagen</div>
+<h2 id="MainTitle">Precision Search</h2>
 <input id="input" type="text" class="input-large" placeholder="Type your question.."></input>
 <select id="language">
   <option value="InstrucsEngConcat">English (concat)</option>
