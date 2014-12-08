@@ -3,9 +3,7 @@ package org.agfjord.graph;
 
 import org.apache.solr.client.solrj.beans.Field;
 
-import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 public class Instruction {
 	

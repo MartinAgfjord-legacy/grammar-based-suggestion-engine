@@ -1,0 +1,8 @@
+exec/eclipse/*
+.vagrant/*
+/bundle/solr-instrucs/*/data
+/bundle/solr-instrucs/*/data*
+*.gfo
+*.pgf
+*.log
+exec/eclipse-cpp-luna-SR1-linux-gtk.tar.gz

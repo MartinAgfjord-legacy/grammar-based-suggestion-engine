@@ -28,7 +28,7 @@ public class DataImportSolr {
 
 	public void importNames(String type, List<Map<String,Object>> nodes) throws SolrServerException, IOException {
 		for(Map<String,Object> node : nodes){
-			namesServer.add(createNameDocument(type, (String) node.get("name"), Long.toString((long)node.get("count")), id++));		
+			namesServer.add(createNameDocument(type, (String) node.get("name"), Long.toString((long)node.get("count")), id++));
 		}
 		namesServer.commit();
 //		System.out.println("Imported " + type + " to Solr");

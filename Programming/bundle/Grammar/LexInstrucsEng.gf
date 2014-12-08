@@ -6,5 +6,5 @@ instance LexInstrucsEng of LexInstrucs = open Prelude, SyntaxEng, ParadigmsEng, 
 	  work_V = mkV "work" ;
 	  know_V2 = mkV2 (mkV "know") ;
 	  use_V2 = mkV2 (mkV "use") ;
-	  who_RP = which_RP | that_RP ;
+	  who_RP = which_RP;
 }
